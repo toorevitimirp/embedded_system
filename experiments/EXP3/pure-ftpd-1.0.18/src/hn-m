@@ -1,0 +1,58 @@
+pure_ftpd-daemons.o: daemons.c
+	$(CC) -I.. -c -o pure_ftpd-daemons.o daemons.c
+pure_ftpd-ftpd.o: ftpd.c
+	$(CC) -I. -I.. $(CPPFLAGS) -c -o pure_ftpd-ftpd.o ftpd.c
+pure_ftpd-log_unix.o: log_unix.c
+	$(CC) -I. -I.. $(CPPFLAGS) -c -o pure_ftpd-log_unix.o log_unix.c 
+pure_ftpd-log_mysql.o: log_mysql.c
+	$(CC) -I. -I.. $(CPPFLAGS) -c -o pure_ftpd-log_mysql.o log_mysql.c 
+pure_ftpd-log_pgsql.o: log_pgsql.c
+	$(CC) -I. -I.. $(CPPFLAGS) -c -o pure_ftpd-log_pgsql.o log_pgsql.c 
+pure_ftpd-log_pam.o: log_pam.c
+	$(CC) -I. -I.. $(CPPFLAGS) -c -o pure_ftpd-log_pam.o log_pam.c 
+pure_ftpd-log_ldap.o: log_ldap.c
+	$(CC) -I. -I.. $(CPPFLAGS) -c -o pure_ftpd-log_ldap.o log_ldap.c
+pure_ftpd-log_puredb.o: log_puredb.c
+	$(CC) -I. -I.. $(CPPFLAGS) -c -o pure_ftpd-log_puredb.o log_puredb.c
+pure_ftpd-log_extauth.o: log_extauth.c
+	$(CC) -I. -I.. $(CPPFLAGS) -c -o pure_ftpd-log_extauth.o log_extauth.c
+pure_ftpd-ls.o: ls.c
+	$(CC) -I. -I.. $(CPPFLAGS) -c -o pure_ftpd-ls.o ls.c
+pure_ftpd-parser.o: parser.c
+	$(CC) -I. -I.. $(CPPFLAGS) -c -o pure_ftpd-parser.o parser.c
+pure_ftpd-bsd-glob.o: bsd-glob.c
+	$(CC) -I. -I.. $(CPPFLAGS) -c -o pure_ftpd-bsd-glob.o bsd-glob.c
+pure_ftpd-fakesnprintf.o: fakesnprintf.c
+	$(CC) -I. -I.. $(CPPFLAGS) -c -o pure_ftpd-fakesnprintf.o fakesnprintf.c	
+pure_ftpd-bsd-realpath.o: bsd-realpath.c
+	$(CC) -I. -I.. $(CPPFLAGS) -c -o pure_ftpd-bsd-realpath.o bsd-realpath.c 
+pure_ftpd-mysnprintf.o: mysnprintf.c
+	$(CC) -I. -I.. $(CPPFLAGS) -c -o pure_ftpd-mysnprintf.o mysnprintf.c
+pure_ftpd-caps.o: caps.c
+	$(CC) -I. -I.. $(CPPFLAGS) -c -o pure_ftpd-caps.o caps.c
+pure_ftpd-ftp_parser.o: ftp_parser.c
+	$(CC) -I. -I.. $(CPPFLAGS) -c -o pure_ftpd-ftp_parser.o ftp_parser.c
+pure_ftpd-dynamic.o: dynamic.c
+	$(CC) -I. -I.. $(CPPFLAGS) -c -o pure_ftpd-dynamic.o dynamic.c	
+pure_ftpd-ftpwho-update.o: ftpwho-update.c
+pure_ftpd-bsd-getopt_long.o: bsd-getopt_long.c
+pure_ftpd-upload-pipe.o: upload-pipe.c
+pure_ftpd-ipv4stack.o: ipv4stack.c
+pure_ftpd-altlog.o: altlog.c
+pure_ftpd-crypto.o: crypto.c
+pure_ftpd-crypto-md5.o: crypto-md5.c
+pure_ftpd-crypto-sha1.o: crypto-sha1.c
+pure_ftpd-quotas.o: quotas.c
+pure_ftpd-fakechroot.o: fakechroot.c
+pure_ftpd-diraliases.o: diraliases.c
+pure_ftpd-ftpwho-read.o: ftpwho-read.c
+pure_ftpd-getloadavg.o: getloadavg.c
+pure_ftpd-privsep.o: privsep.c
+pure_ftpd-tls.o: tls.c
+pure_ftpd-osx-extensions.o: osx-extensions.c
+pure_mrtginfo-daemons.o: daemons.c
+pure_mrtginfo-pure-mrtginfo.o: pure-mrtginfo.c
+pure_mrtginfo-fakesnprintf.o: fakesnprintf.c
+pure_mrtginfo-mysnprintf.o: mysnprintf.c
+########################################################################################################3
+

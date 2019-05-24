@@ -1,0 +1,16 @@
+inode.o: inode.c \
+   /HHARM2410-R3/kernel/include/linux/module.h \
+   /HHARM2410-R3/kernel/include/linux/fs.h \
+   /HHARM2410-R3/kernel/include/linux/pagemap.h \
+   /HHARM2410-R3/kernel/include/linux/init.h \
+   /HHARM2410-R3/kernel/include/linux/string.h \
+   /HHARM2410-R3/kernel/include/linux/locks.h \
+   /HHARM2410-R3/kernel/include/linux/blkdev.h \
+   /HHARM2410-R3/kernel/include/linux/cramfs_fs.h \
+   /HHARM2410-R3/kernel/include/asm/semaphore.h \
+   /HHARM2410-R3/kernel/include/asm/uaccess.h
+uncompress.o: uncompress.c \
+   /HHARM2410-R3/kernel/include/linux/kernel.h \
+   /HHARM2410-R3/kernel/include/linux/errno.h \
+   /HHARM2410-R3/kernel/include/linux/vmalloc.h \
+   /HHARM2410-R3/kernel/include/linux/zlib_fs.h

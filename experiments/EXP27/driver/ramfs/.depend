@@ -1,0 +1,8 @@
+inode.o: inode.c \
+   /HHARM2410-R3/kernel/include/linux/module.h \
+   /HHARM2410-R3/kernel/include/linux/fs.h \
+   /HHARM2410-R3/kernel/include/linux/pagemap.h \
+   /HHARM2410-R3/kernel/include/linux/init.h \
+   /HHARM2410-R3/kernel/include/linux/string.h \
+   /HHARM2410-R3/kernel/include/linux/locks.h \
+   /HHARM2410-R3/kernel/include/asm/uaccess.h

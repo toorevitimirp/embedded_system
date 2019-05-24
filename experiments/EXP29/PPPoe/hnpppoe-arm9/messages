@@ -1,0 +1,40 @@
+Dec  4 16:02:21 (none) daemon.err pppd[134]: db_key is pppd134
+Dec  4 16:02:21 (none) daemon.notice pppd[134]: pppd 2.4.1 started by root, uid 0
+Dec  4 16:02:21 (none) daemon.err pppd[134]: connect_tty
+Dec  4 16:02:21 (none) daemon.info pppd[134]: Using interface ppp0
+Dec  4 16:02:21 (none) daemon.notice pppd[134]: Connect: ppp0 <--> /dev/pts/0
+Dec  4 16:02:22 (none) daemon.warn pppd[134]: Warning - secret file /etc/ppp/pap-secrets has world and/or group access
+Dec  4 16:02:52 (none) daemon.warn pppd[134]: LCP: timeout sending Config-Requests 
+Dec  4 16:02:52 (none) daemon.notice pppd[134]: Connection terminated.
+Dec  4 16:02:56 (none) daemon.err pppoe[136]: Timeout waiting for PADO packets
+Dec  4 16:02:56 (none) daemon.info pppd[134]: Exit.
+Dec  4 16:03:04 (none) daemon.err pppd[160]: db_key is pppd160
+Dec  4 16:03:04 (none) daemon.notice pppd[160]: pppd 2.4.1 started by root, uid 0
+Dec  4 16:03:04 (none) daemon.err pppd[160]: connect_tty
+Dec  4 16:03:04 (none) daemon.info pppd[160]: Using interface ppp0
+Dec  4 16:03:04 (none) daemon.notice pppd[160]: Connect: ppp0 <--> /dev/pts/0
+Dec  4 16:03:05 (none) daemon.warn pppd[160]: Warning - secret file /etc/ppp/pap-secrets has world and/or group access
+Dec  4 16:03:35 (none) daemon.warn pppd[160]: LCP: timeout sending Config-Requests 
+Dec  4 16:03:35 (none) daemon.notice pppd[160]: Connection terminated.
+Dec  4 16:03:39 (none) daemon.err pppoe[162]: Timeout waiting for PADO packets
+Dec  4 16:03:39 (none) daemon.info pppd[160]: Exit.
+Dec  4 16:03:58 (none) daemon.err pppd[175]: db_key is pppd175
+Dec  4 16:03:58 (none) daemon.notice pppd[175]: pppd 2.4.1 started by root, uid 0
+Dec  4 16:03:58 (none) daemon.err pppd[175]: connect_tty
+Dec  4 16:03:58 (none) daemon.info pppd[175]: Using interface ppp0
+Dec  4 16:03:58 (none) daemon.notice pppd[175]: Connect: ppp0 <--> /dev/pts/0
+Dec  4 16:03:59 (none) daemon.warn pppd[175]: Warning - secret file /etc/ppp/pap-secrets has world and/or group access
+Dec  4 16:04:29 (none) daemon.warn pppd[175]: LCP: timeout sending Config-Requests 
+Dec  4 16:04:29 (none) daemon.notice pppd[175]: Connection terminated.
+Dec  4 16:04:33 (none) daemon.err pppoe[177]: Timeout waiting for PADO packets
+Dec  4 16:04:33 (none) daemon.info pppd[175]: Exit.
+Dec  4 16:06:08 (none) daemon.err pppd[211]: db_key is pppd211
+Dec  4 16:06:08 (none) daemon.notice pppd[211]: pppd 2.4.1 started by root, uid 0
+Dec  4 16:06:08 (none) daemon.err pppd[211]: connect_tty
+Dec  4 16:06:08 (none) daemon.info pppd[211]: Using interface ppp0
+Dec  4 16:06:08 (none) daemon.notice pppd[211]: Connect: ppp0 <--> /dev/pts/0
+Dec  4 16:06:09 (none) daemon.warn pppd[211]: Warning - secret file /etc/ppp/pap-secrets has world and/or group access
+Dec  4 16:06:39 (none) daemon.warn pppd[211]: LCP: timeout sending Config-Requests 
+Dec  4 16:06:39 (none) daemon.notice pppd[211]: Connection terminated.
+Dec  4 16:06:43 (none) daemon.err pppoe[213]: Timeout waiting for PADO packets
+Dec  4 16:06:43 (none) daemon.info pppd[211]: Exit.

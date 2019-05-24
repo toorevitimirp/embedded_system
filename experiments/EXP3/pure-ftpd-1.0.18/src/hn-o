@@ -1,0 +1,20 @@
+PUREFTPDOBJS = daemons.o \
+       ftpd.o log_unix.o \
+	log_mysql.o log_pgsql.o \
+       log_pam.o log_ldap.o \
+        log_puredb.o log_extauth.o \
+        ls.o parser.o \
+        bsd-glob.o fakesnprintf.o \
+       bsd-realpath.o \
+       mysnprintf.o caps.o \
+        ftp_parser.o dynamic.o \
+        ftpwho-update.o \
+        bsd-getopt_long.o \
+       upload-pipe.o ipv4stack.o \
+       altlog.o crypto.o \
+       crypto-md5.o crypto-sha1.o \
+       quotas.o fakechroot.o \
+       diraliases.o ftpwho-read.o \
+       getloadavg.o privsep.o \
+       tls.o osx-extensions.o
+

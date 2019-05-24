@@ -1,0 +1,32 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.4	//
+CC	Makefile	/^CC = \/opt\/host\/armv4l\/bin\/armv4l-unknown-linux-gcc $/;"	m
+CFLAGS	Makefile	/^CFLAGS = -D__KERNEL__ -I\/HHARM2410-R3\/kernel\/include\/linux -I\/HHARM2410-R3\/kernel\/include -Wall -Wstrict-prototypes -Wno-trigraphs -Os -mapcs -fno-strict-aliasing -fno-common -fno-common -pipe -mapcs-32 -march=armv4 -mtune=arm9tdmi -mshort-load-bytes -msoft-float -DKBUILD_BASENAME=s3c2410_parport -I\/opt\/host\/armv4l\/src\/linux\/include -DMODULE$/;"	m
+LD	Makefile	/^LD = \/opt\/host\/armv4l\/bin\/armv4l-unknown-linux-ld$/;"	m
+PARPORT_CONTROL	parport.c	/^unsigned long PARPORT_DATA,PARPORT_CONTROL,PARPORT_STATE;$/;"	v
+PARPORT_DATA	parport.c	/^unsigned long PARPORT_DATA,PARPORT_CONTROL,PARPORT_STATE;$/;"	v
+PARPORT_GPCCON	parport.c	/^unsigned long PARPORT_GPCCON;$/;"	v
+PARPORT_GPCDATA	parport.c	/^unsigned long PARPORT_GPCDATA;$/;"	v
+PARPORT_STATE	parport.c	/^unsigned long PARPORT_DATA,PARPORT_CONTROL,PARPORT_STATE;$/;"	v
+devfs_handle_parport	parport.c	/^devfs_handle_t devfs_handle_parport=NULL;$/;"	v
+g_parport_major	parport.c	/^static int      g_parport_major=0;$/;"	v	file:
+main	parport_test.c	/^int main()$/;"	f
+parport_control	parport.c	23;"	d	file:
+parport_data	parport.c	22;"	d	file:
+parport_exit	parport.c	/^module_exit(parport_exit);$/;"	v
+parport_exit	parport.c	/^static void __exit parport_exit(void)$/;"	f	file:
+parport_fops	parport.c	/^static struct file_operations parport_fops = {$/;"	v	file:
+parport_init	parport.c	/^int __init parport_init(void)$/;"	f
+parport_init	parport.c	/^module_init(parport_init);$/;"	v
+parport_kbuf	parport.c	/^unsigned char parport_kbuf[2];$/;"	v
+parport_open	parport.c	/^int parport_open(struct inode *inode, struct file *filp)$/;"	f
+parport_read	parport.c	/^ssize_t parport_read(struct file *fp, char * buf,$/;"	f
+parport_reg_control	parport.c	20;"	d	file:
+parport_reg_data	parport.c	21;"	d	file:
+parport_release	parport.c	/^int parport_release(struct inode *inode, struct file *filp)$/;"	f
+parport_state	parport.c	24;"	d	file:
+parport_write	parport.c	/^ssize_t parport_write(struct file *fp, char * buf,$/;"	f

@@ -1,0 +1,14 @@
+#!/bin/sh -e
+
+# Called when ppp connects
+# Written by LaMont Jones <lamont@debian.org>
+
+# start or reload Postfix as needed
+if [ ! -x /sbin/resolvconf ]; then
+	cp /etc/resolv.conf $(postconf -h queue_directory)/etc/resolv.conf
+	/etc/init.d/postfix reload >/dev/null 2>&1
+fi
+
+# Force a queue run to unload any mail that is hanging around.
+# Yes, sendmail is a symlink...
+/usr/sbin/sendmail -q

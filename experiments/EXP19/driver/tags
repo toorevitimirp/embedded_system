@@ -1,0 +1,180 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.4	//
+BLKEND	digi_tp.c	1040;"	d	file:
+BUFLEN	digi_tp.c	1036;"	d	file:
+BUFSIZE	digi_tp.c	1037;"	d	file:
+CC	Makefile	/^CC = \/opt\/host\/armv4l\/bin\/armv4l-unknown-linux-gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -D__KERNEL__ -I\/HHARM2410-R3\/kernel\/include -Wall -Wstrict-prototypes -Wno-trigraphs -Os -mapcs -fno-strict-aliasing -fno-common -fno-common -pipe -mapcs-32 -march=armv4 -mtune=arm9tdmi -mshort-load-bytes -msoft-float  -DUTS_MACHINE='"arm"' -DKBUILD_BASENAME=digi -DMODULE -DMODVERSIONS$/;"	m
+DCON1_DMD_HS	2410spi.h	5;"	d
+DCON1_DSZ	2410spi.h	12;"	d
+DCON1_HWSRCSEL	2410spi.h	9;"	d
+DCON1_RELOAD	2410spi.h	11;"	d
+DCON1_SERVMODE	2410spi.h	8;"	d
+DCON1_SWHW_SEL	2410spi.h	10;"	d
+DCON1_SYNC	2410spi.h	6;"	d
+DCON1_TSZ	2410spi.h	7;"	d
+DEVICE_NAME	2410spi.c	28;"	d	file:
+DSIZE	digi_tp.c	1043;"	d	file:
+DSIZE	digi_tp.c	1045;"	d	file:
+EDGE_MAX_LIMIT	digi_tp.h	134;"	d
+EDGE_MIN_LIMIT	digi_tp.h	133;"	d
+FAILED	digi_tp.c	119;"	d	file:
+Fops	2410spi.c	/^struct  file_operation Fops = {$/;"	v
+GETNEXTI	digi_tp.c	1039;"	d	file:
+INFO	digi_tp.c	125;"	d	file:
+MAX_ID	digi_tp.h	152;"	d
+MAX_POS_DIFF	digi_tp.c	521;"	d	file:
+MODULE	digi_tp.c	24;"	d	file:
+MODULE_NAME	digi_tp.c	106;"	d	file:
+MX1_ADS_BOARD	digi_tp.h	43;"	d
+NEXTI	digi_tp.c	1038;"	d	file:
+NODATA	digi_tp.c	245;"	d	file:
+NUM_OF_SAMPLE	digi_tp.c	520;"	d	file:
+OUTPUT	Makefile	/^OUTPUT = ..\/test$/;"	m
+PENDOWN	digi_tp.h	156;"	d
+PENDOWN	digi_tp.h	159;"	d
+PENUP	digi_tp.h	155;"	d
+PENUP	digi_tp.h	158;"	d
+QT_IPAQ	digi_tp.h	136;"	d
+SPI_EN_BIT	digi_tp.h	58;"	d
+SPI_RR_INT_BIT	digi_tp.h	56;"	d
+SPI_TE_INT_BIT	digi_tp.h	53;"	d
+SPI_XCH_BIT	digi_tp.h	55;"	d
+SPI_XCH_MASK	digi_tp.h	57;"	d
+SPSTAO_REDY	2410spi.h	14;"	d
+TPNL_INTR_MODE	digi_tp.h	50;"	d
+TPNL_INTR_MODE	digi_tp.h	67;"	d
+TPNL_IRQ	digi_tp.h	49;"	d
+TPNL_PEN_UPVALUE	digi_tp.h	51;"	d
+TPNL_PEN_UPVALUE	digi_tp.h	68;"	d
+TRACE	digi_tp.c	110;"	d	file:
+TRACE	digi_tp.c	116;"	d	file:
+TRANSFED_READ_FALG	2410spi.h	2;"	d
+U32	digi_tp.h	/^typedef unsigned int U32;       \/* unsigned 32 bit data *\/$/;"	t
+__DIGI_H_MX2_	digi_tp.h	21;"	d
+__KERNEL__	digi_tp.c	21;"	d	file:
+add_x_y	digi_tp.c	/^static void add_x_y(unsigned x, unsigned y, unsigned flag)$/;"	f	file:
+address_map	2410spi.c	/^int address_map(void)$/;"	f
+address_map	digi_tp.c	/^int address_map(void)$/;"	f
+buffer	digi_tp.c	/^ts_event_t * buffer;$/;"	v
+check_device	digi_tp.c	/^static int check_device(struct inode *pInode)$/;"	f	file:
+cleanup_module	digi_tp.c	/^void cleanup_module(void)$/;"	f
+cpha	2410spi.h	/^	unsigned int cpha : 1; \/\/spi clock phase$/;"	m	struct:spi_dev
+cpol	2410spi.h	/^	unsigned int cpol : 1;   \/\/spi clock polarity$/;"	m	struct:spi_dev
+dbuf	2410spi.c	/^static unsigned char *dbuf;$/;"	v	file:
+digi_cleanup	digi_tp.c	/^void __exit digi_cleanup(void)$/;"	f
+digi_fasync	digi_tp.c	/^static int digi_fasync(int fd, struct file *filp, int mode)$/;"	f	file:
+digi_init	digi_tp.c	/^signed short __init digi_init(void)$/;"	f
+digi_ioctl	digi_tp.c	/^int digi_ioctl(struct inode * inode, $/;"	f
+digi_isr	digi_tp.c	/^digi_isr(int irq, void *dev_id, struct pt_regs *regs)$/;"	f	file:
+digi_open	digi_tp.c	/^int digi_open(struct inode * inode, struct file * filp)$/;"	f
+digi_poll	digi_tp.c	/^unsigned int digi_poll(struct file * filp, struct poll_table_struct * wait)$/;"	f
+digi_read	digi_tp.c	/^ssize_t digi_read(struct file * filp, char * buf, size_t count, loff_t * l)$/;"	f
+digi_release	digi_tp.c	/^int digi_release(struct inode * inode, struct file * filp)$/;"	f
+digi_sam_callback	digi_tp.c	/^static void digi_sam_callback(unsigned long data)$/;"	f	file:
+digi_tasklet	digi_tp.c	/^static struct tasklet_struct	digi_tasklet; $/;"	v	file:
+digi_tasklet_action	digi_tp.c	/^static void digi_tasklet_action(unsigned long data)$/;"	f	file:
+digi_wait	digi_tp.c	/^static wait_queue_head_t digi_wait;$/;"	v	file:
+dma_interrupt	2410spi.c	/^dma_interrupt(int irq,void *dev_id,struct pt_regs *regs)$/;"	f
+g_devfs_handle	digi_tp.c	/^static devfs_handle_t g_devfs_handle;$/;"	v	file:
+g_digi_fops	digi_tp.c	/^struct file_operations g_digi_fops = $/;"	v
+g_digi_major	digi_tp.c	/^static int	g_digi_major=0;$/;"	v	file:
+get_block	digi_tp.c	/^static int get_block(ts_event_t * * block, int size)$/;"	f	file:
+get_data	digi_tp.c	/^static ts_event_t* get_data(void)$/;"	f	file:
+init	2410spi.c	/^int init()$/;"	f
+init_buf	digi_tp.c	/^static int init_buf(void)$/;"	f	file:
+init_module	digi_tp.c	/^int init_module(void)$/;"	f
+pad	digi_tp.h	/^	unsigned short pad;$/;"	m	struct:
+pen_lock	digi_tp.c	/^spinlock_t pen_lock;$/;"	v
+pen_timer	digi_tp.c	/^static struct timer_list pen_timer;	$/;"	v	file:
+pen_timer_status	digi_tp.c	/^u8 pen_timer_status;	$/;"	v
+pressure	digi_tp.h	/^	unsigned short pressure;$/;"	m	struct:
+rDCON1	2410spi.c	43;"	d	file:
+rDIDST1	2410spi.c	41;"	d	file:
+rDIDSTC1	2410spi.c	42;"	d	file:
+rDISRC1	2410spi.c	39;"	d	file:
+rDISRCC1	2410spi.c	40;"	d	file:
+rDMASKTRIG1	2410spi.c	45;"	d	file:
+rDSTAT1	2410spi.c	44;"	d	file:
+rGPECON	2410spi.c	48;"	d	file:
+rGPECON	digi_tp.c	142;"	d	file:
+rGPEUP	2410spi.c	49;"	d	file:
+rGPEUP	digi_tp.c	143;"	d	file:
+rGPFDAT	digi_tp.c	148;"	d	file:
+rGPGCON	digi_tp.c	145;"	d	file:
+rGPGDAT	digi_tp.c	147;"	d	file:
+rGPGUP	digi_tp.c	146;"	d	file:
+rSPCON0	2410spi.c	31;"	d	file:
+rSPCON0	digi_tp.c	134;"	d	file:
+rSPPIN0	2410spi.c	33;"	d	file:
+rSPPIN0	digi_tp.c	136;"	d	file:
+rSPPRE0	2410spi.c	34;"	d	file:
+rSPPRE0	digi_tp.c	137;"	d	file:
+rSPRDAT0	2410spi.c	36;"	d	file:
+rSPRDAT0	digi_tp.c	139;"	d	file:
+rSPSTA0	2410spi.c	32;"	d	file:
+rSPSTA0	digi_tp.c	135;"	d	file:
+rSPTDAT0	2410spi.c	35;"	d	file:
+rSPTDAT0	digi_tp.c	138;"	d	file:
+r_DCON1	2410spi.c	/^unsigned long r_DISRC1,r_DISRCC1,r_DIDST1,r_DIDSTC1,r_DCON1,r_DSTAT1,r_DMASKTRIG1;$/;"	v
+r_DIDST1	2410spi.c	/^unsigned long r_DISRC1,r_DISRCC1,r_DIDST1,r_DIDSTC1,r_DCON1,r_DSTAT1,r_DMASKTRIG1;$/;"	v
+r_DIDSTC1	2410spi.c	/^unsigned long r_DISRC1,r_DISRCC1,r_DIDST1,r_DIDSTC1,r_DCON1,r_DSTAT1,r_DMASKTRIG1;$/;"	v
+r_DISRC1	2410spi.c	/^unsigned long r_DISRC1,r_DISRCC1,r_DIDST1,r_DIDSTC1,r_DCON1,r_DSTAT1,r_DMASKTRIG1;$/;"	v
+r_DISRCC1	2410spi.c	/^unsigned long r_DISRC1,r_DISRCC1,r_DIDST1,r_DIDSTC1,r_DCON1,r_DSTAT1,r_DMASKTRIG1;$/;"	v
+r_DMASKTRIG1	2410spi.c	/^unsigned long r_DISRC1,r_DISRCC1,r_DIDST1,r_DIDSTC1,r_DCON1,r_DSTAT1,r_DMASKTRIG1;$/;"	v
+r_DSTAT1	2410spi.c	/^unsigned long r_DISRC1,r_DISRCC1,r_DIDST1,r_DIDSTC1,r_DCON1,r_DSTAT1,r_DMASKTRIG1;$/;"	v
+r_GPECON	2410spi.c	/^unsigned long r_GPECON,r_GPEUP;$/;"	v
+r_GPECON	digi_tp.c	/^unsigned long r_GPECON,r_GPEUP;$/;"	v
+r_GPEUP	2410spi.c	/^unsigned long r_GPECON,r_GPEUP;$/;"	v
+r_GPEUP	digi_tp.c	/^unsigned long r_GPECON,r_GPEUP;$/;"	v
+r_GPFDAT	digi_tp.c	/^unsigned long r_GPFDAT;$/;"	v
+r_GPGCON	digi_tp.c	/^unsigned long r_GPGCON,r_GPGUP,r_GPGDAT;$/;"	v
+r_GPGDAT	digi_tp.c	/^unsigned long r_GPGCON,r_GPGUP,r_GPGDAT;$/;"	v
+r_GPGUP	digi_tp.c	/^unsigned long r_GPGCON,r_GPGUP,r_GPGDAT;$/;"	v
+r_SPCON0	2410spi.c	/^unsigned long r_SPCON0,r_SPSTA0,r_SPPIN0,r_SPPRE0,r_SPTDAT0,r_SPRDAT0;$/;"	v
+r_SPCON0	digi_tp.c	/^unsigned long r_SPCON0,r_SPSTA0,r_SPPIN0,r_SPPRE0,r_SPTDAT0,r_SPRDAT0;$/;"	v
+r_SPPIN0	2410spi.c	/^unsigned long r_SPCON0,r_SPSTA0,r_SPPIN0,r_SPPRE0,r_SPTDAT0,r_SPRDAT0;$/;"	v
+r_SPPIN0	digi_tp.c	/^unsigned long r_SPCON0,r_SPSTA0,r_SPPIN0,r_SPPRE0,r_SPTDAT0,r_SPRDAT0;$/;"	v
+r_SPPRE0	2410spi.c	/^unsigned long r_SPCON0,r_SPSTA0,r_SPPIN0,r_SPPRE0,r_SPTDAT0,r_SPRDAT0;$/;"	v
+r_SPPRE0	digi_tp.c	/^unsigned long r_SPCON0,r_SPSTA0,r_SPPIN0,r_SPPRE0,r_SPTDAT0,r_SPRDAT0;$/;"	v
+r_SPRDAT0	2410spi.c	/^unsigned long r_SPCON0,r_SPSTA0,r_SPPIN0,r_SPPRE0,r_SPTDAT0,r_SPRDAT0;$/;"	v
+r_SPRDAT0	digi_tp.c	/^unsigned long r_SPCON0,r_SPSTA0,r_SPPIN0,r_SPPRE0,r_SPTDAT0,r_SPRDAT0;$/;"	v
+r_SPSTA0	2410spi.c	/^unsigned long r_SPCON0,r_SPSTA0,r_SPPIN0,r_SPPRE0,r_SPTDAT0,r_SPRDAT0;$/;"	v
+r_SPSTA0	digi_tp.c	/^unsigned long r_SPCON0,r_SPSTA0,r_SPPIN0,r_SPPRE0,r_SPTDAT0,r_SPRDAT0;$/;"	v
+r_SPTDAT0	2410spi.c	/^unsigned long r_SPCON0,r_SPSTA0,r_SPPIN0,r_SPPRE0,r_SPTDAT0,r_SPRDAT0;$/;"	v
+r_SPTDAT0	digi_tp.c	/^unsigned long r_SPCON0,r_SPSTA0,r_SPPIN0,r_SPPRE0,r_SPTDAT0,r_SPRDAT0;$/;"	v
+rptr	digi_tp.c	/^static u16 	rptr, wptr;$/;"	v	file:
+sem	2410spi.c	/^static struct semaphore sem = MUTEX;$/;"	v	file:
+spi2410_exit	2410spi.c	/^module_exit(spi2410_exit);$/;"	v
+spi2410_exit	2410spi.c	/^spi2410_exit(void)$/;"	f
+spi2410_init	2410spi.c	/^module_init(spi2410_init);$/;"	v
+spi2410_init	2410spi.c	/^spi2410_init (void)$/;"	f	file:
+spi_dev	2410spi.h	/^tpyedef struct 2410spi_dev$/;"	s
+spi_dev	2410spi.h	/^}2410spi_dev;$/;"	v
+spi_flush_fifo	digi_tp.c	/^void spi_flush_fifo(void)$/;"	f
+spi_init	digi_tp.c	/^void spi_init(void)$/;"	f
+spi_ioctl	2410spi.c	/^spi_ioctl (struct inode *inode,struct file *file,unsigned int cmd,unsigned long arg)$/;"	f	file:
+spi_open	2410spi.c	/^spi_open(struct inode *inode,struct file *file)$/;"	f	file:
+spi_poll_done	digi_tp.c	/^static void spi_poll_done(void)$/;"	f	file:
+spi_rd	2410spi.c	/^spi_rd(struct file *filep,char * buffer,size_t length,loff_t * off)$/;"	f	file:
+spi_release	2410spi.c	/^spi_release (struct inode *inode,struct file *file)$/;"	f	file:
+spi_tx_data	digi_tp.c	/^static void spi_tx_data(u16 data)$/;"	f	file:
+spi_wr	2410spi.c	/^spi_wr(struct file *filep,char * buffer,size_t length,loff_t * off)$/;"	f	file:
+touch_pan_clear_inter	digi_tp.c	/^static void touch_pan_clear_inter(void)$/;"	f	file:
+touch_pan_disable	digi_tp.c	/^static void touch_pan_disable(void)$/;"	f	file:
+touch_pan_disable_inter	digi_tp.c	/^static void touch_pan_disable_inter(void)$/;"	f	file:
+touch_pan_enable	digi_tp.c	/^static void touch_pan_enable(void)$/;"	f	file:
+touch_pan_enable_inter	digi_tp.c	/^static void touch_pan_enable_inter(void)$/;"	f	file:
+touch_pan_init	digi_tp.c	/^void touch_pan_init(void)\/\/chip select for ADC$/;"	f
+touch_pan_read_data	digi_tp.c	/^void touch_pan_read_data(u32* x,u32* y)$/;"	f
+touch_pan_read_dev	digi_tp.c	/^void touch_pan_read_dev(u32* x, u32* y)$/;"	f
+touch_pan_set_inter	digi_tp.c	/^static void touch_pan_set_inter(void)$/;"	f	file:
+ts_event_t	digi_tp.h	/^} ts_event_t;$/;"	t
+ts_fasync	digi_tp.c	/^struct fasync_struct *ts_fasync=0;$/;"	v
+wptr	digi_tp.c	/^static u16 	rptr, wptr;$/;"	v	file:
+x	digi_tp.h	/^	unsigned short x;$/;"	m	struct:
+y	digi_tp.h	/^	unsigned short y;$/;"	m	struct:

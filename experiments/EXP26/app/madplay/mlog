@@ -1,0 +1,20 @@
+gcc -Wall -O2 -DHAVE_CONFIG_H -I. -Ilibmad -Ilibid3tag -DLOCALEDIR=\"/usr/local/share/locale\"  -c madplay.c 
+gcc -Wall -O2 -DHAVE_CONFIG_H -I. -Ilibmad -Ilibid3tag -DLOCALEDIR=\"/usr/local/share/locale\"  -c audio_aiff.c 
+gcc -Wall -O2 -DHAVE_CONFIG_H -I. -Ilibmad -Ilibid3tag -DLOCALEDIR=\"/usr/local/share/locale\"  -c audio_cdda.c 
+gcc -Wall -O2 -DHAVE_CONFIG_H -I. -Ilibmad -Ilibid3tag -DLOCALEDIR=\"/usr/local/share/locale\"  -c audio_hex.c 
+gcc -Wall -O2 -DHAVE_CONFIG_H -I. -Ilibmad -Ilibid3tag -DLOCALEDIR=\"/usr/local/share/locale\"  -c audio_null.c 
+gcc -Wall -O2 -DHAVE_CONFIG_H -I. -Ilibmad -Ilibid3tag -DLOCALEDIR=\"/usr/local/share/locale\"  -c audio.c 
+gcc -Wall -O2 -DHAVE_CONFIG_H -I. -Ilibmad -Ilibid3tag -DLOCALEDIR=\"/usr/local/share/locale\"  -c audio_oss.c 
+gcc -Wall -O2 -DHAVE_CONFIG_H -I. -Ilibmad -Ilibid3tag -DLOCALEDIR=\"/usr/local/share/locale\"  -c audio_raw.c 
+gcc -Wall -O2 -DHAVE_CONFIG_H -I. -Ilibmad -Ilibid3tag -DLOCALEDIR=\"/usr/local/share/locale\"  -c audio_snd.c 
+gcc -Wall -O2 -DHAVE_CONFIG_H -I. -Ilibmad -Ilibid3tag -DLOCALEDIR=\"/usr/local/share/locale\"  -c audio_wave.c 
+gcc -Wall -O2 -DHAVE_CONFIG_H -I. -Ilibmad -Ilibid3tag -DLOCALEDIR=\"/usr/local/share/locale\"  -c filter.c 
+gcc -Wall -O2 -DHAVE_CONFIG_H -I. -Ilibmad -Ilibid3tag -DLOCALEDIR=\"/usr/local/share/locale\"  -c getopt1.c 
+gcc -Wall -O2 -DHAVE_CONFIG_H -I. -Ilibmad -Ilibid3tag -DLOCALEDIR=\"/usr/local/share/locale\"  -c getopt.c 
+gcc -Wall -O2 -DHAVE_CONFIG_H -I. -Ilibmad -Ilibid3tag -DLOCALEDIR=\"/usr/local/share/locale\"  -c player.c 
+gcc -Wall -O2 -DHAVE_CONFIG_H -I. -Ilibmad -Ilibid3tag -DLOCALEDIR=\"/usr/local/share/locale\"  -c resample.c 
+gcc -Wall -O2 -DHAVE_CONFIG_H -I. -Ilibmad -Ilibid3tag -DLOCALEDIR=\"/usr/local/share/locale\"  -c version.c 
+gcc -Wall -O2 -DHAVE_CONFIG_H -I. -Ilibmad -Ilibid3tag -DLOCALEDIR=\"/usr/local/share/locale\"  -c xing.c 
+gcc -static -o madplay madplay.o audio_aiff.o audio_cdda.o audio_hex.o audio_null.o audio.o audio_oss.o audio_raw.o audio_snd.o audio_wave.o filter.o getopt1.o getopt.o player.o resample.o version.o xing.o -lmad -lid3tag -lz -lm -lc 
+chmod 777 madplay
+cp -f madplay /tftpboot/nfs

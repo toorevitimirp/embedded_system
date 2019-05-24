@@ -1,0 +1,18 @@
+./Makefile:	    fgetpwent.c __getgrent.c grent.c getgrnam.c getgrgid.c fgetgrent.c \
+./include/group.h:extern struct group * __getgrent __P ((int grp_fd));
+./pwd_grp/__getgrent.c: * __getgrent.c - This file is part of the libc-8086/grp package for ELKS,
+./pwd_grp/__getgrent.c:struct group *__getgrent(int grp_fd)
+./pwd_grp/fgetgrent.c:	return __getgrent(fileno(file));
+./pwd_grp/getgrgid.c:	while ((group = __getgrent(grp_fd)) != NULL)
+./pwd_grp/getgrnam.c:	while ((group = __getgrent(grp_fd)) != NULL)
+./pwd_grp/grent.c:	return __getgrent(grp_fd);
+./pwd_grp/initgroups.c:		   (group = __getgrent(grp_fd)) != NULL)
+./pwd_grp/initgroups.c:	while ((group = __getgrent(grp_fd)) != NULL)
+Binary file ./pwd_grp/__getgrent.o matches
+Binary file ./pwd_grp/grent.o matches
+Binary file ./pwd_grp/getgrnam.o matches
+Binary file ./pwd_grp/getgrgid.o matches
+Binary file ./pwd_grp/fgetgrent.o matches
+Binary file ./pwd_grp/initgroups.o matches
+./tags:__getgrent	pwd_grp/__getgrent.c	/^struct group *__getgrent(int grp_fd)$/;"	f
+Binary file ./libpwd.a matches

@@ -1,0 +1,7 @@
+ver0.2(2004-04-05):
+	minimad OK on PC and MXL, 
+	not OK on 5249: decode 7.8s of song.mp3 and stop
+ver0.1:
+	minimad OK on 5249(Not OK actually-2004-04-05)
+	madplay compile OK, but run "Illegal instruction"
+	some debug code added. Can be removed.

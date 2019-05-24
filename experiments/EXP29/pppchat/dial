@@ -1,0 +1,5 @@
+#!/bin/sh
+#pppd modem /dev/ttyS1 connect 'chat -v "" ATZ OK ATDT169 CONNECT " "
+
+
+/mnt/pppd/pppd modem /dev/ttyS1 19200 crtscts connect '/mnt/pppd/chat -v -f /mnt/pppd/chat.ttyS1' name 169 debug noauth noipdefault defaultroute

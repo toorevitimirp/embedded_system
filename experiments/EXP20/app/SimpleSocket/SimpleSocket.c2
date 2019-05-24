@@ -1,0 +1,35 @@
+#include <stdio.h>   /* Standard input/output definitions */
+#include <string.h>  /* String function definitions */
+#include <unistd.h>  /* UNIX standard function definitions */
+#include <fcntl.h>   /* File control definitions */
+#include <errno.h>   /* Error number definitions */
+#include <termios.h> /* POSIX terminal control definitions */
+#include<sys/types.h>
+#include<sys/stat.h>
+#include <stdlib.h>
+#include "../gui/gui.h"
+#include "../handpad/handpad.h"
+#include "./trans/ethernet.c"
+
+#define MAX 270000
+
+void display()
+{
+	textout(30,20,"Now transport the File",0x07e0,0x1111);
+        rectangle(40,40,190,90);
+        textout(30,100,"Now having finished    %",0xf800,0x3333);
+}
+main()
+{unsigned short  x,y,i,index0=0xffff,index10=0xffff,index11=0xffff,index12=0xffff,index3=0xffff,index4=0xffff;
+ int flag=1,flag1=1,flag2=1,flag3=1,fileleng,pid=-1;
+ char bmpbuf[MAX],displaybuf[400],processbuf[30];
+ FILE *ft;
+ struct stat s;
+ initgraph();
+ clearscreen();
+ display();
+ memset(bmpbuf,0,MAX); 
+ recvfile(bmpbuf,"look.bmp");
+ clearscreen();
+ ShowBuf(bmpbuf,0,0);
+}

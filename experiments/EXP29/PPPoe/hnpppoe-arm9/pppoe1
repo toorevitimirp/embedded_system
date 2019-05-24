@@ -1,0 +1,21 @@
+noipdefault
+noauth
+defaultroute
+hide-password
+nodetach
+local
+mtu 1454
+mru 1454
+noaccomp
+noccp
+#nobsdcomp
+#nodeflate
+nopcomp
+novj
+novjccomp
+remotename PPPoE
+name 5325173 
+usepeerdns
+pty "/usr/sbin/pppoe -I eth0 -T 3000 -m 1412 -p /var/log/pppoe.pid"
+#pidfile pppoe1.pid
+linkname pppoe1

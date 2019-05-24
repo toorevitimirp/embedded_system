@@ -1,0 +1,15 @@
+#!/bin/sh
+#
+# PPP down hook script for resolvconf
+#
+# Reconfigures resolver to take into account
+# the disappearance of the ppp interface
+#
+# Licensed under the GNU GPL.  See /usr/share/common-licenses/GPL.
+#
+# History
+# June 2003: Written by Thomas Hood <jdthood@yahoo.co.uk>
+
+[ -x /sbin/resolvconf ] || exit 0
+
+/sbin/resolvconf -d "$PPP_IFACE"

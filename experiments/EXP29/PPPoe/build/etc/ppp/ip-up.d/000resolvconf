@@ -1,0 +1,26 @@
+#!/bin/sh
+#
+# PPP up hook script for resolvconf
+#
+# Reconfigures resolver to take into account
+# the appearance of the ppp interface
+#
+# Licensed under the GNU GPL.  See /usr/share/common-licenses/GPL.
+#
+# History
+# June 2003: Written by Thomas Hood <jdthood@yahoo.co.uk>
+
+[ -x /sbin/resolvconf ] || exit 0
+
+R=""
+if [ "$DNS1" ] ; then
+	R="${R}nameserver $DNS1
+"
+fi
+if [ "$DNS2" ] ; then
+	R="${R}nameserver $DNS2
+"
+fi
+
+echo -n "$R" | /sbin/resolvconf -a "$PPP_IFACE"
+

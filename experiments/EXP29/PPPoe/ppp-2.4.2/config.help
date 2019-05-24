@@ -1,0 +1,11 @@
+Configuring for Linux
+Creating links to Makefiles.
+  Makefile -> linux/Makefile.top
+  linux/Makedefs -> Makedefs.com
+  pppd/Makefile -> Makefile.linux
+  pppstats/Makefile -> Makefile.linux
+  chat/Makefile -> Makefile.linux
+  pppdump/Makefile -> Makefile.linux
+  pppd/plugins/Makefile -> Makefile.linux
+  pppd/plugins/rp-pppoe/Makefile -> Makefile.linux
+  pppd/plugins/radius/Makefile -> Makefile.linux

@@ -1,0 +1,1511 @@
+Nov  7 14:24:48 wangk syslogd 1.4.1: restart.
+Nov  7 14:40:30 wangk login(pam_unix)[2531]: session opened for user root by LOGIN(uid=0)
+Nov  7 14:40:30 wangk  -- root[2531]: ROOT LOGIN ON tty1
+Nov  7 14:40:51 wangk shutdown: shutting down for system halt
+Nov  7 14:40:58 wangk init: Switching to runlevel: 0
+Nov  7 14:40:58 wangk login(pam_unix)[2531]: session closed for user root
+Nov  7 14:41:00 wangk anacron: anacron shutdown succeeded
+Nov  7 14:41:01 wangk atd: atd shutdown succeeded
+Nov  7 14:41:01 wangk rc: Stopping keytable:  succeeded
+Nov  7 14:41:03 wangk cups: cupsd shutdown succeeded
+Nov  7 14:41:03 wangk xfs[2428]: terminating 
+Nov  7 14:41:04 wangk xfs: xfs shutdown succeeded
+Nov  7 14:41:05 wangk cannaserver[2284]: irw_killserver:cannaserver end 
+Nov  7 14:41:05 wangk cannaserver[2284]: remove [/tmp/.iroha_unix/IROHA] 
+Nov  7 14:41:05 wangk canna: Stopping Canna server: succeeded
+Nov  7 14:41:05 wangk FreeWnn: jserver shutdown succeeded
+Nov  7 14:41:06 wangk gpm: gpm shutdown succeeded
+Nov  7 14:41:06 wangk rpc.mountd: Caught signal 15, un-registering and exiting. 
+Nov  7 14:41:07 wangk nfs: rpc.mountd shutdown succeeded
+Nov  7 14:41:11 wangk nfs: nfsd shutdown succeeded
+Nov  7 14:41:11 wangk nfs: rpc.rquotad shutdown succeeded
+Nov  7 14:41:11 wangk kernel: nfsd: last server has exited
+Nov  7 14:41:12 wangk kernel: nfsd: unexporting all filesystems
+Nov  7 14:41:12 wangk nfs: Shutting down NFS services:  succeeded
+Nov  7 14:41:12 wangk sshd: sshd -TERM succeeded
+Nov  7 14:41:12 wangk vsftpd: vsftpd shutdown succeeded
+Nov  7 14:41:13 wangk xinetd[2181]: Exiting...
+Nov  7 14:41:14 wangk xinetd: xinetd shutdown succeeded
+Nov  7 14:41:14 wangk crond: crond shutdown succeeded
+Nov  7 14:41:14 wangk apmd[2129]: Exiting
+Nov  7 14:41:18 wangk apmd: apmd shutdown succeeded
+Nov  7 14:41:19 wangk dd: 1+0 records in
+Nov  7 14:41:19 wangk dd: 1+0 records out
+Nov  7 14:41:19 wangk random: Saving random seed:  succeeded
+Nov  7 14:41:20 wangk portmap: portmap shutdown succeeded
+Nov  7 14:41:20 wangk kernel: Kernel logging (proc) stopped.
+Nov  7 14:41:20 wangk kernel: Kernel log daemon terminating.
+Nov  7 14:41:21 wangk syslog: klogd shutdown succeeded
+Nov  7 14:41:21 wangk exiting on signal 15
+Nov  8 09:05:42 wangk syslogd 1.4.1: restart.
+Nov  8 09:05:42 wangk syslog: syslogd startup succeeded
+Nov  8 09:05:42 wangk kernel: klogd 1.4.1, log source = /proc/kmsg started.
+Nov  8 09:05:42 wangk kernel: Linux version 2.4.20-8 (bhcompile@stripples.devel.redhat.com) (gcc version 3.2.2 20030222 (Red Hat Linux 3.2.2-5)) #1 Thu Mar 13 17:18:24 EST 2003
+Nov  8 09:05:42 wangk kernel: BIOS-provided physical RAM map:
+Nov  8 09:05:42 wangk kernel:  BIOS-e820: 0000000000000000 - 000000000009fc00 (usable)
+Nov  8 09:05:42 wangk kernel:  BIOS-e820: 000000000009fc00 - 00000000000a0000 (reserved)
+Nov  8 09:05:42 wangk kernel:  BIOS-e820: 00000000000f0000 - 0000000000100000 (reserved)
+Nov  8 09:05:42 wangk kernel:  BIOS-e820: 0000000000100000 - 0000000007fec000 (usable)
+Nov  8 09:05:42 wangk kernel:  BIOS-e820: 0000000007fec000 - 0000000007fef000 (ACPI data)
+Nov  8 09:05:42 wangk kernel:  BIOS-e820: 0000000007fef000 - 0000000007fff000 (reserved)
+Nov  8 09:05:42 wangk kernel:  BIOS-e820: 0000000007fff000 - 0000000008000000 (ACPI NVS)
+Nov  8 09:05:42 wangk kernel:  BIOS-e820: 00000000ffff0000 - 0000000100000000 (reserved)
+Nov  8 09:05:42 wangk kernel: 0MB HIGHMEM available.
+Nov  8 09:05:42 wangk syslog: klogd startup succeeded
+Nov  8 09:05:42 wangk kernel: 127MB LOWMEM available.
+Nov  8 09:05:42 wangk kernel: On node 0 totalpages: 32748
+Nov  8 09:05:42 wangk kernel: zone(0): 4096 pages.
+Nov  8 09:05:42 wangk kernel: zone(1): 28652 pages.
+Nov  8 09:05:42 wangk kernel: zone(2): 0 pages.
+Nov  8 09:05:42 wangk kernel: Kernel command line: ro root=LABEL=/
+Nov  8 09:05:42 wangk kernel: Initializing CPU#0
+Nov  8 09:05:42 wangk irqbalance: irqbalance startup succeeded
+Nov  8 09:05:42 wangk kernel: Detected 1150.070 MHz processor.
+Nov  8 09:05:42 wangk kernel: Console: colour VGA+ 80x25
+Nov  8 09:05:42 wangk kernel: Calibrating delay loop... 2293.76 BogoMIPS
+Nov  8 09:05:42 wangk kernel: Memory: 124728k/130992k available (1312k kernel code, 4856k reserved, 996k data, 128k init, 0k highmem)
+Nov  8 09:05:42 wangk kernel: Dentry cache hash table entries: 16384 (order: 5, 131072 bytes)
+Nov  8 09:05:42 wangk kernel: Inode cache hash table entries: 8192 (order: 4, 65536 bytes)
+Nov  8 09:05:42 wangk portmap: portmap startup succeeded
+Nov  8 09:05:42 wangk kernel: Mount cache hash table entries: 512 (order: 0, 4096 bytes)
+Nov  8 09:05:42 wangk keytable: Loading keymap: 
+Nov  8 09:05:42 wangk kernel: Buffer-cache hash table entries: 4096 (order: 2, 16384 bytes)
+Nov  8 09:05:42 wangk keytable: 
+Nov  8 09:05:42 wangk kernel: Page-cache hash table entries: 32768 (order: 5, 131072 bytes)
+Nov  8 09:05:42 wangk keytable: Loading system font: 
+Nov  8 09:05:42 wangk kernel: CPU: CLK_CTL MSR was 6003d22f. Reprogramming to 2003d22f
+Nov  8 09:05:42 wangk kernel: CPU: L1 I Cache: 64K (64 bytes/line), D cache 64K (64 bytes/line)
+Nov  8 09:05:42 wangk kernel: CPU: L2 Cache: 256K (64 bytes/line)
+Nov  8 09:05:42 wangk kernel: Intel machine check architecture supported.
+Nov  8 09:05:42 wangk kernel: Intel machine check reporting enabled on CPU#0.
+Nov  8 09:05:42 wangk kernel: CPU: AMD Athlon(TM) XP1800+ stepping 01
+Nov  8 09:05:42 wangk kernel: Enabling fast FPU save and restore... done.
+Nov  8 09:05:42 wangk kernel: Enabling unmasked SIMD FPU exception support... done.
+Nov  8 09:05:42 wangk kernel: Checking 'hlt' instruction... OK.
+Nov  8 09:05:42 wangk kernel: POSIX conformance testing by UNIFIX
+Nov  8 09:05:42 wangk kernel: mtrr: v1.40 (20010327) Richard Gooch (rgooch@atnf.csiro.au)
+Nov  8 09:05:42 wangk kernel: mtrr: detected mtrr type: Intel
+Nov  8 09:05:42 wangk kernel: PCI: PCI BIOS revision 2.10 entry at 0xf0f00, last bus=1
+Nov  8 09:05:42 wangk kernel: PCI: Using configuration type 1
+Nov  8 09:05:42 wangk kernel: Serial driver version 5.05c (2001-07-08) with MANY_PORTS MULTIPORT SHARE_IRQ SERIAL_PCI ISAPNP enabled
+Nov  8 09:05:42 wangk kernel: ttyS0 at 0x03f8 (irq = 4) is a 16550A
+Nov  8 09:05:42 wangk kernel: ttyS1 at 0x02f8 (irq = 3) is a 16550A
+Nov  8 09:05:42 wangk kernel: Real Time Clock Driver v1.10e
+Nov  8 09:05:42 wangk kernel: floppy0: no floppy controllers found
+Nov  8 09:05:42 wangk kernel: NET4: Frame Diverter 0.46
+Nov  8 09:05:42 wangk kernel: RAMDISK driver initialized: 16 RAM disks of 4096K size 1024 blocksize
+Nov  8 09:05:42 wangk kernel: Uniform Multi-Platform E-IDE driver Revision: 7.00beta-2.4
+Nov  8 09:05:42 wangk kernel: ide: Assuming 33MHz system bus speed for PIO modes; override with idebus=xx
+Nov  8 09:05:42 wangk kernel: VP_IDE: IDE controller at PCI slot 00:11.1
+Nov  8 09:05:42 wangk kernel: PCI: Found IRQ 11 for device 00:11.1
+Nov  8 09:05:42 wangk kernel: PCI: Sharing IRQ 11 with 00:0d.0
+Nov  8 09:05:42 wangk random: Initializing random number generator:  succeeded
+Nov  8 09:05:42 wangk kernel: PCI: Sharing IRQ 11 with 01:00.0
+Nov  8 09:05:42 wangk kernel: VP_IDE: chipset revision 6
+Nov  8 09:05:42 wangk kernel: VP_IDE: not 100%% native mode: will probe irqs later
+Nov  8 09:05:42 wangk kernel: ide: Assuming 33MHz system bus speed for PIO modes; override with idebus=xx
+Nov  8 09:05:42 wangk kernel: VP_IDE: VIA vt8233a (rev 00) IDE UDMA133 controller on pci00:11.1
+Nov  8 09:05:42 wangk kernel:     ide0: BM-DMA at 0xd000-0xd007, BIOS settings: hda:DMA, hdb:pio
+Nov  8 09:05:42 wangk kernel:     ide1: BM-DMA at 0xd008-0xd00f, BIOS settings: hdc:pio, hdd:pio
+Nov  8 09:05:42 wangk kernel: hda: Maxtor 6Y120L0, ATA DISK drive
+Nov  8 09:05:42 wangk kernel: blk: queue c03be900, I/O limit 4095Mb (mask 0xffffffff)
+Nov  8 09:05:42 wangk kernel: ide0 at 0x1f0-0x1f7,0x3f6 on irq 14
+Nov  8 09:05:42 wangk rc: Starting pcmcia:  succeeded
+Nov  8 09:05:42 wangk kernel: hda: host protected area => 1
+Nov  8 09:05:42 wangk kernel: hda: 240121728 sectors (122942 MB) w/2048KiB Cache, CHS=14946/255/63, UDMA(133)
+Nov  8 09:05:42 wangk kernel: ide-floppy driver 0.99.newide
+Nov  8 09:05:42 wangk kernel: Partition check:
+Nov  8 09:05:42 wangk kernel:  hda: hda1 hda2
+Nov  8 09:05:42 wangk kernel: ide-floppy driver 0.99.newide
+Nov  8 09:05:42 wangk kernel: md: md driver 0.90.0 MAX_MD_DEVS=256, MD_SB_DISKS=27
+Nov  8 09:05:42 wangk kernel: md: Autodetecting RAID arrays.
+Nov  8 09:05:42 wangk kernel: md: autorun ...
+Nov  8 09:05:42 wangk kernel: md: ... autorun DONE.
+Nov  8 09:05:42 wangk kernel: NET4: Linux TCP/IP 1.0 for NET4.0
+Nov  8 09:05:42 wangk kernel: IP Protocols: ICMP, UDP, TCP, IGMP
+Nov  8 09:05:42 wangk kernel: IP: routing cache hash table of 512 buckets, 4Kbytes
+Nov  8 09:05:42 wangk kernel: TCP: Hash tables configured (established 8192 bind 16384)
+Nov  8 09:05:42 wangk kernel: Linux IP multicast router 0.06 plus PIM-SM
+Nov  8 09:05:42 wangk kernel: NET4: Unix domain sockets 1.0/SMP for Linux NET4.0.
+Nov  8 09:05:42 wangk kernel: RAMDISK: Compressed image found at block 0
+Nov  8 09:05:42 wangk netfs: Mounting other filesystems:  succeeded
+Nov  8 09:05:42 wangk kernel: Freeing initrd memory: 143k freed
+Nov  8 09:05:42 wangk kernel: VFS: Mounted root (ext2 filesystem).
+Nov  8 09:05:42 wangk kernel: Journalled Block Device driver loaded
+Nov  8 09:05:42 wangk kernel: kjournald starting.  Commit interval 5 seconds
+Nov  8 09:05:42 wangk kernel: EXT3-fs: mounted filesystem with ordered data mode.
+Nov  8 09:05:42 wangk apmd[2129]: Version 3.0.2 (APM BIOS 1.2, Linux driver 1.16)
+Nov  8 09:05:42 wangk kernel: Freeing unused kernel memory: 128k freed
+Nov  8 09:05:42 wangk apmd: apmd startup succeeded
+Nov  8 09:05:42 wangk kernel: usb.c: registered new driver usbdevfs
+Nov  8 09:05:43 wangk kernel: usb.c: registered new driver hub
+Nov  8 09:05:43 wangk kernel: usb-uhci.c: $Revision: 1.275 $ time 17:26:20 Mar 13 2003
+Nov  8 09:05:43 wangk kernel: usb-uhci.c: High bandwidth mode enabled
+Nov  8 09:05:43 wangk autofs: automount startup succeeded
+Nov  8 09:05:43 wangk kernel: PCI: Found IRQ 5 for device 00:11.2
+Nov  8 09:05:43 wangk kernel: PCI: Sharing IRQ 5 with 00:11.3
+Nov  8 09:05:43 wangk kernel: usb-uhci.c: USB UHCI at I/O 0xb800, IRQ 5
+Nov  8 09:05:43 wangk kernel: usb-uhci.c: Detected 2 ports
+Nov  8 09:05:43 wangk kernel: usb.c: new USB bus registered, assigned bus number 1
+Nov  8 09:05:43 wangk kernel: hub.c: USB hub found
+Nov  8 09:05:43 wangk kernel: hub.c: 2 ports detected
+Nov  8 09:05:43 wangk kernel: PCI: Found IRQ 5 for device 00:11.3
+Nov  8 09:05:43 wangk kernel: PCI: Sharing IRQ 5 with 00:11.2
+Nov  8 09:05:43 wangk kernel: usb-uhci.c: USB UHCI at I/O 0xb400, IRQ 5
+Nov  8 09:05:43 wangk kernel: usb-uhci.c: Detected 2 ports
+Nov  8 09:05:43 wangk kernel: usb.c: new USB bus registered, assigned bus number 2
+Nov  8 09:05:43 wangk kernel: hub.c: USB hub found
+Nov  8 09:05:43 wangk kernel: hub.c: 2 ports detected
+Nov  8 09:05:43 wangk kernel: usb-uhci.c: v1.275:USB Universal Host Controller Interface driver
+Nov  8 09:05:43 wangk kernel: usb.c: registered new driver hiddev
+Nov  8 09:05:43 wangk kernel: usb.c: registered new driver hid
+Nov  8 09:05:43 wangk kernel: hid-core.c: v1.8.1 Andreas Gal, Vojtech Pavlik <vojtech@suse.cz>
+Nov  8 09:05:43 wangk kernel: hid-core.c: USB HID support drivers
+Nov  8 09:05:43 wangk kernel: mice: PS/2 mouse device common for all mice
+Nov  8 09:05:43 wangk kernel: EXT3 FS 2.4-0.9.19, 19 August 2002 on ide0(3,1), internal journal
+Nov  8 09:05:43 wangk kernel: Adding Swap: 257032k swap-space (priority -1)
+Nov  8 09:05:43 wangk kernel: parport0: PC-style at 0x378 (0x778) [PCSPP,TRISTATE,EPP]
+Nov  8 09:05:43 wangk kernel: parport0: irq 7 detected
+Nov  8 09:05:43 wangk kernel: ip_tables: (C) 2000-2002 Netfilter core team
+Nov  8 09:05:43 wangk kernel: 8139too Fast Ethernet driver 0.9.26
+Nov  8 09:05:43 wangk kernel: PCI: Found IRQ 11 for device 00:0d.0
+Nov  8 09:05:43 wangk kernel: PCI: Sharing IRQ 11 with 00:11.1
+Nov  8 09:05:43 wangk kernel: PCI: Sharing IRQ 11 with 01:00.0
+Nov  8 09:05:43 wangk kernel: eth0: RealTek RTL8139 Fast Ethernet at 0xc8882000, 00:e0:4c:5b:13:80, IRQ 11
+Nov  8 09:05:43 wangk sshd:  succeeded
+Nov  8 09:05:43 wangk kernel: ip_tables: (C) 2000-2002 Netfilter core team
+Nov  8 09:05:39 wangk network: Setting network parameters:  succeeded 
+Nov  8 09:05:44 wangk apmd[2129]: Charge: * * * (-1% unknown)
+Nov  8 09:05:44 wangk kernel: eth0: Setting 100mbps full-duplex based on auto-negotiated partner ability 45e1.
+Nov  8 09:05:39 wangk network: Bringing up loopback interface:  succeeded 
+Nov  8 09:05:45 wangk xinetd[2181]: xinetd Version 2.3.10 started with libwrap options compiled in.
+Nov  8 09:05:45 wangk xinetd[2181]: Started working: 3 available services
+Nov  8 09:05:47 wangk xinetd: xinetd startup succeeded
+Nov  8 09:05:47 wangk exportfs[2197]: No host name given with / (rw), suggest *(rw) to avoid warning 
+Nov  8 09:05:47 wangk exportfs[2197]: No 'sync' or 'async' option specified for export ":/".   Assuming default behaviour ('sync').   NOTE: this default has changed from previous versions 
+Nov  8 09:05:47 wangk exportfs: exportfs: No host name given with / (rw), suggest *(rw) to avoid warning
+Nov  8 09:05:47 wangk exportfs: exportfs: No 'sync' or 'async' option specified for export ":/".
+Nov  8 09:05:47 wangk exportfs:   Assuming default behaviour ('sync').
+Nov  8 09:05:47 wangk exportfs:   NOTE: this default has changed from previous versions
+Nov  8 09:05:52 wangk kernel: Installing knfsd (copyright (C) 1996 okir@monad.swb.de).
+Nov  8 09:05:52 wangk nfs: Starting NFS services:  succeeded
+Nov  8 09:05:53 wangk nfs: rpc.rquotad startup succeeded
+Nov  8 09:05:53 wangk nfs: rpc.nfsd startup succeeded
+Nov  8 09:05:53 wangk rpc.mountd: No host name given with / (rw,sync,wdelay,hide,secure,root_squash,no_all_squash,subtree_check,secure_locks,mapping=identity,anonuid=-2,anongid=-2), suggest *(rw,sync,wdelay,hide,secure,root_squash,no_all_squash,subtree_check,secure_locks,mapping=identity,anonuid=-2,anongid=-2) to avoid warning 
+Nov  8 09:05:53 wangk nfs: rpc.mountd startup succeeded
+Nov  8 09:05:53 wangk vsftpd: true startup succeeded
+Nov  8 09:05:53 wangk sendmail: 
+Nov  8 09:05:53 wangk sendmail: 
+Nov  8 09:05:53 wangk sendmail: sendmail startup failed
+Nov  8 09:05:54 wangk sendmail: /etc/mail/submit.cf: line 525: fileclass: cannot open '/etc/mail/trusted-users': World writable directory
+Nov  8 09:05:54 wangk sendmail: sm-client startup failed
+Nov  8 09:05:56 wangk spamassassin: spamd startup succeeded
+Nov  8 09:05:56 wangk gpm: gpm startup succeeded
+Nov  8 09:05:57 wangk canna:  succeeded
+Nov  8 09:05:58 wangk crond: crond startup succeeded
+Nov  8 09:06:01 wangk kernel: parport0: PC-style at 0x378 (0x778) [PCSPP,TRISTATE,EPP]
+Nov  8 09:06:01 wangk kernel: parport0: irq 7 detected
+Nov  8 09:06:01 wangk kernel: lp0: using parport0 (polling).
+Nov  8 09:06:01 wangk kernel: lp0: console ready
+Nov  8 09:06:01 wangk modprobe: modprobe: Can't locate module char-major-188
+Nov  8 09:06:01 wangk last message repeated 15 times
+Nov  8 09:06:01 wangk cups: cupsd startup succeeded
+Nov  8 09:06:03 wangk xfs: xfs startup succeeded
+Nov  8 09:06:03 wangk anacron: anacron startup succeeded
+Nov  8 09:06:04 wangk atd: atd startup succeeded
+Nov  8 09:06:04 wangk rpc.mountd: Caught signal 15, un-registering and exiting. 
+Nov  8 09:06:04 wangk nfs: rpc.mountd shutdown succeeded
+Nov  8 09:06:08 wangk kernel: nfsd: last server has exited
+Nov  8 09:06:08 wangk kernel: nfsd: unexporting all filesystems
+Nov  8 09:06:08 wangk nfs: nfsd shutdown succeeded
+Nov  8 09:06:08 wangk nfs: rpc.rquotad shutdown succeeded
+Nov  8 09:06:08 wangk nfs: Shutting down NFS services:  succeeded
+Nov  8 09:06:08 wangk exportfs[2489]: No host name given with / (rw), suggest *(rw) to avoid warning 
+Nov  8 09:06:08 wangk exportfs[2489]: No 'sync' or 'async' option specified for export ":/".   Assuming default behaviour ('sync').   NOTE: this default has changed from previous versions 
+Nov  8 09:06:08 wangk exportfs: exportfs: No host name given with / (rw), suggest *(rw) to avoid warning
+Nov  8 09:06:08 wangk exportfs: exportfs: No 'sync' or 'async' option specified for export ":/".
+Nov  8 09:06:08 wangk exportfs:   Assuming default behaviour ('sync').
+Nov  8 09:06:08 wangk exportfs:   NOTE: this default has changed from previous versions
+Nov  8 09:06:11 wangk nfs: Starting NFS services:  succeeded
+Nov  8 09:06:11 wangk nfs: rpc.rquotad startup succeeded
+Nov  8 09:06:11 wangk nfs: rpc.nfsd startup succeeded
+Nov  8 09:06:11 wangk rpc.mountd: No host name given with / (rw,sync,wdelay,hide,secure,root_squash,no_all_squash,subtree_check,secure_locks,mapping=identity,anonuid=-2,anongid=-2), suggest *(rw,sync,wdelay,hide,secure,root_squash,no_all_squash,subtree_check,secure_locks,mapping=identity,anonuid=-2,anongid=-2) to avoid warning 
+Nov  8 09:06:11 wangk nfs: rpc.mountd startup succeeded
+Nov  8 09:06:11 wangk kernel: bdm_init_module 2.10, May 31 2004, 17:17:00
+Nov  8 09:06:56 wangk login(pam_unix)[2524]: session opened for user root by LOGIN(uid=0)
+Nov  8 09:06:56 wangk  -- root[2524]: ROOT LOGIN ON tty1
+Nov  8 09:07:01 wangk login(pam_unix)[2525]: session opened for user root by LOGIN(uid=0)
+Nov  8 09:07:01 wangk  -- root[2525]: ROOT LOGIN ON tty2
+Nov  8 09:07:04 wangk login(pam_unix)[2526]: session opened for user root by LOGIN(uid=0)
+Nov  8 09:07:04 wangk  -- root[2526]: ROOT LOGIN ON tty3
+Nov  8 09:19:34 wangk vsftpd: warning: can't get client address: Bad file descriptor
+Nov  8 10:44:23 wangk su(pam_unix)[3283]: session opened for user news by (uid=0)
+Nov  8 10:44:24 wangk su(pam_unix)[3283]: session closed for user news
+Nov  8 14:19:43 wangk login(pam_unix)[3647]: session opened for user wk by (uid=0)
+Nov  8 14:19:43 wangk  -- wk[3647]: LOGIN ON pts/0 BY wk FROM 192.168.2.131
+Nov  8 14:19:45 wangk su(pam_unix)[3688]: session opened for user root by wk(uid=500)
+Nov  8 15:30:41 wangk su(pam_unix)[3688]: session closed for user root
+Nov  8 15:30:42 wangk login(pam_unix)[3647]: session closed for user wk
+Nov  8 15:49:08 wangk vsftpd: warning: can't get client address: Bad file descriptor
+Nov  8 16:18:07 wangk vsftpd: warning: can't get client address: Bad file descriptor
+Nov  8 17:42:35 wangk vsftpd: warning: can't get client address: Bad file descriptor
+Nov  8 20:11:52 wangk vsftpd: warning: can't get client address: Bad file descriptor
+Nov  8 20:12:07 wangk kernel: eth0: Too much work at interrupt, IntrStatus=0x0001.
+Nov  9 01:01:08 wangk shutdown: shutting down for system halt
+Nov  9 01:01:08 wangk init: Switching to runlevel: 0
+Nov  9 01:01:09 wangk login(pam_unix)[2524]: session closed for user root
+Nov  9 01:01:09 wangk login(pam_unix)[2525]: session closed for user root
+Nov  9 01:01:09 wangk login(pam_unix)[2526]: session closed for user root
+Nov  9 01:01:10 wangk atd: atd shutdown succeeded
+Nov  9 01:01:10 wangk rc: Stopping keytable:  succeeded
+Nov  9 01:01:11 wangk cups: cupsd shutdown succeeded
+Nov  9 01:01:11 wangk xfs[2428]: terminating 
+Nov  9 01:01:11 wangk xfs: xfs shutdown succeeded
+Nov  9 01:01:12 wangk cannaserver[2284]: irw_killserver:cannaserver end 
+Nov  9 01:01:12 wangk cannaserver[2284]: remove [/tmp/.iroha_unix/IROHA] 
+Nov  9 01:01:12 wangk canna: Stopping Canna server: succeeded
+Nov  9 01:01:12 wangk FreeWnn: jserver shutdown succeeded
+Nov  9 01:01:12 wangk gpm: gpm shutdown succeeded
+Nov  9 01:01:13 wangk rpc.mountd: Caught signal 15, un-registering and exiting. 
+Nov  9 01:01:13 wangk nfs: rpc.mountd shutdown succeeded
+Nov  9 01:01:17 wangk kernel: nfsd: last server has exited
+Nov  9 01:01:17 wangk kernel: nfsd: unexporting all filesystems
+Nov  9 01:01:17 wangk nfs: nfsd shutdown succeeded
+Nov  9 01:01:17 wangk nfs: rpc.rquotad shutdown succeeded
+Nov  9 01:01:17 wangk nfs: Shutting down NFS services:  succeeded
+Nov  9 01:01:17 wangk sshd: sshd -TERM succeeded
+Nov  9 01:01:18 wangk vsftpd: vsftpd shutdown succeeded
+Nov  9 01:01:18 wangk xinetd[2181]: Exiting...
+Nov  9 01:01:18 wangk xinetd: xinetd shutdown succeeded
+Nov  9 01:01:18 wangk crond: crond shutdown succeeded
+Nov  9 01:01:18 wangk apmd[2129]: Exiting
+Nov  9 01:01:19 wangk apmd: apmd shutdown succeeded
+Nov  9 01:01:19 wangk dd: 1+0 records in
+Nov  9 01:01:19 wangk dd: 1+0 records out
+Nov  9 01:01:19 wangk random: Saving random seed:  succeeded
+Nov  9 01:01:20 wangk portmap: portmap shutdown succeeded
+Nov  9 01:01:20 wangk kernel: Kernel logging (proc) stopped.
+Nov  9 01:01:20 wangk kernel: Kernel log daemon terminating.
+Nov  9 01:01:21 wangk syslog: klogd shutdown succeeded
+Nov  9 01:01:21 wangk exiting on signal 15
+Nov  9 09:05:14 wangk syslogd 1.4.1: restart.
+Nov  9 09:05:14 wangk syslog: syslogd startup succeeded
+Nov  9 09:05:14 wangk kernel: klogd 1.4.1, log source = /proc/kmsg started.
+Nov  9 09:05:14 wangk kernel: Linux version 2.4.20-8 (bhcompile@stripples.devel.redhat.com) (gcc version 3.2.2 20030222 (Red Hat Linux 3.2.2-5)) #1 Thu Mar 13 17:18:24 EST 2003
+Nov  9 09:05:14 wangk kernel: BIOS-provided physical RAM map:
+Nov  9 09:05:14 wangk kernel:  BIOS-e820: 0000000000000000 - 000000000009fc00 (usable)
+Nov  9 09:05:14 wangk kernel:  BIOS-e820: 000000000009fc00 - 00000000000a0000 (reserved)
+Nov  9 09:05:14 wangk kernel:  BIOS-e820: 00000000000f0000 - 0000000000100000 (reserved)
+Nov  9 09:05:14 wangk kernel:  BIOS-e820: 0000000000100000 - 0000000007fec000 (usable)
+Nov  9 09:05:14 wangk kernel:  BIOS-e820: 0000000007fec000 - 0000000007fef000 (ACPI data)
+Nov  9 09:05:14 wangk kernel:  BIOS-e820: 0000000007fef000 - 0000000007fff000 (reserved)
+Nov  9 09:05:14 wangk kernel:  BIOS-e820: 0000000007fff000 - 0000000008000000 (ACPI NVS)
+Nov  9 09:05:14 wangk kernel:  BIOS-e820: 00000000ffff0000 - 0000000100000000 (reserved)
+Nov  9 09:05:14 wangk kernel: 0MB HIGHMEM available.
+Nov  9 09:05:14 wangk syslog: klogd startup succeeded
+Nov  9 09:05:14 wangk kernel: 127MB LOWMEM available.
+Nov  9 09:05:15 wangk kernel: On node 0 totalpages: 32748
+Nov  9 09:05:15 wangk kernel: zone(0): 4096 pages.
+Nov  9 09:05:15 wangk kernel: zone(1): 28652 pages.
+Nov  9 09:05:15 wangk kernel: zone(2): 0 pages.
+Nov  9 09:05:15 wangk irqbalance: irqbalance startup succeeded
+Nov  9 09:05:15 wangk kernel: Kernel command line: ro root=LABEL=/
+Nov  9 09:05:15 wangk kernel: Initializing CPU#0
+Nov  9 09:05:15 wangk kernel: Detected 1150.070 MHz processor.
+Nov  9 09:05:15 wangk kernel: Console: colour VGA+ 80x25
+Nov  9 09:05:15 wangk kernel: Calibrating delay loop... 2293.76 BogoMIPS
+Nov  9 09:05:15 wangk kernel: Memory: 124728k/130992k available (1312k kernel code, 4856k reserved, 996k data, 128k init, 0k highmem)
+Nov  9 09:05:15 wangk portmap: portmap startup succeeded
+Nov  9 09:05:15 wangk kernel: Dentry cache hash table entries: 16384 (order: 5, 131072 bytes)
+Nov  9 09:05:15 wangk keytable: Loading keymap: 
+Nov  9 09:05:15 wangk kernel: Inode cache hash table entries: 8192 (order: 4, 65536 bytes)
+Nov  9 09:05:15 wangk keytable: 
+Nov  9 09:05:15 wangk kernel: Mount cache hash table entries: 512 (order: 0, 4096 bytes)
+Nov  9 09:05:15 wangk keytable: Loading system font: 
+Nov  9 09:05:15 wangk kernel: Buffer-cache hash table entries: 4096 (order: 2, 16384 bytes)
+Nov  9 09:05:15 wangk kernel: Page-cache hash table entries: 32768 (order: 5, 131072 bytes)
+Nov  9 09:05:15 wangk kernel: CPU: CLK_CTL MSR was 6003d22f. Reprogramming to 2003d22f
+Nov  9 09:05:15 wangk kernel: CPU: L1 I Cache: 64K (64 bytes/line), D cache 64K (64 bytes/line)
+Nov  9 09:05:15 wangk kernel: CPU: L2 Cache: 256K (64 bytes/line)
+Nov  9 09:05:15 wangk kernel: Intel machine check architecture supported.
+Nov  9 09:05:15 wangk kernel: Intel machine check reporting enabled on CPU#0.
+Nov  9 09:05:15 wangk kernel: CPU: AMD Athlon(TM) XP1800+ stepping 01
+Nov  9 09:05:15 wangk kernel: Enabling fast FPU save and restore... done.
+Nov  9 09:05:15 wangk kernel: Enabling unmasked SIMD FPU exception support... done.
+Nov  9 09:05:15 wangk kernel: Checking 'hlt' instruction... OK.
+Nov  9 09:05:15 wangk kernel: POSIX conformance testing by UNIFIX
+Nov  9 09:05:15 wangk kernel: mtrr: v1.40 (20010327) Richard Gooch (rgooch@atnf.csiro.au)
+Nov  9 09:05:15 wangk kernel: mtrr: detected mtrr type: Intel
+Nov  9 09:05:15 wangk kernel: PCI: PCI BIOS revision 2.10 entry at 0xf0f00, last bus=1
+Nov  9 09:05:15 wangk kernel: PCI: Using configuration type 1
+Nov  9 09:05:15 wangk kernel: PCI: Probing PCI hardware
+Nov  9 09:05:15 wangk kernel: PCI: Using IRQ router VIA [1106/3147] at 00:11.0
+Nov  9 09:05:15 wangk kernel: PCI: Found IRQ 11 for device 00:11.1
+Nov  9 09:05:15 wangk kernel: PCI: Sharing IRQ 11 with 00:0d.0
+Nov  9 09:05:15 wangk kernel: PCI: Sharing IRQ 11 with 01:00.0
+Nov  9 09:05:15 wangk kernel: isapnp: Scanning for PnP cards...
+Nov  9 09:05:15 wangk kernel: isapnp: No Plug & Play device found
+Nov  9 09:05:15 wangk keytable: 
+Nov  9 09:05:15 wangk kernel: Linux NET4.0 for Linux 2.4
+Nov  9 09:05:15 wangk rc: Starting keytable:  succeeded
+Nov  9 09:05:15 wangk kernel: Based upon Swansea University Computer Society NET3.039
+Nov  9 09:05:15 wangk kernel: Initializing RT netlink socket
+Nov  9 09:05:15 wangk kernel: apm: BIOS version 1.2 Flags 0x03 (Driver version 1.16)
+Nov  9 09:05:15 wangk kernel: Starting kswapd
+Nov  9 09:05:15 wangk kernel: VFS: Disk quotas vdquot_6.5.1
+Nov  9 09:05:15 wangk kernel: pty: 2048 Unix98 ptys configured
+Nov  9 09:05:15 wangk kernel: Serial driver version 5.05c (2001-07-08) with MANY_PORTS MULTIPORT SHARE_IRQ SERIAL_PCI ISAPNP enabled
+Nov  9 09:05:15 wangk kernel: ttyS0 at 0x03f8 (irq = 4) is a 16550A
+Nov  9 09:05:15 wangk kernel: ttyS1 at 0x02f8 (irq = 3) is a 16550A
+Nov  9 09:05:15 wangk kernel: Real Time Clock Driver v1.10e
+Nov  9 09:05:15 wangk kernel: floppy0: no floppy controllers found
+Nov  9 09:05:15 wangk kernel: NET4: Frame Diverter 0.46
+Nov  9 09:05:15 wangk kernel: RAMDISK driver initialized: 16 RAM disks of 4096K size 1024 blocksize
+Nov  9 09:05:15 wangk kernel: Uniform Multi-Platform E-IDE driver Revision: 7.00beta-2.4
+Nov  9 09:05:15 wangk kernel: ide: Assuming 33MHz system bus speed for PIO modes; override with idebus=xx
+Nov  9 09:05:15 wangk kernel: VP_IDE: IDE controller at PCI slot 00:11.1
+Nov  9 09:05:15 wangk kernel: PCI: Found IRQ 11 for device 00:11.1
+Nov  9 09:05:15 wangk random: Initializing random number generator:  succeeded
+Nov  9 09:05:15 wangk kernel: PCI: Sharing IRQ 11 with 00:0d.0
+Nov  9 09:05:15 wangk kernel: PCI: Sharing IRQ 11 with 01:00.0
+Nov  9 09:05:15 wangk kernel: VP_IDE: chipset revision 6
+Nov  9 09:05:15 wangk kernel: VP_IDE: not 100%% native mode: will probe irqs later
+Nov  9 09:05:15 wangk kernel: ide: Assuming 33MHz system bus speed for PIO modes; override with idebus=xx
+Nov  9 09:05:15 wangk kernel: VP_IDE: VIA vt8233a (rev 00) IDE UDMA133 controller on pci00:11.1
+Nov  9 09:05:15 wangk kernel:     ide0: BM-DMA at 0xd000-0xd007, BIOS settings: hda:DMA, hdb:pio
+Nov  9 09:05:15 wangk kernel:     ide1: BM-DMA at 0xd008-0xd00f, BIOS settings: hdc:pio, hdd:pio
+Nov  9 09:05:15 wangk kernel: hda: Maxtor 6Y120L0, ATA DISK drive
+Nov  9 09:05:15 wangk kernel: blk: queue c03be900, I/O limit 4095Mb (mask 0xffffffff)
+Nov  9 09:05:15 wangk kernel: ide0 at 0x1f0-0x1f7,0x3f6 on irq 14
+Nov  9 09:05:15 wangk kernel: hda: host protected area => 1
+Nov  9 09:05:15 wangk kernel: hda: 240121728 sectors (122942 MB) w/2048KiB Cache, CHS=14946/255/63, UDMA(133)
+Nov  9 09:05:15 wangk kernel: ide-floppy driver 0.99.newide
+Nov  9 09:05:15 wangk rc: Starting pcmcia:  succeeded
+Nov  9 09:05:15 wangk kernel: Partition check:
+Nov  9 09:05:15 wangk kernel:  hda: hda1 hda2
+Nov  9 09:05:15 wangk kernel: ide-floppy driver 0.99.newide
+Nov  9 09:05:15 wangk kernel: md: md driver 0.90.0 MAX_MD_DEVS=256, MD_SB_DISKS=27
+Nov  9 09:05:15 wangk kernel: md: Autodetecting RAID arrays.
+Nov  9 09:05:15 wangk kernel: md: autorun ...
+Nov  9 09:05:15 wangk kernel: md: ... autorun DONE.
+Nov  9 09:05:15 wangk kernel: NET4: Linux TCP/IP 1.0 for NET4.0
+Nov  9 09:05:15 wangk kernel: IP Protocols: ICMP, UDP, TCP, IGMP
+Nov  9 09:05:15 wangk kernel: IP: routing cache hash table of 512 buckets, 4Kbytes
+Nov  9 09:05:15 wangk kernel: TCP: Hash tables configured (established 8192 bind 16384)
+Nov  9 09:05:15 wangk kernel: Linux IP multicast router 0.06 plus PIM-SM
+Nov  9 09:05:15 wangk kernel: NET4: Unix domain sockets 1.0/SMP for Linux NET4.0.
+Nov  9 09:05:15 wangk kernel: RAMDISK: Compressed image found at block 0
+Nov  9 09:05:15 wangk kernel: Freeing initrd memory: 143k freed
+Nov  9 09:05:15 wangk kernel: VFS: Mounted root (ext2 filesystem).
+Nov  9 09:05:15 wangk kernel: Journalled Block Device driver loaded
+Nov  9 09:05:15 wangk kernel: kjournald starting.  Commit interval 5 seconds
+Nov  9 09:05:15 wangk kernel: EXT3-fs: mounted filesystem with ordered data mode.
+Nov  9 09:05:15 wangk kernel: Freeing unused kernel memory: 128k freed
+Nov  9 09:05:15 wangk netfs: Mounting other filesystems:  succeeded
+Nov  9 09:05:15 wangk kernel: usb.c: registered new driver usbdevfs
+Nov  9 09:05:15 wangk kernel: usb.c: registered new driver hub
+Nov  9 09:05:15 wangk kernel: usb-uhci.c: $Revision: 1.275 $ time 17:26:20 Mar 13 2003
+Nov  9 09:05:15 wangk kernel: usb-uhci.c: High bandwidth mode enabled
+Nov  9 09:05:15 wangk kernel: PCI: Found IRQ 5 for device 00:11.2
+Nov  9 09:05:15 wangk apmd[2129]: Version 3.0.2 (APM BIOS 1.2, Linux driver 1.16)
+Nov  9 09:05:15 wangk kernel: PCI: Sharing IRQ 5 with 00:11.3
+Nov  9 09:05:15 wangk apmd: apmd startup succeeded
+Nov  9 09:05:15 wangk kernel: usb-uhci.c: USB UHCI at I/O 0xb800, IRQ 5
+Nov  9 09:05:15 wangk kernel: usb-uhci.c: Detected 2 ports
+Nov  9 09:05:15 wangk kernel: usb.c: new USB bus registered, assigned bus number 1
+Nov  9 09:05:15 wangk kernel: hub.c: USB hub found
+Nov  9 09:05:15 wangk kernel: hub.c: 2 ports detected
+Nov  9 09:05:15 wangk autofs: automount startup succeeded
+Nov  9 09:05:15 wangk kernel: PCI: Found IRQ 5 for device 00:11.3
+Nov  9 09:05:15 wangk kernel: PCI: Sharing IRQ 5 with 00:11.2
+Nov  9 09:05:16 wangk kernel: usb-uhci.c: USB UHCI at I/O 0xb400, IRQ 5
+Nov  9 09:05:16 wangk kernel: usb-uhci.c: Detected 2 ports
+Nov  9 09:05:16 wangk kernel: usb.c: new USB bus registered, assigned bus number 2
+Nov  9 09:05:16 wangk kernel: hub.c: USB hub found
+Nov  9 09:05:16 wangk kernel: hub.c: 2 ports detected
+Nov  9 09:05:16 wangk kernel: usb-uhci.c: v1.275:USB Universal Host Controller Interface driver
+Nov  9 09:05:16 wangk kernel: usb.c: registered new driver hiddev
+Nov  9 09:05:16 wangk kernel: usb.c: registered new driver hid
+Nov  9 09:05:16 wangk kernel: hid-core.c: v1.8.1 Andreas Gal, Vojtech Pavlik <vojtech@suse.cz>
+Nov  9 09:05:16 wangk kernel: hid-core.c: USB HID support drivers
+Nov  9 09:05:16 wangk kernel: mice: PS/2 mouse device common for all mice
+Nov  9 09:05:16 wangk kernel: EXT3 FS 2.4-0.9.19, 19 August 2002 on ide0(3,1), internal journal
+Nov  9 09:05:16 wangk kernel: Adding Swap: 257032k swap-space (priority -1)
+Nov  9 09:05:16 wangk kernel: parport0: PC-style at 0x378 (0x778) [PCSPP,TRISTATE,EPP]
+Nov  9 09:05:16 wangk kernel: parport0: irq 7 detected
+Nov  9 09:05:16 wangk kernel: ip_tables: (C) 2000-2002 Netfilter core team
+Nov  9 09:05:16 wangk kernel: 8139too Fast Ethernet driver 0.9.26
+Nov  9 09:05:16 wangk kernel: PCI: Found IRQ 11 for device 00:0d.0
+Nov  9 09:05:16 wangk kernel: PCI: Sharing IRQ 11 with 00:11.1
+Nov  9 09:05:16 wangk kernel: PCI: Sharing IRQ 11 with 01:00.0
+Nov  9 09:05:16 wangk kernel: eth0: RealTek RTL8139 Fast Ethernet at 0xc8882000, 00:e0:4c:5b:13:80, IRQ 11
+Nov  9 09:05:16 wangk kernel: ip_tables: (C) 2000-2002 Netfilter core team
+Nov  9 09:05:16 wangk kernel: eth0: Setting 100mbps full-duplex based on auto-negotiated partner ability 45e1.
+Nov  9 09:05:16 wangk apmd[2129]: Charge: * * * (-1% unknown)
+Nov  9 09:05:16 wangk sshd:  succeeded
+Nov  9 09:05:14 wangk network: Bringing up interface eth0:  succeeded 
+Nov  9 09:05:18 wangk xinetd[2181]: xinetd Version 2.3.10 started with libwrap options compiled in.
+Nov  9 09:05:18 wangk xinetd[2181]: Started working: 3 available services
+Nov  9 09:05:20 wangk xinetd: xinetd startup succeeded
+Nov  9 09:05:20 wangk exportfs[2197]: No host name given with / (rw), suggest *(rw) to avoid warning 
+Nov  9 09:05:20 wangk exportfs[2197]: No 'sync' or 'async' option specified for export ":/".   Assuming default behaviour ('sync').   NOTE: this default has changed from previous versions 
+Nov  9 09:05:20 wangk exportfs: exportfs: No host name given with / (rw), suggest *(rw) to avoid warning
+Nov  9 09:05:20 wangk exportfs: exportfs: No 'sync' or 'async' option specified for export ":/".
+Nov  9 09:05:20 wangk exportfs:   Assuming default behaviour ('sync').
+Nov  9 09:05:20 wangk exportfs:   NOTE: this default has changed from previous versions
+Nov  9 09:05:24 wangk kernel: Installing knfsd (copyright (C) 1996 okir@monad.swb.de).
+Nov  9 09:05:24 wangk nfs: Starting NFS services:  succeeded
+Nov  9 09:05:24 wangk nfs: rpc.rquotad startup succeeded
+Nov  9 09:05:24 wangk nfs: rpc.nfsd startup succeeded
+Nov  9 09:05:24 wangk rpc.mountd: No host name given with / (rw,sync,wdelay,hide,secure,root_squash,no_all_squash,subtree_check,secure_locks,mapping=identity,anonuid=-2,anongid=-2), suggest *(rw,sync,wdelay,hide,secure,root_squash,no_all_squash,subtree_check,secure_locks,mapping=identity,anonuid=-2,anongid=-2) to avoid warning 
+Nov  9 09:05:24 wangk nfs: rpc.mountd startup succeeded
+Nov  9 09:05:24 wangk vsftpd: true startup succeeded
+Nov  9 09:05:25 wangk sendmail: 
+Nov  9 09:05:25 wangk sendmail: 
+Nov  9 09:05:25 wangk sendmail: sendmail startup failed
+Nov  9 09:05:25 wangk sendmail: /etc/mail/submit.cf: line 525: fileclass: cannot open '/etc/mail/trusted-users': World writable directory
+Nov  9 09:05:25 wangk sendmail: sm-client startup failed
+Nov  9 09:05:27 wangk spamassassin: spamd startup succeeded
+Nov  9 09:05:27 wangk gpm: gpm startup succeeded
+Nov  9 09:05:28 wangk canna:  succeeded
+Nov  9 09:05:29 wangk crond: crond startup succeeded
+Nov  9 09:05:32 wangk kernel: parport0: PC-style at 0x378 (0x778) [PCSPP,TRISTATE,EPP]
+Nov  9 09:05:32 wangk kernel: parport0: irq 7 detected
+Nov  9 09:05:32 wangk kernel: lp0: using parport0 (polling).
+Nov  9 09:05:32 wangk kernel: lp0: console ready
+Nov  9 09:05:32 wangk modprobe: modprobe: Can't locate module char-major-188
+Nov  9 09:05:32 wangk last message repeated 15 times
+Nov  9 09:05:32 wangk cups: cupsd startup succeeded
+Nov  9 09:05:34 wangk xfs: xfs startup succeeded
+Nov  9 09:05:34 wangk anacron: anacron startup succeeded
+Nov  9 09:05:35 wangk atd: atd startup succeeded
+Nov  9 09:05:35 wangk rpc.mountd: Caught signal 15, un-registering and exiting. 
+Nov  9 09:05:35 wangk nfs: rpc.mountd shutdown succeeded
+Nov  9 09:05:39 wangk kernel: nfsd: last server has exited
+Nov  9 09:05:39 wangk kernel: nfsd: unexporting all filesystems
+Nov  9 09:05:39 wangk nfs: nfsd shutdown succeeded
+Nov  9 09:05:39 wangk nfs: rpc.rquotad shutdown succeeded
+Nov  9 09:05:39 wangk nfs: Shutting down NFS services:  succeeded
+Nov  9 09:05:39 wangk exportfs[2489]: No host name given with / (rw), suggest *(rw) to avoid warning 
+Nov  9 09:05:39 wangk exportfs[2489]: No 'sync' or 'async' option specified for export ":/".   Assuming default behaviour ('sync').   NOTE: this default has changed from previous versions 
+Nov  9 09:05:39 wangk exportfs: exportfs: No host name given with / (rw), suggest *(rw) to avoid warning
+Nov  9 09:05:39 wangk exportfs: exportfs: No 'sync' or 'async' option specified for export ":/".
+Nov  9 09:05:39 wangk exportfs:   Assuming default behaviour ('sync').
+Nov  9 09:05:39 wangk exportfs:   NOTE: this default has changed from previous versions
+Nov  9 09:05:46 wangk nfs: Starting NFS services:  succeeded
+Nov  9 09:05:46 wangk nfs: rpc.rquotad startup succeeded
+Nov  9 09:05:46 wangk nfs: rpc.nfsd startup succeeded
+Nov  9 09:05:46 wangk rpc.mountd: No host name given with / (rw,sync,wdelay,hide,secure,root_squash,no_all_squash,subtree_check,secure_locks,mapping=identity,anonuid=-2,anongid=-2), suggest *(rw,sync,wdelay,hide,secure,root_squash,no_all_squash,subtree_check,secure_locks,mapping=identity,anonuid=-2,anongid=-2) to avoid warning 
+Nov  9 09:05:46 wangk nfs: rpc.mountd startup succeeded
+Nov  9 09:05:46 wangk kernel: bdm_init_module 2.10, May 31 2004, 17:17:00
+Nov  9 10:14:49 wangk login(pam_unix)[2524]: session opened for user root by LOGIN(uid=0)
+Nov  9 10:14:50 wangk  -- root[2524]: ROOT LOGIN ON tty1
+Nov  9 10:15:14 wangk login(pam_unix)[2525]: session opened for user root by LOGIN(uid=0)
+Nov  9 10:15:14 wangk  -- root[2525]: ROOT LOGIN ON tty2
+Nov  9 10:15:25 wangk login(pam_unix)[2526]: session opened for user root by LOGIN(uid=0)
+Nov  9 10:15:25 wangk  -- root[2526]: ROOT LOGIN ON tty3
+Nov  9 10:44:06 wangk su(pam_unix)[3213]: session opened for user news by (uid=0)
+Nov  9 10:44:07 wangk su(pam_unix)[3213]: session closed for user news
+Nov  9 13:30:35 wangk login(pam_unix)[2525]: session closed for user root
+Nov  9 13:30:36 wangk login(pam_unix)[3494]: session opened for user root by LOGIN(uid=0)
+Nov  9 13:30:36 wangk  -- root[3494]: ROOT LOGIN ON tty2
+Nov  9 15:05:44 wangk vsftpd: warning: can't get client address: Bad file descriptor
+Nov  9 15:58:48 wangk vsftpd: warning: can't get client address: Bad file descriptor
+Nov  9 16:10:17 wangk vsftpd: warning: can't get client address: Bad file descriptor
+Nov  9 17:22:18 wangk login(pam_unix)[2527]: session opened for user root by LOGIN(uid=0)
+Nov  9 17:22:19 wangk  -- root[2527]: ROOT LOGIN ON tty4
+Nov  9 17:23:18 wangk kernel: eth0: Too much work at interrupt, IntrStatus=0x0001.
+Nov  9 17:28:50 wangk login(pam_unix)[2529]: session opened for user root by LOGIN(uid=0)
+Nov  9 17:28:51 wangk  -- root[2529]: ROOT LOGIN ON tty6
+Nov  9 17:31:25 wangk /sbin/mingetty[2528]: tty5: invalid character in login name
+Nov  9 17:31:27 wangk login(pam_unix)[8733]: session opened for user root by LOGIN(uid=0)
+Nov  9 17:31:27 wangk  -- root[8733]: ROOT LOGIN ON tty5
+Nov  9 17:54:23 wangk vsftpd: warning: can't get client address: Bad file descriptor
+Nov  9 17:55:44 wangk vsftpd: warning: can't get client address: Bad file descriptor
+Nov  9 18:04:39 wangk rpc.mountd: authenticated mount request from 192.168.2.120:692 for / (/) 
+Nov  9 19:30:31 wangk vsftpd: warning: can't get client address: Bad file descriptor
+Nov  9 19:30:31 wangk vsftpd(pam_unix)[9215]: authentication failure; logname= uid=0 euid=0 tty= ruser= rhost=192.168.2.240  user=hhcn
+Nov  9 19:30:36 wangk vsftpd: warning: can't get client address: Bad file descriptor
+Nov  9 19:38:26 wangk rpc.mountd: Caught signal 15, un-registering and exiting. 
+Nov  9 19:38:26 wangk 11ÔÂ  9 19:38:26 nfs: rpc.mountd å\205³é\227­ succeeded
+Nov  9 19:38:30 wangk kernel: nfsd: last server has exited
+Nov  9 19:38:30 wangk kernel: nfsd: unexporting all filesystems
+Nov  9 19:38:30 wangk 11ÔÂ  9 19:38:30 nfs: nfsd å\205³é\227­ succeeded
+Nov  9 19:38:30 wangk 11ÔÂ  9 19:38:30 nfs: rpc.rquotad å\205³é\227­ succeeded
+Nov  9 19:38:30 wangk 11ÔÂ  9 19:38:30 nfs: å\205³é\227­ NFS æ\234\215å\212¡ï¼\232 succeeded
+Nov  9 19:38:30 wangk exportfs[9270]: No host name given with / (rw), suggest *(rw) to avoid warning 
+Nov  9 19:38:30 wangk 11ÔÂ  9 19:38:30 exportfs: exportfs: No host name given with / (rw), suggest *(rw) to avoid warning
+Nov  9 19:38:30 wangk exportfs[9270]: No 'sync' or 'async' option specified for export ":/".   Assuming default behaviour ('sync').   NOTE: this default has changed from previous versions 
+Nov  9 19:38:30 wangk 11ÔÂ  9 19:38:30 exportfs: exportfs: No 'sync' or 'async' option specified for export ":/".
+Nov  9 19:38:30 wangk 11ÔÂ  9 19:38:30 exportfs:   Assuming default behaviour ('sync').
+Nov  9 19:38:30 wangk 11ÔÂ  9 19:38:30 exportfs:   NOTE: this default has changed from previous versions
+Nov  9 19:38:30 wangk 11ÔÂ  9 19:38:30 nfs: å\220¯å\212¨ NFS æ\234\215å\212¡ï¼\232 succeeded
+Nov  9 19:38:30 wangk 11ÔÂ  9 19:38:30 nfs: rpc.rquotad å\220¯å\212¨ succeeded
+Nov  9 19:38:30 wangk 11ÔÂ  9 19:38:30 nfs: rpc.nfsd å\220¯å\212¨ succeeded
+Nov  9 19:38:30 wangk rpc.mountd: No host name given with / (rw,sync,wdelay,hide,secure,root_squash,no_all_squash,subtree_check,secure_locks,mapping=identity,anonuid=-2,anongid=-2), suggest *(rw,sync,wdelay,hide,secure,root_squash,no_all_squash,subtree_check,secure_locks,mapping=identity,anonuid=-2,anongid=-2) to avoid warning 
+Nov  9 19:38:31 wangk 11ÔÂ  9 19:38:30 nfs: rpc.mountd å\220¯å\212¨ succeeded
+Nov  9 19:39:00 wangk rpc.mountd: authenticated mount request from 192.168.2.97:993 for / (/) 
+Nov  9 19:39:04 wangk rpc.mountd: authenticated unmount request from 192.168.2.97:995 for / (/) 
+Nov  9 19:40:26 wangk rpc.mountd: authenticated mount request from 192.168.2.97:1003 for / (/) 
+Nov  9 19:40:28 wangk rpc.mountd: authenticated unmount request from 192.168.2.97:1004 for / (/) 
+Nov  9 23:46:32 wangk shutdown: shutting down for system halt
+Nov  9 23:46:32 wangk init: Switching to runlevel: 0
+Nov  9 23:46:33 wangk login(pam_unix)[3494]: session closed for user root
+Nov  9 23:46:33 wangk login(pam_unix)[8733]: session closed for user root
+Nov  9 23:46:33 wangk login(pam_unix)[2529]: session closed for user root
+Nov  9 23:46:33 wangk login(pam_unix)[2526]: session closed for user root
+Nov  9 23:46:33 wangk login(pam_unix)[2524]: session closed for user root
+Nov  9 23:46:33 wangk login(pam_unix)[2527]: session closed for user root
+Nov  9 23:46:34 wangk atd: atd shutdown succeeded
+Nov  9 23:46:34 wangk rc: Stopping keytable:  succeeded
+Nov  9 23:46:36 wangk cups: cupsd shutdown succeeded
+Nov  9 23:46:36 wangk xfs[2428]: terminating 
+Nov  9 23:46:37 wangk xfs: xfs shutdown succeeded
+Nov  9 23:46:37 wangk cannaserver[2284]: irw_killserver:cannaserver end 
+Nov  9 23:46:37 wangk cannaserver[2284]: remove [/tmp/.iroha_unix/IROHA] 
+Nov  9 23:46:37 wangk canna: Stopping Canna server: succeeded
+Nov  9 23:46:37 wangk FreeWnn: jserver shutdown succeeded
+Nov  9 23:46:38 wangk gpm: gpm shutdown succeeded
+Nov  9 23:46:38 wangk rpc.mountd: Caught signal 15, un-registering and exiting. 
+Nov  9 23:46:38 wangk nfs: rpc.mountd shutdown succeeded
+Nov  9 23:46:42 wangk kernel: nfsd: last server has exited
+Nov  9 23:46:42 wangk kernel: nfsd: unexporting all filesystems
+Nov  9 23:46:42 wangk nfs: nfsd shutdown succeeded
+Nov  9 23:46:42 wangk nfs: rpc.rquotad shutdown succeeded
+Nov  9 23:46:42 wangk nfs: Shutting down NFS services:  succeeded
+Nov  9 23:46:42 wangk sshd: sshd -TERM succeeded
+Nov  9 23:46:43 wangk vsftpd: vsftpd shutdown succeeded
+Nov  9 23:46:43 wangk xinetd[2181]: Exiting...
+Nov  9 23:46:43 wangk xinetd: xinetd shutdown succeeded
+Nov  9 23:46:43 wangk crond: crond shutdown succeeded
+Nov  9 23:46:43 wangk apmd[2129]: Exiting
+Nov  9 23:46:47 wangk apmd: apmd shutdown succeeded
+Nov  9 23:46:48 wangk dd: 1+0 records in
+Nov  9 23:46:48 wangk dd: 1+0 records out
+Nov  9 23:46:48 wangk random: Saving random seed:  succeeded
+Nov  9 23:46:48 wangk portmap: portmap shutdown succeeded
+Nov  9 23:46:48 wangk kernel: Kernel logging (proc) stopped.
+Nov  9 23:46:48 wangk kernel: Kernel log daemon terminating.
+Nov  9 23:46:49 wangk syslog: klogd shutdown succeeded
+Nov  9 23:46:49 wangk exiting on signal 15
+Nov 10 09:04:35 wangk syslogd 1.4.1: restart.
+Nov 10 09:04:35 wangk syslog: syslogd startup succeeded
+Nov 10 09:04:35 wangk kernel: klogd 1.4.1, log source = /proc/kmsg started.
+Nov 10 09:04:35 wangk kernel: Linux version 2.4.20-8 (bhcompile@stripples.devel.redhat.com) (gcc version 3.2.2 20030222 (Red Hat Linux 3.2.2-5)) #1 Thu Mar 13 17:18:24 EST 2003
+Nov 10 09:04:35 wangk kernel: BIOS-provided physical RAM map:
+Nov 10 09:04:35 wangk kernel:  BIOS-e820: 0000000000000000 - 000000000009fc00 (usable)
+Nov 10 09:04:35 wangk kernel:  BIOS-e820: 000000000009fc00 - 00000000000a0000 (reserved)
+Nov 10 09:04:35 wangk kernel:  BIOS-e820: 00000000000f0000 - 0000000000100000 (reserved)
+Nov 10 09:04:35 wangk kernel:  BIOS-e820: 0000000000100000 - 0000000007fec000 (usable)
+Nov 10 09:04:35 wangk kernel:  BIOS-e820: 0000000007fec000 - 0000000007fef000 (ACPI data)
+Nov 10 09:04:35 wangk kernel:  BIOS-e820: 0000000007fef000 - 0000000007fff000 (reserved)
+Nov 10 09:04:35 wangk kernel:  BIOS-e820: 0000000007fff000 - 0000000008000000 (ACPI NVS)
+Nov 10 09:04:35 wangk kernel:  BIOS-e820: 00000000ffff0000 - 0000000100000000 (reserved)
+Nov 10 09:04:35 wangk kernel: 0MB HIGHMEM available.
+Nov 10 09:04:35 wangk syslog: klogd startup succeeded
+Nov 10 09:04:35 wangk kernel: 127MB LOWMEM available.
+Nov 10 09:04:35 wangk kernel: On node 0 totalpages: 32748
+Nov 10 09:04:35 wangk kernel: zone(0): 4096 pages.
+Nov 10 09:04:35 wangk kernel: zone(1): 28652 pages.
+Nov 10 09:04:35 wangk kernel: zone(2): 0 pages.
+Nov 10 09:04:35 wangk kernel: Kernel command line: ro root=LABEL=/
+Nov 10 09:04:35 wangk irqbalance: irqbalance startup succeeded
+Nov 10 09:04:35 wangk kernel: Initializing CPU#0
+Nov 10 09:04:35 wangk kernel: Detected 1150.070 MHz processor.
+Nov 10 09:04:35 wangk kernel: Console: colour VGA+ 80x25
+Nov 10 09:04:35 wangk kernel: Calibrating delay loop... 2293.76 BogoMIPS
+Nov 10 09:04:35 wangk kernel: Memory: 124728k/130992k available (1312k kernel code, 4856k reserved, 996k data, 128k init, 0k highmem)
+Nov 10 09:04:35 wangk portmap: portmap startup succeeded
+Nov 10 09:04:35 wangk kernel: Dentry cache hash table entries: 16384 (order: 5, 131072 bytes)
+Nov 10 09:04:35 wangk keytable: Loading keymap: 
+Nov 10 09:04:35 wangk kernel: Inode cache hash table entries: 8192 (order: 4, 65536 bytes)
+Nov 10 09:04:35 wangk keytable: 
+Nov 10 09:04:35 wangk kernel: Mount cache hash table entries: 512 (order: 0, 4096 bytes)
+Nov 10 09:04:35 wangk keytable: Loading system font: 
+Nov 10 09:04:35 wangk kernel: Buffer-cache hash table entries: 4096 (order: 2, 16384 bytes)
+Nov 10 09:04:35 wangk kernel: Page-cache hash table entries: 32768 (order: 5, 131072 bytes)
+Nov 10 09:04:35 wangk kernel: CPU: CLK_CTL MSR was 6003d22f. Reprogramming to 2003d22f
+Nov 10 09:04:35 wangk kernel: CPU: L1 I Cache: 64K (64 bytes/line), D cache 64K (64 bytes/line)
+Nov 10 09:04:35 wangk kernel: CPU: L2 Cache: 256K (64 bytes/line)
+Nov 10 09:04:35 wangk kernel: Intel machine check architecture supported.
+Nov 10 09:04:35 wangk kernel: Intel machine check reporting enabled on CPU#0.
+Nov 10 09:04:35 wangk kernel: CPU: AMD Athlon(TM) XP1800+ stepping 01
+Nov 10 09:04:35 wangk kernel: Enabling fast FPU save and restore... done.
+Nov 10 09:04:35 wangk kernel: Enabling unmasked SIMD FPU exception support... done.
+Nov 10 09:04:35 wangk kernel: Checking 'hlt' instruction... OK.
+Nov 10 09:04:35 wangk kernel: POSIX conformance testing by UNIFIX
+Nov 10 09:04:35 wangk kernel: mtrr: v1.40 (20010327) Richard Gooch (rgooch@atnf.csiro.au)
+Nov 10 09:04:35 wangk kernel: mtrr: detected mtrr type: Intel
+Nov 10 09:04:35 wangk kernel: PCI: PCI BIOS revision 2.10 entry at 0xf0f00, last bus=1
+Nov 10 09:04:35 wangk kernel: PCI: Using configuration type 1
+Nov 10 09:04:35 wangk kernel: PCI: Probing PCI hardware
+Nov 10 09:04:35 wangk kernel: PCI: Using IRQ router VIA [1106/3147] at 00:11.0
+Nov 10 09:04:35 wangk kernel: PCI: Found IRQ 11 for device 00:11.1
+Nov 10 09:04:35 wangk kernel: PCI: Sharing IRQ 11 with 00:0d.0
+Nov 10 09:04:35 wangk kernel: PCI: Sharing IRQ 11 with 01:00.0
+Nov 10 09:04:35 wangk keytable: 
+Nov 10 09:04:35 wangk kernel: isapnp: Scanning for PnP cards...
+Nov 10 09:04:35 wangk rc: Starting keytable:  succeeded
+Nov 10 09:04:35 wangk kernel: isapnp: No Plug & Play device found
+Nov 10 09:04:35 wangk kernel: Linux NET4.0 for Linux 2.4
+Nov 10 09:04:35 wangk kernel: Based upon Swansea University Computer Society NET3.039
+Nov 10 09:04:35 wangk kernel: Initializing RT netlink socket
+Nov 10 09:04:35 wangk kernel: apm: BIOS version 1.2 Flags 0x03 (Driver version 1.16)
+Nov 10 09:04:35 wangk kernel: Starting kswapd
+Nov 10 09:04:35 wangk kernel: VFS: Disk quotas vdquot_6.5.1
+Nov 10 09:04:35 wangk kernel: pty: 2048 Unix98 ptys configured
+Nov 10 09:04:35 wangk kernel: Serial driver version 5.05c (2001-07-08) with MANY_PORTS MULTIPORT SHARE_IRQ SERIAL_PCI ISAPNP enabled
+Nov 10 09:04:35 wangk kernel: ttyS0 at 0x03f8 (irq = 4) is a 16550A
+Nov 10 09:04:35 wangk kernel: ttyS1 at 0x02f8 (irq = 3) is a 16550A
+Nov 10 09:04:35 wangk kernel: Real Time Clock Driver v1.10e
+Nov 10 09:04:35 wangk kernel: floppy0: no floppy controllers found
+Nov 10 09:04:35 wangk kernel: NET4: Frame Diverter 0.46
+Nov 10 09:04:35 wangk kernel: RAMDISK driver initialized: 16 RAM disks of 4096K size 1024 blocksize
+Nov 10 09:04:35 wangk kernel: Uniform Multi-Platform E-IDE driver Revision: 7.00beta-2.4
+Nov 10 09:04:35 wangk random: Initializing random number generator:  succeeded
+Nov 10 09:04:35 wangk kernel: ide: Assuming 33MHz system bus speed for PIO modes; override with idebus=xx
+Nov 10 09:04:35 wangk kernel: VP_IDE: IDE controller at PCI slot 00:11.1
+Nov 10 09:04:35 wangk kernel: PCI: Found IRQ 11 for device 00:11.1
+Nov 10 09:04:35 wangk kernel: PCI: Sharing IRQ 11 with 00:0d.0
+Nov 10 09:04:35 wangk kernel: PCI: Sharing IRQ 11 with 01:00.0
+Nov 10 09:04:35 wangk kernel: VP_IDE: chipset revision 6
+Nov 10 09:04:35 wangk kernel: VP_IDE: not 100%% native mode: will probe irqs later
+Nov 10 09:04:35 wangk kernel: ide: Assuming 33MHz system bus speed for PIO modes; override with idebus=xx
+Nov 10 09:04:35 wangk kernel: VP_IDE: VIA vt8233a (rev 00) IDE UDMA133 controller on pci00:11.1
+Nov 10 09:04:35 wangk kernel:     ide0: BM-DMA at 0xd000-0xd007, BIOS settings: hda:DMA, hdb:pio
+Nov 10 09:04:35 wangk kernel:     ide1: BM-DMA at 0xd008-0xd00f, BIOS settings: hdc:pio, hdd:pio
+Nov 10 09:04:35 wangk kernel: hda: Maxtor 6Y120L0, ATA DISK drive
+Nov 10 09:04:35 wangk kernel: blk: queue c03be900, I/O limit 4095Mb (mask 0xffffffff)
+Nov 10 09:04:35 wangk rc: Starting pcmcia:  succeeded
+Nov 10 09:04:35 wangk kernel: ide0 at 0x1f0-0x1f7,0x3f6 on irq 14
+Nov 10 09:04:35 wangk kernel: hda: host protected area => 1
+Nov 10 09:04:35 wangk kernel: hda: 240121728 sectors (122942 MB) w/2048KiB Cache, CHS=14946/255/63, UDMA(133)
+Nov 10 09:04:35 wangk kernel: ide-floppy driver 0.99.newide
+Nov 10 09:04:35 wangk kernel: Partition check:
+Nov 10 09:04:35 wangk kernel:  hda: hda1 hda2
+Nov 10 09:04:35 wangk kernel: ide-floppy driver 0.99.newide
+Nov 10 09:04:35 wangk kernel: md: md driver 0.90.0 MAX_MD_DEVS=256, MD_SB_DISKS=27
+Nov 10 09:04:35 wangk kernel: md: Autodetecting RAID arrays.
+Nov 10 09:04:35 wangk kernel: md: autorun ...
+Nov 10 09:04:35 wangk kernel: md: ... autorun DONE.
+Nov 10 09:04:35 wangk kernel: NET4: Linux TCP/IP 1.0 for NET4.0
+Nov 10 09:04:35 wangk kernel: IP Protocols: ICMP, UDP, TCP, IGMP
+Nov 10 09:04:35 wangk kernel: IP: routing cache hash table of 512 buckets, 4Kbytes
+Nov 10 09:04:35 wangk kernel: TCP: Hash tables configured (established 8192 bind 16384)
+Nov 10 09:04:35 wangk kernel: Linux IP multicast router 0.06 plus PIM-SM
+Nov 10 09:04:35 wangk kernel: NET4: Unix domain sockets 1.0/SMP for Linux NET4.0.
+Nov 10 09:04:35 wangk kernel: RAMDISK: Compressed image found at block 0
+Nov 10 09:04:35 wangk netfs: Mounting other filesystems:  succeeded
+Nov 10 09:04:35 wangk kernel: Freeing initrd memory: 143k freed
+Nov 10 09:04:35 wangk kernel: VFS: Mounted root (ext2 filesystem).
+Nov 10 09:04:35 wangk kernel: Journalled Block Device driver loaded
+Nov 10 09:04:35 wangk kernel: kjournald starting.  Commit interval 5 seconds
+Nov 10 09:04:35 wangk apmd[2129]: Version 3.0.2 (APM BIOS 1.2, Linux driver 1.16)
+Nov 10 09:04:35 wangk kernel: EXT3-fs: mounted filesystem with ordered data mode.
+Nov 10 09:04:35 wangk apmd: apmd startup succeeded
+Nov 10 09:04:35 wangk kernel: Freeing unused kernel memory: 128k freed
+Nov 10 09:04:36 wangk kernel: usb.c: registered new driver usbdevfs
+Nov 10 09:04:36 wangk kernel: usb.c: registered new driver hub
+Nov 10 09:04:36 wangk kernel: usb-uhci.c: $Revision: 1.275 $ time 17:26:20 Mar 13 2003
+Nov 10 09:04:36 wangk kernel: usb-uhci.c: High bandwidth mode enabled
+Nov 10 09:04:36 wangk kernel: PCI: Found IRQ 5 for device 00:11.2
+Nov 10 09:04:36 wangk kernel: PCI: Sharing IRQ 5 with 00:11.3
+Nov 10 09:04:36 wangk autofs: automount startup succeeded
+Nov 10 09:04:36 wangk kernel: usb-uhci.c: USB UHCI at I/O 0xb800, IRQ 5
+Nov 10 09:04:36 wangk kernel: usb-uhci.c: Detected 2 ports
+Nov 10 09:04:36 wangk kernel: usb.c: new USB bus registered, assigned bus number 1
+Nov 10 09:04:36 wangk kernel: hub.c: USB hub found
+Nov 10 09:04:36 wangk kernel: hub.c: 2 ports detected
+Nov 10 09:04:36 wangk kernel: PCI: Found IRQ 5 for device 00:11.3
+Nov 10 09:04:36 wangk kernel: PCI: Sharing IRQ 5 with 00:11.2
+Nov 10 09:04:36 wangk kernel: usb-uhci.c: USB UHCI at I/O 0xb400, IRQ 5
+Nov 10 09:04:36 wangk kernel: usb-uhci.c: Detected 2 ports
+Nov 10 09:04:36 wangk kernel: usb.c: new USB bus registered, assigned bus number 2
+Nov 10 09:04:36 wangk kernel: hub.c: USB hub found
+Nov 10 09:04:36 wangk kernel: hub.c: 2 ports detected
+Nov 10 09:04:36 wangk kernel: usb-uhci.c: v1.275:USB Universal Host Controller Interface driver
+Nov 10 09:04:36 wangk kernel: usb.c: registered new driver hiddev
+Nov 10 09:04:36 wangk kernel: usb.c: registered new driver hid
+Nov 10 09:04:36 wangk kernel: hid-core.c: v1.8.1 Andreas Gal, Vojtech Pavlik <vojtech@suse.cz>
+Nov 10 09:04:36 wangk kernel: hid-core.c: USB HID support drivers
+Nov 10 09:04:36 wangk kernel: mice: PS/2 mouse device common for all mice
+Nov 10 09:04:36 wangk kernel: EXT3 FS 2.4-0.9.19, 19 August 2002 on ide0(3,1), internal journal
+Nov 10 09:04:36 wangk kernel: Adding Swap: 257032k swap-space (priority -1)
+Nov 10 09:04:36 wangk kernel: parport0: PC-style at 0x378 (0x778) [PCSPP,TRISTATE,EPP]
+Nov 10 09:04:36 wangk kernel: parport0: irq 7 detected
+Nov 10 09:04:36 wangk kernel: ip_tables: (C) 2000-2002 Netfilter core team
+Nov 10 09:04:36 wangk kernel: 8139too Fast Ethernet driver 0.9.26
+Nov 10 09:04:36 wangk kernel: PCI: Found IRQ 11 for device 00:0d.0
+Nov 10 09:04:36 wangk kernel: PCI: Sharing IRQ 11 with 00:11.1
+Nov 10 09:04:36 wangk kernel: PCI: Sharing IRQ 11 with 01:00.0
+Nov 10 09:04:36 wangk kernel: eth0: RealTek RTL8139 Fast Ethernet at 0xc8882000, 00:e0:4c:5b:13:80, IRQ 11
+Nov 10 09:04:36 wangk sshd:  succeeded
+Nov 10 09:04:36 wangk kernel: ip_tables: (C) 2000-2002 Netfilter core team
+Nov 10 09:04:36 wangk kernel: eth0: Setting 100mbps full-duplex based on auto-negotiated partner ability 45e1.
+Nov 10 09:04:32 wangk network: Setting network parameters:  succeeded 
+Nov 10 09:04:32 wangk network: Bringing up loopback interface:  succeeded 
+Nov 10 09:04:37 wangk apmd[2129]: Charge: * * * (-1% unknown)
+Nov 10 09:04:38 wangk xinetd[2181]: xinetd Version 2.3.10 started with libwrap options compiled in.
+Nov 10 09:04:38 wangk xinetd[2181]: Started working: 3 available services
+Nov 10 09:04:40 wangk xinetd: xinetd startup succeeded
+Nov 10 09:04:40 wangk exportfs[2197]: No host name given with / (rw), suggest *(rw) to avoid warning 
+Nov 10 09:04:40 wangk exportfs[2197]: No 'sync' or 'async' option specified for export ":/".   Assuming default behaviour ('sync').   NOTE: this default has changed from previous versions 
+Nov 10 09:04:40 wangk exportfs: exportfs: No host name given with / (rw), suggest *(rw) to avoid warning
+Nov 10 09:04:40 wangk exportfs: exportfs: No 'sync' or 'async' option specified for export ":/".
+Nov 10 09:04:40 wangk exportfs:   Assuming default behaviour ('sync').
+Nov 10 09:04:40 wangk exportfs:   NOTE: this default has changed from previous versions
+Nov 10 09:04:45 wangk kernel: Installing knfsd (copyright (C) 1996 okir@monad.swb.de).
+Nov 10 09:04:45 wangk nfs: Starting NFS services:  succeeded
+Nov 10 09:04:45 wangk nfs: rpc.rquotad startup succeeded
+Nov 10 09:04:45 wangk nfs: rpc.nfsd startup succeeded
+Nov 10 09:04:45 wangk rpc.mountd: No host name given with / (rw,sync,wdelay,hide,secure,root_squash,no_all_squash,subtree_check,secure_locks,mapping=identity,anonuid=-2,anongid=-2), suggest *(rw,sync,wdelay,hide,secure,root_squash,no_all_squash,subtree_check,secure_locks,mapping=identity,anonuid=-2,anongid=-2) to avoid warning 
+Nov 10 09:04:45 wangk nfs: rpc.mountd startup succeeded
+Nov 10 09:04:45 wangk vsftpd: true startup succeeded
+Nov 10 09:04:46 wangk sendmail: 
+Nov 10 09:04:46 wangk sendmail: 
+Nov 10 09:04:46 wangk sendmail: sendmail startup failed
+Nov 10 09:04:46 wangk sendmail: /etc/mail/submit.cf: line 525: fileclass: cannot open '/etc/mail/trusted-users': World writable directory
+Nov 10 09:04:46 wangk sendmail: sm-client startup failed
+Nov 10 09:04:49 wangk spamassassin: spamd startup succeeded
+Nov 10 09:04:49 wangk gpm: gpm startup succeeded
+Nov 10 09:04:50 wangk canna:  succeeded
+Nov 10 09:04:51 wangk crond: crond startup succeeded
+Nov 10 09:04:53 wangk kernel: parport0: PC-style at 0x378 (0x778) [PCSPP,TRISTATE,EPP]
+Nov 10 09:04:53 wangk kernel: parport0: irq 7 detected
+Nov 10 09:04:53 wangk kernel: lp0: using parport0 (polling).
+Nov 10 09:04:53 wangk kernel: lp0: console ready
+Nov 10 09:04:54 wangk modprobe: modprobe: Can't locate module char-major-188
+Nov 10 09:04:54 wangk last message repeated 15 times
+Nov 10 09:04:54 wangk cups: cupsd startup succeeded
+Nov 10 09:04:56 wangk xfs: xfs startup succeeded
+Nov 10 09:04:56 wangk anacron: anacron startup succeeded
+Nov 10 09:04:56 wangk atd: atd startup succeeded
+Nov 10 09:04:56 wangk rpc.mountd: Caught signal 15, un-registering and exiting. 
+Nov 10 09:04:57 wangk nfs: rpc.mountd shutdown succeeded
+Nov 10 09:05:01 wangk kernel: nfsd: last server has exited
+Nov 10 09:05:01 wangk kernel: nfsd: unexporting all filesystems
+Nov 10 09:05:01 wangk nfs: nfsd shutdown succeeded
+Nov 10 09:05:01 wangk nfs: rpc.rquotad shutdown succeeded
+Nov 10 09:05:01 wangk nfs: Shutting down NFS services:  succeeded
+Nov 10 09:05:01 wangk exportfs[2493]: No host name given with / (rw), suggest *(rw) to avoid warning 
+Nov 10 09:05:01 wangk exportfs[2493]: No 'sync' or 'async' option specified for export ":/".   Assuming default behaviour ('sync').   NOTE: this default has changed from previous versions 
+Nov 10 09:05:01 wangk exportfs: exportfs: No host name given with / (rw), suggest *(rw) to avoid warning
+Nov 10 09:05:01 wangk exportfs: exportfs: No 'sync' or 'async' option specified for export ":/".
+Nov 10 09:05:01 wangk exportfs:   Assuming default behaviour ('sync').
+Nov 10 09:05:01 wangk exportfs:   NOTE: this default has changed from previous versions
+Nov 10 09:05:03 wangk nfs: Starting NFS services:  succeeded
+Nov 10 09:05:03 wangk nfs: rpc.rquotad startup succeeded
+Nov 10 09:05:03 wangk nfs: rpc.nfsd startup succeeded
+Nov 10 09:05:03 wangk rpc.mountd: No host name given with / (rw,sync,wdelay,hide,secure,root_squash,no_all_squash,subtree_check,secure_locks,mapping=identity,anonuid=-2,anongid=-2), suggest *(rw,sync,wdelay,hide,secure,root_squash,no_all_squash,subtree_check,secure_locks,mapping=identity,anonuid=-2,anongid=-2) to avoid warning 
+Nov 10 09:05:03 wangk nfs: rpc.mountd startup succeeded
+Nov 10 09:05:03 wangk kernel: bdm_init_module 2.10, May 31 2004, 17:17:00
+Nov 10 09:05:07 wangk login(pam_unix)[2528]: session opened for user root by LOGIN(uid=0)
+Nov 10 09:05:07 wangk  -- root[2528]: ROOT LOGIN ON tty1
+Nov 10 09:05:12 wangk login(pam_unix)[2529]: session opened for user root by LOGIN(uid=0)
+Nov 10 09:05:12 wangk  -- root[2529]: ROOT LOGIN ON tty2
+Nov 10 09:05:18 wangk login(pam_unix)[2530]: session opened for user root by LOGIN(uid=0)
+Nov 10 09:05:18 wangk  -- root[2530]: ROOT LOGIN ON tty3
+Nov 10 10:43:42 wangk su(pam_unix)[3238]: session opened for user news by (uid=0)
+Nov 10 10:43:42 wangk su(pam_unix)[3238]: session closed for user news
+Nov 10 10:52:52 wangk rpc.mountd: authenticated mount request from 192.168.2.120:669 for / (/) 
+Nov 10 10:52:52 wangk rpc.mountd: authenticated mount request from 192.168.2.120:669 for / (/) 
+Nov 10 11:03:50 wangk modprobe: modprobe: Can't locate module fb0
+Nov 10 11:03:50 wangk modprobe: modprobe: Can't locate module fb1
+Nov 10 11:03:50 wangk modprobe: modprobe: Can't locate module fb2
+Nov 10 11:03:50 wangk modprobe: modprobe: Can't locate module fb3
+Nov 10 11:03:50 wangk modprobe: modprobe: Can't locate module fb4
+Nov 10 11:03:50 wangk modprobe: modprobe: Can't locate module fb5
+Nov 10 11:03:50 wangk modprobe: modprobe: Can't locate module fb6
+Nov 10 11:03:50 wangk modprobe: modprobe: Can't locate module fb7
+Nov 10 11:03:50 wangk modprobe: modprobe: Can't locate module fb8
+Nov 10 11:03:50 wangk modprobe: modprobe: Can't locate module fb9
+Nov 10 11:03:50 wangk modprobe: modprobe: Can't locate module fb10
+Nov 10 11:03:50 wangk modprobe: modprobe: Can't locate module fb11
+Nov 10 11:03:50 wangk modprobe: modprobe: Can't locate module fb12
+Nov 10 11:03:50 wangk modprobe: modprobe: Can't locate module fb13
+Nov 10 11:03:50 wangk modprobe: modprobe: Can't locate module fb14
+Nov 10 11:03:50 wangk modprobe: modprobe: Can't locate module fb15
+Nov 10 11:03:50 wangk modprobe: modprobe: Can't locate module fb16
+Nov 10 11:03:50 wangk modprobe: modprobe: Can't locate module fb17
+Nov 10 11:03:50 wangk modprobe: modprobe: Can't locate module fb18
+Nov 10 11:03:50 wangk modprobe: modprobe: Can't locate module fb19
+Nov 10 11:03:50 wangk modprobe: modprobe: Can't locate module fb20
+Nov 10 11:03:50 wangk modprobe: modprobe: Can't locate module fb21
+Nov 10 11:03:50 wangk modprobe: modprobe: Can't locate module fb22
+Nov 10 11:03:50 wangk modprobe: modprobe: Can't locate module fb23
+Nov 10 11:03:50 wangk modprobe: modprobe: Can't locate module fb24
+Nov 10 11:03:50 wangk modprobe: modprobe: Can't locate module fb25
+Nov 10 11:03:50 wangk modprobe: modprobe: Can't locate module fb26
+Nov 10 11:03:50 wangk modprobe: modprobe: Can't locate module fb27
+Nov 10 11:03:50 wangk modprobe: modprobe: Can't locate module fb28
+Nov 10 11:03:50 wangk modprobe: modprobe: Can't locate module fb29
+Nov 10 11:03:50 wangk modprobe: modprobe: Can't locate module fb30
+Nov 10 11:03:50 wangk modprobe: modprobe: Can't locate module fb31
+Nov 10 11:03:51 wangk 11ÔÂ 10 11:03:50 zhcon: gpm server version too old to obtain status info
+Nov 10 11:29:08 wangk login(pam_unix)[2533]: session opened for user root by LOGIN(uid=0)
+Nov 10 11:29:08 wangk  -- root[2533]: ROOT LOGIN ON tty6
+Nov 10 11:29:44 wangk insmod: insmod: a module named soundcore already exists
+Nov 10 11:29:44 wangk insmod: insmod: insmod char-major-14 failed
+Nov 10 11:29:44 wangk insmod: insmod: a module named cmpci already exists
+Nov 10 11:29:44 wangk insmod: insmod: insmod sound-slot-0 failed
+Nov 10 11:29:44 wangk modprobe: modprobe: Can't locate module sound-service-0-0
+Nov 10 11:29:44 wangk modprobe: modprobe: Can't locate module sound-slot-1
+Nov 10 11:29:44 wangk modprobe: modprobe: Can't locate module sound-service-1-0
+Nov 10 11:29:44 wangk modprobe: modprobe: Can't locate module sound-service-0-3
+Nov 10 11:29:44 wangk modprobe: modprobe: Can't locate module sound-slot-1
+Nov 10 11:29:44 wangk kernel: cmpci: version $Revision: 5.64 $ time 17:27:38 Mar 13 2003
+Nov 10 11:29:44 wangk kernel: PCI: Found IRQ 10 for device 00:05.0
+Nov 10 11:29:44 wangk kernel: cmpci: found CM8738 adapter at io 0xd800 irq 10
+Nov 10 11:29:44 wangk kernel: cmpci: chip version = 055
+Nov 10 11:29:44 wangk modprobe: modprobe: Can't locate module sound-service-1-0
+Nov 10 11:29:44 wangk kernel: cmpci: Enable SPDIF loop
+Nov 10 11:29:54 wangk pam_timestamp_check: pam_timestamp: `/' permissions are lax
+Nov 10 11:30:29 wangk last message repeated 7 times
+Nov 10 11:31:34 wangk last message repeated 13 times
+Nov 10 11:32:39 wangk last message repeated 13 times
+Nov 10 11:33:44 wangk last message repeated 13 times
+Nov 10 11:34:49 wangk last message repeated 13 times
+Nov 10 11:35:34 wangk last message repeated 9 times
+Nov 10 11:35:38 wangk login(pam_unix)[6476]: session opened for user hhcn by (uid=0)
+Nov 10 11:35:38 wangk  -- hhcn[6476]: LOGIN ON pts/1 BY hhcn FROM 192.168.2.240
+Nov 10 11:35:39 wangk pam_timestamp_check: pam_timestamp: `/' permissions are lax
+Nov 10 11:35:42 wangk su(pam_unix)[6619]: session opened for user root by hhcn(uid=501)
+Nov 10 11:35:44 wangk pam_timestamp_check: pam_timestamp: `/' permissions are lax
+Nov 10 11:36:19 wangk last message repeated 7 times
+Nov 10 11:37:24 wangk last message repeated 13 times
+Nov 10 11:38:29 wangk last message repeated 13 times
+Nov 10 11:38:49 wangk last message repeated 4 times
+Nov 10 11:38:53 wangk login(pam_unix)[2532]: session opened for user root by LOGIN(uid=0)
+Nov 10 11:38:53 wangk  -- root[2532]: ROOT LOGIN ON tty5
+Nov 10 11:38:54 wangk pam_timestamp_check: pam_timestamp: `/' permissions are lax
+Nov 10 11:39:29 wangk last message repeated 7 times
+Nov 10 11:40:34 wangk last message repeated 13 times
+Nov 10 11:41:39 wangk last message repeated 13 times
+Nov 10 11:42:44 wangk last message repeated 13 times
+Nov 10 11:43:49 wangk last message repeated 13 times
+Nov 10 11:44:54 wangk last message repeated 13 times
+Nov 10 11:45:59 wangk last message repeated 13 times
+Nov 10 11:47:04 wangk last message repeated 13 times
+Nov 10 11:48:09 wangk last message repeated 13 times
+Nov 10 11:49:14 wangk last message repeated 13 times
+Nov 10 11:50:19 wangk last message repeated 13 times
+Nov 10 11:50:39 wangk last message repeated 4 times
+Nov 10 11:50:42 wangk rpc.mountd: authenticated mount request from 192.168.2.120:666 for / (/) 
+Nov 10 11:50:44 wangk pam_timestamp_check: pam_timestamp: `/' permissions are lax
+Nov 10 11:51:19 wangk last message repeated 7 times
+Nov 10 11:52:24 wangk last message repeated 13 times
+Nov 10 11:53:29 wangk last message repeated 13 times
+Nov 10 11:54:34 wangk last message repeated 13 times
+Nov 10 11:55:39 wangk last message repeated 13 times
+Nov 10 11:56:44 wangk last message repeated 13 times
+Nov 10 11:57:49 wangk last message repeated 13 times
+Nov 10 11:57:50 wangk login(pam_unix)[2531]: session opened for user root by LOGIN(uid=0)
+Nov 10 11:57:50 wangk  -- root[2531]: ROOT LOGIN ON tty4
+Nov 10 11:57:54 wangk pam_timestamp_check: pam_timestamp: `/' permissions are lax
+Nov 10 11:58:29 wangk last message repeated 7 times
+Nov 10 11:58:44 wangk last message repeated 3 times
+Nov 10 12:02:08 wangk rpc.mountd: authenticated mount request from 192.168.2.254:653 for / (/) 
+Nov 10 14:53:45 wangk login(pam_unix)[6476]: session closed for user hhcn
+Nov 10 14:53:45 wangk su(pam_unix)[6619]: session closed for user root
+Nov 10 15:18:41 wangk login(pam_unix)[8576]: session opened for user hhcn by (uid=0)
+Nov 10 15:18:41 wangk  -- hhcn[8576]: LOGIN ON pts/0 BY hhcn FROM 192.168.2.240
+Nov 10 15:18:45 wangk su(pam_unix)[8618]: session opened for user root by hhcn(uid=501)
+Nov 10 15:35:05 wangk vsftpd: warning: can't get client address: Bad file descriptor
+Nov 10 15:37:01 wangk vsftpd: warning: can't get client address: Bad file descriptor
+Nov 10 15:40:28 wangk rpc.mountd: authenticated mount request from 192.168.2.120:665 for / (/) 
+Nov 10 15:49:42 wangk login(pam_unix)[8576]: session closed for user hhcn
+Nov 10 15:49:42 wangk su(pam_unix)[8618]: session closed for user root
+Nov 10 15:51:08 wangk login(pam_unix)[8938]: session opened for user hhcn by (uid=0)
+Nov 10 15:51:08 wangk  -- hhcn[8938]: LOGIN ON pts/0 BY hhcn FROM 192.168.2.240
+Nov 10 15:51:09 wangk su(pam_unix)[8979]: session opened for user root by hhcn(uid=501)
+Nov 10 16:07:25 wangk login(pam_unix)[2532]: session closed for user root
+Nov 10 16:07:36 wangk login(pam_unix)[9064]: session opened for user root by LOGIN(uid=0)
+Nov 10 16:07:36 wangk  -- root[9064]: ROOT LOGIN ON tty5
+Nov 10 16:08:22 wangk login(pam_unix)[8938]: session closed for user hhcn
+Nov 10 16:08:22 wangk su(pam_unix)[8979]: session closed for user root
+Nov 10 16:20:39 wangk rpc.mountd: authenticated mount request from 192.168.2.120:682 for / (/) 
+Nov 10 16:23:01 wangk kernel: spurious 8259A interrupt: IRQ7.
+Nov 10 16:40:05 wangk rpc.mountd: authenticated mount request from 192.168.2.120:885 for / (/) 
+Nov 10 16:46:47 wangk rpc.mountd: authenticated mount request from 192.168.2.120:669 for / (/) 
+Nov 10 16:53:49 wangk vsftpd: warning: can't get client address: Bad file descriptor
+Nov 10 17:20:00 wangk login(pam_unix)[11049]: session opened for user wk by (uid=0)
+Nov 10 17:20:00 wangk  -- wk[11049]: LOGIN ON pts/0 BY wk FROM 192.168.2.97
+Nov 10 17:20:05 wangk su(pam_unix)[11097]: session opened for user root by wk(uid=500)
+Nov 10 17:20:09 wangk su(pam_unix)[11097]: session closed for user root
+Nov 10 17:20:10 wangk login(pam_unix)[11049]: session closed for user wk
+Nov 10 18:03:50 wangk login(pam_unix)[2533]: session closed for user root
+Nov 10 18:03:52 wangk login(pam_unix)[9064]: session closed for user root
+Nov 10 18:03:55 wangk login(pam_unix)[2531]: session closed for user root
+Nov 10 18:05:45 wangk login(pam_unix)[11300]: session opened for user root by (uid=0)
+Nov 10 18:05:45 wangk  -- root[11300]: ROOT LOGIN ON tty4
+Nov 10 21:11:53 wangk kernel: loop: loaded (max 8 devices)
+Nov 10 21:11:53 wangk kernel: EXT2-fs warning: mounting unchecked fs, running e2fsck is recommended
+Nov 10 21:23:07 wangk login(pam_unix)[11296]: session opened for user root by (uid=0)
+Nov 10 21:23:07 wangk  -- root[11296]: ROOT LOGIN ON tty6
+Nov 10 21:23:42 wangk modprobe: modprobe: Can't locate module sound-slot-1
+Nov 10 21:23:42 wangk modprobe: modprobe: Can't locate module sound-service-1-0
+Nov 10 21:23:42 wangk modprobe: modprobe: Can't locate module sound-slot-1
+Nov 10 21:23:42 wangk modprobe: modprobe: Can't locate module sound-service-1-0
+Nov 10 21:23:51 wangk pam_timestamp_check: pam_timestamp: `/' permissions are lax
+Nov 10 21:24:26 wangk last message repeated 7 times
+Nov 10 21:25:31 wangk last message repeated 13 times
+Nov 10 21:26:36 wangk last message repeated 13 times
+Nov 10 21:27:41 wangk last message repeated 13 times
+Nov 10 21:28:46 wangk last message repeated 13 times
+Nov 10 21:29:51 wangk last message repeated 13 times
+Nov 10 21:30:56 wangk last message repeated 13 times
+Nov 10 21:32:01 wangk last message repeated 13 times
+Nov 10 21:33:06 wangk last message repeated 13 times
+Nov 10 21:34:11 wangk last message repeated 13 times
+Nov 10 21:35:16 wangk last message repeated 13 times
+Nov 10 21:36:21 wangk last message repeated 13 times
+Nov 10 21:37:26 wangk last message repeated 13 times
+Nov 10 21:37:46 wangk last message repeated 4 times
+Nov 10 21:37:49 wangk rpc.mountd: authenticated mount request from 192.168.2.120:684 for / (/) 
+Nov 10 21:37:51 wangk pam_timestamp_check: pam_timestamp: `/' permissions are lax
+Nov 10 21:38:26 wangk last message repeated 7 times
+Nov 10 21:39:31 wangk last message repeated 13 times
+Nov 10 21:40:36 wangk last message repeated 13 times
+Nov 10 21:41:41 wangk last message repeated 13 times
+Nov 10 21:42:46 wangk last message repeated 13 times
+Nov 10 21:43:51 wangk last message repeated 13 times
+Nov 10 21:44:56 wangk last message repeated 13 times
+Nov 10 21:46:01 wangk last message repeated 13 times
+Nov 10 21:47:06 wangk last message repeated 13 times
+Nov 10 21:48:11 wangk last message repeated 13 times
+Nov 10 21:49:16 wangk last message repeated 13 times
+Nov 10 21:50:21 wangk last message repeated 13 times
+Nov 10 21:51:26 wangk last message repeated 13 times
+Nov 10 21:52:31 wangk last message repeated 13 times
+Nov 10 21:53:36 wangk last message repeated 13 times
+Nov 10 21:54:41 wangk last message repeated 13 times
+Nov 10 21:55:46 wangk last message repeated 13 times
+Nov 10 21:56:51 wangk last message repeated 13 times
+Nov 10 21:57:56 wangk last message repeated 13 times
+Nov 10 21:59:01 wangk last message repeated 13 times
+Nov 10 22:00:06 wangk last message repeated 13 times
+Nov 10 22:01:11 wangk last message repeated 13 times
+Nov 10 22:02:16 wangk last message repeated 13 times
+Nov 10 22:03:21 wangk last message repeated 13 times
+Nov 10 22:04:26 wangk last message repeated 13 times
+Nov 10 22:05:31 wangk last message repeated 13 times
+Nov 10 22:06:36 wangk last message repeated 13 times
+Nov 10 22:07:41 wangk last message repeated 13 times
+Nov 10 22:08:46 wangk last message repeated 13 times
+Nov 10 22:09:51 wangk last message repeated 13 times
+Nov 10 22:10:56 wangk last message repeated 13 times
+Nov 10 22:12:01 wangk last message repeated 13 times
+Nov 10 22:13:06 wangk last message repeated 13 times
+Nov 10 22:14:11 wangk last message repeated 13 times
+Nov 10 22:15:16 wangk last message repeated 13 times
+Nov 10 22:16:21 wangk last message repeated 13 times
+Nov 10 22:17:26 wangk last message repeated 13 times
+Nov 10 22:18:31 wangk last message repeated 13 times
+Nov 10 22:19:36 wangk last message repeated 13 times
+Nov 10 22:20:41 wangk last message repeated 13 times
+Nov 10 22:21:46 wangk last message repeated 13 times
+Nov 10 22:22:51 wangk last message repeated 13 times
+Nov 10 22:23:56 wangk last message repeated 13 times
+Nov 10 22:25:01 wangk last message repeated 13 times
+Nov 10 22:26:06 wangk last message repeated 13 times
+Nov 10 22:27:11 wangk last message repeated 13 times
+Nov 10 22:28:16 wangk last message repeated 13 times
+Nov 10 22:29:21 wangk last message repeated 13 times
+Nov 10 22:30:26 wangk last message repeated 13 times
+Nov 10 22:31:31 wangk last message repeated 13 times
+Nov 10 22:32:36 wangk last message repeated 13 times
+Nov 10 22:33:41 wangk last message repeated 13 times
+Nov 10 22:34:46 wangk last message repeated 13 times
+Nov 10 22:35:51 wangk last message repeated 13 times
+Nov 10 22:35:53 wangk modprobe: modprobe: Can't locate module fb0
+Nov 10 22:35:53 wangk modprobe: modprobe: Can't locate module fb1
+Nov 10 22:35:53 wangk modprobe: modprobe: Can't locate module fb2
+Nov 10 22:35:53 wangk modprobe: modprobe: Can't locate module fb3
+Nov 10 22:35:53 wangk modprobe: modprobe: Can't locate module fb4
+Nov 10 22:35:53 wangk modprobe: modprobe: Can't locate module fb5
+Nov 10 22:35:53 wangk modprobe: modprobe: Can't locate module fb6
+Nov 10 22:35:53 wangk modprobe: modprobe: Can't locate module fb7
+Nov 10 22:35:53 wangk modprobe: modprobe: Can't locate module fb8
+Nov 10 22:35:53 wangk modprobe: modprobe: Can't locate module fb9
+Nov 10 22:35:53 wangk modprobe: modprobe: Can't locate module fb10
+Nov 10 22:35:53 wangk modprobe: modprobe: Can't locate module fb11
+Nov 10 22:35:53 wangk modprobe: modprobe: Can't locate module fb12
+Nov 10 22:35:53 wangk modprobe: modprobe: Can't locate module fb13
+Nov 10 22:35:53 wangk modprobe: modprobe: Can't locate module fb14
+Nov 10 22:35:53 wangk modprobe: modprobe: Can't locate module fb15
+Nov 10 22:35:53 wangk modprobe: modprobe: Can't locate module fb16
+Nov 10 22:35:53 wangk modprobe: modprobe: Can't locate module fb17
+Nov 10 22:35:53 wangk modprobe: modprobe: Can't locate module fb18
+Nov 10 22:35:53 wangk modprobe: modprobe: Can't locate module fb19
+Nov 10 22:35:53 wangk modprobe: modprobe: Can't locate module fb20
+Nov 10 22:35:53 wangk modprobe: modprobe: Can't locate module fb21
+Nov 10 22:35:53 wangk modprobe: modprobe: Can't locate module fb22
+Nov 10 22:35:53 wangk modprobe: modprobe: Can't locate module fb23
+Nov 10 22:35:53 wangk modprobe: modprobe: Can't locate module fb24
+Nov 10 22:35:53 wangk modprobe: modprobe: Can't locate module fb25
+Nov 10 22:35:53 wangk modprobe: modprobe: Can't locate module fb26
+Nov 10 22:35:53 wangk modprobe: modprobe: Can't locate module fb27
+Nov 10 22:35:53 wangk modprobe: modprobe: Can't locate module fb28
+Nov 10 22:35:53 wangk modprobe: modprobe: Can't locate module fb29
+Nov 10 22:35:53 wangk modprobe: modprobe: Can't locate module fb30
+Nov 10 22:35:53 wangk modprobe: modprobe: Can't locate module fb31
+Nov 10 22:35:54 wangk 11ÔÂ 10 22:35:54 zhcon: gpm server version too old to obtain status info
+Nov 10 22:35:56 wangk pam_timestamp_check: pam_timestamp: `/' permissions are lax
+Nov 10 22:36:31 wangk last message repeated 7 times
+Nov 10 22:37:36 wangk last message repeated 13 times
+Nov 10 22:38:41 wangk last message repeated 13 times
+Nov 10 22:39:46 wangk last message repeated 13 times
+Nov 10 22:40:51 wangk last message repeated 13 times
+Nov 10 22:41:56 wangk last message repeated 13 times
+Nov 10 22:43:01 wangk last message repeated 13 times
+Nov 10 22:44:06 wangk last message repeated 13 times
+Nov 10 22:45:11 wangk last message repeated 13 times
+Nov 10 22:46:16 wangk last message repeated 13 times
+Nov 10 22:47:21 wangk last message repeated 13 times
+Nov 10 22:48:26 wangk last message repeated 13 times
+Nov 10 22:49:31 wangk last message repeated 13 times
+Nov 10 22:50:36 wangk last message repeated 13 times
+Nov 10 22:51:41 wangk last message repeated 13 times
+Nov 10 22:52:46 wangk last message repeated 13 times
+Nov 10 22:53:51 wangk last message repeated 13 times
+Nov 10 22:54:56 wangk last message repeated 13 times
+Nov 10 22:56:01 wangk last message repeated 13 times
+Nov 10 22:57:06 wangk last message repeated 13 times
+Nov 10 22:58:11 wangk last message repeated 13 times
+Nov 10 22:59:16 wangk last message repeated 13 times
+Nov 10 23:00:21 wangk last message repeated 13 times
+Nov 10 23:01:26 wangk last message repeated 13 times
+Nov 10 23:02:31 wangk last message repeated 13 times
+Nov 10 23:03:36 wangk last message repeated 13 times
+Nov 10 23:04:41 wangk last message repeated 13 times
+Nov 10 23:05:46 wangk last message repeated 13 times
+Nov 10 23:06:51 wangk last message repeated 13 times
+Nov 10 23:07:56 wangk last message repeated 13 times
+Nov 10 23:09:01 wangk last message repeated 13 times
+Nov 10 23:10:06 wangk last message repeated 13 times
+Nov 10 23:11:11 wangk last message repeated 13 times
+Nov 10 23:12:16 wangk last message repeated 13 times
+Nov 10 23:13:21 wangk last message repeated 13 times
+Nov 10 23:14:26 wangk last message repeated 13 times
+Nov 10 23:15:31 wangk last message repeated 13 times
+Nov 10 23:16:36 wangk last message repeated 13 times
+Nov 10 23:17:41 wangk last message repeated 13 times
+Nov 10 23:18:46 wangk last message repeated 13 times
+Nov 10 23:19:11 wangk last message repeated 5 times
+Nov 10 23:19:52 wangk kernel: eth0: Promiscuous mode enabled.
+Nov 10 23:19:52 wangk kernel: device eth0 entered promiscuous mode
+Nov 10 23:19:52 wangk kernel: device eth0 left promiscuous mode
+Nov 10 23:43:22 wangk shutdown: shutting down for system halt
+Nov 10 23:43:22 wangk init: Switching to runlevel: 0
+Nov 10 23:43:23 wangk login(pam_unix)[2530]: session closed for user root
+Nov 10 23:43:23 wangk login(pam_unix)[11300]: session closed for user root
+Nov 10 23:43:23 wangk login(pam_unix)[11296]: session closed for user root
+Nov 10 23:43:23 wangk login(pam_unix)[2529]: session closed for user root
+Nov 10 23:43:23 wangk login(pam_unix)[2528]: session closed for user root
+Nov 10 23:43:25 wangk atd: atd shutdown succeeded
+Nov 10 23:43:25 wangk rc: Stopping keytable:  succeeded
+Nov 10 23:43:26 wangk cups: cupsd shutdown succeeded
+Nov 10 23:43:26 wangk xfs[2428]: terminating 
+Nov 10 23:43:27 wangk xfs: xfs shutdown succeeded
+Nov 10 23:43:28 wangk canna: Stopping Canna server: succeeded
+Nov 10 23:43:28 wangk cannaserver[2284]: irw_killserver:cannaserver end 
+Nov 10 23:43:28 wangk cannaserver[2284]: remove [/tmp/.iroha_unix/IROHA] 
+Nov 10 23:43:28 wangk FreeWnn: jserver shutdown succeeded
+Nov 10 23:43:28 wangk gpm: gpm shutdown succeeded
+Nov 10 23:43:29 wangk rpc.mountd: Caught signal 15, un-registering and exiting. 
+Nov 10 23:43:30 wangk nfs: rpc.mountd shutdown succeeded
+Nov 10 23:43:34 wangk kernel: nfsd: last server has exited
+Nov 10 23:43:34 wangk kernel: nfsd: unexporting all filesystems
+Nov 10 23:43:34 wangk nfs: nfsd shutdown succeeded
+Nov 10 23:43:34 wangk nfs: rpc.rquotad shutdown succeeded
+Nov 10 23:43:34 wangk nfs: Shutting down NFS services:  succeeded
+Nov 10 23:43:34 wangk sshd: sshd -TERM succeeded
+Nov 10 23:43:34 wangk vsftpd: vsftpd shutdown succeeded
+Nov 10 23:43:35 wangk xinetd[2181]: Exiting...
+Nov 10 23:43:36 wangk xinetd: xinetd shutdown succeeded
+Nov 10 23:43:36 wangk crond: crond shutdown succeeded
+Nov 10 23:43:36 wangk apmd[2129]: Exiting
+Nov 10 23:43:37 wangk apmd: apmd shutdown succeeded
+Nov 10 23:43:37 wangk dd: 1+0 records in
+Nov 10 23:43:37 wangk dd: 1+0 records out
+Nov 10 23:43:37 wangk random: Saving random seed:  succeeded
+Nov 10 23:43:38 wangk portmap: portmap shutdown succeeded
+Nov 10 23:43:38 wangk kernel: Kernel logging (proc) stopped.
+Nov 10 23:43:38 wangk kernel: Kernel log daemon terminating.
+Nov 10 23:43:39 wangk syslog: klogd shutdown succeeded
+Nov 10 23:43:39 wangk exiting on signal 15
+Nov 11 09:13:15 wangk syslogd 1.4.1: restart.
+Nov 11 09:13:15 wangk syslog: syslogd startup succeeded
+Nov 11 09:13:15 wangk kernel: klogd 1.4.1, log source = /proc/kmsg started.
+Nov 11 09:13:15 wangk kernel: Linux version 2.4.20-8 (bhcompile@stripples.devel.redhat.com) (gcc version 3.2.2 20030222 (Red Hat Linux 3.2.2-5)) #1 Thu Mar 13 17:18:24 EST 2003
+Nov 11 09:13:15 wangk kernel: BIOS-provided physical RAM map:
+Nov 11 09:13:15 wangk kernel:  BIOS-e820: 0000000000000000 - 000000000009fc00 (usable)
+Nov 11 09:13:15 wangk kernel:  BIOS-e820: 000000000009fc00 - 00000000000a0000 (reserved)
+Nov 11 09:13:15 wangk kernel:  BIOS-e820: 00000000000f0000 - 0000000000100000 (reserved)
+Nov 11 09:13:15 wangk kernel:  BIOS-e820: 0000000000100000 - 0000000007fec000 (usable)
+Nov 11 09:13:15 wangk kernel:  BIOS-e820: 0000000007fec000 - 0000000007fef000 (ACPI data)
+Nov 11 09:13:15 wangk kernel:  BIOS-e820: 0000000007fef000 - 0000000007fff000 (reserved)
+Nov 11 09:13:15 wangk kernel:  BIOS-e820: 0000000007fff000 - 0000000008000000 (ACPI NVS)
+Nov 11 09:13:15 wangk kernel:  BIOS-e820: 00000000ffff0000 - 0000000100000000 (reserved)
+Nov 11 09:13:15 wangk kernel: 0MB HIGHMEM available.
+Nov 11 09:13:15 wangk kernel: 127MB LOWMEM available.
+Nov 11 09:13:15 wangk kernel: On node 0 totalpages: 32748
+Nov 11 09:13:15 wangk kernel: zone(0): 4096 pages.
+Nov 11 09:13:15 wangk kernel: zone(1): 28652 pages.
+Nov 11 09:13:15 wangk kernel: zone(2): 0 pages.
+Nov 11 09:13:15 wangk kernel: Kernel command line: ro root=LABEL=/
+Nov 11 09:13:15 wangk kernel: Initializing CPU#0
+Nov 11 09:13:15 wangk kernel: Detected 1150.070 MHz processor.
+Nov 11 09:13:15 wangk kernel: Console: colour VGA+ 80x25
+Nov 11 09:13:15 wangk kernel: Calibrating delay loop... 2293.76 BogoMIPS
+Nov 11 09:13:15 wangk kernel: Memory: 124728k/130992k available (1312k kernel code, 4856k reserved, 996k data, 128k init, 0k highmem)
+Nov 11 09:13:15 wangk kernel: Dentry cache hash table entries: 16384 (order: 5, 131072 bytes)
+Nov 11 09:13:15 wangk kernel: Inode cache hash table entries: 8192 (order: 4, 65536 bytes)
+Nov 11 09:13:15 wangk kernel: Mount cache hash table entries: 512 (order: 0, 4096 bytes)
+Nov 11 09:13:15 wangk kernel: Buffer-cache hash table entries: 4096 (order: 2, 16384 bytes)
+Nov 11 09:13:15 wangk kernel: Page-cache hash table entries: 32768 (order: 5, 131072 bytes)
+Nov 11 09:13:15 wangk kernel: CPU: CLK_CTL MSR was 6003d22f. Reprogramming to 2003d22f
+Nov 11 09:13:15 wangk kernel: CPU: L1 I Cache: 64K (64 bytes/line), D cache 64K (64 bytes/line)
+Nov 11 09:13:15 wangk syslog: klogd startup succeeded
+Nov 11 09:13:15 wangk kernel: CPU: L2 Cache: 256K (64 bytes/line)
+Nov 11 09:13:15 wangk kernel: Intel machine check architecture supported.
+Nov 11 09:13:15 wangk kernel: Intel machine check reporting enabled on CPU#0.
+Nov 11 09:13:16 wangk kernel: CPU: AMD Athlon(TM) XP1800+ stepping 01
+Nov 11 09:13:16 wangk irqbalance: irqbalance startup succeeded
+Nov 11 09:13:16 wangk kernel: Enabling fast FPU save and restore... done.
+Nov 11 09:13:16 wangk kernel: Enabling unmasked SIMD FPU exception support... done.
+Nov 11 09:13:16 wangk kernel: Checking 'hlt' instruction... OK.
+Nov 11 09:13:16 wangk kernel: POSIX conformance testing by UNIFIX
+Nov 11 09:13:16 wangk kernel: mtrr: v1.40 (20010327) Richard Gooch (rgooch@atnf.csiro.au)
+Nov 11 09:13:16 wangk portmap: portmap startup succeeded
+Nov 11 09:13:16 wangk kernel: mtrr: detected mtrr type: Intel
+Nov 11 09:13:16 wangk keytable: Loading keymap: 
+Nov 11 09:13:16 wangk kernel: PCI: PCI BIOS revision 2.10 entry at 0xf0f00, last bus=1
+Nov 11 09:13:16 wangk kernel: PCI: Using configuration type 1
+Nov 11 09:13:16 wangk kernel: PCI: Probing PCI hardware
+Nov 11 09:13:16 wangk keytable: 
+Nov 11 09:13:16 wangk kernel: PCI: Using IRQ router VIA [1106/3147] at 00:11.0
+Nov 11 09:13:16 wangk keytable: Loading system font: 
+Nov 11 09:13:16 wangk kernel: PCI: Found IRQ 11 for device 00:11.1
+Nov 11 09:13:16 wangk kernel: PCI: Sharing IRQ 11 with 00:0d.0
+Nov 11 09:13:16 wangk kernel: PCI: Sharing IRQ 11 with 01:00.0
+Nov 11 09:13:16 wangk kernel: isapnp: Scanning for PnP cards...
+Nov 11 09:13:16 wangk kernel: isapnp: No Plug & Play device found
+Nov 11 09:13:16 wangk kernel: Linux NET4.0 for Linux 2.4
+Nov 11 09:13:16 wangk kernel: Based upon Swansea University Computer Society NET3.039
+Nov 11 09:13:16 wangk kernel: Initializing RT netlink socket
+Nov 11 09:13:16 wangk kernel: apm: BIOS version 1.2 Flags 0x03 (Driver version 1.16)
+Nov 11 09:13:16 wangk kernel: Starting kswapd
+Nov 11 09:13:16 wangk kernel: VFS: Disk quotas vdquot_6.5.1
+Nov 11 09:13:16 wangk kernel: pty: 2048 Unix98 ptys configured
+Nov 11 09:13:16 wangk kernel: Serial driver version 5.05c (2001-07-08) with MANY_PORTS MULTIPORT SHARE_IRQ SERIAL_PCI ISAPNP enabled
+Nov 11 09:13:16 wangk kernel: ttyS0 at 0x03f8 (irq = 4) is a 16550A
+Nov 11 09:13:16 wangk kernel: ttyS1 at 0x02f8 (irq = 3) is a 16550A
+Nov 11 09:13:16 wangk kernel: Real Time Clock Driver v1.10e
+Nov 11 09:13:16 wangk kernel: floppy0: no floppy controllers found
+Nov 11 09:13:16 wangk kernel: NET4: Frame Diverter 0.46
+Nov 11 09:13:16 wangk kernel: RAMDISK driver initialized: 16 RAM disks of 4096K size 1024 blocksize
+Nov 11 09:13:16 wangk kernel: Uniform Multi-Platform E-IDE driver Revision: 7.00beta-2.4
+Nov 11 09:13:16 wangk kernel: ide: Assuming 33MHz system bus speed for PIO modes; override with idebus=xx
+Nov 11 09:13:16 wangk kernel: VP_IDE: IDE controller at PCI slot 00:11.1
+Nov 11 09:13:16 wangk kernel: PCI: Found IRQ 11 for device 00:11.1
+Nov 11 09:13:16 wangk kernel: PCI: Sharing IRQ 11 with 00:0d.0
+Nov 11 09:13:16 wangk kernel: PCI: Sharing IRQ 11 with 01:00.0
+Nov 11 09:13:16 wangk kernel: VP_IDE: chipset revision 6
+Nov 11 09:13:16 wangk kernel: VP_IDE: not 100%% native mode: will probe irqs later
+Nov 11 09:13:16 wangk keytable: 
+Nov 11 09:13:16 wangk kernel: ide: Assuming 33MHz system bus speed for PIO modes; override with idebus=xx
+Nov 11 09:13:16 wangk rc: Starting keytable:  succeeded
+Nov 11 09:13:16 wangk kernel: VP_IDE: VIA vt8233a (rev 00) IDE UDMA133 controller on pci00:11.1
+Nov 11 09:13:16 wangk kernel:     ide0: BM-DMA at 0xd000-0xd007, BIOS settings: hda:DMA, hdb:pio
+Nov 11 09:13:16 wangk kernel:     ide1: BM-DMA at 0xd008-0xd00f, BIOS settings: hdc:pio, hdd:pio
+Nov 11 09:13:16 wangk kernel: hda: Maxtor 6Y120L0, ATA DISK drive
+Nov 11 09:13:16 wangk kernel: blk: queue c03be900, I/O limit 4095Mb (mask 0xffffffff)
+Nov 11 09:13:16 wangk kernel: ide0 at 0x1f0-0x1f7,0x3f6 on irq 14
+Nov 11 09:13:16 wangk kernel: hda: host protected area => 1
+Nov 11 09:13:16 wangk kernel: hda: 240121728 sectors (122942 MB) w/2048KiB Cache, CHS=14946/255/63, UDMA(133)
+Nov 11 09:13:16 wangk kernel: ide-floppy driver 0.99.newide
+Nov 11 09:13:16 wangk kernel: Partition check:
+Nov 11 09:13:16 wangk kernel:  hda: hda1 hda2
+Nov 11 09:13:16 wangk kernel: ide-floppy driver 0.99.newide
+Nov 11 09:13:16 wangk kernel: md: md driver 0.90.0 MAX_MD_DEVS=256, MD_SB_DISKS=27
+Nov 11 09:13:16 wangk kernel: md: Autodetecting RAID arrays.
+Nov 11 09:13:16 wangk kernel: md: autorun ...
+Nov 11 09:13:16 wangk kernel: md: ... autorun DONE.
+Nov 11 09:13:16 wangk kernel: NET4: Linux TCP/IP 1.0 for NET4.0
+Nov 11 09:13:16 wangk kernel: IP Protocols: ICMP, UDP, TCP, IGMP
+Nov 11 09:13:16 wangk kernel: IP: routing cache hash table of 512 buckets, 4Kbytes
+Nov 11 09:13:16 wangk kernel: TCP: Hash tables configured (established 8192 bind 16384)
+Nov 11 09:13:16 wangk kernel: Linux IP multicast router 0.06 plus PIM-SM
+Nov 11 09:13:16 wangk kernel: NET4: Unix domain sockets 1.0/SMP for Linux NET4.0.
+Nov 11 09:13:16 wangk kernel: RAMDISK: Compressed image found at block 0
+Nov 11 09:13:16 wangk kernel: Freeing initrd memory: 143k freed
+Nov 11 09:13:16 wangk random: Initializing random number generator:  succeeded
+Nov 11 09:13:16 wangk kernel: VFS: Mounted root (ext2 filesystem).
+Nov 11 09:13:16 wangk kernel: Journalled Block Device driver loaded
+Nov 11 09:13:16 wangk kernel: kjournald starting.  Commit interval 5 seconds
+Nov 11 09:13:16 wangk kernel: EXT3-fs: mounted filesystem with ordered data mode.
+Nov 11 09:13:16 wangk kernel: Freeing unused kernel memory: 128k freed
+Nov 11 09:13:16 wangk kernel: usb.c: registered new driver usbdevfs
+Nov 11 09:13:16 wangk kernel: usb.c: registered new driver hub
+Nov 11 09:13:16 wangk kernel: usb-uhci.c: $Revision: 1.275 $ time 17:26:20 Mar 13 2003
+Nov 11 09:13:16 wangk kernel: usb-uhci.c: High bandwidth mode enabled
+Nov 11 09:13:16 wangk kernel: PCI: Found IRQ 5 for device 00:11.2
+Nov 11 09:13:16 wangk kernel: PCI: Sharing IRQ 5 with 00:11.3
+Nov 11 09:13:16 wangk kernel: usb-uhci.c: USB UHCI at I/O 0xb800, IRQ 5
+Nov 11 09:13:16 wangk kernel: usb-uhci.c: Detected 2 ports
+Nov 11 09:13:16 wangk kernel: usb.c: new USB bus registered, assigned bus number 1
+Nov 11 09:13:16 wangk kernel: hub.c: USB hub found
+Nov 11 09:13:16 wangk kernel: hub.c: 2 ports detected
+Nov 11 09:13:16 wangk kernel: PCI: Found IRQ 5 for device 00:11.3
+Nov 11 09:13:16 wangk kernel: PCI: Sharing IRQ 5 with 00:11.2
+Nov 11 09:13:16 wangk kernel: usb-uhci.c: USB UHCI at I/O 0xb400, IRQ 5
+Nov 11 09:13:16 wangk rc: Starting pcmcia:  succeeded
+Nov 11 09:13:16 wangk kernel: usb-uhci.c: Detected 2 ports
+Nov 11 09:13:16 wangk kernel: usb.c: new USB bus registered, assigned bus number 2
+Nov 11 09:13:16 wangk kernel: hub.c: USB hub found
+Nov 11 09:13:16 wangk kernel: hub.c: 2 ports detected
+Nov 11 09:13:16 wangk kernel: usb-uhci.c: v1.275:USB Universal Host Controller Interface driver
+Nov 11 09:13:16 wangk kernel: usb.c: registered new driver hiddev
+Nov 11 09:13:16 wangk kernel: usb.c: registered new driver hid
+Nov 11 09:13:16 wangk kernel: hid-core.c: v1.8.1 Andreas Gal, Vojtech Pavlik <vojtech@suse.cz>
+Nov 11 09:13:16 wangk kernel: hid-core.c: USB HID support drivers
+Nov 11 09:13:16 wangk kernel: mice: PS/2 mouse device common for all mice
+Nov 11 09:13:16 wangk kernel: EXT3 FS 2.4-0.9.19, 19 August 2002 on ide0(3,1), internal journal
+Nov 11 09:13:16 wangk kernel: Adding Swap: 257032k swap-space (priority -1)
+Nov 11 09:13:16 wangk kernel: parport0: PC-style at 0x378 (0x778) [PCSPP,TRISTATE,EPP]
+Nov 11 09:13:16 wangk kernel: parport0: irq 7 detected
+Nov 11 09:13:16 wangk kernel: ip_tables: (C) 2000-2002 Netfilter core team
+Nov 11 09:13:16 wangk kernel: 8139too Fast Ethernet driver 0.9.26
+Nov 11 09:13:16 wangk kernel: PCI: Found IRQ 11 for device 00:0d.0
+Nov 11 09:13:16 wangk kernel: PCI: Sharing IRQ 11 with 00:11.1
+Nov 11 09:13:16 wangk kernel: PCI: Sharing IRQ 11 with 01:00.0
+Nov 11 09:13:16 wangk netfs: Mounting other filesystems:  succeeded
+Nov 11 09:13:16 wangk kernel: eth0: RealTek RTL8139 Fast Ethernet at 0xc8882000, 00:e0:4c:5b:13:80, IRQ 11
+Nov 11 09:13:16 wangk kernel: ip_tables: (C) 2000-2002 Netfilter core team
+Nov 11 09:13:16 wangk apmd[2135]: Version 3.0.2 (APM BIOS 1.2, Linux driver 1.16)
+Nov 11 09:13:16 wangk kernel: eth0: Setting 100mbps full-duplex based on auto-negotiated partner ability 45e1.
+Nov 11 09:13:16 wangk apmd: apmd startup succeeded
+Nov 11 09:13:16 wangk autofs: automount startup succeeded
+Nov 11 09:13:17 wangk sshd:  succeeded
+Nov 11 09:13:17 wangk apmd[2135]: Charge: * * * (-1% unknown)
+Nov 11 09:13:15 wangk network: Bringing up interface eth0:  succeeded 
+Nov 11 09:13:19 wangk xinetd[2187]: xinetd Version 2.3.10 started with libwrap options compiled in.
+Nov 11 09:13:19 wangk xinetd[2187]: Started working: 3 available services
+Nov 11 09:13:20 wangk xinetd: xinetd startup succeeded
+Nov 11 09:13:21 wangk exportfs[2203]: No host name given with / (rw), suggest *(rw) to avoid warning 
+Nov 11 09:13:21 wangk exportfs[2203]: No 'sync' or 'async' option specified for export ":/".   Assuming default behaviour ('sync').   NOTE: this default has changed from previous versions 
+Nov 11 09:13:21 wangk exportfs: exportfs: No host name given with / (rw), suggest *(rw) to avoid warning
+Nov 11 09:13:21 wangk exportfs: exportfs: No 'sync' or 'async' option specified for export ":/".
+Nov 11 09:13:21 wangk exportfs:   Assuming default behaviour ('sync').
+Nov 11 09:13:21 wangk exportfs:   NOTE: this default has changed from previous versions
+Nov 11 09:13:23 wangk kernel: Installing knfsd (copyright (C) 1996 okir@monad.swb.de).
+Nov 11 09:13:23 wangk nfs: Starting NFS services:  succeeded
+Nov 11 09:13:23 wangk nfs: rpc.rquotad startup succeeded
+Nov 11 09:13:23 wangk nfs: rpc.nfsd startup succeeded
+Nov 11 09:13:24 wangk rpc.mountd: No host name given with / (rw,sync,wdelay,hide,secure,root_squash,no_all_squash,subtree_check,secure_locks,mapping=identity,anonuid=-2,anongid=-2), suggest *(rw,sync,wdelay,hide,secure,root_squash,no_all_squash,subtree_check,secure_locks,mapping=identity,anonuid=-2,anongid=-2) to avoid warning 
+Nov 11 09:13:24 wangk nfs: rpc.mountd startup succeeded
+Nov 11 09:13:24 wangk vsftpd: true startup succeeded
+Nov 11 09:13:24 wangk sendmail: 
+Nov 11 09:13:24 wangk sendmail: 
+Nov 11 09:13:24 wangk sendmail: sendmail startup failed
+Nov 11 09:13:24 wangk sendmail: /etc/mail/submit.cf: line 525: fileclass: cannot open '/etc/mail/trusted-users': World writable directory
+Nov 11 09:13:25 wangk sendmail: sm-client startup failed
+Nov 11 09:13:27 wangk spamassassin: spamd startup succeeded
+Nov 11 09:13:27 wangk gpm: gpm startup succeeded
+Nov 11 09:13:29 wangk canna:  succeeded
+Nov 11 09:13:29 wangk crond: crond startup succeeded
+Nov 11 09:13:31 wangk kernel: parport0: PC-style at 0x378 (0x778) [PCSPP,TRISTATE,EPP]
+Nov 11 09:13:31 wangk kernel: parport0: irq 7 detected
+Nov 11 09:13:31 wangk kernel: lp0: using parport0 (polling).
+Nov 11 09:13:31 wangk kernel: lp0: console ready
+Nov 11 09:13:32 wangk modprobe: modprobe: Can't locate module char-major-188
+Nov 11 09:13:32 wangk last message repeated 15 times
+Nov 11 09:13:32 wangk cups: cupsd startup succeeded
+Nov 11 09:13:34 wangk xfs: xfs startup succeeded
+Nov 11 09:13:34 wangk anacron: anacron startup succeeded
+Nov 11 09:13:34 wangk atd: atd startup succeeded
+Nov 11 09:13:34 wangk rpc.mountd: Caught signal 15, un-registering and exiting. 
+Nov 11 09:13:35 wangk nfs: rpc.mountd shutdown succeeded
+Nov 11 09:13:39 wangk kernel: nfsd: last server has exited
+Nov 11 09:13:39 wangk kernel: nfsd: unexporting all filesystems
+Nov 11 09:13:39 wangk nfs: nfsd shutdown succeeded
+Nov 11 09:13:39 wangk nfs: rpc.rquotad shutdown succeeded
+Nov 11 09:13:39 wangk nfs: Shutting down NFS services:  succeeded
+Nov 11 09:13:39 wangk exportfs[2495]: No host name given with / (rw), suggest *(rw) to avoid warning 
+Nov 11 09:13:39 wangk exportfs[2495]: No 'sync' or 'async' option specified for export ":/".   Assuming default behaviour ('sync').   NOTE: this default has changed from previous versions 
+Nov 11 09:13:39 wangk exportfs: exportfs: No host name given with / (rw), suggest *(rw) to avoid warning
+Nov 11 09:13:39 wangk exportfs: exportfs: No 'sync' or 'async' option specified for export ":/".
+Nov 11 09:13:39 wangk exportfs:   Assuming default behaviour ('sync').
+Nov 11 09:13:39 wangk exportfs:   NOTE: this default has changed from previous versions
+Nov 11 09:13:43 wangk nfs: Starting NFS services:  succeeded
+Nov 11 09:13:43 wangk nfs: rpc.rquotad startup succeeded
+Nov 11 09:13:43 wangk nfs: rpc.nfsd startup succeeded
+Nov 11 09:13:43 wangk rpc.mountd: No host name given with / (rw,sync,wdelay,hide,secure,root_squash,no_all_squash,subtree_check,secure_locks,mapping=identity,anonuid=-2,anongid=-2), suggest *(rw,sync,wdelay,hide,secure,root_squash,no_all_squash,subtree_check,secure_locks,mapping=identity,anonuid=-2,anongid=-2) to avoid warning 
+Nov 11 09:13:43 wangk nfs: rpc.mountd startup succeeded
+Nov 11 09:13:43 wangk kernel: bdm_init_module 2.10, May 31 2004, 17:17:00
+Nov 11 09:13:48 wangk login(pam_unix)[2530]: session opened for user root by LOGIN(uid=0)
+Nov 11 09:13:48 wangk  -- root[2530]: ROOT LOGIN ON tty1
+Nov 11 09:13:59 wangk login(pam_unix)[2531]: session opened for user root by LOGIN(uid=0)
+Nov 11 09:13:59 wangk  -- root[2531]: ROOT LOGIN ON tty2
+Nov 11 09:37:48 wangk vsftpd: warning: can't get client address: Bad file descriptor
+Nov 11 10:07:37 wangk login(pam_unix)[2532]: session opened for user root by LOGIN(uid=0)
+Nov 11 10:07:37 wangk  -- root[2532]: ROOT LOGIN ON tty3
+Nov 11 10:21:03 wangk login(pam_unix)[2533]: session opened for user root by LOGIN(uid=0)
+Nov 11 10:21:03 wangk  -- root[2533]: ROOT LOGIN ON tty4
+Nov 11 10:24:13 wangk login(pam_unix)[2534]: session opened for user root by LOGIN(uid=0)
+Nov 11 10:24:13 wangk  -- root[2534]: ROOT LOGIN ON tty5
+Nov 11 10:25:06 wangk kernel: CSLIP: code copyright 1989 Regents of the University of California
+Nov 11 10:25:07 wangk kernel: PPP generic driver version 2.4.2
+Nov 11 10:25:07 wangk pppd[3701]: pppd 2.4.1 started by root, uid 0
+Nov 11 10:25:08 wangk pppd[3701]: Using interface ppp0
+Nov 11 10:25:08 wangk pppd[3701]: Connect: ppp0 <--> /dev/pts/0
+Nov 11 10:25:09 wangk /etc/hotplug/net.agent: assuming ppp0 is already up
+Nov 11 10:25:26 wangk login(pam_unix)[2535]: session opened for user root by LOGIN(uid=0)
+Nov 11 10:25:26 wangk  -- root[2535]: ROOT LOGIN ON tty6
+Nov 11 10:25:39 wangk pppd[3701]: LCP: timeout sending Config-Requests 
+Nov 11 10:25:39 wangk pppd[3701]: Connection terminated.
+Nov 11 10:25:39 wangk /etc/hotplug/net.agent: NET unregister event not supported
+Nov 11 10:25:43 wangk pppoe[3702]: Timeout waiting for PADO packets
+Nov 11 10:25:43 wangk pppd[3701]: Exit.
+Nov 11 10:25:45 wangk 11ÔÂ 11 10:25:43 adsl-connect: ADSL connection lost; attempting re-connection.
+Nov 11 10:25:48 wangk pppd[3869]: pppd 2.4.1 started by root, uid 0
+Nov 11 10:25:48 wangk pppd[3869]: Using interface ppp0
+Nov 11 10:25:48 wangk pppd[3869]: Connect: ppp0 <--> /dev/pts/0
+Nov 11 10:25:48 wangk /etc/hotplug/net.agent: assuming ppp0 is already up
+Nov 11 10:26:19 wangk pppd[3869]: LCP: timeout sending Config-Requests 
+Nov 11 10:26:19 wangk pppd[3869]: Connection terminated.
+Nov 11 10:26:19 wangk /etc/hotplug/net.agent: NET unregister event not supported
+Nov 11 10:26:23 wangk pppoe[3870]: Timeout waiting for PADO packets
+Nov 11 10:26:23 wangk pppd[3869]: Exit.
+Nov 11 10:28:52 wangk pppd[3945]: pppd 2.4.1 started by root, uid 0
+Nov 11 10:28:52 wangk pppd[3945]: Using interface ppp0
+Nov 11 10:28:52 wangk pppd[3945]: Connect: ppp0 <--> /dev/pts/0
+Nov 11 10:28:53 wangk /etc/hotplug/net.agent: assuming ppp0 is already up
+Nov 11 10:29:11 wangk pppd[3945]: Terminating on signal 2.
+Nov 11 10:29:17 wangk last message repeated 11 times
+Nov 11 10:29:17 wangk pppd[3945]: Connection terminated.
+Nov 11 10:29:20 wangk /etc/hotplug/net.agent: NET unregister event not supported
+Nov 11 10:29:27 wangk pppoe[3946]: Timeout waiting for PADO packets
+Nov 11 10:29:27 wangk pppd[3945]: Exit.
+Nov 11 10:30:12 wangk pppd[3974]: pppd 2.4.1 started by root, uid 0
+Nov 11 10:30:12 wangk pppd[3974]: Using interface ppp0
+Nov 11 10:30:12 wangk pppd[3974]: Connect: ppp0 <--> /dev/pts/0
+Nov 11 10:30:12 wangk /etc/hotplug/net.agent: assuming ppp0 is already up
+Nov 11 10:30:43 wangk pppd[3974]: LCP: timeout sending Config-Requests 
+Nov 11 10:30:43 wangk pppd[3974]: Connection terminated.
+Nov 11 10:30:43 wangk /etc/hotplug/net.agent: NET unregister event not supported
+Nov 11 10:31:04 wangk pppoe[3975]: Timeout waiting for PADO packets
+Nov 11 10:31:04 wangk pppd[3974]: Exit.
+Nov 11 10:31:08 wangk pppd[3995]: pppd 2.4.1 started by root, uid 0
+Nov 11 10:31:08 wangk pppd[3995]: Using interface ppp0
+Nov 11 10:31:08 wangk pppd[3995]: Connect: ppp0 <--> /dev/pts/0
+Nov 11 10:31:08 wangk /etc/hotplug/net.agent: assuming ppp0 is already up
+Nov 11 10:31:39 wangk pppd[3995]: LCP: timeout sending Config-Requests 
+Nov 11 10:31:39 wangk pppd[3995]: Connection terminated.
+Nov 11 10:31:39 wangk /etc/hotplug/net.agent: NET unregister event not supported
+Nov 11 10:32:35 wangk pppoe[3996]: Timeout waiting for PADO packets
+Nov 11 10:32:35 wangk pppd[3995]: Exit.
+Nov 11 10:39:11 wangk pppd[4064]: pppd 2.4.1 started by root, uid 0
+Nov 11 10:39:11 wangk pppd[4064]: Using interface ppp0
+Nov 11 10:39:11 wangk pppd[4064]: Connect: ppp0 <--> /dev/pts/0
+Nov 11 10:39:12 wangk /etc/hotplug/net.agent: assuming ppp0 is already up
+Nov 11 10:39:42 wangk pppd[4064]: LCP: timeout sending Config-Requests 
+Nov 11 10:39:42 wangk pppd[4064]: Connection terminated.
+Nov 11 10:39:42 wangk /etc/hotplug/net.agent: NET unregister event not supported
+Nov 11 10:39:46 wangk pppoe[4065]: Timeout waiting for PADO packets
+Nov 11 10:39:46 wangk pppd[4064]: Exit.
+Nov 11 10:39:51 wangk pppd[4172]: pppd 2.4.1 started by root, uid 0
+Nov 11 10:39:51 wangk /etc/hotplug/net.agent: assuming ppp0 is already up
+Nov 11 10:39:51 wangk pppd[4172]: Using interface ppp0
+Nov 11 10:39:51 wangk pppd[4172]: Connect: ppp0 <--> /dev/pts/0
+Nov 11 10:40:22 wangk pppd[4172]: LCP: timeout sending Config-Requests 
+Nov 11 10:40:22 wangk pppd[4172]: Connection terminated.
+Nov 11 10:40:22 wangk /etc/hotplug/net.agent: NET unregister event not supported
+Nov 11 10:40:26 wangk pppoe[4173]: Timeout waiting for PADO packets
+Nov 11 10:40:26 wangk pppd[4172]: Exit.
+Nov 11 10:40:26 wangk 11ÔÂ 11 10:40:26 adsl-connect: ADSL connection lost; attempting re-connection.
+Nov 11 10:40:31 wangk pppd[4201]: pppd 2.4.1 started by root, uid 0
+Nov 11 10:40:31 wangk pppd[4201]: Using interface ppp0
+Nov 11 10:40:31 wangk pppd[4201]: Connect: ppp0 <--> /dev/pts/0
+Nov 11 10:40:31 wangk /etc/hotplug/net.agent: assuming ppp0 is already up
+Nov 11 10:41:02 wangk pppd[4201]: LCP: timeout sending Config-Requests 
+Nov 11 10:41:02 wangk pppd[4201]: Connection terminated.
+Nov 11 10:41:02 wangk /etc/hotplug/net.agent: NET unregister event not supported
+Nov 11 10:41:06 wangk pppoe[4202]: Timeout waiting for PADO packets
+Nov 11 10:41:06 wangk pppd[4201]: Exit.
+Nov 11 10:41:06 wangk 11ÔÂ 11 10:41:06 adsl-connect: ADSL connection lost; attempting re-connection.
+Nov 11 10:41:11 wangk pppd[4221]: pppd 2.4.1 started by root, uid 0
+Nov 11 10:41:11 wangk pppd[4221]: Using interface ppp0
+Nov 11 10:41:11 wangk pppd[4221]: Connect: ppp0 <--> /dev/pts/0
+Nov 11 10:41:11 wangk /etc/hotplug/net.agent: assuming ppp0 is already up
+Nov 11 10:41:26 wangk pppoe[4222]: PPP session is 1836
+Nov 11 10:41:27 wangk pppd[4221]: not replacing existing default route to eth0 [192.168.2.254]
+Nov 11 10:41:27 wangk pppd[4221]: local  IP address 61.191.205.180
+Nov 11 10:41:27 wangk pppd[4221]: remote IP address 61.133.139.2
+Nov 11 10:41:47 wangk pppoe[4222]: Inactivity timeout... something wicked happened on session 1836
+Nov 11 10:41:47 wangk pppoe[4222]: Sent PADT
+Nov 11 10:41:47 wangk pppd[4221]: Modem hangup
+Nov 11 10:41:47 wangk pppd[4221]: Connection terminated.
+Nov 11 10:41:47 wangk pppd[4221]: Connect time 0.6 minutes.
+Nov 11 10:41:47 wangk pppd[4221]: Sent 30 bytes, received 30 bytes.
+Nov 11 10:41:47 wangk /etc/hotplug/net.agent: NET unregister event not supported
+Nov 11 10:41:50 wangk pppd[4221]: Exit.
+Nov 11 10:41:50 wangk 11ÔÂ 11 10:41:50 adsl-connect: ADSL connection lost; attempting re-connection.
+Nov 11 10:41:55 wangk pppd[4280]: pppd 2.4.1 started by root, uid 0
+Nov 11 10:41:55 wangk pppd[4280]: Using interface ppp0
+Nov 11 10:41:55 wangk pppd[4280]: Connect: ppp0 <--> /dev/pts/0
+Nov 11 10:41:55 wangk /etc/hotplug/net.agent: assuming ppp0 is already up
+Nov 11 10:41:55 wangk pppoe[4281]: PPP session is 1838
+Nov 11 10:41:55 wangk pppd[4280]: not replacing existing default route to eth0 [192.168.2.254]
+Nov 11 10:41:55 wangk pppd[4280]: local  IP address 61.191.205.182
+Nov 11 10:41:55 wangk pppd[4280]: remote IP address 61.133.139.2
+Nov 11 10:42:53 wangk pppoe[4281]: Inactivity timeout... something wicked happened on session 1838
+Nov 11 10:42:53 wangk pppoe[4281]: Sent PADT
+Nov 11 10:42:53 wangk pppd[4280]: Modem hangup
+Nov 11 10:42:53 wangk pppd[4280]: Connection terminated.
+Nov 11 10:42:53 wangk pppd[4280]: Connect time 1.0 minutes.
+Nov 11 10:42:53 wangk pppd[4280]: Sent 30 bytes, received 226 bytes.
+Nov 11 10:42:54 wangk /etc/hotplug/net.agent: NET unregister event not supported
+Nov 11 10:42:54 wangk pppd[4280]: Exit.
+Nov 11 10:43:36 wangk pppd[4348]: pppd 2.4.1 started by root, uid 0
+Nov 11 10:43:36 wangk pppd[4348]: Using interface ppp0
+Nov 11 10:43:36 wangk pppd[4348]: Connect: ppp0 <--> /dev/pts/0
+Nov 11 10:43:36 wangk /etc/hotplug/net.agent: assuming ppp0 is already up
+Nov 11 10:43:36 wangk pppoe[4349]: PPP session is 1847
+Nov 11 10:43:37 wangk pppd[4348]: local  IP address 61.191.205.201
+Nov 11 10:43:37 wangk pppd[4348]: remote IP address 61.133.139.2
+Nov 11 10:43:59 wangk pppd[4348]: Terminating on signal 2.
+Nov 11 10:43:59 wangk pppd[4348]: Connection terminated.
+Nov 11 10:43:59 wangk pppd[4348]: Connect time 0.4 minutes.
+Nov 11 10:43:59 wangk pppd[4348]: Sent 30 bytes, received 30 bytes.
+Nov 11 10:43:59 wangk /etc/hotplug/net.agent: NET unregister event not supported
+Nov 11 10:43:59 wangk pppoe[4349]: read (asyncReadFromPPP): Session 1847: Input/output error
+Nov 11 10:43:59 wangk pppoe[4349]: Sent PADT
+Nov 11 10:44:00 wangk pppd[4348]: Exit.
+Nov 11 10:44:23 wangk pppd[4381]: pppd 2.4.1 started by root, uid 0
+Nov 11 10:44:23 wangk /etc/hotplug/net.agent: assuming ppp0 is already up
+Nov 11 10:44:23 wangk pppd[4381]: Using interface ppp0
+Nov 11 10:44:23 wangk pppd[4381]: Connect: ppp0 <--> /dev/pts/0
+Nov 11 10:44:23 wangk pppoe[4382]: PPP session is 1850
+Nov 11 10:44:24 wangk pppd[4381]: local  IP address 61.191.205.208
+Nov 11 10:44:24 wangk pppd[4381]: remote IP address 61.133.139.2
+Nov 11 10:44:35 wangk pppd[4381]: Terminating on signal 2.
+Nov 11 10:44:35 wangk pppd[4381]: Connection terminated.
+Nov 11 10:44:35 wangk pppd[4381]: Connect time 0.2 minutes.
+Nov 11 10:44:35 wangk pppd[4381]: Sent 30 bytes, received 30 bytes.
+Nov 11 10:44:35 wangk pppoe[4382]: read (asyncReadFromPPP): Session 1850: Input/output error
+Nov 11 10:44:35 wangk pppoe[4382]: Sent PADT
+Nov 11 10:44:35 wangk pppd[4381]: Exit.
+Nov 11 10:44:36 wangk /etc/hotplug/net.agent: NET unregister event not supported
+Nov 11 10:52:49 wangk kernel: HDLC line discipline: version $Revision: 3.3 $, maxframe=4096
+Nov 11 10:52:49 wangk kernel: N_HDLC line discipline registered.
+Nov 11 10:52:49 wangk modprobe: modprobe: Can't locate module net-pf-24
+Nov 11 10:53:39 wangk su(pam_unix)[5657]: session opened for user news by (uid=0)
+Nov 11 10:53:40 wangk su(pam_unix)[5657]: session closed for user news
+Nov 11 10:59:38 wangk rpc.mountd: authenticated mount request from 192.168.2.120:686 for / (/) 
+Nov 11 11:00:20 wangk rpc.mountd: authenticated mount request from 192.168.2.97:948 for / (/) 
+Nov 11 11:00:23 wangk rpc.mountd: authenticated unmount request from 192.168.2.97:950 for / (/) 
+Nov 11 11:00:34 wangk rpc.mountd: authenticated mount request from 192.168.2.120:690 for / (/) 
+Nov 11 11:05:11 wangk rpc.mountd: authenticated mount request from 192.168.2.120:665 for / (/) 
+Nov 11 11:12:05 wangk rpc.mountd: authenticated mount request from 192.168.2.120:802 for / (/) 

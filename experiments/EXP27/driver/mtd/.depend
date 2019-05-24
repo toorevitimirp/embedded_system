@@ -1,0 +1,141 @@
+afs.o: afs.c \
+   /HHARM2410-R3/kernel/include/linux/module.h \
+   /HHARM2410-R3/kernel/include/linux/types.h \
+   /HHARM2410-R3/kernel/include/linux/kernel.h \
+   /HHARM2410-R3/kernel/include/linux/slab.h \
+   /HHARM2410-R3/kernel/include/linux/string.h \
+   /HHARM2410-R3/kernel/include/linux/init.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/mtd.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/map.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/partitions.h
+cmdline.o: cmdline.c \
+   /HHARM2410-R3/kernel/include/linux/kernel.h \
+   /HHARM2410-R3/kernel/include/linux/slab.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/mtd.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/partitions.h \
+   /HHARM2410-R3/kernel/include/asm/setup.h \
+   /HHARM2410-R3/kernel/include/linux/bootmem.h
+ftl.o: ftl.c \
+   /HHARM2410-R3/kernel/include/linux/module.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/compatmac.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/mtd.h \
+   /HHARM2410-R3/kernel/include/linux/kernel.h \
+   /HHARM2410-R3/kernel/include/linux/sched.h \
+   /HHARM2410-R3/kernel/include/linux/ptrace.h \
+   /HHARM2410-R3/kernel/include/linux/slab.h \
+   /HHARM2410-R3/kernel/include/linux/string.h \
+   /HHARM2410-R3/kernel/include/linux/timer.h \
+   /HHARM2410-R3/kernel/include/linux/major.h \
+   /HHARM2410-R3/kernel/include/linux/fs.h \
+   /HHARM2410-R3/kernel/include/linux/ioctl.h \
+   /HHARM2410-R3/kernel/include/linux/hdreg.h \
+   /HHARM2410-R3/kernel/include/linux/vmalloc.h \
+   /HHARM2410-R3/kernel/include/linux/blkpg.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/ftl.h \
+   /HHARM2410-R3/kernel/include/linux/blk.h
+mtdblock.o: mtdblock.c \
+   /HHARM2410-R3/kernel/include/linux/types.h \
+   /HHARM2410-R3/kernel/include/linux/module.h \
+   /HHARM2410-R3/kernel/include/linux/kernel.h \
+   /HHARM2410-R3/kernel/include/linux/slab.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/mtd.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/compatmac.h \
+   /HHARM2410-R3/kernel/include/linux/blk.h \
+   $(wildcard /HHARM2410-R3/kernel/include/config/devfs/fs.h) \
+   /HHARM2410-R3/kernel/include/linux/devfs_fs_kernel.h
+mtdblock_ro.o: mtdblock_ro.c \
+   /HHARM2410-R3/kernel/include/linux/module.h \
+   /HHARM2410-R3/kernel/include/linux/types.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/mtd.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/compatmac.h \
+   /HHARM2410-R3/kernel/include/linux/blk.h
+mtdchar.o: mtdchar.c \
+   /HHARM2410-R3/kernel/include/linux/kernel.h \
+   /HHARM2410-R3/kernel/include/linux/module.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/mtd.h \
+   /HHARM2410-R3/kernel/include/linux/slab.h \
+   $(wildcard /HHARM2410-R3/kernel/include/config/mizi.h) \
+   /HHARM2410-R3/kernel/include/asm/hardware.h \
+   $(wildcard /HHARM2410-R3/kernel/include/config/devfs/fs.h) \
+   /HHARM2410-R3/kernel/include/linux/devfs_fs_kernel.h
+mtdchar-compat.o: mtdchar-compat.c \
+   /HHARM2410-R3/kernel/include/linux/mtd/compatmac.h \
+   /HHARM2410-R3/kernel/include/linux/kernel.h \
+   /HHARM2410-R3/kernel/include/linux/module.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/mtd.h \
+   /HHARM2410-R3/kernel/include/linux/slab.h \
+   $(wildcard /HHARM2410-R3/kernel/include/config/devfs/fs.h) \
+   /HHARM2410-R3/kernel/include/linux/devfs_fs_kernel.h
+mtdconcat.o: mtdconcat.c \
+   /HHARM2410-R3/kernel/include/linux/module.h \
+   /HHARM2410-R3/kernel/include/linux/types.h \
+   /HHARM2410-R3/kernel/include/linux/kernel.h \
+   /HHARM2410-R3/kernel/include/linux/slab.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/mtd.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/concat.h
+mtdcore.o: mtdcore.c \
+   /HHARM2410-R3/kernel/include/linux/module.h \
+   /HHARM2410-R3/kernel/include/linux/kernel.h \
+   /HHARM2410-R3/kernel/include/linux/sched.h \
+   /HHARM2410-R3/kernel/include/linux/ptrace.h \
+   /HHARM2410-R3/kernel/include/linux/slab.h \
+   /HHARM2410-R3/kernel/include/linux/string.h \
+   /HHARM2410-R3/kernel/include/linux/timer.h \
+   /HHARM2410-R3/kernel/include/linux/major.h \
+   /HHARM2410-R3/kernel/include/linux/fs.h \
+   /HHARM2410-R3/kernel/include/linux/ioctl.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/compatmac.h \
+   $(wildcard /HHARM2410-R3/kernel/include/config/proc/fs.h) \
+   /HHARM2410-R3/kernel/include/linux/proc_fs.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/mtd.h \
+   $(wildcard /HHARM2410-R3/kernel/include/config/pm.h) \
+   /HHARM2410-R3/kernel/include/linux/pm.h
+mtdpart.o: mtdpart.c \
+   /HHARM2410-R3/kernel/include/linux/module.h \
+   /HHARM2410-R3/kernel/include/linux/types.h \
+   /HHARM2410-R3/kernel/include/linux/kernel.h \
+   /HHARM2410-R3/kernel/include/linux/slab.h \
+   /HHARM2410-R3/kernel/include/linux/list.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/mtd.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/partitions.h
+nftlcore.o: nftlcore.c \
+   /HHARM2410-R3/kernel/include/linux/kernel.h \
+   /HHARM2410-R3/kernel/include/linux/module.h \
+   /HHARM2410-R3/kernel/include/asm/errno.h \
+   /HHARM2410-R3/kernel/include/asm/io.h \
+   /HHARM2410-R3/kernel/include/asm/uaccess.h \
+   /HHARM2410-R3/kernel/include/linux/miscdevice.h \
+   /HHARM2410-R3/kernel/include/linux/pci.h \
+   /HHARM2410-R3/kernel/include/linux/delay.h \
+   /HHARM2410-R3/kernel/include/linux/slab.h \
+   /HHARM2410-R3/kernel/include/linux/sched.h \
+   /HHARM2410-R3/kernel/include/linux/init.h \
+   /HHARM2410-R3/kernel/include/linux/blkpg.h \
+   $(wildcard /HHARM2410-R3/kernel/include/config/kmod.h) \
+   /HHARM2410-R3/kernel/include/linux/kmod.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/mtd.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/nftl.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/compatmac.h \
+   /HHARM2410-R3/kernel/include/linux/blk.h \
+   /HHARM2410-R3/kernel/include/linux/hdreg.h \
+   $(wildcard /HHARM2410-R3/kernel/include/config/nftl/rw.h)
+nftlmount.o: nftlmount.c \
+   /HHARM2410-R3/kernel/include/linux/kernel.h \
+   /HHARM2410-R3/kernel/include/linux/module.h \
+   /HHARM2410-R3/kernel/include/asm/errno.h \
+   /HHARM2410-R3/kernel/include/asm/io.h \
+   /HHARM2410-R3/kernel/include/asm/uaccess.h \
+   /HHARM2410-R3/kernel/include/linux/miscdevice.h \
+   /HHARM2410-R3/kernel/include/linux/pci.h \
+   /HHARM2410-R3/kernel/include/linux/delay.h \
+   /HHARM2410-R3/kernel/include/linux/slab.h \
+   /HHARM2410-R3/kernel/include/linux/sched.h \
+   /HHARM2410-R3/kernel/include/linux/init.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/mtd.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/nftl.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/compatmac.h
+redboot.o: redboot.c \
+   /HHARM2410-R3/kernel/include/linux/kernel.h \
+   /HHARM2410-R3/kernel/include/linux/slab.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/mtd.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/partitions.h

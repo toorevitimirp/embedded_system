@@ -1,0 +1,13 @@
+#!/bin/sh
+#
+# Default fetchmail ip-down script (/etc/ppp/ip-down.d/fetchmail)
+#
+# Remove the "exit 0" line if you want only want to run fetchmail when the
+# PPP link is up.
+#
+
+exit 0
+
+if [ -x /etc/init.d/fetchmail ]; then
+	/etc/init.d/fetchmail stop
+fi

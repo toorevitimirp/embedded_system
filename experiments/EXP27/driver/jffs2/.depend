@@ -1,0 +1,178 @@
+background.o: background.c \
+   /HHARM2410-R3/kernel/include/linux/kernel.h \
+   /HHARM2410-R3/kernel/include/linux/sched.h \
+   /HHARM2410-R3/kernel/include/linux/unistd.h \
+   /HHARM2410-R3/kernel/include/linux/jffs2.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/mtd.h \
+   /HHARM2410-R3/kernel/include/linux/interrupt.h \
+   /HHARM2410-R3/kernel/include/linux/completion.h \
+   nodelist.h
+build.o: build.c \
+   /HHARM2410-R3/kernel/include/linux/kernel.h \
+   /HHARM2410-R3/kernel/include/linux/jffs2.h \
+   /HHARM2410-R3/kernel/include/linux/slab.h \
+   nodelist.h
+compr.o: compr.c \
+   /HHARM2410-R3/kernel/include/linux/kernel.h \
+   /HHARM2410-R3/kernel/include/linux/string.h \
+   /HHARM2410-R3/kernel/include/linux/types.h \
+   /HHARM2410-R3/kernel/include/linux/errno.h \
+   /HHARM2410-R3/kernel/include/linux/jffs2.h
+compr_rtime.o: compr_rtime.c \
+   /HHARM2410-R3/kernel/include/linux/kernel.h \
+   /HHARM2410-R3/kernel/include/linux/types.h \
+   /HHARM2410-R3/kernel/include/linux/errno.h \
+   /HHARM2410-R3/kernel/include/linux/string.h
+compr_rubin.o: compr_rubin.c \
+   /HHARM2410-R3/kernel/include/linux/string.h \
+   /HHARM2410-R3/kernel/include/linux/types.h \
+   compr_rubin.h \
+   histo_mips.h
+compr_rubin.h: \
+   pushpull.h
+	@touch compr_rubin.h
+comprtest.o: comprtest.c \
+   /HHARM2410-R3/kernel/include/linux/kernel.h \
+   /HHARM2410-R3/kernel/include/linux/string.h \
+   /HHARM2410-R3/kernel/include/linux/module.h \
+   /HHARM2410-R3/kernel/include/asm/types.h
+compr_zlib.o: compr_zlib.c \
+   zlib.h \
+   /HHARM2410-R3/kernel/include/linux/kernel.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/compatmac.h \
+   /HHARM2410-R3/kernel/include/linux/slab.h \
+   /HHARM2410-R3/kernel/include/linux/jffs2.h \
+   nodelist.h \
+   /HHARM2410-R3/kernel/include/asm/types.h
+crc32.o: crc32.c \
+   crc32.h
+crc32.h: \
+   /HHARM2410-R3/kernel/include/linux/types.h
+	@touch crc32.h
+dir.o: dir.c \
+   /HHARM2410-R3/kernel/include/linux/kernel.h \
+   /HHARM2410-R3/kernel/include/linux/slab.h \
+   /HHARM2410-R3/kernel/include/linux/fs.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/compatmac.h \
+   /HHARM2410-R3/kernel/include/linux/jffs2.h \
+   /HHARM2410-R3/kernel/include/linux/jffs2_fs_i.h \
+   /HHARM2410-R3/kernel/include/linux/jffs2_fs_sb.h \
+   nodelist.h \
+   crc32.h
+erase.o: erase.c \
+   /HHARM2410-R3/kernel/include/linux/kernel.h \
+   /HHARM2410-R3/kernel/include/linux/slab.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/mtd.h \
+   /HHARM2410-R3/kernel/include/linux/jffs2.h \
+   /HHARM2410-R3/kernel/include/linux/interrupt.h \
+   nodelist.h \
+   crc32.h
+file.o: file.c \
+   /HHARM2410-R3/kernel/include/linux/kernel.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/compatmac.h \
+   /HHARM2410-R3/kernel/include/linux/slab.h \
+   /HHARM2410-R3/kernel/include/linux/fs.h \
+   /HHARM2410-R3/kernel/include/linux/pagemap.h \
+   /HHARM2410-R3/kernel/include/linux/jffs2.h \
+   nodelist.h \
+   crc32.h
+gc.o: gc.c \
+   /HHARM2410-R3/kernel/include/linux/kernel.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/mtd.h \
+   /HHARM2410-R3/kernel/include/linux/slab.h \
+   /HHARM2410-R3/kernel/include/linux/jffs2.h \
+   /HHARM2410-R3/kernel/include/linux/sched.h \
+   /HHARM2410-R3/kernel/include/linux/interrupt.h \
+   /HHARM2410-R3/kernel/include/linux/pagemap.h \
+   nodelist.h \
+   crc32.h
+ioctl.o: ioctl.c \
+   /HHARM2410-R3/kernel/include/linux/fs.h
+malloc.o: malloc.c \
+   /HHARM2410-R3/kernel/include/linux/kernel.h \
+   /HHARM2410-R3/kernel/include/linux/slab.h \
+   /HHARM2410-R3/kernel/include/linux/init.h \
+   /HHARM2410-R3/kernel/include/linux/jffs2.h \
+   nodelist.h
+nodelist.o: nodelist.c \
+   /HHARM2410-R3/kernel/include/linux/kernel.h \
+   /HHARM2410-R3/kernel/include/linux/jffs2.h \
+   /HHARM2410-R3/kernel/include/linux/fs.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/mtd.h \
+   nodelist.h
+nodelist.h: \
+   /HHARM2410-R3/kernel/include/linux/fs.h \
+   /HHARM2410-R3/kernel/include/linux/jffs2_fs_sb.h \
+   /HHARM2410-R3/kernel/include/linux/jffs2_fs_i.h \
+   $(wildcard /HHARM2410-R3/kernel/include/config/jffs2/fs/debug.h) \
+   $(wildcard /HHARM2410-R3/kernel/include/config/mizi.h) \
+   /HHARM2410-R3/kernel/include/asm/hardware.h
+	@touch nodelist.h
+nodemgmt.o: nodemgmt.c \
+   /HHARM2410-R3/kernel/include/linux/kernel.h \
+   /HHARM2410-R3/kernel/include/linux/slab.h \
+   /HHARM2410-R3/kernel/include/linux/jffs2.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/mtd.h \
+   /HHARM2410-R3/kernel/include/linux/interrupt.h \
+   nodelist.h
+pushpull.o: pushpull.c \
+   /HHARM2410-R3/kernel/include/linux/string.h \
+   pushpull.h \
+   /HHARM2410-R3/kernel/include/linux/errno.h
+read.o: read.c \
+   /HHARM2410-R3/kernel/include/linux/kernel.h \
+   /HHARM2410-R3/kernel/include/linux/slab.h \
+   /HHARM2410-R3/kernel/include/linux/jffs2.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/mtd.h \
+   nodelist.h \
+   crc32.h
+readinode.o: readinode.c \
+   /HHARM2410-R3/kernel/include/linux/kernel.h \
+   /HHARM2410-R3/kernel/include/linux/slab.h \
+   /HHARM2410-R3/kernel/include/linux/fs.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/mtd.h \
+   /HHARM2410-R3/kernel/include/linux/jffs2.h \
+   nodelist.h \
+   crc32.h
+scan.o: scan.c \
+   /HHARM2410-R3/kernel/include/linux/kernel.h \
+   /HHARM2410-R3/kernel/include/linux/slab.h \
+   /HHARM2410-R3/kernel/include/linux/jffs2.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/mtd.h \
+   /HHARM2410-R3/kernel/include/linux/pagemap.h \
+   nodelist.h \
+   crc32.h
+super.o: super.c \
+   /HHARM2410-R3/kernel/include/linux/kernel.h \
+   /HHARM2410-R3/kernel/include/linux/module.h \
+   /HHARM2410-R3/kernel/include/linux/version.h \
+   /HHARM2410-R3/kernel/include/linux/slab.h \
+   /HHARM2410-R3/kernel/include/linux/init.h \
+   /HHARM2410-R3/kernel/include/linux/list.h \
+   /HHARM2410-R3/kernel/include/linux/fs.h \
+   /HHARM2410-R3/kernel/include/linux/jffs2.h \
+   /HHARM2410-R3/kernel/include/linux/pagemap.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/mtd.h \
+   /HHARM2410-R3/kernel/include/linux/interrupt.h \
+   nodelist.h \
+   $(wildcard /HHARM2410-R3/kernel/include/config/jffs2/fs/debug.h)
+symlink.o: symlink.c \
+   /HHARM2410-R3/kernel/include/linux/kernel.h \
+   /HHARM2410-R3/kernel/include/linux/slab.h \
+   /HHARM2410-R3/kernel/include/linux/fs.h \
+   /HHARM2410-R3/kernel/include/linux/jffs2.h \
+   nodelist.h
+write.o: write.c \
+   /HHARM2410-R3/kernel/include/linux/kernel.h \
+   /HHARM2410-R3/kernel/include/linux/fs.h \
+   /HHARM2410-R3/kernel/include/linux/jffs2.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/mtd.h \
+   nodelist.h \
+   crc32.h
+zlib.o: zlib.c \
+   zlib.h \
+   /HHARM2410-R3/kernel/include/linux/string.h
+.PRECIOUS:	compr_rubin.h \
+	crc32.h \
+	nodelist.h \
+

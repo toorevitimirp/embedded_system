@@ -1,0 +1,23 @@
+./chap.c:352:	CHAPDEBUG(("ChapInput: rcvd short header."));
+./chap.c:359:	CHAPDEBUG(("ChapInput: rcvd illegal length."));
+./chap.c:363:	CHAPDEBUG(("ChapInput: rcvd short packet."));
+./chap.c:420:	CHAPDEBUG(("ChapReceiveChallenge: rcvd short packet."));
+./chap.c:427:	CHAPDEBUG(("ChapReceiveChallenge: rcvd short packet."));
+./chap.c:530:	CHAPDEBUG(("ChapReceiveResponse: rcvd short packet."));
+./chap.c:539:	CHAPDEBUG(("ChapReceiveResponse: rcvd short packet."));
+./lcp.c:1535:		    LCPDEBUG(("lcp_reqci: rcvd AUTHTYPE PAP, rejecting..."));
+./lcp.c:1555:		    LCPDEBUG(("lcp_reqci: rcvd AUTHTYPE CHAP, rejecting..."));
+./lcp.c:1707:	    LCPDEBUG(("lcp_reqci: rcvd unknown option %d", citype));
+./main.c:949:	dbglog("rcvd %P", p, len);
+./upap.c:306:	UPAPDEBUG(("pap_input: rcvd short header."));
+./upap.c:313:	UPAPDEBUG(("pap_input: rcvd illegal length."));
+./upap.c:317:	UPAPDEBUG(("pap_input: rcvd short packet."));
+./upap.c:380:	UPAPDEBUG(("pap_rauth: rcvd short packet."));
+./upap.c:386:	UPAPDEBUG(("pap_rauth: rcvd short packet."));
+./upap.c:393:	UPAPDEBUG(("pap_rauth: rcvd short packet."));
+./upap.c:449:		UPAPDEBUG(("pap_rauthack: rcvd short packet."));
+./upap.c:489:		UPAPDEBUG(("pap_rauthnak: rcvd short packet."));
+Binary file ./main.o matches
+Binary file ./pppd matches
+./main.old.c:946:	dbglog("rcvd %P", p, len);
+./main.c.zhh:946:	dbglog("rcvd %P", p, len);

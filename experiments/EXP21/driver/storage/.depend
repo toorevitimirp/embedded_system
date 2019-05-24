@@ -1,0 +1,180 @@
+datafab.o: datafab.c \
+   transport.h \
+   protocol.h \
+   usb.h \
+   debug.h \
+   datafab.h \
+   /HHARM2410-R3/kernel/include/linux/sched.h \
+   /HHARM2410-R3/kernel/include/linux/errno.h \
+   /HHARM2410-R3/kernel/include/linux/slab.h
+debug.o: debug.c \
+   debug.h
+debug.h: \
+   /HHARM2410-R3/kernel/include/linux/kernel.h \
+   /HHARM2410-R3/kernel/include/linux/blk.h \
+   /HHARM2410-R3/kernel/include/linux/cdrom.h \
+   /HHARM2410-R3/kernel/drivers/scsi/scsi.h \
+   $(wildcard /HHARM2410-R3/kernel/include/config/usb/storage/debug.h)
+	@touch debug.h
+dpcm.o: dpcm.c \
+   transport.h \
+   protocol.h \
+   usb.h \
+   debug.h \
+   dpcm.h \
+   sddr09.h \
+   $(wildcard /HHARM2410-R3/kernel/include/config/usb/storage/sddr09.h)
+freecom.o: freecom.c \
+   transport.h \
+   protocol.h \
+   usb.h \
+   debug.h \
+   freecom.h \
+   /HHARM2410-R3/kernel/include/linux/hdreg.h \
+   $(wildcard /HHARM2410-R3/kernel/include/config/usb/storage/debug.h)
+initializers.o: initializers.c \
+   initializers.h \
+   debug.h
+initializers.h: \
+   usb.h
+	@touch initializers.h
+isd200.o: isd200.c \
+   transport.h \
+   protocol.h \
+   usb.h \
+   debug.h \
+   scsiglue.h \
+   isd200.h \
+   /HHARM2410-R3/kernel/include/linux/sched.h \
+   /HHARM2410-R3/kernel/include/linux/errno.h \
+   /HHARM2410-R3/kernel/include/linux/slab.h \
+   /HHARM2410-R3/kernel/include/linux/hdreg.h \
+   /HHARM2410-R3/kernel/include/linux/ide.h \
+   $(wildcard /HHARM2410-R3/kernel/include/config/usb/storage/debug.h)
+jumpshot.o: jumpshot.c \
+   transport.h \
+   protocol.h \
+   usb.h \
+   debug.h \
+   jumpshot.h \
+   /HHARM2410-R3/kernel/include/linux/sched.h \
+   /HHARM2410-R3/kernel/include/linux/errno.h \
+   /HHARM2410-R3/kernel/include/linux/slab.h
+protocol.o: protocol.c \
+   protocol.h \
+   usb.h \
+   debug.h \
+   scsiglue.h \
+   transport.h
+protocol.h: \
+   /HHARM2410-R3/kernel/include/linux/blk.h \
+   /HHARM2410-R3/kernel/drivers/scsi/scsi.h \
+   usb.h
+	@touch protocol.h
+scsiglue.o: scsiglue.c \
+   scsiglue.h \
+   usb.h \
+   debug.h \
+   transport.h \
+   /HHARM2410-R3/kernel/include/linux/slab.h
+scsiglue.h: \
+   /HHARM2410-R3/kernel/include/linux/blk.h \
+   /HHARM2410-R3/kernel/drivers/scsi/scsi.h \
+   /HHARM2410-R3/kernel/drivers/scsi/hosts.h
+	@touch scsiglue.h
+sddr09.o: sddr09.c \
+   transport.h \
+   protocol.h \
+   usb.h \
+   debug.h \
+   sddr09.h \
+   /HHARM2410-R3/kernel/include/linux/sched.h \
+   /HHARM2410-R3/kernel/include/linux/errno.h \
+   /HHARM2410-R3/kernel/include/linux/slab.h
+shuttle_usbat.o: shuttle_usbat.c \
+   transport.h \
+   protocol.h \
+   usb.h \
+   debug.h \
+   shuttle_usbat.h \
+   /HHARM2410-R3/kernel/include/linux/sched.h \
+   /HHARM2410-R3/kernel/include/linux/errno.h \
+   /HHARM2410-R3/kernel/include/linux/slab.h
+transport.o: transport.c \
+   transport.h \
+   protocol.h \
+   usb.h \
+   debug.h \
+   /HHARM2410-R3/kernel/include/linux/sched.h \
+   /HHARM2410-R3/kernel/include/linux/errno.h \
+   /HHARM2410-R3/kernel/include/linux/slab.h \
+   $(wildcard /HHARM2410-R3/kernel/include/config/usb/storage/debug.h) \
+   $(wildcard /HHARM2410-R3/kernel/include/config/usb/uhci124.h) \
+   $(wildcard /HHARM2410-R3/kernel/include/config/usb/uhci124/module.h)
+transport.h: \
+   /HHARM2410-R3/kernel/include/linux/blk.h \
+   usb.h \
+   /HHARM2410-R3/kernel/drivers/scsi/scsi.h \
+   $(wildcard /HHARM2410-R3/kernel/include/config/usb/storage/hp8200e.h) \
+   $(wildcard /HHARM2410-R3/kernel/include/config/usb/storage/sddr09.h) \
+   $(wildcard /HHARM2410-R3/kernel/include/config/usb/storage/freecom.h) \
+   $(wildcard /HHARM2410-R3/kernel/include/config/usb/storage/datafab.h) \
+   $(wildcard /HHARM2410-R3/kernel/include/config/usb/storage/jumpshot.h)
+	@touch transport.h
+unusual_devs.h: \
+   $(wildcard /HHARM2410-R3/kernel/include/config/usb/uhci124.h) \
+   $(wildcard /HHARM2410-R3/kernel/include/config/usb/uhci124/module.h) \
+   $(wildcard /HHARM2410-R3/kernel/include/config/usb/storage/hp8200e.h) \
+   $(wildcard /HHARM2410-R3/kernel/include/config/usb/storage/dpcm.h) \
+   $(wildcard /HHARM2410-R3/kernel/include/config/usb/storage/sddr09.h) \
+   $(wildcard /HHARM2410-R3/kernel/include/config/usb/storage/isd200.h) \
+   $(wildcard /HHARM2410-R3/kernel/include/config/usb/storage/jumpshot.h) \
+   $(wildcard /HHARM2410-R3/kernel/include/config/usb/storage/freecom.h) \
+   $(wildcard /HHARM2410-R3/kernel/include/config/usb/storage/datafab.h)
+	@touch unusual_devs.h
+usb.o: usb.c \
+   usb.h \
+   scsiglue.h \
+   transport.h \
+   protocol.h \
+   debug.h \
+   initializers.h \
+   $(wildcard /HHARM2410-R3/kernel/include/config/usb/storage/hp8200e.h) \
+   shuttle_usbat.h \
+   $(wildcard /HHARM2410-R3/kernel/include/config/usb/storage/sddr09.h) \
+   sddr09.h \
+   $(wildcard /HHARM2410-R3/kernel/include/config/usb/storage/dpcm.h) \
+   dpcm.h \
+   $(wildcard /HHARM2410-R3/kernel/include/config/usb/storage/freecom.h) \
+   freecom.h \
+   $(wildcard /HHARM2410-R3/kernel/include/config/usb/storage/isd200.h) \
+   isd200.h \
+   $(wildcard /HHARM2410-R3/kernel/include/config/usb/storage/datafab.h) \
+   datafab.h \
+   $(wildcard /HHARM2410-R3/kernel/include/config/usb/storage/jumpshot.h) \
+   jumpshot.h \
+   /HHARM2410-R3/kernel/include/linux/module.h \
+   /HHARM2410-R3/kernel/include/linux/sched.h \
+   /HHARM2410-R3/kernel/include/linux/errno.h \
+   /HHARM2410-R3/kernel/include/linux/init.h \
+   /HHARM2410-R3/kernel/include/linux/slab.h \
+   unusual_devs.h \
+   unusual_devs.h
+usb.h: \
+   /HHARM2410-R3/kernel/include/linux/usb.h \
+   /HHARM2410-R3/kernel/include/linux/blk.h \
+   /HHARM2410-R3/kernel/include/linux/smp_lock.h \
+   /HHARM2410-R3/kernel/include/linux/completion.h \
+   /HHARM2410-R3/kernel/drivers/scsi/scsi.h \
+   /HHARM2410-R3/kernel/drivers/scsi/hosts.h \
+   $(wildcard /HHARM2410-R3/kernel/include/config/usb/uhci124.h) \
+   $(wildcard /HHARM2410-R3/kernel/include/config/usb/uhci124/module.h)
+	@touch usb.h
+.PRECIOUS:	debug.h \
+	initializers.h \
+	protocol.h \
+	scsiglue.h \
+	transport.h \
+	unusual_devs.h \
+	usb.h \
+

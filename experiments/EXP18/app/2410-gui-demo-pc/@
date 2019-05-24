@@ -1,0 +1,125 @@
+#include <sys/socket.h>
+#include <sys/types.h>
+#include <netinet/in.h>
+#include <stdio.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <string.h>
+//#include "../gui/graphic.c"
+#define PORT 2000
+//#define Max 60000
+int pow(int x,int y)
+{int a,b=1;
+ for(a=0;a<y;a++)
+	{b*=x;}
+ return b;
+}
+int aiptoi(char * pszip,unsigned int* piip)
+{
+	char psziphere[17],*psztmp1,*psztmp2,*pchar;
+	int i;
+	bzero(psziphere,17);
+	strcpy(psziphere,pszip);
+	strcat(psziphere,".");
+	for(i=0,psztmp1=psziphere,pchar=(char *)piip;i<4;i++)
+	{
+		if((psztmp2=strstr(psztmp1,"."))==NULL)
+			return 0;	
+		psztmp2[0]=0;
+		*(pchar+i)=atoi(psztmp1);
+		psztmp1=psztmp2+1;
+	}
+	return 1;	
+}
+
+
+//int trans(int argc,char **argv)
+int trans(char *argv,char *totelbuf)
+{
+	int sockfd,yy,x0,y0,z,t2,t3,t4;
+	float per;
+	unsigned int uiip;
+	char szrecvbuf[128],str10[3],str0[4],a,b,ccc;
+	char head[8],pool[2],buf1[10];//totelbuf[Max];
+	int *phead=head+4,nsize=128,allsize=0,i;
+	int filelength,length,buf2[10],buf3[10];
+	struct sockaddr_in servaddr;
+	sockfd = socket(AF_INET,SOCK_STREAM,0);
+	servaddr.sin_family=AF_INET;
+	servaddr.sin_port=htons(PORT);                   
+//	their_addr.sin_addr.s_addr=hostip;
+	bzero(&(servaddr.sin_zero),8);     
+//	bzero(&servaddr,sizeof(struct sockaddr_in));
+/*	bzero(&(servaddr.sin_zero),8);
+	servaddr.sin_family = AF_INET;
+	servaddr.sin_port = htons(8888);*/
+//	if(!aiptoi(argv[1],&uiip)||argc<=1)
+	if(!aiptoi(argv,&uiip))
+	{
+		printf("the ip is not correct or lose the ip input!\n");
+		return 0;
+	}
+
+	servaddr.sin_addr.s_addr=uiip; 
+	if(connect(sockfd,(struct sockaddr *)&servaddr,sizeof(struct sockaddr)))
+	{
+		printf("Can't connect to the server!\n");
+		return 0;
+	}
+        read(sockfd,pool,1);
+	printf("%s\n",pool);
+	length=(int)(pool[0]-48);
+	printf("length=%d\n",length);
+	read(sockfd,buf1,length);
+	printf("buf1=%s,%d\n",buf1,strlen(buf1));
+	for(i=0;i<(strlen(buf1));i++)
+		{buf2[i]=(int)(buf1[i])-48;}
+	for(i=0;i<(strlen(buf1));i++)
+		{buf3[i]=buf2[i]*pow(10,strlen(buf1)-1-i);}
+	filelength=0;
+	for(i=0;i<(strlen(buf1));i++)
+		{filelength+=buf3[i];}
+	printf("%d\n",filelength);
+ 	t2=0;
+	while(1)
+ 		{bzero(szrecvbuf,128);
+ 	 	 read(sockfd,head,8);
+	 	 nsize=read(sockfd,szrecvbuf,128);
+		 for(i=0;i<nsize;i++)
+			{totelbuf[allsize+i]=szrecvbuf[i];}
+    	 	 allsize+=nsize;
+	// 	 if(nsize)
+	 //		{printf("now size:%d this time %d times %d\n",allsize,nsize,allsize/128);}
+        	yy=100*allsize/filelength;
+		per=yy/100;
+		if(yy==100)
+		{x0=1+48;y0=0+48;z=0+48;
+		 a=(char)(x0);b=(char)(y0);ccc=(char)(z);
+		 str0[0]=a;str0[1]=b;str0[2]=ccc;
+		 str0[3]=0;
+		 textout(190,100,str0,0xffff,0x0000);
+		}
+		else
+		{x0=yy/10;y0=x0+48;z=yy-x0*10+48;	
+		 a=(char)(y0);b=(char)(z);
+		 str10[0]=a;str10[1]=b;
+		 str10[2]='\0';
+		textout(190,100,str10,0xffff,0x0000);} 
+            //    for(;t2<yy;t2++)
+             //    {t3=40+t2;t4+=t2+41;
+	      //   t3=150*yy;
+              //   fillrectangle(40,40,40+t3,90);//}		
+//		 t2=yy;
+		
+		if(nsize<=0)
+	 	 {break;}
+        	}
+//        initgraph();
+//	clearscreen();
+//	ShowBuf(totelbuf,0,0);
+	return 0;
+}
+void recvfile(char *bmpbuf)
+	{char ip[]="192.168.2.100";
+	 trans(ip,bmpbuf);
+	}

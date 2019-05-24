@@ -1,0 +1,13 @@
+#!/bin/bash
+#
+# ipmasq.ip-up	Reinitializes the ipmasq settings when PPP comes up
+#
+# v1.0	19 July 1998
+#####
+
+test -x /usr/sbin/ipmasq || exit 0
+
+if [ -e /etc/ipmasq/ppp ]; then
+    /usr/sbin/ipmasq
+fi
+

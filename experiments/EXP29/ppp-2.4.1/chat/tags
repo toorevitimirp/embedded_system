@@ -1,0 +1,118 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/darren@hiebert.com/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.0.1	//
+AR	Makefile	/^AR = $(CROSS)ar$/;"	m
+ARG	chat.c	157;"	d	file:
+CC	Makefile	/^CC = $(CROSS)gcc$/;"	m
+CDEF1	Makefile	/^CDEF1=	-DTERMIOS			# Use the termios structure$/;"	m
+CDEF2	Makefile	/^CDEF2=	-DSIGTYPE=void			# Standard definition$/;"	m
+CDEF3	Makefile	/^CDEF3=	-UNO_SLEEP			# Use the usleep function$/;"	m
+CDEF4	Makefile	/^CDEF4=	-DFNDELAY=O_NDELAY		# Old name value$/;"	m
+CDEFS	Makefile	/^CDEFS=	$(CDEF1) $(CDEF2) $(CDEF3) $(CDEF4)$/;"	m
+CFLAGS	Makefile	/^CFLAGS=	-O2 -g -pipe $(CDEFS)$/;"	m
+CROSS	Makefile	/^CROSS = \/home\/hhcn\/toolchain\/gcc-3.2.2\/toolchain\/bin\/powerpc-uclibc-$/;"	m
+DEFAULT_CHAT_TIMEOUT	chat.c	166;"	d	file:
+INSTALL	Makefile	/^INSTALL= install$/;"	m
+MAX_ABORTS	chat.c	164;"	d	file:
+MAX_REPORTS	chat.c	165;"	d	file:
+NO_USLEEP	chat.c	1507;"	d	file:
+OPTARG	chat.c	154;"	d	file:
+OPTION	chat.c	151;"	d	file:
+OPTONLYARG	chat.c	156;"	d	file:
+OUTCHAR	chat.c	1564;"	d	file:
+O_NONBLOCK	chat.c	139;"	d	file:
+SIGTYPE	chat.c	121;"	d	file:
+STRIP	Makefile	/^STRIP = $(CROSS)strip$/;"	m
+STR_LEN	chat.c	118;"	d	file:
+TERMIOS	chat.c	107;"	d	file:
+TERMIOS	chat.c	108;"	d	file:
+Verbose	chat.c	/^int Verbose       = 0;$/;"	v
+_O	chat.c	/^static int _O = 0;		\/* Internal state *\/$/;"	v	file:
+__P	chat.c	124;"	d	file:
+__P	chat.c	130;"	d	file:
+__P	chat.c	134;"	d	file:
+__V	chat.c	125;"	d	file:
+__V	chat.c	129;"	d	file:
+__V	chat.c	133;"	d	file:
+abort_next	chat.c	/^int n_aborts = 0, abort_next = 0, timeout_next = 0, echo_next = 0;$/;"	v
+abort_string	chat.c	/^char *abort_string[MAX_ABORTS], *fail_reason = (char *)0,$/;"	v
+alarmed	chat.c	/^int alarmed = 0;$/;"	v
+break_sequence	chat.c	/^void break_sequence()$/;"	f
+character	chat.c	/^char *character(c)$/;"	f
+chat_expect	chat.c	/^void chat_expect (s)$/;"	f
+chat_file	chat.c	/^char *chat_file   = (char *) 0;$/;"	v
+chat_send	chat.c	/^void chat_send (s)$/;"	f
+clean	chat.c	/^char *clean(s, sending)$/;"	f
+clear_abort_next	chat.c	/^int clear_abort_next = 0;$/;"	v
+clear_report_next	chat.c	/^int clear_report_next = 0;$/;"	v
+const	chat.c	135;"	d	file:
+const	chat.c	86;"	d	file:
+copy_of	chat.c	/^void *copy_of (s)$/;"	f
+do_file	chat.c	/^void do_file (chat_file)$/;"	f
+dup_mem	chat.c	/^void *dup_mem(b, c)$/;"	f
+echo	chat.c	/^int echo          = 0;$/;"	v
+echo_next	chat.c	/^int n_aborts = 0, abort_next = 0, timeout_next = 0, echo_next = 0;$/;"	v
+echo_stderr	chat.c	/^void echo_stderr(n)$/;"	f
+exit_code	chat.c	/^int exit_code     = 0;$/;"	v
+expect_strtok	chat.c	/^char *expect_strtok (s, term)$/;"	f
+fail_buffer	chat.c	/^	fail_buffer[50];$/;"	v
+fail_reason	chat.c	/^char *abort_string[MAX_ABORTS], *fail_reason = (char *)0,$/;"	v
+fatal	chat.c	/^void fatal __V((int code, const char *fmt, ...))$/;"	f
+get_char	chat.c	/^int get_char()$/;"	f
+get_string	chat.c	/^int get_string(string)$/;"	f
+get_term_param	chat.c	188;"	d	file:
+get_term_param	chat.c	195;"	d	file:
+have_tty_parameters	chat.c	/^int have_tty_parameters = 0;$/;"	v
+hup_next	chat.c	/^int say_next = 0, hup_next = 0;$/;"	v
+init	chat.c	/^void init()$/;"	f
+isalnumx	chat.c	679;"	d	file:
+isoctal	chat.c	678;"	d	file:
+line	chat.c	/^char line[1024];$/;"	v
+logf	chat.c	/^void logf __V((const char *fmt, ...))$/;"	f
+main	chat.c	/^main(argc, argv)$/;"	f
+memmove	chat.c	145;"	d	file:
+n_aborts	chat.c	/^int n_aborts = 0, abort_next = 0, timeout_next = 0, echo_next = 0;$/;"	v
+n_reports	chat.c	/^int n_reports = 0, report_next = 0, report_gathering = 0 ; $/;"	v
+pack_array	chat.c	/^pack_array (array, end)$/;"	f
+phone_num	chat.c	/^char *phone_num   = (char *) 0;$/;"	v
+phone_num2	chat.c	/^char *phone_num2  = (char *) 0;$/;"	v
+program_name	chat.c	/^char *program_name;$/;"	v
+put_char	chat.c	/^int put_char(c)$/;"	f
+put_string	chat.c	/^int put_string (s)$/;"	f
+quiet	chat.c	/^int quiet         = 0;$/;"	v
+rcsid	chat.c	/^static const char rcsid[] = "$Id: chat.c,v 1.26 1999\/12\/23 01:39:54 paulus Exp $";$/;"	v	file:
+report	chat.c	/^int report        = 0;$/;"	v
+report_buffer	chat.c	/^char  report_buffer[50] ;$/;"	v
+report_file	chat.c	/^char *report_file = (char *) 0;$/;"	v
+report_fp	chat.c	/^FILE* report_fp   = (FILE *) 0;$/;"	v
+report_gathering	chat.c	/^int n_reports = 0, report_next = 0, report_gathering = 0 ; $/;"	v
+report_next	chat.c	/^int n_reports = 0, report_next = 0, report_gathering = 0 ; $/;"	v
+report_string	chat.c	/^char *report_string[MAX_REPORTS] ;$/;"	v
+saved_tty_parameters	chat.c	/^struct termio saved_tty_parameters;$/;"	v
+saved_tty_parameters	chat.c	/^struct termios saved_tty_parameters;$/;"	v
+say_next	chat.c	/^int say_next = 0, hup_next = 0;$/;"	v
+set_term_param	chat.c	189;"	d	file:
+set_term_param	chat.c	196;"	d	file:
+set_tty_parameters	chat.c	/^void set_tty_parameters()$/;"	f
+sigalrm	chat.c	/^SIGTYPE sigalrm(signo)$/;"	f
+sighup	chat.c	/^SIGTYPE sighup(signo)$/;"	f
+sigint	chat.c	/^SIGTYPE sigint(signo)$/;"	f
+sigterm	chat.c	/^SIGTYPE sigterm(signo)$/;"	f
+strerror	chat.c	146;"	d	file:
+term_parms	chat.c	187;"	d	file:
+term_parms	chat.c	194;"	d	file:
+terminate	chat.c	/^void terminate(status)$/;"	f
+timeout	chat.c	/^int timeout       = DEFAULT_CHAT_TIMEOUT;$/;"	v
+timeout_next	chat.c	/^int n_aborts = 0, abort_next = 0, timeout_next = 0, echo_next = 0;$/;"	v
+to_log	chat.c	/^int to_log        = 1;$/;"	v
+to_stderr	chat.c	/^int to_stderr     = 0;$/;"	v
+unalarm	chat.c	/^void unalarm()$/;"	f
+usage	chat.c	/^void usage()$/;"	f
+use_env	chat.c	/^int use_env       = 0;$/;"	v
+usleep	chat.c	/^usleep( usec )				  \/* returns 0 if ok, else -1 *\/$/;"	f
+verbose	chat.c	/^int verbose       = 0;$/;"	v
+vfmtmsg	chat.c	/^vfmtmsg(buf, buflen, fmt, args)$/;"	f
+write_char	chat.c	/^int write_char (c)$/;"	f

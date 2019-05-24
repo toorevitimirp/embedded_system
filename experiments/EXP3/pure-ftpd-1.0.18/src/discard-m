@@ -1,0 +1,174 @@
+include ./$(DEPDIR)/bsd-getopt_long.Po
+include ./$(DEPDIR)/fakesnprintf.Po
+include ./$(DEPDIR)/ipv4stack.Po
+include ./$(DEPDIR)/mysnprintf.Po
+include ./$(DEPDIR)/ptracetest.Po
+include ./$(DEPDIR)/pure-authd.Po
+include ./$(DEPDIR)/pure-ftpwho.Po
+include ./$(DEPDIR)/pure-pw.Po
+include ./$(DEPDIR)/pure-pwconvert.Po
+include ./$(DEPDIR)/pure-quotacheck.Po
+include ./$(DEPDIR)/pure-statsdecode.Po
+include ./$(DEPDIR)/pure-uploadscript.Po
+include ./$(DEPDIR)/pure_ftpd-altlog.Po
+include ./$(DEPDIR)/pure_ftpd-bsd-getopt_long.Po
+include ./$(DEPDIR)/pure_ftpd-bsd-glob.Po
+include ./$(DEPDIR)/pure_ftpd-bsd-realpath.Po
+include ./$(DEPDIR)/pure_ftpd-caps.Po
+include ./$(DEPDIR)/pure_ftpd-crypto-md5.Po
+include ./$(DEPDIR)/pure_ftpd-crypto-sha1.Po
+include ./$(DEPDIR)/pure_ftpd-crypto.Po
+include ./$(DEPDIR)/pure_ftpd-daemons.Po
+include ./$(DEPDIR)/pure_ftpd-diraliases.Po
+include ./$(DEPDIR)/pure_ftpd-dynamic.Po
+include ./$(DEPDIR)/pure_ftpd-fakechroot.Po
+include ./$(DEPDIR)/pure_ftpd-fakesnprintf.Po
+include ./$(DEPDIR)/pure_ftpd-ftp_parser.Po
+include ./$(DEPDIR)/pure_ftpd-ftpd.Po
+include ./$(DEPDIR)/pure_ftpd-ftpwho-read.Po
+include ./$(DEPDIR)/pure_ftpd-ftpwho-update.Po
+include ./$(DEPDIR)/pure_ftpd-getloadavg.Po
+include ./$(DEPDIR)/pure_ftpd-ipv4stack.Po
+include ./$(DEPDIR)/pure_ftpd-log_extauth.Po
+include ./$(DEPDIR)/pure_ftpd-log_ldap.Po
+include ./$(DEPDIR)/pure_ftpd-log_mysql.Po
+include ./$(DEPDIR)/pure_ftpd-log_pam.Po
+include ./$(DEPDIR)/pure_ftpd-log_pgsql.Po
+include ./$(DEPDIR)/pure_ftpd-log_puredb.Po
+include ./$(DEPDIR)/pure_ftpd-log_unix.Po
+include ./$(DEPDIR)/pure_ftpd-ls.Po
+include ./$(DEPDIR)/pure_ftpd-mysnprintf.Po
+include ./$(DEPDIR)/pure_ftpd-osx-extensions.Po
+include ./$(DEPDIR)/pure_ftpd-parser.Po
+include ./$(DEPDIR)/pure_ftpd-privsep.Po
+include ./$(DEPDIR)/pure_ftpd-quotas.Po
+include ./$(DEPDIR)/pure_ftpd-tls.Po
+include ./$(DEPDIR)/pure_ftpd-upload-pipe.Po
+include ./$(DEPDIR)/pure_mrtginfo-daemons.Po
+include ./$(DEPDIR)/pure_mrtginfo-fakesnprintf.Po
+include ./$(DEPDIR)/pure_mrtginfo-mysnprintf.Po
+include ./$(DEPDIR)/pure_mrtginfo-pure-mrtginfo.Po
+
+
+
+.SUFFIXES:
+.SUFFIXES: .c .o .obj
+$(srcdir)/Makefile.in:  $(srcdir)/Makefile.am  $(am__configure_deps)
+	@for dep in $?; do \
+	  case '$(am__configure_deps)' in \
+	    *$$dep*) \
+	      cd $(top_builddir) && $(MAKE) $(AM_MAKEFLAGS) am--refresh \
+		&& exit 0; \
+	      exit 1;; \
+	  esac; \
+	done; \
+	echo ' cd $(top_srcdir) && $(AUTOMAKE) --gnu  src/Makefile'; \
+	cd $(top_srcdir) && \
+	  $(AUTOMAKE) --gnu  src/Makefile
+.PRECIOUS: Makefile
+Makefile: $(srcdir)/Makefile.in $(top_builddir)/config.status
+	@case '$?' in \
+	  *config.status*) \
+	    cd $(top_builddir) && $(MAKE) $(AM_MAKEFLAGS) am--refresh;; \
+	  *) \
+	    echo ' cd $(top_builddir) && $(SHELL) ./config.status $(subdir)/$@ $(am__depfiles_maybe)'; \
+	    cd $(top_builddir) && $(SHELL) ./config.status $(subdir)/$@ $(am__depfiles_maybe);; \
+	esac;
+
+$(top_builddir)/config.status: $(top_srcdir)/configure $(CONFIG_STATUS_DEPENDENCIES)
+	cd $(top_builddir) && $(MAKE) $(AM_MAKEFLAGS) am--refresh
+
+$(top_srcdir)/configure:  $(am__configure_deps)
+	cd $(top_builddir) && $(MAKE) $(AM_MAKEFLAGS) am--refresh
+$(ACLOCAL_M4):  $(am__aclocal_m4_deps)
+	cd $(top_builddir) && $(MAKE) $(AM_MAKEFLAGS) am--refresh
+
+
+install-binPROGRAMS: $(bin_PROGRAMS)
+	@$(NORMAL_INSTALL)
+	$(mkdir_p) $(DESTDIR)$(bindir)
+	@list='$(bin_PROGRAMS)'; for p in $$list; do \
+	  p1=`echo $$p|sed 's/$(EXEEXT)$$//'`; \
+	  if test -f $$p \
+	  ; then \
+	    f=`echo "$$p1" | sed 's,^.*/,,;$(transform);s/$$/$(EXEEXT)/'`; \
+	   echo " $(INSTALL_PROGRAM_ENV) $(binPROGRAMS_INSTALL) $$p $(DESTDIR)$(bindir)/$$f"; \
+	   $(INSTALL_PROGRAM_ENV) $(binPROGRAMS_INSTALL) $$p $(DESTDIR)$(bindir)/$$f || exit 1; \
+	  else :; fi; \
+	done
+
+uninstall-binPROGRAMS:
+	@$(NORMAL_UNINSTALL)
+	@list='$(bin_PROGRAMS)'; for p in $$list; do \
+	  f=`echo "$$p" | sed 's,^.*/,,;s/$(EXEEXT)$$//;$(transform);s/$$/$(EXEEXT)/'`; \
+	  echo " rm -f $(DESTDIR)$(bindir)/$$f"; \
+	  rm -f $(DESTDIR)$(bindir)/$$f; \
+	done
+
+clean-binPROGRAMS:
+	-test -z "$(bin_PROGRAMS)" || rm -f $(bin_PROGRAMS)
+
+clean-noinstPROGRAMS:
+	-test -z "$(noinst_PROGRAMS)" || rm -f $(noinst_PROGRAMS)
+install-sbinPROGRAMS: $(sbin_PROGRAMS)
+	@$(NORMAL_INSTALL)
+	$(mkdir_p) $(DESTDIR)$(sbindir)
+	@list='$(sbin_PROGRAMS)'; for p in $$list; do \
+	  p1=`echo $$p|sed 's/$(EXEEXT)$$//'`; \
+	  if test -f $$p \
+	  ; then \
+	    f=`echo "$$p1" | sed 's,^.*/,,;$(transform);s/$$/$(EXEEXT)/'`; \
+	   echo " $(INSTALL_PROGRAM_ENV) $(sbinPROGRAMS_INSTALL) $$p $(DESTDIR)$(sbindir)/$$f"; \
+	   $(INSTALL_PROGRAM_ENV) $(sbinPROGRAMS_INSTALL) $$p $(DESTDIR)$(sbindir)/$$f || exit 1; \
+	  else :; fi; \
+	done
+
+uninstall-sbinPROGRAMS:
+	@$(NORMAL_UNINSTALL)
+	@list='$(sbin_PROGRAMS)'; for p in $$list; do \
+	  f=`echo "$$p" | sed 's,^.*/,,;s/$(EXEEXT)$$//;$(transform);s/$$/$(EXEEXT)/'`; \
+	  echo " rm -f $(DESTDIR)$(sbindir)/$$f"; \
+	  rm -f $(DESTDIR)$(sbindir)/$$f; \
+	done
+
+clean-sbinPROGRAMS:
+	-test -z "$(sbin_PROGRAMS)" || rm -f $(sbin_PROGRAMS)
+ptracetest$(EXEEXT): $(ptracetest_OBJECTS) $(ptracetest_DEPENDENCIES) 
+	@rm -f ptracetest$(EXEEXT)
+	$(LINK) $(ptracetest_LDFLAGS) $(ptracetest_OBJECTS) $(ptracetest_LDADD) $(LIBS)
+pure-authd$(EXEEXT): $(pure_authd_OBJECTS) $(pure_authd_DEPENDENCIES) 
+	@rm -f pure-authd$(EXEEXT)
+	$(LINK) $(pure_authd_LDFLAGS) $(pure_authd_OBJECTS) $(pure_authd_LDADD) $(LIBS)
+pure-ftpd$(EXEEXT): $(pure_ftpd_OBJECTS) $(pure_ftpd_DEPENDENCIES) 
+	@rm -f pure-ftpd$(EXEEXT)
+	$(LINK) $(pure_ftpd_LDFLAGS) $(pure_ftpd_OBJECTS) $(pure_ftpd_LDADD) $(LIBS)
+pure-ftpwho$(EXEEXT): $(pure_ftpwho_OBJECTS) $(pure_ftpwho_DEPENDENCIES) 
+	@rm -f pure-ftpwho$(EXEEXT)
+	$(LINK) $(pure_ftpwho_LDFLAGS) $(pure_ftpwho_OBJECTS) $(pure_ftpwho_LDADD) $(LIBS)
+pure-mrtginfo$(EXEEXT): $(pure_mrtginfo_OBJECTS) $(pure_mrtginfo_DEPENDENCIES) 
+	@rm -f pure-mrtginfo$(EXEEXT)
+	$(LINK) $(pure_mrtginfo_LDFLAGS) $(pure_mrtginfo_OBJECTS) $(pure_mrtginfo_LDADD) $(LIBS)
+pure-pw$(EXEEXT): $(pure_pw_OBJECTS) $(pure_pw_DEPENDENCIES) 
+	@rm -f pure-pw$(EXEEXT)
+	$(LINK) $(pure_pw_LDFLAGS) $(pure_pw_OBJECTS) $(pure_pw_LDADD) $(LIBS)
+pure-pwconvert$(EXEEXT): $(pure_pwconvert_OBJECTS) $(pure_pwconvert_DEPENDENCIES) 
+	@rm -f pure-pwconvert$(EXEEXT)
+	$(LINK) $(pure_pwconvert_LDFLAGS) $(pure_pwconvert_OBJECTS) $(pure_pwconvert_LDADD) $(LIBS)
+pure-quotacheck$(EXEEXT): $(pure_quotacheck_OBJECTS) $(pure_quotacheck_DEPENDENCIES) 
+	@rm -f pure-quotacheck$(EXEEXT)
+	$(LINK) $(pure_quotacheck_LDFLAGS) $(pure_quotacheck_OBJECTS) $(pure_quotacheck_LDADD) $(LIBS)
+pure-statsdecode$(EXEEXT): $(pure_statsdecode_OBJECTS) $(pure_statsdecode_DEPENDENCIES) 
+	@rm -f pure-statsdecode$(EXEEXT)
+	$(LINK) $(pure_statsdecode_LDFLAGS) $(pure_statsdecode_OBJECTS) $(pure_statsdecode_LDADD) $(LIBS)
+pure-uploadscript$(EXEEXT): $(pure_uploadscript_OBJECTS) $(pure_uploadscript_DEPENDENCIES) 
+	@rm -f pure-uploadscript$(EXEEXT)
+	$(LINK) $(pure_uploadscript_LDFLAGS) $(pure_uploadscript_OBJECTS) $(pure_uploadscript_LDADD) $(LIBS)
+
+mostlyclean-compile:
+	-rm -f *.$(OBJEXT)
+
+distclean-compile:
+	-rm -f *.tab.c
+
+
+

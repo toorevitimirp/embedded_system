@@ -1,0 +1,18 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.4	//
+AR	Makefile	/^AR = $(CROSS)ar$/;"	m
+CC	Makefile	/^CC = $(CROSS)gcc$/;"	m
+CROSS	Makefile	/^CROSS =\/opt\/host\/armv4l\/bin\/armv4l-unknown-linux-$/;"	m
+EXEC	Makefile	/^EXEC = ttytest_char$/;"	m
+OBJS	Makefile	/^OBJS = ttytest_char.o $/;"	m
+PORT	ttytest_char.c	19;"	d	file:
+STRIP	Makefile	/^STRIP = $(CROSS)strip$/;"	m
+main	ttytest_char.c	/^int  main()$/;"	f
+name_arr	ttytest_char.c	/^int name_arr[] = {115200, 57600, 38400, 19200, 9600, 4800, 2400, 300};$/;"	v
+set_Parity	ttytest_char.c	/^int set_Parity(int fd, int databits, int stopbits, int parity)$/;"	f
+set_speed	ttytest_char.c	/^int set_speed(int fd, int speed)$/;"	f
+speed_arr	ttytest_char.c	/^int speed_arr[] = {B115200, B57600, B38400, B19200, B9600, B4800, B2400, B300};$/;"	v

@@ -1,0 +1,18 @@
+diald.c:176:	if ((pid = fork()) < 0) {
+diald.c:177:	    syslog(LOG_ERR,"Could not fork into background: %m");
+diald.c:720:    pid = running_pid = vfork();
+diald.c:728:    pid = running_pid = fork();
+diald.c:734:        syslog(LOG_ERR, "failed to fork and run '%s': %m",buf);
+diald.c:798:    pid = vfork();
+diald.c:805:    pid = fork();
+diald.c:811:        syslog(LOG_ERR, "failed to fork and run '%s': %m",buf);
+fsm.c:309:            fork_dialer(disconnector, modem_fd);
+modem.c:190: * fork_dialer - run a program to connect the serial device.
+modem.c:192:void fork_dialer(char *program, int fd)
+modem.c:199:    pid = dial_pid = vfork();
+modem.c:201:    pid = dial_pid = fork();
+modem.c:208:        syslog(LOG_ERR, "failed to fork dialer: %m");
+modem.c:353:	fork_dialer(connector, modem_fd);
+ppp.c:40:    pid = link_pid = vfork();
+ppp.c:42:    pid = link_pid = fork();
+ppp.c:46:	syslog(LOG_ERR, "failed to fork pppd: %m");

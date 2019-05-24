@@ -1,0 +1,287 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.4	//
+AR	Makefile	/^AR = $(CROSS)ar$/;"	m
+BACKLOG	trans/host.c	13;"	d	file:
+BMPHEAD	gui.h	/^}BMPHEAD;$/;"	t
+BlackPattern	gui.h	/^  BlackPattern = 0,$/;"	e
+BuildData	handpad.c	/^void BuildData()$/;"	f
+BuildData	handpad.h	/^void BuildData()$/;"	f
+BuildNode	handpad.c	/^void BuildNode(struct nodetype*node)\/\/Depth First$/;"	f
+BuildNode	handpad.h	/^void BuildNode(struct nodetype*node)\/\/Depth First$/;"	f
+CC	Makefile	/^CC = $(CROSS)gcc$/;"	m
+CHINESE_FONT_FILE	graphic.c	38;"	d	file:
+CROSS	Makefile	/^CROSS = \/opt\/host\/armv4l\/bin\/armv4l-unknown-linux-$/;"	m
+C_Font	graphic.c	/^FILE *C_Font;$/;"	v
+Color	graphic.c	/^static unsigned short X,Y,Color,P_Index,Mode=MODE_SRC;$/;"	v	file:
+CopyMode	gui.h	/^} CopyMode;$/;"	t
+DarkGreyPattern	gui.h	/^  DarkGreyPattern,$/;"	e
+Delete	handpad.c	/^void Delete()$/;"	f
+Delete	handpad.h	/^void Delete()$/;"	f
+DeleteNode	handpad.c	/^void DeleteNode(struct nodetype*node)\/\/Depth First$/;"	f
+DeleteNode	handpad.h	/^void DeleteNode(struct nodetype*node)\/\/Depth First$/;"	f
+EXEC	Makefile	/^EXEC = main$/;"	m
+E_Font	graphic.c	/^unsigned char * screen_ptr=(unsigned char*)(0x0400),*E_Font=(unsigned char*)(0x8500);$/;"	v
+FONTDATAMAX	font_8x16.h	8;"	d
+FindCandidate	handpad.c	/^void FindCandidate(char*buf,short*start,short*end)$/;"	f
+FindCandidate	handpad.h	/^void FindCandidate(char*buf,short*start,short*end)$/;"	f
+GetChildItem	handpad.c	168;"	d	file:
+GetChildItem	handpad.h	170;"	d
+GetItemData	handpad.c	172;"	d	file:
+GetItemData	handpad.h	174;"	d
+GetItemText	handpad.c	173;"	d	file:
+GetItemText	handpad.h	175;"	d
+GetNextItem	handpad.c	/^struct nodetype *GetNextItem(struct nodetype *current)$/;"	f
+GetNextItem	handpad.h	/^struct nodetype *GetNextItem(struct nodetype *current)$/;"	f
+GetNextSiblingItem	handpad.c	169;"	d	file:
+GetNextSiblingItem	handpad.h	171;"	d
+GetParentItem	handpad.c	170;"	d	file:
+GetParentItem	handpad.h	172;"	d
+HEIGHT	handpad.c	34;"	d	file:
+HEIGHT	handpad.h	34;"	d
+HXMAX	handpad.c	28;"	d	file:
+HXMAX	handpad.h	28;"	d
+HXMIN	handpad.c	30;"	d	file:
+HXMIN	handpad.h	30;"	d
+HYMAX	handpad.c	29;"	d	file:
+HYMAX	handpad.h	29;"	d
+HYMIN	handpad.c	31;"	d	file:
+HYMIN	handpad.h	31;"	d
+H_scroll_screen	graphic.c	/^void H_scroll_screen(short width) \/\/Left Scroll$/;"	f
+Initialize	handpad.c	/^short Initialize()$/;"	f
+Initialize	handpad.h	/^short Initialize()$/;"	f
+InsertItem	handpad.c	/^struct nodetype * InsertItem(char ch,struct nodetype *p,short val)$/;"	f
+InsertItem	handpad.h	/^struct nodetype * InsertItem(char ch,struct nodetype *p,short val)$/;"	f
+InvalidMode	gui.h	/^  InvalidMode$/;"	e
+InvalidPattern	gui.h	/^  InvalidPattern$/;"	e
+LightGreyPattern	gui.h	/^  LightGreyPattern,$/;"	e
+MODE_NOT_SRC	gui.h	/^  MODE_NOT_SRC,$/;"	e
+MODE_NOT_SRC_AND_DST	gui.h	/^  MODE_NOT_SRC_AND_DST,$/;"	e
+MODE_NOT_SRC_AND_NOT_DST	gui.h	/^  MODE_NOT_SRC_AND_NOT_DST,$/;"	e
+MODE_NOT_SRC_OR_DST	gui.h	/^  MODE_NOT_SRC_OR_DST,$/;"	e
+MODE_NOT_SRC_OR_NOT_DST	gui.h	/^  MODE_NOT_SRC_OR_NOT_DST,$/;"	e
+MODE_NOT_SRC_XOR_DST	gui.h	/^  MODE_NOT_SRC_XOR_DST,$/;"	e
+MODE_NOT_SRC_XOR_NOT_DST	gui.h	/^  MODE_NOT_SRC_XOR_NOT_DST,$/;"	e
+MODE_SRC	gui.h	/^  MODE_SRC,$/;"	e
+MODE_SRC_AND_DST	gui.h	/^  MODE_SRC_AND_DST,$/;"	e
+MODE_SRC_AND_NOT_DST	gui.h	/^  MODE_SRC_AND_NOT_DST,$/;"	e
+MODE_SRC_OR_DST	gui.h	/^  MODE_SRC_OR_DST,$/;"	e
+MODE_SRC_OR_NOT_DST	gui.h	/^  MODE_SRC_OR_NOT_DST,$/;"	e
+MODE_SRC_XOR_DST	gui.h	/^  MODE_SRC_XOR_DST,$/;"	e
+MODE_SRC_XOR_NOT_DST	gui.h	/^  MODE_SRC_XOR_NOT_DST,$/;"	e
+MYPORT	trans/host.c	11;"	d	file:
+M_1_PI	mathf.h	31;"	d
+M_1_PIf	mathf.h	46;"	d
+M_2_PI	mathf.h	32;"	d
+M_2_PIf	mathf.h	47;"	d
+M_2_SQRTPI	mathf.h	33;"	d
+M_2_SQRTPIf	mathf.h	48;"	d
+M_E	mathf.h	23;"	d
+M_Ef	mathf.h	38;"	d
+M_LN10	mathf.h	27;"	d
+M_LN10f	mathf.h	42;"	d
+M_LN2	mathf.h	26;"	d
+M_LN2f	mathf.h	41;"	d
+M_LOG10E	mathf.h	25;"	d
+M_LOG10Ef	mathf.h	40;"	d
+M_LOG2E	mathf.h	24;"	d
+M_LOG2Ef	mathf.h	39;"	d
+M_PI	mathf.h	28;"	d
+M_PI_2	mathf.h	29;"	d
+M_PI_2f	mathf.h	44;"	d
+M_PI_4	mathf.h	30;"	d
+M_PI_4f	mathf.h	45;"	d
+M_PIf	mathf.h	43;"	d
+M_SQRT1_2	mathf.h	35;"	d
+M_SQRT1_2f	mathf.h	50;"	d
+M_SQRT2	mathf.h	34;"	d
+M_SQRT2f	mathf.h	49;"	d
+Max	main.c	18;"	d	file:
+Max	trans/host.c	12;"	d	file:
+MicroPengPattern	gui.h	/^  MicroPengPattern,$/;"	e
+Mode	graphic.c	/^static unsigned short X,Y,Color,P_Index,Mode=MODE_SRC;$/;"	v	file:
+OBJS	Makefile	/^OBJS = graphic.o main.o$/;"	m
+PORT	trans/ethernet.c	9;"	d	file:
+P_Index	graphic.c	/^static unsigned short X,Y,Color,P_Index,Mode=MODE_SRC;$/;"	v	file:
+Pattern	graphic.c	/^} Pattern;$/;"	t	file:
+PatternIndex	gui.h	/^} PatternIndex;$/;"	t
+STARTX	handpad.c	35;"	d	file:
+STARTX	handpad.h	35;"	d
+STARTX	main.c	16;"	d	file:
+STARTY	handpad.c	36;"	d	file:
+STARTY	handpad.h	36;"	d
+STARTY	main.c	17;"	d	file:
+STRIP	Makefile	/^STRIP = $(CROSS)strip$/;"	m
+ScreenHeight	graphic.c	40;"	d	file:
+ScreenWidth	graphic.c	41;"	d	file:
+SetItemData	handpad.c	171;"	d	file:
+SetItemData	handpad.h	173;"	d
+ShowBMP	graphic.c	/^void ShowBMP(char *filename,short x,short y)$/;"	f
+ShowBuf	graphic.c	/^void ShowBuf(char *Buf,short x,short y)$/;"	f
+TS_RET	handpad.c	/^} TS_RET;$/;"	t	file:
+TS_RET	handpad.h	/^} TS_RET;$/;"	t
+TS_RET_HANDPAD	handpad.c	/^} TS_RET_HANDPAD;$/;"	t	file:
+TS_RET_HANDPAD	handpad.h	/^} TS_RET_HANDPAD;$/;"	t
+UINT	gui.h	/^typedef unsigned int UINT;$/;"	t
+V_scroll_screen	graphic.c	/^void V_scroll_screen(short height) \/\/Up\/Down Scroll$/;"	f
+WELCOME	main.c	19;"	d	file:
+WIDTH	handpad.c	33;"	d	file:
+WIDTH	handpad.h	33;"	d
+WhitePattern	gui.h	/^  WhitePattern,$/;"	e
+WinEX	graphic.c	/^static short WinSX,WinSY,WinEX,WinEY;$/;"	v	file:
+WinEY	graphic.c	/^static short WinSX,WinSY,WinEX,WinEY;$/;"	v	file:
+WinSX	graphic.c	/^static short WinSX,WinSY,WinEX,WinEY;$/;"	v	file:
+WinSY	graphic.c	/^static short WinSX,WinSY,WinEX,WinEY;$/;"	v	file:
+X	graphic.c	/^static unsigned short X,Y,Color,P_Index,Mode=MODE_SRC;$/;"	v	file:
+XY_clearscreen	graphic.c	/^void XY_clearscreen(unsigned short x1,unsigned short y1,unsigned short x2,unsigned short y2)$/;"	f
+Y	graphic.c	/^static unsigned short X,Y,Color,P_Index,Mode=MODE_SRC;$/;"	v	file:
+_BlackPattern	graphic.c	/^const Pattern _BlackPattern =$/;"	v
+_DarkGreyPattern	graphic.c	/^const Pattern _DarkGreyPattern =$/;"	v
+_LightGreyPattern	graphic.c	/^const Pattern _LightGreyPattern =$/;"	v
+_MATH_H	mathf.h	2;"	d
+_MicroPengPattern	graphic.c	/^const Pattern _MicroPengPattern =$/;"	v
+_WhitePattern	graphic.c	/^const Pattern _WhitePattern =$/;"	v
+_keyboard	handpad.c	/^struct _keyboard{$/;"	s	file:
+_keyboard	main.c	/^struct _keyboard{$/;"	s	file:
+aiptoi	trans/ethernet.c	/^int aiptoi(char * pszip,unsigned int* piip)$/;"	f
+bar	graphic.c	/^void bar(short x1,short y1,short x2,short y2)$/;"	f
+bfOffBits	gui.h	/^     long bfOffBits;$/;"	m	struct:
+bfReserved1	gui.h	/^     short bfReserved1;$/;"	m	struct:
+bfReserved2	gui.h	/^     short bfReserved2;$/;"	m	struct:
+bfSize	gui.h	/^     long  bfSize; \/\/__attribute__((packed));$/;"	m	struct:
+bfType	gui.h	/^     short bfType; \/\/__attribute__((packed));$/;"	m	struct:
+biBitCount	gui.h	/^     short biBitCount;$/;"	m	struct:
+biClrImportant	gui.h	/^     long biClrImportant;$/;"	m	struct:
+biClrUsed	gui.h	/^     long biClrUsed;$/;"	m	struct:
+biCompression	gui.h	/^     long biCompression;$/;"	m	struct:
+biHeight	gui.h	/^     long biHeight;$/;"	m	struct:
+biPlanes	gui.h	/^     short biPlanes;$/;"	m	struct:
+biSize	gui.h	/^     long biSize;$/;"	m	struct:
+biSizeImage	gui.h	/^     long biSizeImage;$/;"	m	struct:
+biWidth	gui.h	/^     long biWidth;$/;"	m	struct:
+biXpp	gui.h	/^     long biXpp;$/;"	m	struct:
+biYpp	gui.h	/^     long biYpp;$/;"	m	struct:
+bitblt	graphic.c	/^void bitblt($/;"	f
+ch	handpad.c	/^	char ch;$/;"	m	struct:_keyboard	file:
+ch	handpad.c	/^  char ch;    \/\/For the character$/;"	m	struct:nodetype	file:
+ch	handpad.h	/^  char ch;    \/\/For the character$/;"	m	struct:nodetype
+ch	main.c	/^        char ch;$/;"	m	struct:_keyboard	file:
+child	handpad.c	/^  struct nodetype *child,*next,*parent;$/;"	m	struct:nodetype	file:
+child	handpad.h	/^  struct nodetype *child,*next,*parent;$/;"	m	struct:nodetype
+clearscreen	graphic.c	/^void clearscreen()$/;"	f
+clearscreen_white	graphic.c	/^void clearscreen_white()$/;"	f
+clip_screen	graphic.c	/^inline void clip_screen(short in_x, short in_y, short in_w, short in_h, short *out_x, short *out_y, short *out_w, short *out_h) {$/;"	f
+closegraph	graphic.c	/^void closegraph()$/;"	f
+cmplx	mathf.h	/^} cmplx;$/;"	t
+cmplxf	mathf.h	/^} cmplxf;$/;"	t
+color_555_draw_bmp	graphic.c	/^void color_555_draw_bmp(short x,short y,unsigned short width,unsigned short height,char *buf)$/;"	f
+color_565_draw_bmp	graphic.c	/^void color_565_draw_bmp(short x,short y,unsigned short width,unsigned short height,char *buf)$/;"	f
+color_dot_bmp	graphic.c	/^inline void color_dot_bmp(short x,short y,char *buf)$/;"	f
+data	graphic.c	/^    unsigned char data[0];$/;"	m	struct:	file:
+delay	gui.c	/^void delay()$/;"	f
+delay	main.c	/^void delay()$/;"	f
+delay2	main.c	/^void delay2()$/;"	f
+device	handpad.c	/^char * device = "\/dev\/touchscreen\/0raw";$/;"	v
+device	handpad.h	/^char * device = "\/dev\/touchscreen\/0raw";$/;"	v
+display	main.c	/^void display()$/;"	f
+draw_bmp	graphic.c	/^void draw_bmp(short sx, short sy, short rwidth, short height, char* pixel,unsigned short color,unsigned short groundcolor)$/;"	f
+draw_xbm	graphic.c	/^void draw_xbm(short sx, short sy, short width, short height, char* pixel)$/;"	f
+draw_xish_line	graphic.c	/^static inline void draw_xish_line(short x, short y, short dx, short dy, short xdir)$/;"	f	file:
+draw_yish_line	graphic.c	/^static inline void draw_yish_line(short x, short y, short dx, short dy,short xdir)$/;"	f	file:
+ellipse	graphic.c	/^void ellipse(short x, short y, short a, short b)$/;"	f
+end	handpad.c	/^  short end;  \/\/End Position in the index file$/;"	m	struct:nodetype	file:
+end	handpad.h	/^  short end;  \/\/End Position in the index file$/;"	m	struct:nodetype
+endx	handpad.c	/^	short startx,starty,endx,endy;$/;"	m	struct:_keyboard	file:
+endx	main.c	/^        short startx,starty,endx,endy;$/;"	m	struct:_keyboard	file:
+endy	handpad.c	/^	short startx,starty,endx,endy;$/;"	m	struct:_keyboard	file:
+endy	main.c	/^        short startx,starty,endx,endy;$/;"	m	struct:_keyboard	file:
+fillrect	graphic.c	/^void  fillrect(short x1, short y1, short x2, short y2)$/;"	f
+fillrectangle	graphic.c	/^void  fillrectangle(short x1, short y1, short x2, short y2)$/;"	f
+fontdata_8x16	font_8x16.h	/^static unsigned char fontdata_8x16[FONTDATAMAX] = {$/;"	v
+get_average_num	handpad.c	/^int get_average_num(int x,int y,int z){$/;"	f
+get_average_num	handpad.h	/^int get_average_num(int x,int y,int z){$/;"	f
+get_handpad	handpad.c	/^int get_handpad(unsigned short *x,unsigned short *y)$/;"	f
+get_handpad	handpad.h	/^int get_handpad(unsigned short *x,unsigned short *y)$/;"	f
+getcolor	graphic.c	/^UINT getcolor(void)$/;"	f
+getfillpattern	graphic.c	/^PatternIndex getfillpattern(void)$/;"	f
+getmode	graphic.c	/^CopyMode getmode(void)	$/;"	f
+h_line	graphic.c	/^inline void h_line(int x1,int x2,int y)$/;"	f
+height	graphic.c	/^    unsigned short height;$/;"	m	struct:	file:
+i	mathf.h	/^ double i;$/;"	m	struct:
+i	mathf.h	/^ float i;$/;"	m	struct:
+init_handpad	handpad.c	/^void init_handpad()$/;"	f
+init_handpad	handpad.h	/^void init_handpad()$/;"	f
+initgraph	graphic.c	/^short initgraph(void)$/;"	f
+kbd	handpad.c	/^}kbd[]={$/;"	v
+kbdconfirm	main.c	/^ kbdconfirm[]={$/;"	v
+kbdenter	main.c	/^ kbdenter[]={$/;"	v
+kbdexam	main.c	/^ kbdexam[]={$/;"	v
+kbdfontdemo	main.c	/^ kbdfontdemo[]={$/;"	v
+kbdindex	main.c	/^ kbdindex[]={$/;"	v
+kbdtrans	main.c	/^ kbdtrans[]={$/;"	v
+kbdtree	main.c	/^ kbdtree[]={$/;"	v
+line	graphic.c	/^void line(short x1, short y1, short x2, short y2)$/;"	f
+lineto	graphic.c	/^void lineto(short x,short y)$/;"	f
+main	gui.c	/^main(int argc,char*argv[])$/;"	f
+main	handpad.c	/^int main(void)$/;"	f
+main	main.c	/^main()$/;"	f
+main	trans/host.c	/^main()$/;"	f
+masktab	graphic.c	/^static short masktab[]={0x80,0x40,0x20,0x10,0x08,0x04,0x02,0x01};$/;"	v	file:
+max	handpad.c	/^int max(int x,int y){$/;"	f
+max	handpad.h	/^int max(int x,int y){$/;"	f
+middle	handpad.c	/^int middle(int x,int y,int z){$/;"	f
+middle	handpad.h	/^int middle(int x,int y,int z){$/;"	f
+min	handpad.c	/^int min(int x,int y){$/;"	f
+min	handpad.h	/^int min(int x,int y){$/;"	f
+moveto	graphic.c	/^void moveto(short x,short y)$/;"	f
+my_draw_bmp	graphic.c	/^void my_draw_bmp(short x,short y,unsigned short width,unsigned short height,char *pixel)$/;"	f
+next	handpad.c	/^  struct nodetype *child,*next,*parent;$/;"	m	struct:nodetype	file:
+next	handpad.h	/^  struct nodetype *child,*next,*parent;$/;"	m	struct:nodetype
+nodetype	handpad.c	/^struct nodetype{$/;"	s	file:
+nodetype	handpad.h	/^struct nodetype{$/;"	s
+parent	handpad.c	/^  struct nodetype *child,*next,*parent;$/;"	m	struct:nodetype	file:
+parent	handpad.h	/^  struct nodetype *child,*next,*parent;$/;"	m	struct:nodetype
+patternfill	graphic.c	/^void patternfill( short dest_x,$/;"	f
+patterns	graphic.c	/^static const Pattern *patterns[] = {$/;"	v	file:
+pow	trans/ethernet.c	/^int pow(int x,int y)$/;"	f
+pressure	handpad.c	/^	unsigned short pressure;  $/;"	m	struct:	file:
+pressure	handpad.c	/^        unsigned short pressure;$/;"	m	struct:	file:
+pressure	handpad.h	/^	unsigned short pressure;  $/;"	m	struct:
+pressure	handpad.h	/^        unsigned short pressure;$/;"	m	struct:
+r	mathf.h	/^ double r;$/;"	m	struct:
+r	mathf.h	/^ float r;$/;"	m	struct:
+rectangle	graphic.c	/^void rectangle(short x1, short y1, short x2, short y2)$/;"	f
+recvfile	trans/ethernet.c	/^void recvfile(char *bmpbuf,char *filename)$/;"	f
+rint	mathf.h	373;"	d
+root	handpad.c	/^}root[26];\/\/The global allocation for the 'a'->'z' 's root$/;"	v
+root	handpad.h	/^}root[26];\/\/The global allocation for the 'a'->'z' 's root$/;"	v
+screen_fd	graphic.c	/^static int screen_fd=-1;$/;"	v	file:
+screen_height	graphic.c	/^static short screen_width=240,screen_height=320;$/;"	v	file:
+screen_ptr	graphic.c	/^unsigned char * screen_ptr=(unsigned char*)(0x0400),*E_Font=(unsigned char*)(0x8500);$/;"	v
+screen_tp_fd	handpad.c	/^int screen_tp_fd;$/;"	v
+screen_tp_fd	handpad.h	/^int screen_tp_fd;$/;"	v
+screen_width	graphic.c	/^static short screen_width=240,screen_height=320;$/;"	v	file:
+setcolor	graphic.c	/^void setcolor(short color)$/;"	f
+setfillpattern	graphic.c	/^void setfillpattern(PatternIndex index)$/;"	f
+setmode	graphic.c	/^void setmode(CopyMode mode)$/;"	f
+setpixel	graphic.c	/^inline void setpixel(short x, short y, short color)$/;"	f
+start	handpad.c	/^  short start;\/\/Start Position in the index file$/;"	m	struct:nodetype	file:
+start	handpad.h	/^  short start;\/\/Start Position in the index file$/;"	m	struct:nodetype
+startx	handpad.c	/^	short startx,starty,endx,endy;$/;"	m	struct:_keyboard	file:
+startx	main.c	/^        short startx,starty,endx,endy;$/;"	m	struct:_keyboard	file:
+starty	handpad.c	/^	short startx,starty,endx,endy;$/;"	m	struct:_keyboard	file:
+starty	main.c	/^        short startx,starty,endx,endy;$/;"	m	struct:_keyboard	file:
+testbmp	graphic.c	/^void testbmp()$/;"	f
+textout	graphic.c	/^void textout(short x,short y,unsigned char *buf,unsigned short color,unsigned short groundcolor)$/;"	f
+trans	trans/ethernet.c	/^int trans(char *argv,char *bmpbuf,char *filename)$/;"	f
+x	handpad.c	/^	unsigned short x;$/;"	m	struct:	file:
+x	handpad.c	/^        unsigned short x;$/;"	m	struct:	file:
+x	handpad.h	/^	unsigned short x;$/;"	m	struct:
+x	handpad.h	/^        unsigned short x;$/;"	m	struct:
+y	handpad.c	/^	unsigned short y;$/;"	m	struct:	file:
+y	handpad.c	/^        unsigned short y;$/;"	m	struct:	file:
+y	handpad.h	/^	unsigned short y;$/;"	m	struct:
+y	handpad.h	/^        unsigned short y;$/;"	m	struct:

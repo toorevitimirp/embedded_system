@@ -1,0 +1,160 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.4	//
+CC	Makefile	/^CC = \/opt\/host\/armv4l\/bin\/armv4l-unknown-linux-gcc $/;"	m
+CFLAGS	Makefile	/^CFLAGS = -D__KERNEL__ -I\/HHARM9-EDU\/kernel\/include\/linux -I\/HHARM9-EDU\/kernel\/include -Wall -Wstrict-prototypes -Wno-trigraphs -Os -mapcs -fno-strict-aliasing -fno-common -fno-common -pipe -mapcs-32 -march=armv4 -mtune=arm9tdmi -mshort-load-bytes -msoft-float -DKBUILD_BASENAME=s3c2410_testirq -I\/opt\/host\/armv4l\/src\/linux\/include -DMODULE$/;"	m
+DM9000_100MFD	dm9000x.c	/^	DM9000_100MFD  = 5, $/;"	e	enum:DM9000_PHY_mode	file:
+DM9000_100MHD	dm9000x.c	/^	DM9000_100MHD  = 1, $/;"	e	enum:DM9000_PHY_mode	file:
+DM9000_10MFD	dm9000x.c	/^	DM9000_10MFD   = 4,$/;"	e	enum:DM9000_PHY_mode	file:
+DM9000_10MHD	dm9000x.c	/^	DM9000_10MHD   = 0, $/;"	e	enum:DM9000_PHY_mode	file:
+DM9000_1M_HPNA	dm9000x.c	/^	DM9000_1M_HPNA = 0x10 $/;"	e	enum:DM9000_PHY_mode	file:
+DM9000_AUTO	dm9000x.c	/^	DM9000_AUTO    = 8, $/;"	e	enum:DM9000_PHY_mode	file:
+DM9000_BASE_ADDR_ETH0	dm9000x.c	88;"	d	file:
+DM9000_BASE_ADDR_ETH1	dm9000x.c	89;"	d	file:
+DM9000_BYTE_MODE	dm9000x.c	111;"	d	file:
+DM9000_DWORD_MODE	dm9000x.c	110;"	d	file:
+DM9000_EXT_MII	dm9000x.c	86;"	d	file:
+DM9000_GPCR	dm9000x.c	76;"	d	file:
+DM9000_GPR	dm9000x.c	77;"	d	file:
+DM9000_ID	dm9000x.c	68;"	d	file:
+DM9000_INT_MII	dm9000x.c	85;"	d	file:
+DM9000_MAX_IO	dm9000x.c	84;"	d	file:
+DM9000_MIN_IO	dm9000x.c	83;"	d	file:
+DM9000_MIN_IO_ETH0	dm9000x.c	90;"	d	file:
+DM9000_MIN_IO_ETH1	dm9000x.c	91;"	d	file:
+DM9000_NCR	dm9000x.c	70;"	d	file:
+DM9000_NIC_TYPE	dm9000x.c	/^enum DM9000_NIC_TYPE {$/;"	g	file:
+DM9000_NSR	dm9000x.c	71;"	d	file:
+DM9000_OP_mode	dm9000x.c	/^enum DM9000_OP_mode {$/;"	g	file:
+DM9000_OVERFLOW_INTR	dm9000x.c	108;"	d	file:
+DM9000_PHY	dm9000x.c	80;"	d	file:
+DM9000_PHY_mode	dm9000x.c	/^enum DM9000_PHY_mode {$/;"	g	file:
+DM9000_PID_H	dm9000x.c	97;"	d	file:
+DM9000_PID_L	dm9000x.c	96;"	d	file:
+DM9000_PKT_MAX	dm9000x.c	81;"	d	file:
+DM9000_PKT_RDY	dm9000x.c	82;"	d	file:
+DM9000_REG05	dm9000x.c	72;"	d	file:
+DM9000_REG08	dm9000x.c	73;"	d	file:
+DM9000_REG09	dm9000x.c	74;"	d	file:
+DM9000_REG0A	dm9000x.c	75;"	d	file:
+DM9000_REGFF	dm9000x.c	78;"	d	file:
+DM9000_RX_INTR	dm9000x.c	106;"	d	file:
+DM9000_SF_mode	dm9000x.c	/^enum DM9000_SF_mode{$/;"	g	file:
+DM9000_TX_INTR	dm9000x.c	107;"	d	file:
+DM9000_VID_H	dm9000x.c	95;"	d	file:
+DM9000_VID_L	dm9000x.c	94;"	d	file:
+DM9000_WORD_MODE	dm9000x.c	112;"	d	file:
+DM9801_NOISE_FLOOR	dm9000x.c	99;"	d	file:
+DM9802_NOISE_FLOOR	dm9000x.c	100;"	d	file:
+DMFE_DBUG	dm9000x.c	124;"	d	file:
+DMFE_DBUG	dm9000x.c	127;"	d	file:
+DMFE_MAX_MULTICAST	dm9000x.c	104;"	d	file:
+DMFE_SUCC	dm9000x.c	102;"	d	file:
+DMFE_TIMER_MDIX	dm9000x.c	120;"	d	file:
+DMFE_TIMER_WUT	dm9000x.c	117;"	d	file:
+DMFE_TX_TIMEOUT	dm9000x.c	118;"	d	file:
+FALSE	dm9000x.c	115;"	d	file:
+FASTETHER_NIC	dm9000x.c	/^	FASTETHER_NIC = 0, $/;"	e	enum:DM9000_NIC_TYPE	file:
+FlowControl	dm9000x.c	/^	FlowControl	= 2,$/;"	e	enum:DM9000_SF_mode	file:
+HOMERUN_NIC	dm9000x.c	/^	HOMERUN_NIC   = 1, $/;"	e	enum:DM9000_NIC_TYPE	file:
+LD	Makefile	/^LD = \/opt\/host\/armv4l\/bin\/armv4l-unknown-linux-ld$/;"	m
+LONGRUN_NIC	dm9000x.c	/^	LONGRUN_NIC   = 2 $/;"	e	enum:DM9000_NIC_TYPE	file:
+MAX_PACKET_SIZE	dm9000x.c	103;"	d	file:
+OP_100MFD	dm9000x.c	/^	OP_100MFD	= 8$/;"	e	enum:DM9000_OP_mode	file:
+OP_100MHD	dm9000x.c	/^	OP_100MHD	= 4,$/;"	e	enum:DM9000_OP_mode	file:
+OP_10MFD	dm9000x.c	/^	OP_10MFD	= 2,$/;"	e	enum:DM9000_OP_mode	file:
+OP_10MHD	dm9000x.c	/^	OP_10MHD	= 1,$/;"	e	enum:DM9000_OP_mode	file:
+Preg0	dm9000x.c	/^	u16 Preg0;$/;"	m	struct:board_info	file:
+Preg4	dm9000x.c	/^	u16 Preg4;$/;"	m	struct:board_info	file:
+TRUE	dm9000x.c	114;"	d	file:
+TxPausePacket	dm9000x.c	/^	TxPausePacket	= 4$/;"	e	enum:DM9000_SF_mode	file:
+VLAN_Enable	dm9000x.c	/^	VLAN_Enable	= 1,$/;"	e	enum:DM9000_SF_mode	file:
+active_op_mode	dm9000x.c	/^	u8 active_op_mode;	\/\/ Real PHY operation mode -Spenser 10\/6$/;"	m	struct:board_info	file:
+board_info	dm9000x.c	/^typedef struct board_info {$/;"	s	file:
+board_info_t	dm9000x.c	/^} board_info_t;$/;"	t	file:
+cal_CRC	dm9000x.c	/^static unsigned long cal_CRC(unsigned char * Data, unsigned int Len, u8 flag)$/;"	f	file:
+cleanup_module	dm9000x.c	/^void cleanup_module(void)$/;"	f
+dbug_cnt	dm9000x.c	/^	u16 dbug_cnt;$/;"	m	struct:board_info	file:
+debug	dm9000x.c	/^static int debug      = 0;$/;"	v	file:
+device_wait_reset	dm9000x.c	/^	u8 device_wait_reset;		\/* device state *\/$/;"	m	struct:board_info	file:
+dm9000_hash_table	dm9000x.c	/^static void dm9000_hash_table(struct net_device *dev)$/;"	f	file:
+dmfe_debug	dm9000x.c	/^static int dmfe_debug = 0;$/;"	v	file:
+dmfe_do_ioctl	dm9000x.c	/^static int dmfe_do_ioctl(struct net_device *dev, struct ifreq *ifr, int cmd)$/;"	f	file:
+dmfe_eth0_dev	dm9000x.c	/^static struct net_device * dmfe_eth0_dev = NULL;$/;"	v	file:
+dmfe_eth0_packet_receive	dm9000x.c	/^static void dmfe_eth0_packet_receive(unsigned long unused)$/;"	f	file:
+dmfe_eth1_dev	dm9000x.c	/^static struct net_device * dmfe_eth1_dev = NULL;$/;"	v	file:
+dmfe_eth1_packet_receive	dm9000x.c	/^static void dmfe_eth1_packet_receive(unsigned long unused)$/;"	f	file:
+dmfe_get_stats	dm9000x.c	/^static struct net_device_stats * dmfe_get_stats(struct net_device *dev)$/;"	f	file:
+dmfe_init_dm9000	dm9000x.c	/^static void dmfe_init_dm9000(struct net_device *dev)$/;"	f	file:
+dmfe_interrupt	dm9000x.c	/^static void dmfe_interrupt(int irq, void *dev_id, struct pt_regs *regs)$/;"	f	file:
+dmfe_mdix_timer	dm9000x.c	/^static void dmfe_mdix_timer(unsigned long data)$/;"	f	file:
+dmfe_open	dm9000x.c	/^static int dmfe_open(struct net_device *dev)$/;"	f	file:
+dmfe_packet_receive	dm9000x.c	/^static void dmfe_packet_receive(unsigned long dev_num)$/;"	f	file:
+dmfe_probe	dm9000x.c	/^static int dmfe_probe(struct net_device *dev)$/;"	f	file:
+dmfe_reset_dm9000	dm9000x.c	/^static void dmfe_reset_dm9000(struct net_device *dev)$/;"	f	file:
+dmfe_start_xmit	dm9000x.c	/^static int dmfe_start_xmit(struct sk_buff *skb, struct net_device *dev)$/;"	f	file:
+dmfe_stop	dm9000x.c	/^static int dmfe_stop(struct net_device *dev)$/;"	f	file:
+dmfe_timer	dm9000x.c	/^static void dmfe_timer(unsigned long data)$/;"	f	file:
+dmfe_tx_done	dm9000x.c	/^static void dmfe_tx_done(struct net_device *dev_id)$/;"	f	file:
+eth0_mac_addr	dm9000x.c	/^static unsigned char eth0_mac_addr[6] = { 0, 11, 22, 33 ,44 ,55 };$/;"	v	file:
+eth0_mac_string	dm9000x.c	/^static char * eth0_mac_string = " 00 11 22 33 44 55";$/;"	v	file:
+eth1_mac_addr	dm9000x.c	/^static unsigned char eth1_mac_addr[6] = { 0, 11, 22, 33 ,44 ,56 };$/;"	v	file:
+eth1_mac_string	dm9000x.c	/^static char * eth1_mac_string = " 00 11 22 33 44 56";$/;"	v	file:
+ether_crc_le	dm9000x.c	/^static inline unsigned ether_crc_le(int length, unsigned char *data)$/;"	f	file:
+ethernet_polynomial_le	dm9000x.c	/^static unsigned const ethernet_polynomial_le = 0xedb88320U;$/;"	v	file:
+hex_char2digit	dm9000x.c	/^static int hex_char2digit (char digit)$/;"	f	file:
+hex_string2int	dm9000x.c	/^static int hex_string2int (char *hex_ptr)$/;"	f	file:
+identify_nic	dm9000x.c	/^static void identify_nic(board_info_t *db)$/;"	f	file:
+init_module	dm9000x.c	/^int init_module(void)$/;"	f
+io_data	dm9000x.c	/^	u32 io_data;			\/* Data I\/O address *\/$/;"	m	struct:board_info	file:
+io_mode	dm9000x.c	/^	u8 io_mode;			\/* 0:word, 2:byte *\/$/;"	m	struct:board_info	file:
+ioaddr	dm9000x.c	/^	u32 ioaddr;			\/* Register I\/O base address *\/$/;"	m	struct:board_info	file:
+ior	dm9000x.c	/^static u8 ior(board_info_t *db, int reg)$/;"	f	file:
+iow	dm9000x.c	/^static void iow(board_info_t *db, int reg, u8 value)$/;"	f	file:
+irq	dm9000x.c	/^	u16 irq;			\/* IRQ *\/$/;"	m	struct:board_info	file:
+link_failed	dm9000x.c	/^	u8 link_failed;			\/* Ever link failed *\/$/;"	m	struct:board_info	file:
+link_status	dm9000x.c	/^	u8 link_status;			\/* Detect link state *\/$/;"	m	struct:board_info	file:
+lock	dm9000x.c	/^	spinlock_t lock;$/;"	m	struct:board_info	file:
+long_length_counter	dm9000x.c	/^	u32 long_length_counter;	\/* counter: RX length > 1514byte *\/ $/;"	m	struct:board_info	file:
+mdix	dm9000x.c	/^	u8 mdix;			\/* MDIX *\/$/;"	m	struct:board_info	file:
+mdix_timer	dm9000x.c	/^	struct timer_list timer, mdix_timer;$/;"	m	struct:board_info	file:
+media_mode	dm9000x.c	/^static int media_mode = DM9000_AUTO;$/;"	v	file:
+mode	dm9000x.c	/^static int mode       = DM9000_AUTO;$/;"	v	file:
+ncr	dm9000x.c	/^	u8 ncr;$/;"	m	struct:board_info	file:
+nfloor	dm9000x.c	/^static u8 nfloor      = 0;$/;"	v	file:
+nic_type	dm9000x.c	/^	u8 nic_type;			\/* NIC type *\/$/;"	m	struct:board_info	file:
+nsr	dm9000x.c	/^	u8 nsr;				\/*Network Status Register *\/$/;"	m	struct:board_info	file:
+op_mode	dm9000x.c	/^	u8 op_mode;			\/* PHY operation mode *\/$/;"	m	struct:board_info	file:
+phy_addr	dm9000x.c	/^	u8 phy_addr;$/;"	m	struct:board_info	file:
+phy_read	dm9000x.c	/^static u16 phy_read(board_info_t *db, int reg)$/;"	f	file:
+phy_write	dm9000x.c	/^static void phy_write(board_info_t *db, int reg, u16 value)$/;"	f	file:
+program_dm9801	dm9000x.c	/^static void program_dm9801(board_info_t *db, u16 HPNA_rev)$/;"	f	file:
+program_dm9802	dm9000x.c	/^static void program_dm9802(board_info_t *db)$/;"	f	file:
+queue_pkt_len	dm9000x.c	/^	u16 sent_pkt_len, queue_pkt_len;$/;"	m	struct:board_info	file:
+queue_start_addr	dm9000x.c	/^	u16 queue_start_addr;$/;"	m	struct:board_info	file:
+read_srom_word	dm9000x.c	/^static u16 read_srom_word(board_info_t *db, int offset)$/;"	f	file:
+reg0	dm9000x.c	/^	u8 reg0, reg5, reg8, reg9, rega;\/* registers saved *\/$/;"	m	struct:board_info	file:
+reg5	dm9000x.c	/^	u8 reg0, reg5, reg8, reg9, rega;\/* registers saved *\/$/;"	m	struct:board_info	file:
+reg5	dm9000x.c	/^static u8 reg5 	      = DM9000_REG05;$/;"	v	file:
+reg8	dm9000x.c	/^	u8 reg0, reg5, reg8, reg9, rega;\/* registers saved *\/$/;"	m	struct:board_info	file:
+reg8	dm9000x.c	/^static u8 reg8 	      = DM9000_REG08;$/;"	v	file:
+reg9	dm9000x.c	/^	u8 reg0, reg5, reg8, reg9, rega;\/* registers saved *\/$/;"	m	struct:board_info	file:
+reg9	dm9000x.c	/^static u8 reg9 	      = DM9000_REG09;$/;"	v	file:
+rega	dm9000x.c	/^	u8 reg0, reg5, reg8, reg9, rega;\/* registers saved *\/$/;"	m	struct:board_info	file:
+rega	dm9000x.c	/^static u8 rega 	      = DM9000_REG0A;$/;"	v	file:
+reset_counter	dm9000x.c	/^	u32 reset_counter;		\/* counter: RESET *\/ $/;"	m	struct:board_info	file:
+reset_rx_status	dm9000x.c	/^	u32 reset_rx_status;		\/* RESET caused by RX Statsus wrong *\/$/;"	m	struct:board_info	file:
+reset_tx_timeout	dm9000x.c	/^	u32 reset_tx_timeout;		\/* RESET caused by TX Timeout *\/ $/;"	m	struct:board_info	file:
+runt_length_counter	dm9000x.c	/^	u32 runt_length_counter;	\/* counter: RX length < 64byte *\/ $/;"	m	struct:board_info	file:
+rxintrflag	dm9000x.c	/^static u32 rxintrflag = 0;$/;"	v	file:
+sent_pkt_len	dm9000x.c	/^	u16 sent_pkt_len, queue_pkt_len;$/;"	m	struct:board_info	file:
+set_PHY_mode	dm9000x.c	/^static void set_PHY_mode(board_info_t *db)$/;"	f	file:
+srom	dm9000x.c	/^	unsigned char srom[128];$/;"	m	struct:board_info	file:
+stats	dm9000x.c	/^	struct net_device_stats stats;$/;"	m	struct:board_info	file:
+strdup	dm9000x.c	/^static char *strdup(char *str)$/;"	f	file:
+timer	dm9000x.c	/^	struct timer_list timer, mdix_timer;$/;"	m	struct:board_info	file:
+tintrflag	dm9000x.c	/^static u32 tintrflag  = 0;$/;"	v	file:
+tx_pkt_cnt	dm9000x.c	/^	u16 tx_pkt_cnt;$/;"	m	struct:board_info	file:

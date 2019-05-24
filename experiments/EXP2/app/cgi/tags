@@ -1,0 +1,94 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.4	//
+CC	Makefile	/^CC = \/opt\/host\/armv4l\/bin\/armv4l-unknown-linux-gcc$/;"	m
+EXEC	Makefile	/^EXEC = config.cgi$/;"	m
+FLTFLAGS	Makefile	/^FLTFLAGS= -s 64000$/;"	m
+IP_COUNT_MAX	cgihead.c	19;"	d	file:
+MAX_PORTFW	cgihead.c	22;"	d	file:
+OBJS	Makefile	/^OBJS = config.o myhdr.o cgihead.o$/;"	m
+ONLINE_MAX	cgihead.c	21;"	d	file:
+PORT_COUNT_MAX	cgihead.c	20;"	d	file:
+USER_MAX	cgihead.c	18;"	d	file:
+__MYHDR_H_	cgihead.h	2;"	d
+__MYHDR_H_	myhdr.h	2;"	d
+about	cgihead.c	/^int about(){$/;"	f
+backtomain	myhdr.c	/^int backtomain(){$/;"	f
+bohao	cgihead.c	/^int bohao(){$/;"	f
+changerootpass	cgihead.c	/^int changerootpass(){$/;"	f
+chinesedeal	myhdr.c	/^int chinesedeal(char* str)$/;"	f
+chump	cgihead.c	/^int chump(){$/;"	f
+configuration	cgihead.c	/^configuration()$/;"	f
+configuration1	cgihead.c	/^int configuration1()$/;"	f
+count	myhdr.h	/^    int count;$/;"	m	struct:splitback
+curnetaccess	cgihead.c	/^static int curnetaccess=0;$/;"	v	file:
+cut_return_from_fileline	myhdr.c	/^void cut_return_from_fileline(char *line)$/;"	f
+cutspace	myhdr.c	/^int cutspace(char *pstr)$/;"	f
+day	cgihead.c	/^	int day;$/;"	m	struct:settime	file:
+dialin	cgihead.c	/^int dialin()$/;"	f
+faintsystem2	myhdr.c	/^int faintsystem2(char *string){$/;"	f
+filedeal	myhdr.c	/^void filedeal(char *filename,char *content,int mode){$/;"	f
+getfilelength	myhdr.c	/^long int getfilelength(char *filename){$/;"	f
+getfilelinecount	myhdr.c	/^int getfilelinecount(const char* filename)$/;"	f
+getip	myhdr.c	/^int getip(char *interface,char *ip)$/;"	f
+getline	myhdr.c	/^int getline(char *filepath,char *needle,char *srcline){$/;"	f
+getlinenumber	myhdr.c	/^int getlinenumber(const char* filename,const char* line)$/;"	f
+handleaccesserror	myhdr.c	/^int handleaccesserror(void* info,int rw)$/;"	f
+hour	cgihead.c	/^	int hour;$/;"	m	struct:settime	file:
+intoreboot	cgihead.c	/^int intoreboot(){$/;"	f
+ischar	myhdr.c	/^int ischar(char *srcline){$/;"	f
+isnetmask	myhdr.c	/^int isnetmask(char *netmask,char *ip)$/;"	f
+landhcpconf	cgihead.c	/^int landhcpconf()$/;"	f
+linedeal	myhdr.c	/^void linedeal(char *filename,char *content,int line){$/;"	f
+main	config.c	/^int main(int argc,char* argv[]){$/;"	f
+minigui	cgihead.c	/^int minigui(){$/;"	f
+minute	cgihead.c	/^	int minute;$/;"	m	struct:settime	file:
+month	cgihead.c	/^	int month;$/;"	m	struct:settime	file:
+myreboot	cgihead.c	/^int myreboot()$/;"	f
+mystrproceed	myhdr.c	/^int mystrproceed(const char* src,char* dest,int startpos,int count)$/;"	f
+newgetline	myhdr.c	/^int newgetline(char* filepath,char* needle,char* getlinestring)$/;"	f
+playmtv	cgihead.c	/^int playmtv(){$/;"	f
+playrecorder	cgihead.c	/^int playrecorder(){$/;"	f
+popen1	myhdr.c	/^FILE * popen1(command, rw)$/;"	f
+print_head	myhdr.c	/^void print_head(){$/;"	f
+reboot_system	cgihead.c	/^int reboot_system(){$/;"	f
+recorder	cgihead.c	/^int recorder(){$/;"	f
+rename1	myhdr.c	/^int rename1(char *string1,char *string2){$/;"	f
+resetconf	cgihead.c	/^int resetconf()$/;"	f
+resetconf1	cgihead.c	/^int resetconf1()$/;"	f
+save	myhdr.c	/^void save()$/;"	f
+saveconf	cgihead.c	/^int saveconf()$/;"	f
+second	cgihead.c	/^	int second;$/;"	m	struct:settime	file:
+setip	cgihead.c	/^int setip(){$/;"	f
+setmac	cgihead.c	/^int setmac(){$/;"	f
+settime	cgihead.c	/^int settime() {$/;"	f
+settime	cgihead.c	/^struct settime{$/;"	s	file:
+settimeshow	cgihead.c	/^int settimeshow() {$/;"	f
+show_changerootpass	cgihead.c	/^int show_changerootpass(){$/;"	f
+show_reboot_hint	myhdr.c	/^void show_reboot_hint(){$/;"	f
+showbjdj	cgihead.c	/^int showbjdj(){$/;"	f
+showbohao	cgihead.c	/^int showbohao(){$/;"	f
+showchump	cgihead.c	/^int showchump(){$/;"	f
+showminigui	cgihead.c	/^int showminigui(){$/;"	f
+showplaymtv	cgihead.c	/^int showplaymtv(){$/;"	f
+showrecorder	cgihead.c	/^int showrecorder(){$/;"	f
+showsetip	cgihead.c	/^int showsetip(){$/;"	f
+showsetmac	cgihead.c	/^int showsetmac(){$/;"	f
+splitback	myhdr.h	/^struct splitback{$/;"	s
+splitstring	myhdr.c	/^struct splitback splitstring(char *content ,char item){ $/;"	f
+startbjdj	cgihead.c	/^int startbjdj(){$/;"	f
+startdialinserver	cgihead.c	/^int startdialinserver()$/;"	f
+stopbjdj	cgihead.c	/^int stopbjdj(){$/;"	f
+stopdialinserver	cgihead.c	/^int stopdialinserver()$/;"	f
+strfilter	myhdr.c	/^int strfilter(char* str)$/;"	f
+stringout	myhdr.h	/^    char stringout[20][60];$/;"	m	struct:splitback
+system1	myhdr.c	/^int system1(char *string){$/;"	f
+test_pid	cgihead.c	/^pid_t test_pid;$/;"	v
+testlock	myhdr.c	/^int testlock(char *filename){$/;"	f
+unlock	myhdr.c	/^void unlock(char *filename){$/;"	f
+verifyip	myhdr.c	/^int verifyip(char* ip,int* ret)$/;"	f
+writeret	cgihead.c	/^int writeret=0;$/;"	v
+year	cgihead.c	/^	int year;$/;"	m	struct:settime	file:

@@ -1,0 +1,41 @@
+cd chat; make  all
+make[1]: Entering directory `/LinuxPPC/usr/src/applications/ppp-2.4.1/chat'
+cc -c -O2 -g -pipe -DTERMIOS			 -DSIGTYPE=void			 -UNO_SLEEP			 -DFNDELAY=O_NDELAY		 -o chat.o chat.c
+cc -o chat chat.o
+make[1]: Leaving directory `/LinuxPPC/usr/src/applications/ppp-2.4.1/chat'
+cd pppd; make  all
+make[1]: Entering directory `/LinuxPPC/usr/src/applications/ppp-2.4.1/pppd'
+cc -O2 -pipe -Wall -g -D_linux_=1 -DHAVE_PATHS_H -DIPX_CHANGE -DHAVE_MULTILINK -DHAVE_MMAP -I../include -DCHAPMS=1 -DUSE_CRYPT=1 -DHAVE_CRYPT_H=1 -DHAS_SHADOW -DPLUGIN   -c -o main.o main.c
+cc -O2 -pipe -Wall -g -D_linux_=1 -DHAVE_PATHS_H -DIPX_CHANGE -DHAVE_MULTILINK -DHAVE_MMAP -I../include -DCHAPMS=1 -DUSE_CRYPT=1 -DHAVE_CRYPT_H=1 -DHAS_SHADOW -DPLUGIN   -c -o magic.o magic.c
+cc -O2 -pipe -Wall -g -D_linux_=1 -DHAVE_PATHS_H -DIPX_CHANGE -DHAVE_MULTILINK -DHAVE_MMAP -I../include -DCHAPMS=1 -DUSE_CRYPT=1 -DHAVE_CRYPT_H=1 -DHAS_SHADOW -DPLUGIN   -c -o fsm.o fsm.c
+cc -O2 -pipe -Wall -g -D_linux_=1 -DHAVE_PATHS_H -DIPX_CHANGE -DHAVE_MULTILINK -DHAVE_MMAP -I../include -DCHAPMS=1 -DUSE_CRYPT=1 -DHAVE_CRYPT_H=1 -DHAS_SHADOW -DPLUGIN   -c -o lcp.o lcp.c
+cc -O2 -pipe -Wall -g -D_linux_=1 -DHAVE_PATHS_H -DIPX_CHANGE -DHAVE_MULTILINK -DHAVE_MMAP -I../include -DCHAPMS=1 -DUSE_CRYPT=1 -DHAVE_CRYPT_H=1 -DHAS_SHADOW -DPLUGIN   -c -o ipcp.o ipcp.c
+cc -O2 -pipe -Wall -g -D_linux_=1 -DHAVE_PATHS_H -DIPX_CHANGE -DHAVE_MULTILINK -DHAVE_MMAP -I../include -DCHAPMS=1 -DUSE_CRYPT=1 -DHAVE_CRYPT_H=1 -DHAS_SHADOW -DPLUGIN   -c -o upap.o upap.c
+cc -O2 -pipe -Wall -g -D_linux_=1 -DHAVE_PATHS_H -DIPX_CHANGE -DHAVE_MULTILINK -DHAVE_MMAP -I../include -DCHAPMS=1 -DUSE_CRYPT=1 -DHAVE_CRYPT_H=1 -DHAS_SHADOW -DPLUGIN   -c -o chap.o chap.c
+cc -O2 -pipe -Wall -g -D_linux_=1 -DHAVE_PATHS_H -DIPX_CHANGE -DHAVE_MULTILINK -DHAVE_MMAP -I../include -DCHAPMS=1 -DUSE_CRYPT=1 -DHAVE_CRYPT_H=1 -DHAS_SHADOW -DPLUGIN   -c -o md5.o md5.c
+cc -O2 -pipe -Wall -g -D_linux_=1 -DHAVE_PATHS_H -DIPX_CHANGE -DHAVE_MULTILINK -DHAVE_MMAP -I../include -DCHAPMS=1 -DUSE_CRYPT=1 -DHAVE_CRYPT_H=1 -DHAS_SHADOW -DPLUGIN   -c -o ccp.o ccp.c
+cc -O2 -pipe -Wall -g -D_linux_=1 -DHAVE_PATHS_H -DIPX_CHANGE -DHAVE_MULTILINK -DHAVE_MMAP -I../include -DCHAPMS=1 -DUSE_CRYPT=1 -DHAVE_CRYPT_H=1 -DHAS_SHADOW -DPLUGIN   -c -o auth.o auth.c
+cc -O2 -pipe -Wall -g -D_linux_=1 -DHAVE_PATHS_H -DIPX_CHANGE -DHAVE_MULTILINK -DHAVE_MMAP -I../include -DCHAPMS=1 -DUSE_CRYPT=1 -DHAVE_CRYPT_H=1 -DHAS_SHADOW -DPLUGIN   -c -o options.o options.c
+cc -O2 -pipe -Wall -g -D_linux_=1 -DHAVE_PATHS_H -DIPX_CHANGE -DHAVE_MULTILINK -DHAVE_MMAP -I../include -DCHAPMS=1 -DUSE_CRYPT=1 -DHAVE_CRYPT_H=1 -DHAS_SHADOW -DPLUGIN   -c -o demand.o demand.c
+cc -O2 -pipe -Wall -g -D_linux_=1 -DHAVE_PATHS_H -DIPX_CHANGE -DHAVE_MULTILINK -DHAVE_MMAP -I../include -DCHAPMS=1 -DUSE_CRYPT=1 -DHAVE_CRYPT_H=1 -DHAS_SHADOW -DPLUGIN   -c -o utils.o utils.c
+cc -O2 -pipe -Wall -g -D_linux_=1 -DHAVE_PATHS_H -DIPX_CHANGE -DHAVE_MULTILINK -DHAVE_MMAP -I../include -DCHAPMS=1 -DUSE_CRYPT=1 -DHAVE_CRYPT_H=1 -DHAS_SHADOW -DPLUGIN   -c -o sys-linux.o sys-linux.c
+cc -O2 -pipe -Wall -g -D_linux_=1 -DHAVE_PATHS_H -DIPX_CHANGE -DHAVE_MULTILINK -DHAVE_MMAP -I../include -DCHAPMS=1 -DUSE_CRYPT=1 -DHAVE_CRYPT_H=1 -DHAS_SHADOW -DPLUGIN   -c -o ipxcp.o ipxcp.c
+cc -O2 -pipe -Wall -g -D_linux_=1 -DHAVE_PATHS_H -DIPX_CHANGE -DHAVE_MULTILINK -DHAVE_MMAP -I../include -DCHAPMS=1 -DUSE_CRYPT=1 -DHAVE_CRYPT_H=1 -DHAS_SHADOW -DPLUGIN   -c -o multilink.o multilink.c
+cc -O2 -pipe -Wall -g -D_linux_=1 -DHAVE_PATHS_H -DIPX_CHANGE -DHAVE_MULTILINK -DHAVE_MMAP -I../include -DCHAPMS=1 -DUSE_CRYPT=1 -DHAVE_CRYPT_H=1 -DHAS_SHADOW -DPLUGIN   -c -o tdb.o tdb.c
+cc -O2 -pipe -Wall -g -D_linux_=1 -DHAVE_PATHS_H -DIPX_CHANGE -DHAVE_MULTILINK -DHAVE_MMAP -I../include -DCHAPMS=1 -DUSE_CRYPT=1 -DHAVE_CRYPT_H=1 -DHAS_SHADOW -DPLUGIN   -c -o tty.o tty.c
+cc -O2 -pipe -Wall -g -D_linux_=1 -DHAVE_PATHS_H -DIPX_CHANGE -DHAVE_MULTILINK -DHAVE_MMAP -I../include -DCHAPMS=1 -DUSE_CRYPT=1 -DHAVE_CRYPT_H=1 -DHAS_SHADOW -DPLUGIN   -c -o md4.o md4.c
+cc -O2 -pipe -Wall -g -D_linux_=1 -DHAVE_PATHS_H -DIPX_CHANGE -DHAVE_MULTILINK -DHAVE_MMAP -I../include -DCHAPMS=1 -DUSE_CRYPT=1 -DHAVE_CRYPT_H=1 -DHAS_SHADOW -DPLUGIN   -c -o chap_ms.o chap_ms.c
+cc -O2 -pipe -Wall -g -D_linux_=1 -DHAVE_PATHS_H -DIPX_CHANGE -DHAVE_MULTILINK -DHAVE_MMAP -I../include -DCHAPMS=1 -DUSE_CRYPT=1 -DHAVE_CRYPT_H=1 -DHAS_SHADOW -DPLUGIN -Wl,-E -o pppd main.o magic.o fsm.o lcp.o ipcp.o upap.o chap.o md5.o ccp.o auth.o options.o demand.o utils.o sys-linux.o ipxcp.o multilink.o tdb.o tty.o md4.o chap_ms.o  -lcrypt -ldl
+make[1]: Leaving directory `/LinuxPPC/usr/src/applications/ppp-2.4.1/pppd'
+cd pppstats; make  all
+make[1]: Entering directory `/LinuxPPC/usr/src/applications/ppp-2.4.1/pppstats'
+cc -O -D_linux_ -I../include -o pppstats pppstats.c 
+make[1]: Leaving directory `/LinuxPPC/usr/src/applications/ppp-2.4.1/pppstats'
+cd pppdump; make  all
+make[1]: Entering directory `/LinuxPPC/usr/src/applications/ppp-2.4.1/pppdump'
+cc -O -I../include/net   -c -o pppdump.o pppdump.c
+cc -O -I../include/net   -c -o bsd-comp.o bsd-comp.c
+cc -O -I../include/net   -c -o deflate.o deflate.c
+cc -O -I../include/net   -c -o zlib.o zlib.c
+cc -o pppdump pppdump.o bsd-comp.o deflate.o zlib.o
+make[1]: Leaving directory `/LinuxPPC/usr/src/applications/ppp-2.4.1/pppdump'

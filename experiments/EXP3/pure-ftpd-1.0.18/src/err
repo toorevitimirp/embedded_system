@@ -1,0 +1,845 @@
+In file included from /opt/host/armv4l/armv4l-unknown-linux/include/bits/types.h:165,
+                 from /opt/host/armv4l/armv4l-unknown-linux/include/stdio.h:40,
+                 from ftpd.h:17,
+                 from ftpd_p.h:4,
+                 from ftpd.c:5:
+/opt/host/armv4l/armv4l-unknown-linux/include/bits/pthreadtypes.h:48: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/bits/pthreadtypes.h:48: warning: no semicolon at end of struct or union
+/opt/host/armv4l/armv4l-unknown-linux/include/bits/pthreadtypes.h:51: parse error before `__stacksize'
+/opt/host/armv4l/armv4l-unknown-linux/include/bits/pthreadtypes.h:51: warning: data definition has no type or storage class
+/opt/host/armv4l/armv4l-unknown-linux/include/bits/pthreadtypes.h:52: warning: data definition has no type or storage class
+In file included from /opt/host/armv4l/armv4l-unknown-linux/include/_G_config.h:44,
+                 from /opt/host/armv4l/armv4l-unknown-linux/include/libio.h:30,
+                 from /opt/host/armv4l/armv4l-unknown-linux/include/stdio.h:69,
+                 from ftpd.h:17,
+                 from ftpd_p.h:4,
+                 from ftpd.c:5:
+/opt/host/armv4l/armv4l-unknown-linux/include/gconv.h:71: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/gconv.h:84: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/gconv.h:93: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/gconv.h:169: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/gconv.h:169: warning: no semicolon at end of struct or union
+/opt/host/armv4l/armv4l-unknown-linux/include/gconv.h:172: parse error before `}'
+/opt/host/armv4l/armv4l-unknown-linux/include/gconv.h:172: warning: data definition has no type or storage class
+In file included from /opt/host/armv4l/armv4l-unknown-linux/include/libio.h:30,
+                 from /opt/host/armv4l/armv4l-unknown-linux/include/stdio.h:69,
+                 from ftpd.h:17,
+                 from ftpd_p.h:4,
+                 from ftpd.c:5:
+/opt/host/armv4l/armv4l-unknown-linux/include/_G_config.h:47: field `__cd' has incomplete type
+/opt/host/armv4l/armv4l-unknown-linux/include/_G_config.h:50: field `__cd' has incomplete type
+In file included from /opt/host/armv4l/armv4l-unknown-linux/include/stdio.h:69,
+                 from ftpd.h:17,
+                 from ftpd_p.h:4,
+                 from ftpd.c:5:
+/opt/host/armv4l/armv4l-unknown-linux/include/libio.h:342: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/libio.h:351: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/libio.h:459: parse error before `_IO_sgetn'
+/opt/host/armv4l/armv4l-unknown-linux/include/libio.h:459: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/libio.h:459: warning: data definition has no type or storage class
+In file included from ftpd.h:17,
+                 from ftpd_p.h:4,
+                 from ftpd.c:5:
+/opt/host/armv4l/armv4l-unknown-linux/include/stdio.h:235: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/stdio.h:241: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/stdio.h:252: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/stdio.h:258: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/stdio.h:286: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/stdio.h:290: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/stdio.h:293: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/stdio.h:423: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/stdio.h:426: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/stdio.h:431: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/stdio.h:455: parse error before `fread'
+/opt/host/armv4l/armv4l-unknown-linux/include/stdio.h:455: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/stdio.h:456: warning: data definition has no type or storage class
+/opt/host/armv4l/armv4l-unknown-linux/include/stdio.h:458: parse error before `fwrite'
+/opt/host/armv4l/armv4l-unknown-linux/include/stdio.h:458: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/stdio.h:459: warning: data definition has no type or storage class
+/opt/host/armv4l/armv4l-unknown-linux/include/stdio.h:463: parse error before `fread_unlocked'
+/opt/host/armv4l/armv4l-unknown-linux/include/stdio.h:463: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/stdio.h:464: warning: data definition has no type or storage class
+/opt/host/armv4l/armv4l-unknown-linux/include/stdio.h:465: parse error before `fwrite_unlocked'
+/opt/host/armv4l/armv4l-unknown-linux/include/stdio.h:465: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/stdio.h:466: warning: data definition has no type or storage class
+In file included from ftpd.h:19,
+                 from ftpd_p.h:4,
+                 from ftpd.c:5:
+/opt/host/armv4l/armv4l-unknown-linux/include/stdlib.h:133: parse error before `__ctype_get_mb_cur_max'
+/opt/host/armv4l/armv4l-unknown-linux/include/stdlib.h:133: warning: data definition has no type or storage class
+In file included from ftpd.h:19,
+                 from ftpd_p.h:4,
+                 from ftpd.c:5:
+/opt/host/armv4l/armv4l-unknown-linux/include/stdlib.h:408: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/stdlib.h:437: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/stdlib.h:526: parse error before `__size'
+/opt/host/armv4l/armv4l-unknown-linux/include/stdlib.h:528: parse error before `__nmemb'
+/opt/host/armv4l/armv4l-unknown-linux/include/stdlib.h:535: parse error before `size_t'
+In file included from /opt/host/armv4l/armv4l-unknown-linux/include/stdlib.h:545,
+                 from ftpd.h:19,
+                 from ftpd_p.h:4,
+                 from ftpd.c:5:
+/opt/host/armv4l/armv4l-unknown-linux/include/alloca.h:33: parse error before `__size'
+In file included from ftpd.h:19,
+                 from ftpd_p.h:4,
+                 from ftpd.c:5:
+/opt/host/armv4l/armv4l-unknown-linux/include/stdlib.h:550: parse error before `__size'
+/opt/host/armv4l/armv4l-unknown-linux/include/stdlib.h:555: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/stdlib.h:691: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/stdlib.h:695: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/stdlib.h:756: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/stdlib.h:759: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/stdlib.h:763: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/stdlib.h:766: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/stdlib.h:773: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/stdlib.h:776: parse error before `*'
+/opt/host/armv4l/armv4l-unknown-linux/include/stdlib.h:780: parse error before `wchar_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/stdlib.h:784: parse error before `mbstowcs'
+/opt/host/armv4l/armv4l-unknown-linux/include/stdlib.h:784: parse error before `*'
+/opt/host/armv4l/armv4l-unknown-linux/include/stdlib.h:785: warning: data definition has no type or storage class
+/opt/host/armv4l/armv4l-unknown-linux/include/stdlib.h:787: parse error before `wcstombs'
+/opt/host/armv4l/armv4l-unknown-linux/include/stdlib.h:788: parse error before `*'
+/opt/host/armv4l/armv4l-unknown-linux/include/stdlib.h:789: warning: data definition has no type or storage class
+/opt/host/armv4l/armv4l-unknown-linux/include/stdlib.h:848: parse error before `size_t'
+In file included from ftpd.h:34,
+                 from ftpd_p.h:4,
+                 from ftpd.c:5:
+/opt/host/armv4l/armv4l-unknown-linux/include/string.h:38: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/string.h:41: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/string.h:49: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/string.h:55: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/string.h:58: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/string.h:62: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/string.h:71: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/string.h:81: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/string.h:88: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/string.h:94: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/string.h:101: parse error before `strxfrm'
+/opt/host/armv4l/armv4l-unknown-linux/include/string.h:102: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/string.h:102: warning: data definition has no type or storage class
+/opt/host/armv4l/armv4l-unknown-linux/include/string.h:114: parse error before `__strxfrm_l'
+/opt/host/armv4l/armv4l-unknown-linux/include/string.h:114: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/string.h:115: warning: data definition has no type or storage class
+/opt/host/armv4l/armv4l-unknown-linux/include/string.h:127: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/string.h:167: parse error before `strcspn'
+/opt/host/armv4l/armv4l-unknown-linux/include/string.h:168: warning: data definition has no type or storage class
+/opt/host/armv4l/armv4l-unknown-linux/include/string.h:171: parse error before `strspn'
+/opt/host/armv4l/armv4l-unknown-linux/include/string.h:172: warning: data definition has no type or storage class
+/opt/host/armv4l/armv4l-unknown-linux/include/string.h:204: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/string.h:211: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/string.h:213: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/string.h:218: parse error before `strlen'
+/opt/host/armv4l/armv4l-unknown-linux/include/string.h:218: warning: data definition has no type or storage class
+/opt/host/armv4l/armv4l-unknown-linux/include/string.h:223: parse error before `strnlen'
+/opt/host/armv4l/armv4l-unknown-linux/include/string.h:223: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/string.h:224: warning: data definition has no type or storage class
+/opt/host/armv4l/armv4l-unknown-linux/include/string.h:233: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/string.h:234: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/string.h:239: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/string.h:243: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/string.h:246: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/string.h:249: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/string.h:278: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/string.h:289: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/string.h:317: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/string.h:319: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/string.h:325: parse error before `size_t'
+In file included from /opt/host/armv4l/armv4l-unknown-linux/include/signal.h:324,
+                 from ftpd.h:43,
+                 from ftpd_p.h:4,
+                 from ftpd.c:5:
+/opt/host/armv4l/armv4l-unknown-linux/include/bits/sigstack.h:54: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/bits/sigstack.h:54: warning: no semicolon at end of struct or union
+/opt/host/armv4l/armv4l-unknown-linux/include/bits/sigstack.h:55: warning: data definition has no type or storage class
+In file included from /opt/host/armv4l/armv4l-unknown-linux/include/ucontext.h:27,
+                 from /opt/host/armv4l/armv4l-unknown-linux/include/signal.h:326,
+                 from ftpd.h:43,
+                 from ftpd_p.h:4,
+                 from ftpd.c:5:
+/opt/host/armv4l/armv4l-unknown-linux/include/sys/ucontext.h:89: parse error before `stack_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/sys/ucontext.h:89: warning: no semicolon at end of struct or union
+/opt/host/armv4l/armv4l-unknown-linux/include/sys/ucontext.h:92: parse error before `}'
+/opt/host/armv4l/armv4l-unknown-linux/include/sys/ucontext.h:92: warning: data definition has no type or storage class
+In file included from /opt/host/armv4l/armv4l-unknown-linux/include/signal.h:326,
+                 from ftpd.h:43,
+                 from ftpd_p.h:4,
+                 from ftpd.c:5:
+/opt/host/armv4l/armv4l-unknown-linux/include/ucontext.h:32: parse error before `*'
+/opt/host/armv4l/armv4l-unknown-linux/include/ucontext.h:35: parse error before `*'
+/opt/host/armv4l/armv4l-unknown-linux/include/ucontext.h:39: parse error before `*'
+/opt/host/armv4l/armv4l-unknown-linux/include/ucontext.h:48: parse error before `*'
+/opt/host/armv4l/armv4l-unknown-linux/include/ucontext.h:48: `makecontext' declared as function returning a function
+/opt/host/armv4l/armv4l-unknown-linux/include/ucontext.h:49: parse error before `int'
+In file included from ftpd.h:45,
+                 from ftpd_p.h:4,
+                 from ftpd.c:5:
+/opt/host/armv4l/armv4l-unknown-linux/include/unistd.h:310: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/unistd.h:313: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/unistd.h:317: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/unistd.h:319: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/unistd.h:340: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/unistd.h:344: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/unistd.h:423: parse error before `size_t'
+In file included from ftpd.h:45,
+                 from ftpd_p.h:4,
+                 from ftpd.c:5:
+/opt/host/armv4l/armv4l-unknown-linux/include/unistd.h:513: parse error before `confstr'
+/opt/host/armv4l/armv4l-unknown-linux/include/unistd.h:513: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/unistd.h:513: warning: data definition has no type or storage class
+/opt/host/armv4l/armv4l-unknown-linux/include/unistd.h:664: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/unistd.h:688: parse error before `size_t'
+In file included from ftpd.h:45,
+                 from ftpd_p.h:4,
+                 from ftpd.c:5:
+/opt/host/armv4l/armv4l-unknown-linux/include/unistd.h:738: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/unistd.h:748: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/unistd.h:749: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/unistd.h:770: parse error before `size_t'
+In file included from /opt/host/armv4l/armv4l-unknown-linux/include/sys/time.h:24,
+                 from ftpd.h:48,
+                 from ftpd_p.h:4,
+                 from ftpd.c:5:
+/opt/host/armv4l/armv4l-unknown-linux/include/time.h:179: parse error before `strftime'
+/opt/host/armv4l/armv4l-unknown-linux/include/time.h:179: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/time.h:181: warning: data definition has no type or storage class
+In file included from ftpd.h:60,
+                 from ftpd_p.h:4,
+                 from ftpd.c:5:
+/opt/host/armv4l/armv4l-unknown-linux/include/fcntl.h:132: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/fcntl.h:144: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/fcntl.h:151: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/fcntl.h:162: parse error before `size_t'
+In file included from /opt/host/armv4l/armv4l-unknown-linux/include/sys/socket.h:34,
+                 from ftpd.h:69,
+                 from ftpd_p.h:4,
+                 from ftpd.c:5:
+/opt/host/armv4l/armv4l-unknown-linux/include/bits/socket.h:215: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/bits/socket.h:215: warning: no semicolon at end of struct or union
+/opt/host/armv4l/armv4l-unknown-linux/include/bits/socket.h:218: parse error before `msg_controllen'
+/opt/host/armv4l/armv4l-unknown-linux/include/bits/socket.h:218: warning: data definition has no type or storage class
+/opt/host/armv4l/armv4l-unknown-linux/include/bits/socket.h:221: parse error before `}'
+/opt/host/armv4l/armv4l-unknown-linux/include/bits/socket.h:226: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/bits/socket.h:226: warning: no semicolon at end of struct or union
+/opt/host/armv4l/armv4l-unknown-linux/include/bits/socket.h:232: parse error before `}'
+In file included from ftpd.h:69,
+                 from ftpd_p.h:4,
+                 from ftpd.c:5:
+/opt/host/armv4l/armv4l-unknown-linux/include/sys/socket.h:130: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/sys/socket.h:135: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/sys/socket.h:140: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/sys/socket.h:148: parse error before `size_t'
+In file included from ftpd.h:76,
+                 from ftpd_p.h:4,
+                 from ftpd.c:5:
+/opt/host/armv4l/armv4l-unknown-linux/include/sys/mman.h:58: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/sys/mman.h:71: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/sys/mman.h:77: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/sys/mman.h:82: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/sys/mman.h:87: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/sys/mman.h:92: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/sys/mman.h:96: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/sys/mman.h:101: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/sys/mman.h:104: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/sys/mman.h:119: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/sys/mman.h:127: parse error before `size_t'
+In file included from ftpd.h:86,
+                 from ftpd_p.h:4,
+                 from ftpd.c:5:
+/opt/host/armv4l/armv4l-unknown-linux/include/pwd.h:112: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/pwd.h:118: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/pwd.h:123: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/pwd.h:132: parse error before `size_t'
+In file included from ftpd.h:87,
+                 from ftpd_p.h:4,
+                 from ftpd.c:5:
+/opt/host/armv4l/armv4l-unknown-linux/include/grp.h:104: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/grp.h:110: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/grp.h:116: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/grp.h:124: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/grp.h:137: parse error before `__n'
+In file included from ftpd.h:88,
+                 from ftpd_p.h:4,
+                 from ftpd.c:5:
+/opt/host/armv4l/armv4l-unknown-linux/include/arpa/inet.h:73: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/arpa/inet.h:79: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/arpa/inet.h:85: parse error before `size_t'
+In file included from /opt/host/armv4l/armv4l-unknown-linux/include/netdb.h:30,
+                 from ftpd.h:89,
+                 from ftpd_p.h:4,
+                 from ftpd.c:5:
+/opt/host/armv4l/armv4l-unknown-linux/include/rpc/netdb.h:61: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/rpc/netdb.h:65: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/rpc/netdb.h:69: parse error before `size_t'
+In file included from ftpd.h:89,
+                 from ftpd_p.h:4,
+                 from ftpd.c:5:
+/opt/host/armv4l/armv4l-unknown-linux/include/netdb.h:146: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/netdb.h:153: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/netdb.h:159: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/netdb.h:165: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/netdb.h:197: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/netdb.h:203: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/netdb.h:209: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/netdb.h:250: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/netdb.h:256: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/netdb.h:261: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/netdb.h:296: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/netdb.h:301: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/netdb.h:306: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/netdb.h:332: parse error before `size_t'
+In file included from ftpd.h:111,
+                 from ftpd_p.h:4,
+                 from ftpd.c:5:
+mysnprintf.h:4: parse error before `size_t'
+In file included from /opt/host/armv4l/armv4l-unknown-linux/include/sys/uio.h:29,
+                 from ftpd.h:147,
+                 from ftpd_p.h:4,
+                 from ftpd.c:5:
+/opt/host/armv4l/armv4l-unknown-linux/include/bits/uio.h:45: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/bits/uio.h:45: warning: no semicolon at end of struct or union
+In file included from ftpd.h:157,
+                 from ftpd_p.h:4,
+                 from ftpd.c:5:
+/opt/host/armv4l/armv4l-unknown-linux/include/sys/sendfile.h:34: parse error before `size_t'
+In file included from ftpd.h:188,
+                 from ftpd_p.h:4,
+                 from ftpd.c:5:
+/opt/host/armv4l/armv4l-unknown-linux/include/shadow.h:82: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/shadow.h:85: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/shadow.h:89: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/shadow.h:93: parse error before `size_t'
+In file included from ftpd_p.h:4,
+                 from ftpd.c:5:
+ftpd.h:293: parse error before `size_t'
+ftpd.h:293: warning: no semicolon at end of struct or union
+ftpd.h:300: parse error before `}'
+ftpd.h:300: warning: data definition has no type or storage class
+ftpd.h:313: parse error before `size_t'
+ftpd.h:316: parse error before `size_t'
+ftpd.h:372: parse error before `size_t'
+ftpd.h:387: parse error before `size_t'
+ftpd.h:463: parse error before `platform'
+In file included from /opt/host/armv4l/armv4l-unknown-linux/include/dirent.h:62,
+                 from ftpd.h:610,
+                 from ftpd_p.h:4,
+                 from ftpd.c:5:
+/opt/host/armv4l/armv4l-unknown-linux/include/bits/dirent.h:35: parse error before `}'
+In file included from ftpd.h:610,
+                 from ftpd_p.h:4,
+                 from ftpd.c:5:
+/opt/host/armv4l/armv4l-unknown-linux/include/dirent.h:301: parse error before `size_t'
+/opt/host/armv4l/armv4l-unknown-linux/include/dirent.h:317: parse error before `size_t'
+In file included from ftpd.c:10:
+globals.h:32: parse error before `cmdsize'
+globals.h:32: warning: data definition has no type or storage class
+globals.h:133: parse error before `page_size'
+globals.h:133: warning: data definition has no type or storage class
+globals.h:134: parse error before `map_size'
+globals.h:134: warning: data definition has no type or storage class
+globals.h:135: parse error before `dl_chunk_size'
+globals.h:135: warning: data definition has no type or storage class
+globals.h:136: parse error before `ul_chunk_size'
+globals.h:136: warning: data definition has no type or storage class
+ftpd.c:67: parse error before `size_t'
+ftpd.c: In function `safe_write':
+ftpd.c:70: `buf_' undeclared (first use in this function)
+ftpd.c:70: (Each undeclared identifier is reported only once
+ftpd.c:70: for each function it appears in.)
+ftpd.c:72: `count' undeclared (first use in this function)
+ftpd.c:72: `size_t' undeclared (first use in this function)
+ftpd.c:72: parse error before `0U'
+ftpd.c: In function `sigurg':
+ftpd.c:224: `size_t' undeclared (first use in this function)
+ftpd.c:224: parse error before `1U'
+ftpd.c: In function `checkvalidaddr':
+ftpd.c:386: structure has no member named `sin_family'
+ftpd.c:392: structure has no member named `sin_family'
+ftpd.c: In function `fourinsix':
+ftpd.c:411: structure has no member named `sin_family'
+ftpd.c:416: structure has no member named `sin_family'
+ftpd.c: In function `addrcmp':
+ftpd.c:430: structure has no member named `sin_family'
+ftpd.c:431: structure has no member named `sin_family'
+ftpd.c:439: structure has no member named `sin_family'
+ftpd.c:440: structure has no member named `sin_family'
+ftpd.c: In function `generic_aton':
+ftpd.c:455: structure has no member named `sin_family'
+ftpd.c:459: structure has no member named `sin_family'
+ftpd.c: At top level:
+ftpd.c:534: parse error before `size'
+ftpd.c: In function `addreply_newline':
+ftpd.c:538: `size_t' undeclared (first use in this function)
+ftpd.c:549: `str' undeclared (first use in this function)
+ftpd.c: In function `addreply_noformat':
+ftpd.c:557: `size_t' undeclared (first use in this function)
+ftpd.c:557: parse error before `1U'
+ftpd.c: In function `addreply':
+ftpd.c:566: `size_t' undeclared (first use in this function)
+ftpd.c:566: parse error before `50U'
+ftpd.c:587: parse error before `1U'
+ftpd.c: In function `doesta':
+ftpd.c:755: structure has no member named `sin_family'
+ftpd.c:763: structure has no member named `sin_family'
+ftpd.c: In function `doestp':
+ftpd.c:786: structure has no member named `sin_family'
+ftpd.c:794: structure has no member named `sin_family'
+ftpd.c: In function `doeprt':
+ftpd.c:855: structure has no member named `sin_family'
+ftpd.c: At top level:
+ftpd.c:864: parse error before `size_t'
+ftpd.c: In function `stripctrl':
+ftpd.c:866: `len' undeclared (first use in this function)
+ftpd.c:866: `size_t' undeclared (first use in this function)
+ftpd.c:866: parse error before `0U'
+ftpd.c: In function `dobanner':
+ftpd.c:889: `size_t' undeclared (first use in this function)
+ftpd.c:889: parse error before `buflen'
+ftpd.c:913: `buflen' undeclared (first use in this function)
+ftpd.c:913: parse error before `0U'
+ftpd.c:917: parse error before `0U'
+ftpd.c: At top level:
+ftpd.c:924: parse error before `0'
+ftpd.c:924: conflicting types for `addreply_noformat'
+ftpd.c:553: previous declaration of `addreply_noformat'
+ftpd.c:924: warning: data definition has no type or storage class
+ftpd.c:934: parse error before `size_t'
+ftpd.c: In function `modernformat':
+ftpd.c:941: `file' undeclared (first use in this function)
+ftpd.c:963: `target' undeclared (first use in this function)
+ftpd.c:963: `target_size' undeclared (first use in this function)
+ftpd.c: In function `douser':
+ftpd.c:1090: `size_t' undeclared (first use in this function)
+ftpd.c:1090: parse error before `1U'
+ftpd.c:1158: parse error before `rd_len'
+ftpd.c:1164: `rd_len' undeclared (first use in this function)
+ftpd.c:1169: parse error before `1U'
+ftpd.c:1248: parse error before `1U'
+ftpd.c:1265: parse error before `1U'
+ftpd.c: At top level:
+ftpd.c:1272: parse error before `}'
+ftpd.c: In function `create_home_and_chdir':
+ftpd.c:1419: `size_t' undeclared (first use in this function)
+ftpd.c:1419: parse error before `len'
+ftpd.c:1431: `len' undeclared (first use in this function)
+ftpd.c:1431: parse error before `1U'
+ftpd.c:1432: parse error before `2U'
+ftpd.c: At top level:
+ftpd.c:1438: warning: parameter names (without types) in function declaration
+ftpd.c:1438: warning: data definition has no type or storage class
+ftpd.c:1439: `pathcomp' undeclared here (not in a function)
+ftpd.c:1439: warning: data definition has no type or storage class
+ftpd.c:1440: parse error before `for'
+ftpd.c:1451: conflicting types for `z'
+ftpd.c:1439: previous declaration of `z'
+ftpd.c:1451: `delim' undeclared here (not in a function)
+ftpd.c:1451: warning: data definition has no type or storage class
+ftpd.c:1452: parse error before `}'
+ftpd.c: In function `dopass':
+ftpd.c:1594: `size_t' undeclared (first use in this function)
+ftpd.c:1594: parse error before `1U'
+ftpd.c: At top level:
+ftpd.c:1599: parse error before `.'
+ftpd.c:1599: warning: data definition has no type or storage class
+ftpd.c:1604: parse error before `1'
+ftpd.c:1604: conflicting types for `_exit'
+/opt/host/armv4l/armv4l-unknown-linux/include/unistd.h:494: previous declaration of `_exit'
+ftpd.c:1604: warning: data definition has no type or storage class
+ftpd.c:1614: conflicting types for `dot_write_ok'
+globals.h:53: previous declaration of `dot_write_ok'
+ftpd.c:1614: initializer element is not constant
+ftpd.c:1614: warning: data definition has no type or storage class
+ftpd.c:1615: conflicting types for `keepallfiles'
+globals.h:106: previous declaration of `keepallfiles'
+ftpd.c:1615: warning: data definition has no type or storage class
+ftpd.c:1622: parse error before `}'
+ftpd.c:1642: initializer element is not constant
+ftpd.c:1642: warning: data definition has no type or storage class
+ftpd.c:1643: parse error before `if'
+ftpd.c:1656: redefinition of `ngroups'
+ftpd.c:1642: `ngroups' previously defined here
+ftpd.c:1656: `ngroups_max' undeclared here (not in a function)
+ftpd.c:1656: `groups' undeclared here (not in a function)
+ftpd.c:1656: initializer element is not constant
+ftpd.c:1656: warning: data definition has no type or storage class
+ftpd.c:1657: parse error before `if'
+ftpd.c:1662: parse error before `if'
+ftpd.c:1665: parse error before `1'
+ftpd.c:1665: warning: data definition has no type or storage class
+ftpd.c:1667: initializer element is not constant
+ftpd.c:1667: warning: data definition has no type or storage class
+ftpd.c:1668: parse error before `do'
+ftpd.c:1676: parse error before `0'
+ftpd.c:1676: conflicting types for `addreply'
+ftpd.c:561: previous declaration of `addreply'
+ftpd.c:1676: warning: data definition has no type or storage class
+ftpd.c:1677: conflicting types for `reply'
+ftpd.c:1660: previous declaration of `reply'
+ftpd.c:1677: warning: data definition has no type or storage class
+ftpd.c:1678: redefinition of `p'
+ftpd.c:1667: `p' previously defined here
+ftpd.c:1678: `size_t' undeclared here (not in a function)
+ftpd.c:1678: parse error before `0U'
+ftpd.c:1680: variable-size type declared outside of any function
+ftpd.c:1680: variable-sized object may not be initialized
+ftpd.c:1680: conflicting types for `reply'
+ftpd.c:1677: previous declaration of `reply'
+ftpd.c:1680: warning: data definition has no type or storage class
+ftpd.c:1681: parse error before `while'
+ftpd.c:1685: variable-size type declared outside of any function
+ftpd.c:1685: variable-sized object may not be initialized
+ftpd.c:1685: warning: data definition has no type or storage class
+ftpd.c:1686: parse error before `0'
+ftpd.c:1686: warning: data definition has no type or storage class
+ftpd.c:1688: warning: parameter names (without types) in function declaration
+ftpd.c:1688: conflicting types for `free'
+/opt/host/armv4l/armv4l-unknown-linux/include/stdlib.h:537: previous declaration of `free'
+ftpd.c:1688: warning: data definition has no type or storage class
+ftpd.c:1690: parse error before `if'
+ftpd.c:1734: conflicting types for `drop_login_caps'
+caps.h:4: previous declaration of `drop_login_caps'
+ftpd.c:1734: warning: data definition has no type or storage class
+ftpd.c:1736: conflicting types for `chrooted'
+globals.h:41: previous declaration of `chrooted'
+ftpd.c:1736: warning: data definition has no type or storage class
+ftpd.c:1742: parse error before `{'
+ftpd.c:1748: parse error before string constant
+ftpd.c:1748: warning: data definition has no type or storage class
+ftpd.c:1750: conflicting types for `wd'
+globals.h:34: previous declaration of `wd'
+ftpd.c:1750: invalid initializer
+ftpd.c:1750: warning: data definition has no type or storage class
+ftpd.c:1751: conflicting types for `wd'
+ftpd.c:1750: previous declaration of `wd'
+ftpd.c:1751: invalid initializer
+ftpd.c:1751: warning: data definition has no type or storage class
+ftpd.c:1752: parse error before `if'
+ftpd.c:1753: parse error before `1'
+ftpd.c:1753: warning: data definition has no type or storage class
+ftpd.c:1755: parse error before `230'
+ftpd.c:1755: warning: data definition has no type or storage class
+ftpd.c:1759: parse error before `6'
+ftpd.c:1759: conflicting types for `logfile'
+ftpd.c:468: previous declaration of `logfile'
+ftpd.c:1759: warning: data definition has no type or storage class
+ftpd.c:1770: conflicting types for `loggedin'
+globals.h:36: previous declaration of `loggedin'
+ftpd.c:1770: warning: data definition has no type or storage class
+ftpd.c:1771: parse error before `if'
+ftpd.c:1773: redefinition of `wd'
+ftpd.c:1751: `wd' previously defined here
+ftpd.c:1773: invalid initializer
+ftpd.c:1773: warning: data definition has no type or storage class
+ftpd.c:1774: parse error before `}'
+ftpd.c:1776: parse error before `0'
+ftpd.c:1776: conflicting types for `dobanner'
+ftpd.c:886: previous declaration of `dobanner'
+ftpd.c:1776: warning: data definition has no type or storage class
+ftpd.c: In function `docwd':
+ftpd.c:1813: `size_t' undeclared (first use in this function)
+ftpd.c:1813: parse error before `1U'
+ftpd.c:1817: parse error before `s'
+ftpd.c:1821: `s' undeclared (first use in this function)
+ftpd.c:1889: parse error before `1U'
+ftpd.c:1795: label `kaboom' used but not defined
+ftpd.c: At top level:
+ftpd.c:1892: parse error before `while'
+ftpd.c:1902: parse error before `250'
+ftpd.c:1902: warning: data definition has no type or storage class
+ftpd.c: In function `iptropize':
+ftpd.c:1907: `size_t' undeclared (first use in this function)
+ftpd.c:1907: parse error before `t'
+ftpd.c:1914: `t' undeclared (first use in this function)
+ftpd.c: In function `dopasv':
+ftpd.c:2003: structure has no member named `sin_family'
+ftpd.c:2009: structure has no member named `sin_family'
+ftpd.c:2022: structure has no member named `sin_family'
+ftpd.c:2028: structure has no member named `sin_family'
+ftpd.c:2051: structure has no member named `sin_family'
+ftpd.c:2053: structure has no member named `sin_family'
+ftpd.c:2058: structure has no member named `sin_family'
+ftpd.c: In function `doport':
+ftpd.c:2098: structure has no member named `sin_family'
+ftpd.c: In function `doport3':
+ftpd.c:2152: structure has no member named `sin_family'
+ftpd.c:2158: structure has no member named `sin_family'
+ftpd.c: In function `doport2':
+ftpd.c:2216: structure has no member named `sin_family'
+ftpd.c:2224: structure has no member named `sin_family'
+ftpd.c:2226: `size_t' undeclared (first use in this function)
+ftpd.c:2226: parse error before `0U'
+ftpd.c:2236: `hbuf' undeclared (first use in this function)
+ftpd.c:2236: `peerbuf' undeclared (first use in this function)
+ftpd.c: At top level:
+ftpd.c:2243: conflicting types for `passive'
+globals.h:27: previous declaration of `passive'
+ftpd.c:2243: warning: data definition has no type or storage class
+ftpd.c:2245: parse error before `200'
+ftpd.c:2245: warning: data definition has no type or storage class
+ftpd.c: In function `opendata':
+ftpd.c:2298: structure has no member named `sin_family'
+ftpd.c:2299: structure has no member named `sin_family'
+ftpd.c:2320: structure has no member named `sin_family'
+ftpd.c:2327: structure has no member named `sin_family'
+ftpd.c: At top level:
+ftpd.c:2560: parse error before `size_t'
+ftpd.c: In function `doasciiwrite':
+ftpd.c:2564: parse error before `z'
+ftpd.c:2567: `size_t' undeclared (first use in this function)
+ftpd.c:2567: parse error before `0U'
+ftpd.c: At top level:
+ftpd.c:2574: `asciibuf' undeclared here (not in a function)
+ftpd.c:2574: warning: data definition has no type or storage class
+ftpd.c:2575: parse error before `do'
+ftpd.c:2579: parse error before `++'
+ftpd.c:2582: `fd' undeclared here (not in a function)
+ftpd.c:2582: `asciibuf' undeclared here (not in a function)
+ftpd.c:2582: `size_t' undeclared here (not in a function)
+ftpd.c:2582: `asciibuf' undeclared here (not in a function)
+ftpd.c:2582: initializer element is not constant
+ftpd.c:2582: warning: data definition has no type or storage class
+ftpd.c:2583: parse error before `do'
+ftpd.c: In function `displayrate':
+ftpd.c:2632: warning: pointer type mismatch in conditional expression
+ftpd.c:2633: warning: passing arg 1 of `strlen' from incompatible pointer type
+ftpd.c: In function `doretr':
+ftpd.c:2772: `INT_MAX' undeclared (first use in this function)
+ftpd.c:2882: `size_t' undeclared (first use in this function)
+ftpd.c:2882: parse error before `left'
+ftpd.c: In function `dofeat':
+ftpd.c:3323: structure has no member named `sin_family'
+ftpd.c: In function `get_atomic_file':
+ftpd.c:3408: `size_t' undeclared (first use in this function)
+ftpd.c:3408: parse error before `orig_len'
+ftpd.c:3417: `orig_len' undeclared (first use in this function)
+ftpd.c:3417: parse error before `0U'
+ftpd.c:3419: `slash' undeclared (first use in this function)
+ftpd.c:3420: parse error before `1U'
+ftpd.c:3431: `sizeof_atomic_prefix' undeclared (first use in this function)
+ftpd.c:3431: parse error before `1U'
+ftpd.c: In function `dostor':
+ftpd.c:3486: syntax error before `sizeof_buf'
+ftpd.c:3505: `sizeof_buf' undeclared (first use in this function)
+ftpd.c:3520: `size_t' undeclared (first use in this function)
+ftpd.c:3520: parse error before `name_len'
+ftpd.c:3528: `name_len' undeclared (first use in this function)
+ftpd.c:3528: parse error before `1U'
+ftpd.c:3529: parse error before `2U'
+ftpd.c:3533: `alloca_namedir' undeclared (first use in this function)
+ftpd.c:3534: warning: assignment from incompatible pointer type
+ftpd.c:3545: label `cantcheckspace' used but not defined
+ftpd.c:3510: label `end' used but not defined
+ftpd.c: At top level:
+ftpd.c:3563: parse error before `:'
+ftpd.c:3573: warning: initialization makes integer from pointer without a cast
+ftpd.c:3573: warning: data definition has no type or storage class
+ftpd.c:3574: parse error before `goto'
+ftpd.c:3584: parse error before `553'
+ftpd.c:3584: conflicting types for `error'
+ftpd.h:338: previous declaration of `error'
+ftpd.c:3584: warning: data definition has no type or storage class
+ftpd.c:3593: parse error before `553'
+ftpd.c:3593: warning: data definition has no type or storage class
+ftpd.c:3616: parse error before `451'
+ftpd.c:3616: warning: data definition has no type or storage class
+ftpd.c:3622: parse error before `451'
+ftpd.c:3622: warning: data definition has no type or storage class
+ftpd.c:3637: conflicting types for `opendata'
+ftpd.c:2258: previous declaration of `opendata'
+ftpd.c:3637: warning: data definition has no type or storage class
+ftpd.c:3638: parse error before `if'
+ftpd.c:3642: conflicting types for `doreply'
+ftpd.c:596: previous declaration of `doreply'
+ftpd.c:3642: warning: data definition has no type or storage class
+ftpd.c:3643: conflicting types for `state_needs_update'
+globals.h:100: previous declaration of `state_needs_update'
+ftpd.c:3643: warning: data definition has no type or storage class
+ftpd.c:3644: parse error before string constant
+ftpd.c:3644: conflicting types for `setprogname'
+ftpd.c:351: previous declaration of `setprogname'
+ftpd.c:3644: warning: data definition has no type or storage class
+ftpd.c:3645: initializer element is not constant
+ftpd.c:3645: warning: data definition has no type or storage class
+ftpd.c:3669: parse error before `if'
+ftpd.c:3675: parse error before `('
+ftpd.c:3676: initializer element is not constant
+ftpd.c:3676: warning: data definition has no type or storage class
+ftpd.c:3677: parse error before `do'
+ftpd.c:3682: parse error before `do'
+ftpd.c:3682: `rs' undeclared here (not in a function)
+ftpd.c:3682: parse error before `for'
+ftpd.c:3683: parse error before `&'
+ftpd.c:3684: parse error before `&'
+ftpd.c:3684: conflicting types for `safe_fd_set'
+ftpd.c:99: previous declaration of `safe_fd_set'
+ftpd.c:3684: warning: data definition has no type or storage class
+ftpd.c:3685: parse error before `.'
+ftpd.c:3698: conflicting types for `closedata'
+ftpd.c:2250: previous declaration of `closedata'
+ftpd.c:3698: warning: data definition has no type or storage class
+ftpd.c:3699: parse error before `0'
+ftpd.c:3699: warning: data definition has no type or storage class
+ftpd.c:3700: parse error before `426'
+ftpd.c:3700: warning: data definition has no type or storage class
+ftpd.c:3703: redefinition of `atomic_file'
+ftpd.c:3573: `atomic_file' previously defined here
+ftpd.c:3703: warning: initialization makes integer from pointer without a cast
+ftpd.c:3703: warning: data definition has no type or storage class
+ftpd.c:3704: parse error before `}'
+ftpd.c:3709: parse error before `421'
+ftpd.c:3712: parse error before `0'
+ftpd.c:3713: warning: data definition has no type or storage class
+ftpd.c:3721: `buf' undeclared here (not in a function)
+ftpd.c:3721: `sizeof_buf' undeclared here (not in a function)
+ftpd.c:3721: initializer element is not constant
+ftpd.c:3721: warning: data definition has no type or storage class
+ftpd.c:3722: parse error before `if'
+ftpd.c:3749: `size_t' undeclared here (not in a function)
+ftpd.c:3749: parse error before `0U'
+ftpd.c:3750: `cpy' undeclared here (not in a function)
+ftpd.c:3752: parse error before `while'
+ftpd.c:3778: warning: data definition has no type or storage class
+ftpd.c:3779: parse error before `450'
+ftpd.c:3779: warning: data definition has no type or storage class
+ftpd.c:3782: redefinition of `atomic_file'
+ftpd.c:3703: `atomic_file' previously defined here
+ftpd.c:3782: warning: initialization makes integer from pointer without a cast
+ftpd.c:3782: warning: data definition has no type or storage class
+ftpd.c:3783: parse error before `}'
+ftpd.c:3784: parse error before `0'
+ftpd.c:3785: warning: data definition has no type or storage class
+ftpd.c:3803: `statfsbuf' undeclared here (not in a function)
+ftpd.c:3804: `statfsbuf' undeclared here (not in a function)
+ftpd.c:3804: initializer element is not constant
+ftpd.c:3804: warning: data definition has no type or storage class
+ftpd.c:3805: parse error before `if'
+ftpd.c:3814: warning: data definition has no type or storage class
+ftpd.c:3820: parse error before `void'
+ftpd.c:3836: parse error before string constant
+ftpd.c:3836: conflicting types for `displayrate'
+ftpd.c:2605: previous declaration of `displayrate'
+ftpd.c:3836: warning: data definition has no type or storage class
+ftpd.c:3843: redefinition of `atomic_file'
+ftpd.c:3782: `atomic_file' previously defined here
+ftpd.c:3843: warning: initialization makes integer from pointer without a cast
+ftpd.c:3843: warning: data definition has no type or storage class
+ftpd.c:3845: parse error before `:'
+ftpd.c:3850: conflicting types for `restartat'
+globals.h:66: previous declaration of `restartat'
+ftpd.c:3850: warning: data definition has no type or storage class
+ftpd.c:3851: parse error before `if'
+ftpd.c:3854: warning: parameter names (without types) in function declaration
+ftpd.c:3854: warning: data definition has no type or storage class
+ftpd.c:3855: parse error before `}'
+ftpd.c:4035: conflicting types for `error'
+ftpd.c:3779: previous declaration of `error'
+ftpd.c: In function `doit':
+ftpd.c:4275: structure has no member named `sin_family'
+ftpd.c:4296: structure has no member named `sin_family'
+ftpd.c:4297: `size_t' undeclared (first use in this function)
+ftpd.c:4297: parse error before `0U'
+ftpd.c:4306: `eai' undeclared (first use in this function)
+ftpd.c:4308: structure has no member named `sin_family'
+ftpd.c:4309: parse error before `0U'
+ftpd.c: At top level:
+ftpd.c:4313: parse error before `425'
+ftpd.c:4313: conflicting types for `die'
+ftpd.c:185: previous declaration of `die'
+ftpd.c:4313: warning: data definition has no type or storage class
+ftpd.c:4317: warning: parameter names (without types) in function declaration
+ftpd.c:4317: conflicting types for `dns_sanitize'
+ftpd.c:4226: previous declaration of `dns_sanitize'
+ftpd.c:4317: warning: data definition has no type or storage class
+ftpd.c:4322: parse error before `&'
+ftpd.c:4322: conflicting types for `iptropize'
+ftpd.c:1906: previous declaration of `iptropize'
+ftpd.c:4322: warning: data definition has no type or storage class
+ftpd.c:4323: parse error before `6'
+ftpd.c:4323: warning: data definition has no type or storage class
+ftpd.c:4329: parse error before `0'
+ftpd.c:4330: warning: data definition has no type or storage class
+ftpd.c:4336: conflicting types for `fill_atomic_prefix'
+ftpd.c:4241: previous declaration of `fill_atomic_prefix'
+ftpd.c:4336: warning: data definition has no type or storage class
+ftpd.c:4338: parse error before `if'
+ftpd.c:4356: warning: data definition has no type or storage class
+ftpd.c:4357: parse error before `do'
+ftpd.c:4357: parse error before `1'
+ftpd.c:4357: warning: data definition has no type or storage class
+ftpd.c:4417: conflicting types for `wd'
+ftpd.c:1773: previous declaration of `wd'
+ftpd.c:4417: invalid initializer
+ftpd.c:4417: warning: data definition has no type or storage class
+ftpd.c:4418: conflicting types for `wd'
+ftpd.c:4417: previous declaration of `wd'
+ftpd.c:4418: invalid initializer
+ftpd.c:4418: warning: data definition has no type or storage class
+ftpd.c:4419: parse error before `if'
+ftpd.c:4420: parse error before `1'
+ftpd.c:4420: warning: data definition has no type or storage class
+ftpd.c:4426: warning: data definition has no type or storage class
+ftpd.c:4427: parse error before `0'
+ftpd.c:4428: parse error before `1'
+ftpd.c:4431: redefinition of `fodder'
+ftpd.c:4426: `fodder' previously defined here
+ftpd.c:4431: warning: data definition has no type or storage class
+ftpd.c:4432: parse error before `0'
+ftpd.c:4435: parse error before `0'
+ftpd.c:4435: conflicting types for `keepalive'
+ftpd.c:1967: previous declaration of `keepalive'
+ftpd.c:4435: warning: data definition has no type or storage class
+ftpd.c:4436: parse error before `1'
+ftpd.c:4436: warning: data definition has no type or storage class
+ftpd.c:4441: parse error before `('
+ftpd.c:4489: conflicting types for `candownload'
+globals.h:48: previous declaration of `candownload'
+ftpd.c:4489: initializer element is not constant
+ftpd.c:4489: warning: data definition has no type or storage class
+ftpd.c:4491: parse error before `if'
+ftpd.c:4494: parse error before `&'
+ftpd.c:4494: warning: data definition has no type or storage class
+ftpd.c:4495: parse error before `.'
+ftpd.c:4502: parse error before `&'
+ftpd.c:4502: warning: data definition has no type or storage class
+ftpd.c:4511: conflicting types for `parser'
+ftpd.h:315: previous declaration of `parser'
+ftpd.c:4511: warning: data definition has no type or storage class
+ftpd.c:4513: parse error before `0'
+ftpd.c:4513: warning: data definition has no type or storage class
+ftpd.c:4514: parse error before `6'
+ftpd.c:4514: warning: data definition has no type or storage class
+ftpd.c:4515: warning: data definition has no type or storage class
+ftpd.c:4519: parse error before `}'
+ftpd.c: In function `accept_client':
+ftpd.c:4631: structure has no member named `sin_family'
+ftpd.c:4631: structure has no member named `sin_family'
+ftpd.c:4660: structure has no member named `sin_family'
+ftpd.c:4661: `size_t' undeclared (first use in this function)
+ftpd.c:4661: parse error before `0U'
+ftpd.c: At top level:
+ftpd.c:4671: parse error before `&'
+ftpd.c:4671: warning: data definition has no type or storage class
+ftpd.c:4672: parse error before `&'
+ftpd.c:4672: warning: data definition has no type or storage class
+ftpd.c:4673: parse error before `0'
+ftpd.c:4675: initializer element is not constant
+ftpd.c:4675: warning: data definition has no type or storage class
+ftpd.c:4676: parse error before `if'
+ftpd.c:4678: parse error before `0'
+ftpd.c:4678: warning: data definition has no type or storage class
+ftpd.c:4694: parse error before string constant
+ftpd.c:4694: conflicting types for `openlog'
+/opt/host/armv4l/armv4l-unknown-linux/include/sys/syslog.h:176: previous declaration of `openlog'
+ftpd.c:4694: warning: data definition has no type or storage class
+ftpd.c:4697: conflicting types for `doit'
+ftpd.c:4257: previous declaration of `doit'
+ftpd.c:4697: warning: data definition has no type or storage class
+ftpd.c:4698: parse error before `do'
+ftpd.c:4698: parse error before `0'
+ftpd.c:4698: warning: data definition has no type or storage class
+ftpd.c:4709: parse error before `1'
+ftpd.c: In function `main':
+ftpd.c:4833: `size_t' undeclared (first use in this function)
+ftpd.c:4833: parse error before `getpagesize'
+ftpd.c:5136: parse error before `auth_name_len'
+ftpd.c:5139: `auth_name_len' undeclared (first use in this function)
+make: *** [pure_ftpd-ftpd.o] Error 1

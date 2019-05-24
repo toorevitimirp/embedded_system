@@ -1,0 +1,77 @@
+In file included from ftpd.h:117,
+                 from caps.c:8:
+ipv4stack.h:47: warning: `s6_addr' redefined
+/opt/host/armv4l/armv4l-unknown-linux/include/netinet/in.h:175: warning: this is the location of the previous definition
+In file included from /opt/host/armv4l/armv4l-unknown-linux/include/linux/fs.h:12,
+                 from /opt/host/armv4l/armv4l-unknown-linux/include/sys/capability.h:17,
+                 from caps_p.h:6,
+                 from caps.c:10:
+/opt/host/armv4l/armv4l-unknown-linux/include/linux/wait.h:4: warning: `WNOHANG' redefined
+/opt/host/armv4l/armv4l-unknown-linux/include/bits/waitflags.h:26: warning: this is the location of the previous definition
+/opt/host/armv4l/armv4l-unknown-linux/include/linux/wait.h:5: warning: `WUNTRACED' redefined
+/opt/host/armv4l/armv4l-unknown-linux/include/bits/waitflags.h:27: warning: this is the location of the previous definition
+In file included from /opt/host/armv4l/armv4l-unknown-linux/include/sys/capability.h:17,
+                 from caps_p.h:6,
+                 from caps.c:10:
+/opt/host/armv4l/armv4l-unknown-linux/include/linux/fs.h:47: warning: `BLOCK_SIZE' redefined
+/opt/host/armv4l/armv4l-unknown-linux/include/sys/mount.h:28: warning: this is the location of the previous definition
+/opt/host/armv4l/armv4l-unknown-linux/include/linux/fs.h:107: warning: `MS_RDONLY' redefined
+/opt/host/armv4l/armv4l-unknown-linux/include/sys/mount.h:37: warning: this is the location of the previous definition
+/opt/host/armv4l/armv4l-unknown-linux/include/linux/fs.h:108: warning: `MS_NOSUID' redefined
+/opt/host/armv4l/armv4l-unknown-linux/include/sys/mount.h:39: warning: this is the location of the previous definition
+/opt/host/armv4l/armv4l-unknown-linux/include/linux/fs.h:109: warning: `MS_NODEV' redefined
+/opt/host/armv4l/armv4l-unknown-linux/include/sys/mount.h:41: warning: this is the location of the previous definition
+/opt/host/armv4l/armv4l-unknown-linux/include/linux/fs.h:110: warning: `MS_NOEXEC' redefined
+/opt/host/armv4l/armv4l-unknown-linux/include/sys/mount.h:43: warning: this is the location of the previous definition
+/opt/host/armv4l/armv4l-unknown-linux/include/linux/fs.h:111: warning: `MS_SYNCHRONOUS' redefined
+/opt/host/armv4l/armv4l-unknown-linux/include/sys/mount.h:45: warning: this is the location of the previous definition
+/opt/host/armv4l/armv4l-unknown-linux/include/linux/fs.h:112: warning: `MS_REMOUNT' redefined
+/opt/host/armv4l/armv4l-unknown-linux/include/sys/mount.h:47: warning: this is the location of the previous definition
+/opt/host/armv4l/armv4l-unknown-linux/include/linux/fs.h:113: warning: `MS_MANDLOCK' redefined
+/opt/host/armv4l/armv4l-unknown-linux/include/sys/mount.h:49: warning: this is the location of the previous definition
+/opt/host/armv4l/armv4l-unknown-linux/include/linux/fs.h:114: warning: `MS_NOATIME' redefined
+/opt/host/armv4l/armv4l-unknown-linux/include/sys/mount.h:57: warning: this is the location of the previous definition
+/opt/host/armv4l/armv4l-unknown-linux/include/linux/fs.h:115: warning: `MS_NODIRATIME' redefined
+/opt/host/armv4l/armv4l-unknown-linux/include/sys/mount.h:59: warning: this is the location of the previous definition
+/opt/host/armv4l/armv4l-unknown-linux/include/linux/fs.h:116: warning: `MS_BIND' redefined
+/opt/host/armv4l/armv4l-unknown-linux/include/sys/mount.h:61: warning: this is the location of the previous definition
+/opt/host/armv4l/armv4l-unknown-linux/include/linux/fs.h:122: warning: `MS_RMT_MASK' redefined
+/opt/host/armv4l/armv4l-unknown-linux/include/sys/mount.h:65: warning: this is the location of the previous definition
+/opt/host/armv4l/armv4l-unknown-linux/include/linux/fs.h:127: warning: `MS_MGC_VAL' redefined
+/opt/host/armv4l/armv4l-unknown-linux/include/sys/mount.h:70: warning: this is the location of the previous definition
+/opt/host/armv4l/armv4l-unknown-linux/include/linux/fs.h:135: warning: `S_APPEND' redefined
+/opt/host/armv4l/armv4l-unknown-linux/include/sys/mount.h:53: warning: this is the location of the previous definition
+/opt/host/armv4l/armv4l-unknown-linux/include/linux/fs.h:136: warning: `S_IMMUTABLE' redefined
+/opt/host/armv4l/armv4l-unknown-linux/include/sys/mount.h:55: warning: this is the location of the previous definition
+/opt/host/armv4l/armv4l-unknown-linux/include/linux/fs.h:172: warning: `BLKROSET' redefined
+/opt/host/armv4l/armv4l-unknown-linux/include/sys/mount.h:78: warning: this is the location of the previous definition
+/opt/host/armv4l/armv4l-unknown-linux/include/linux/fs.h:173: warning: `BLKROGET' redefined
+/opt/host/armv4l/armv4l-unknown-linux/include/sys/mount.h:79: warning: this is the location of the previous definition
+/opt/host/armv4l/armv4l-unknown-linux/include/linux/fs.h:174: warning: `BLKRRPART' redefined
+/opt/host/armv4l/armv4l-unknown-linux/include/sys/mount.h:80: warning: this is the location of the previous definition
+/opt/host/armv4l/armv4l-unknown-linux/include/linux/fs.h:175: warning: `BLKGETSIZE' redefined
+/opt/host/armv4l/armv4l-unknown-linux/include/sys/mount.h:81: warning: this is the location of the previous definition
+/opt/host/armv4l/armv4l-unknown-linux/include/linux/fs.h:176: warning: `BLKFLSBUF' redefined
+/opt/host/armv4l/armv4l-unknown-linux/include/sys/mount.h:82: warning: this is the location of the previous definition
+/opt/host/armv4l/armv4l-unknown-linux/include/linux/fs.h:177: warning: `BLKRASET' redefined
+/opt/host/armv4l/armv4l-unknown-linux/include/sys/mount.h:83: warning: this is the location of the previous definition
+/opt/host/armv4l/armv4l-unknown-linux/include/linux/fs.h:178: warning: `BLKRAGET' redefined
+/opt/host/armv4l/armv4l-unknown-linux/include/sys/mount.h:84: warning: this is the location of the previous definition
+In file included from caps.c:10:
+caps_p.h:9: parse error before `cap_keep_startup'
+caps_p.h:18: warning: data definition has no type or storage class
+caps_p.h:20: parse error before `cap_keep_login'
+caps_p.h:28: warning: data definition has no type or storage class
+caps.c:16: parse error before `*'
+caps.c: In function `apply_caps':
+caps.c:20: `cap_t' undeclared (first use in this function)
+caps.c:20: (Each undeclared identifier is reported only once
+caps.c:20: for each function it appears in.)
+caps.c:20: parse error before `caps'
+caps.c:25: `caps' undeclared (first use in this function)
+caps.c:25: parse error before `0'
+caps.c: In function `drop_login_caps':
+caps.c:42: `cap_value_t' undeclared (first use in this function)
+caps.c: In function `set_initial_caps':
+caps.c:48: `cap_value_t' undeclared (first use in this function)
+make: *** [pure_ftpd-caps.o] Error 1

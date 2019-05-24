@@ -1,0 +1,759 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/darren@hiebert.com/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.0.1	//
+ADVANCE	parse.c	20;"	d	file:
+AR	Makefile	/^AR = $(CROSS)ar$/;"	m
+B	buffer.c	14;"	d	file:
+BUFFER_FIFO_DISPOSE	diald.h	144;"	d
+BUFFER_PACKETS	diald.h	138;"	d
+BUFFER_SIZE	diald.h	140;"	d
+BUFFER_SIZE	diald.h	142;"	d
+BUFFER_TIMEOUT	diald.h	149;"	d
+CC	Makefile	/^CC = $(CROSS)gcc$/;"	m
+CROSS	Makefile	/^CROSS = \/home\/hhcn\/toolchain\/gcc-3.2.2\/toolchain\/bin\/powerpc-uclibc-$/;"	m
+DEBUG_CONNECTION_QUEUE	diald.h	88;"	d
+DEBUG_FILTER_MATCH	diald.h	83;"	d
+DEBUG_PROXYARP	diald.h	84;"	d
+DEBUG_STATE_CONTROL	diald.h	86;"	d
+DEBUG_TICK	diald.h	87;"	d
+DEBUG_VERBOSE	diald.h	85;"	d
+DEFAULT_DIAL_DELAY	diald.h	167;"	d
+DEFAULT_FIRST_PACKET_TIMEOUT	diald.h	166;"	d
+DEFAULT_MTU	diald.h	168;"	d
+DEFAULT_SPEED	diald.h	169;"	d
+DIALD_CONFIG_FILE	config.h	21;"	d
+DIALD_DEFS_FILE	config.h	22;"	d
+DMODE_BOOTP	diald.h	80;"	d
+DMODE_LOCAL	diald.h	77;"	d
+DMODE_LOCAL_REMOTE	diald.h	79;"	d
+DMODE_REMOTE	diald.h	76;"	d
+DMODE_REMOTE_LOCAL	diald.h	78;"	d
+END	diald.h	64;"	d
+END	proxy.c	23;"	d	file:
+ESC	diald.h	65;"	d
+ESC	proxy.c	24;"	d	file:
+ESC_END	diald.h	66;"	d
+ESC_END	proxy.c	25;"	d	file:
+ESC_ESC	diald.h	67;"	d
+ESC_ESC	proxy.c	26;"	d	file:
+EXEC	Makefile	/^EXEC = diald$/;"	m
+FLAGS_GOOD	proxyarp.c	42;"	d	file:
+FLAGS_MASK	proxyarp.c	43;"	d	file:
+FW_Connection	firewall.h	/^} FW_Connection;$/;"	t
+FW_DATA_OFFSET	firewall.h	12;"	d
+FW_DIR_BOTH	firewall.h	21;"	d
+FW_DIR_IN	firewall.h	19;"	d
+FW_DIR_OUT	firewall.h	20;"	d
+FW_EQ	firewall.h	24;"	d
+FW_Filter	firewall.h	/^} FW_Filter;$/;"	t
+FW_Filters	firewall.h	/^} FW_Filters;$/;"	t
+FW_GE	firewall.h	26;"	d
+FW_ID	firewall.h	/^} FW_ID;$/;"	t
+FW_ID_LEN	firewall.h	9;"	d
+FW_IN_DATA	firewall.h	14;"	d
+FW_IN_IP	firewall.h	13;"	d
+FW_IP_OFFSET	firewall.h	11;"	d
+FW_LE	firewall.h	27;"	d
+FW_MAX_PRULES	firewall.h	30;"	d
+FW_MAX_TERMS	firewall.h	29;"	d
+FW_NE	firewall.h	25;"	d
+FW_NRUNIT	firewall.h	31;"	d
+FW_OFFSET	firewall.h	10;"	d
+FW_PROTO_ALL	firewall.h	16;"	d
+FW_ProtocolRule	firewall.h	/^} FW_ProtocolRule;$/;"	t
+FW_TCP_STATE	firewall.h	15;"	d
+FW_TYPE_ACCEPT	firewall.h	64;"	d
+FW_TYPE_BRINGUP	firewall.h	62;"	d
+FW_TYPE_DOWN	firewall.h	67;"	d
+FW_TYPE_IGNORE	firewall.h	65;"	d
+FW_TYPE_IMPULSE	firewall.h	68;"	d
+FW_TYPE_KEEPUP	firewall.h	63;"	d
+FW_TYPE_UP	firewall.h	66;"	d
+FW_TYPE_WAIT	firewall.h	69;"	d
+FW_Term	firewall.h	/^} FW_Term;$/;"	t
+FW_Timeslot	firewall.h	/^typedef struct FW_Timeslot {$/;"	s
+FW_Timeslot	firewall.h	/^} FW_Timeslot;$/;"	t
+FW_unit	firewall.h	/^} FW_unit;$/;"	t
+GOTO	fsm.c	/^void GOTO(int new_state)$/;"	f
+HAS_SOCKADDR_PKT	diald.h	47;"	d
+HDB	lock.c	12;"	d	file:
+IP_FW_AFILT	firewall.h	111;"	d
+IP_FW_APRULE	firewall.h	112;"	d
+IP_FW_CLOSE	firewall.h	117;"	d
+IP_FW_DOWN	firewall.h	119;"	d
+IP_FW_FFLUSH	firewall.h	109;"	d
+IP_FW_MCONN	firewall.h	120;"	d
+IP_FW_OPEN	firewall.h	116;"	d
+IP_FW_PCONN	firewall.h	113;"	d
+IP_FW_PFILT	firewall.h	115;"	d
+IP_FW_PFLUSH	firewall.h	110;"	d
+IP_FW_PPRULE	firewall.h	114;"	d
+IP_FW_QCHECK	firewall.h	108;"	d
+IP_FW_QFLUSH	firewall.h	107;"	d
+IP_FW_RESET_WAITING	firewall.h	123;"	d
+IP_FW_UP	firewall.h	118;"	d
+IP_FW_WAIT	firewall.h	121;"	d
+LOCK_PREFIX	config.h	36;"	d
+LOCK_PREFIX	lock.c	20;"	d	file:
+LOCK_PREFIX	lock.c	24;"	d	file:
+LOCK_PREFIX	lock.c	26;"	d	file:
+LOG_DDIAL	diald.h	61;"	d
+MAXARGS	options.c	12;"	d	file:
+MAXLINELEN	options.c	11;"	d	file:
+MAX_ADDR_LEN	proxyarp.c	31;"	d	file:
+MAX_IFS	proxyarp.c	40;"	d	file:
+MODE_DEV	diald.h	72;"	d
+MODE_PPP	diald.h	71;"	d
+MODE_SLIP	diald.h	70;"	d
+MONITORS	diald.h	/^} MONITORS;$/;"	t
+MONITOR_INTERFACE	diald.h	92;"	d
+MONITOR_LOAD	diald.h	94;"	d
+MONITOR_MESSAGE	diald.h	95;"	d
+MONITOR_QUEUE	diald.h	96;"	d
+MONITOR_STATE	diald.h	91;"	d
+MONITOR_STATUS	diald.h	93;"	d
+OBJS	Makefile	/^OBJS = diald.o options.o modem.o filter.o slip.o lock.o \\$/;"	m
+PATH_BOOTPC	config.h	76;"	d
+PATH_IFCONFIG	config.h	57;"	d
+PATH_IFCONFIG	config.h	59;"	d
+PATH_PPPD	config.h	83;"	d
+PATH_ROUTE	config.h	63;"	d
+PATH_ROUTE	config.h	65;"	d
+PAUSETIME	diald.h	162;"	d
+PIDSTRING	config.h	43;"	d
+PIDSTRING	lock.c	19;"	d	file:
+PIDSTRING	lock.c	23;"	d	file:
+PIPE	bufio.h	/^} PIPE;$/;"	t
+PPPD_MAXARGS	ppp.c	27;"	d	file:
+PPPIOCGUNIT_2_1_2	ppp.c	19;"	d	file:
+PPPIOCGUNIT_2_2_0	ppp.c	20;"	d	file:
+RUN_PREFIX	config.h	49;"	d
+SET_SA_FAMILY	dev.c	37;"	d	file:
+SET_SA_FAMILY	ppp.c	112;"	d	file:
+SET_SA_FAMILY	proxyarp.c	51;"	d	file:
+SIGNAL	diald.c	249;"	d	file:
+SL_DOWN	config.h	68;"	d
+SL_UP	config.h	69;"	d
+SOCKADDR	diald.h	49;"	d
+SOCKADDR	diald.h	52;"	d
+STATE	fsm.c	11;"	d	file:
+STATE_CLOSE	fsm.h	20;"	d
+STATE_CONNECT	fsm.h	12;"	d
+STATE_DISCONNECT	fsm.h	19;"	d
+STATE_DOWN	fsm.h	11;"	d
+STATE_ERROR	fsm.h	22;"	d
+STATE_HALF_DEAD	fsm.h	24;"	d
+STATE_KILL_DIAL	fsm.h	14;"	d
+STATE_KILL_LINK	fsm.h	17;"	d
+STATE_RETRY	fsm.h	21;"	d
+STATE_START_LINK	fsm.h	15;"	d
+STATE_STOP_DIAL	fsm.h	13;"	d
+STATE_STOP_LINK	fsm.h	16;"	d
+STATE_UP	fsm.h	18;"	d
+STATE_ZOMBIE	fsm.h	23;"	d
+STRIP	Makefile	/^STRIP = $(CROSS)strip$/;"	m
+TCP_STATE	firewall.h	/^} TCP_STATE;$/;"	t
+TOK_EOF	parse.c	19;"	d	file:
+TOK_ERR	parse.c	18;"	d	file:
+TOK_GE	parse.c	13;"	d	file:
+TOK_INET	parse.c	15;"	d	file:
+TOK_LE	parse.c	12;"	d	file:
+TOK_NE	parse.c	14;"	d	file:
+TOK_NUM	parse.c	17;"	d	file:
+TOK_STR	parse.c	16;"	d	file:
+Token	parse.c	/^} Token;$/;"	t	file:
+UNSAFE_ROUTING	diald.h	125;"	d
+VERSION	version.h	1;"	d
+__USE_MISC	diald.h	33;"	d
+_argvbuf	util.c	/^char _argvbuf[256];$/;"	v
+acctfp	diald.h	/^FILE *acctfp;$/;"	v
+acctfp	options.c	/^FILE *acctfp = 0;$/;"	v
+acctlog	diald.h	/^char *acctlog;$/;"	v
+acctlog	options.c	/^char *acctlog = 0;$/;"	v
+act_CLOSE	fsm.c	/^void act_CLOSE(void)$/;"	f
+act_CONNECT	fsm.c	/^void act_CONNECT(void)$/;"	f
+act_DISCONNECT	fsm.c	/^void act_DISCONNECT(void)$/;"	f
+act_DOWN	fsm.c	/^void act_DOWN(void)$/;"	f
+act_ERROR	fsm.c	/^void act_ERROR(void)$/;"	f
+act_HALF_DEAD	fsm.c	/^void act_HALF_DEAD(void)$/;"	f
+act_KILL_DIAL	fsm.c	/^void act_KILL_DIAL(void)$/;"	f
+act_KILL_LINK	fsm.c	/^void act_KILL_LINK(void)$/;"	f
+act_RETRY	fsm.c	/^void act_RETRY(void)$/;"	f
+act_START_LINK	fsm.c	/^void act_START_LINK(void)$/;"	f
+act_STOP_DIAL	fsm.c	/^void act_STOP_DIAL(void)$/;"	f
+act_STOP_LINK	fsm.c	/^void act_STOP_LINK(void)$/;"	f
+act_UP	fsm.c	/^void act_UP(void)$/;"	f
+act_ZOMBIE	fsm.c	/^void act_ZOMBIE(void)$/;"	f
+action	fsm.c	/^    void (*action)(void);$/;"	m	struct:	file:
+add_connection	firewall.c	/^static void add_connection($/;"	f	file:
+add_device	options.c	/^void add_device(void *var, char **argv)$/;"	f
+add_routes	route.c	/^void add_routes(char *itype, int iface, char *lip, char *rip, int metric)$/;"	f
+add_timer	timer.c	/^void add_timer(struct timer_lst *timer)$/;"	f
+addroute	diald.h	/^char *addroute;$/;"	v
+addroute	options.c	/^char *addroute = 0;$/;"	v
+alrm_timer	timer.c	/^void alrm_timer(int sig)$/;"	f
+argc_save	diald.c	/^int argc_save;$/;"	v
+args	options.c	/^    char args;$/;"	m	struct:	file:
+argv	ppp.c	/^char *argv[PPPD_MAXARGS];$/;"	v
+argv_save	diald.c	/^char **argv_save;$/;"	v
+background_system	diald.c	/^void background_system(const char *buf)$/;"	f
+become_daemon	diald.c	/^void become_daemon()$/;"	f
+block_level	timer.c	/^static int block_level = 0;$/;"	v	file:
+block_signals	diald.c	/^void block_signals()$/;"	f
+block_timer	timer.c	/^void block_timer()$/;"	f
+blocked	diald.h	/^int blocked;			\/* user has blocked the link *\/$/;"	v
+blocked	fsm.c	/^int blocked = 0;		\/* user has blocked the link *\/$/;"	v
+bootp_pipe	slip.c	/^static PIPE bootp_pipe;$/;"	v	file:
+bootpfp	slip.c	/^static FILE *bootpfp;$/;"	v	file:
+buf	bufio.h	/^    char buf[1024];$/;"	m	struct:
+buffer	buffer.c	/^static unsigned char *buffer = 0;$/;"	v	file:
+buffer_check	buffer.c	/^static void buffer_check()$/;"	f	file:
+buffer_fifo_dispose	diald.h	/^int buffer_fifo_dispose;$/;"	v
+buffer_fifo_dispose	options.c	/^int buffer_fifo_dispose = BUFFER_FIFO_DISPOSE;$/;"	v
+buffer_init	buffer.c	/^void buffer_init(int *var, char **argv)$/;"	f
+buffer_packet	buffer.c	/^void buffer_packet(unsigned int len,unsigned char *pkt)$/;"	f
+buffer_packets	diald.h	/^int buffer_packets;$/;"	v
+buffer_packets	options.c	/^int buffer_packets = BUFFER_PACKETS;$/;"	v
+buffer_size	diald.h	/^int buffer_size;$/;"	v
+buffer_size	options.c	/^int buffer_size = BUFFER_SIZE;$/;"	v
+buffer_timeout	diald.h	/^int buffer_timeout;$/;"	v
+buffer_timeout	options.c	/^int buffer_timeout = BUFFER_TIMEOUT;$/;"	v
+call_start_time	diald.h	/^int call_start_time;$/;"	v
+cdate	fsm.c	/^char *cdate(void)$/;"	f
+change_state	fsm.c	/^void change_state()$/;"	f
+check_firewall	firewall.c	/^int check_firewall(int unitnum, unsigned char *pkt, int len)$/;"	f
+check_setup	options.c	/^void check_setup()$/;"	f
+clear_flag	options.c	/^void clear_flag(int *var, char **argv)$/;"	f
+clear_proxyarp	proxyarp.c	/^int clear_proxyarp (unsigned int his_adr)$/;"	f
+close_modem	modem.c	/^void close_modem()$/;"	f
+codes	firewall.h	/^    unsigned char codes[FW_ID_LEN];	\/* coding rule, byte offsets *\/$/;"	m	struct:firewall_prule
+commands	options.c	/^} commands[] = {$/;"	v
+connect_timeout	diald.h	/^int connect_timeout;$/;"	v
+connect_timeout	options.c	/^int connect_timeout = 60;$/;"	v
+connections	firewall.h	/^    FW_Connection *connections;		\/* connection queue *\/$/;"	m	struct:fw_unit
+connector	diald.h	/^char *connector;$/;"	v
+connector	options.c	/^char *connector = 0;$/;"	v
+context	parse.c	/^char *context;$/;"	v
+copy_pppd_args	options.c	/^void copy_pppd_args(int argc, char *argv[])$/;"	f
+count	bufio.h	/^    int count;		\/* number of characters in the buffer now *\/$/;"	m	struct:
+count	firewall.h	/^    unsigned char count:7;	\/* number of terms. maximum FW_MAX_TERMS *\/$/;"	m	struct:firewall_rule
+crtscts	diald.h	/^int crtscts;$/;"	v
+crtscts	options.c	/^int crtscts = 0;$/;"	v
+cslot	parse.c	/^static FW_Timeslot *cslot,*tslot;$/;"	v	file:
+ctl_firewall	firewall.c	/^int ctl_firewall(int op, struct firewall_req *req)$/;"	f
+current_dev	modem.c	/^static char *current_dev = 0;$/;"	v	file:
+current_retry_count	diald.h	/^int current_retry_count;	\/* current retry count *\/$/;"	v
+current_retry_count	fsm.c	/^int current_retry_count = 0;	\/* current retry count *\/$/;"	v
+data	timer.h	/^        unsigned long data;			\/* data to pass to function *\/$/;"	m	struct:timer_lst
+dead	dev.c	/^static int dead = 1;$/;"	v	file:
+dead	fsm.c	/^	int (*dead)();$/;"	m	struct:	file:
+dead	slip.c	/^static int dead = 1;$/;"	v	file:
+debug	diald.h	/^int debug;$/;"	v
+debug	options.c	/^int debug = 0;$/;"	v
+default_route	diald.h	/^int default_route;$/;"	v
+default_route	options.c	/^int default_route = 0;$/;"	v
+default_sigacts	diald.c	/^void default_sigacts()$/;"	f
+del_connection	firewall.c	/^static void del_connection(FW_Connection *c)$/;"	f	file:
+del_impulse	firewall.c	/^static void del_impulse(FW_unit *unit)$/;"	f	file:
+del_routes	route.c	/^void del_routes(char *itype, int iface, char *lip, char *rip, int metric)$/;"	f
+del_timer	timer.c	/^int del_timer(struct timer_lst *timer)$/;"	f
+delayed_quit	diald.c	/^int delayed_quit = 0;		\/* has the user requested a delayed quit? *\/$/;"	v
+delayed_quit	diald.h	/^int delayed_quit;		\/* has the user requested delayed termination?*\/$/;"	v
+delroute	diald.h	/^char *delroute;$/;"	v
+delroute	options.c	/^char *delroute = 0;$/;"	v
+dev_dead	dev.c	/^int dev_dead()$/;"	f
+dev_kill	dev.c	/^void dev_kill()$/;"	f
+dev_reroute	dev.c	/^void dev_reroute()$/;"	f
+dev_rx_count	dev.c	/^int dev_rx_count()$/;"	f
+dev_set_addrs	dev.c	/^int dev_set_addrs()$/;"	f
+dev_start	dev.c	/^void dev_start()$/;"	f
+dev_stop	dev.c	/^void dev_stop()$/;"	f
+dev_zombie	dev.c	/^void dev_zombie()$/;"	f
+device	diald.h	/^char device[10];$/;"	v
+device	options.c	/^char device[10]; \/* The Device tu use for MODE_DEV *\/$/;"	v
+device_count	diald.h	/^int device_count;$/;"	v
+device_count	options.c	/^int device_count = 0;$/;"	v
+device_iface	diald.h	/^int device_iface;$/;"	v
+device_iface	options.c	/^int  device_iface ;$/;"	v
+device_node	diald.h	/^char device_node[9];$/;"	v
+device_node	options.c	/^char device_node[9];$/;"	v
+devices	diald.h	/^char **devices;$/;"	v
+devices	options.c	/^char **devices = 0;$/;"	v
+dial_fail_limit	diald.h	/^int dial_fail_limit;$/;"	v
+dial_fail_limit	options.c	/^int dial_fail_limit = 0;$/;"	v
+dial_failures	diald.c	/^int dial_failures = 0;		\/* count of dialing failures *\/$/;"	v
+dial_failures	diald.h	/^int dial_failures;		\/* number of dial failures since last success *\/$/;"	v
+dial_pid	diald.c	/^int dial_pid = 0;		\/* current dial command pid *\/$/;"	v
+dial_pid	diald.h	/^int dial_pid;			\/* current dial command pid *\/$/;"	v
+dial_status	diald.c	/^int dial_status = 0;		\/* status from last dial command *\/$/;"	v
+dial_status	diald.h	/^int dial_status;		\/* status from last dial command *\/$/;"	v
+diald_config_file	diald.h	/^char *diald_config_file;$/;"	v
+diald_defs_file	diald.h	/^char *diald_defs_file;$/;"	v
+die	diald.c	/^void die(int i)$/;"	f
+died_retry_count	diald.h	/^int died_retry_count;$/;"	v
+died_retry_count	options.c	/^int died_retry_count = 1;$/;"	v
+disconnect_timeout	diald.h	/^int disconnect_timeout;$/;"	v
+disconnect_timeout	options.c	/^int disconnect_timeout = 60;$/;"	v
+disconnector	diald.h	/^char *disconnector;$/;"	v
+disconnector	options.c	/^char *disconnector = 0;$/;"	v
+do_config	diald.c	/^void do_config(void)$/;"	f
+do_reroute	diald.h	/^int do_reroute;$/;"	v
+do_reroute	options.c	/^int do_reroute = UNSAFE_ROUTING;$/;"	v
+dodaemon	diald.h	/^int dodaemon;$/;"	v
+dodaemon	options.c	/^int dodaemon = 1;$/;"	v
+dynamic_addrs	diald.h	/^int dynamic_addrs;$/;"	v
+dynamic_addrs	options.c	/^int dynamic_addrs = 0;$/;"	v
+dynamic_mode	diald.h	/^int dynamic_mode;$/;"	v
+dynamic_mode	options.c	/^int dynamic_mode = DMODE_REMOTE_LOCAL;$/;"	v
+eat_whitespace	parse.c	/^void eat_whitespace(void)$/;"	f
+end	firewall.h	/^    unsigned int end;			\/* last minute of day in slot *\/$/;"	m	struct:FW_Timeslot
+errstr	parse.c	/^char *errstr;$/;"	v
+execuc	util.c	/^int execuc(char *buf)$/;"	f
+expected	timer.h	/^	unsigned long expected;			\/* expected time of timeout *\/$/;"	m	struct:timer_lst
+expires	timer.h	/^        unsigned long expires;			\/* how long till expiration *\/$/;"	m	struct:timer_lst
+fail	slip.c	/^static int fail;$/;"	v	file:
+failt	slip.c	/^struct timer_lst failt;$/;"	v
+fd	bufio.h	/^    int fd;		\/* file descriptor *\/$/;"	m	struct:
+fd	diald.h	/^    int fd;			\/* monitor output fp. *\/$/;"	m	struct:monitors
+fifo_fd	diald.h	/^int fifo_fd;			\/* FIFO command pipe. *\/$/;"	v
+fifo_pipe	diald.c	/^static PIPE fifo_pipe;$/;"	v	file:
+fifo_read	diald.c	/^void fifo_read()$/;"	f
+fifoname	diald.h	/^char *fifoname;$/;"	v
+fifoname	options.c	/^char *fifoname = 0;$/;"	v
+filt	firewall.h	/^    FW_Filter filt;$/;"	m	struct:fw_filters
+filter	firewall.h	/^	FW_Filter filter;$/;"	m	union:firewall_req::<anonymous>
+filter_read	filter.c	/^void filter_read()$/;"	f
+filter_setup	filter.c	/^void filter_setup()$/;"	f
+filters	firewall.h	/^    FW_Filters *filters;		\/* list of filters *\/$/;"	m	struct:fw_unit
+fin_seq	firewall.h	/^    unsigned long fin_seq[2];		\/* sequence numbers for FIN packets *\/$/;"	m	struct:tcp_state
+find_connection	firewall.c	/^static FW_Connection *find_connection(FW_unit *unit, FW_ID *id)$/;"	f	file:
+finish_dial	modem.c	/^void finish_dial()$/;"	f
+firewall_prule	firewall.h	/^typedef struct firewall_prule {$/;"	s
+firewall_req	firewall.h	/^struct firewall_req {$/;"	s
+firewall_rule	firewall.h	/^typedef struct firewall_rule {$/;"	s
+firewall_term	firewall.h	/^typedef struct firewall_term {$/;"	s
+first_packet_timeout	diald.h	/^int first_packet_timeout;$/;"	v
+first_packet_timeout	options.c	/^int first_packet_timeout = DEFAULT_FIRST_PACKET_TIMEOUT;$/;"	v
+flush_filters	parse.c	/^void flush_filters(void)$/;"	f
+flush_prules	parse.c	/^void flush_prules(void)$/;"	f
+flush_timeout_queue	filter.c	/^void flush_timeout_queue()$/;"	f
+flush_vars	parse.c	/^void flush_vars(void)$/;"	f
+force	firewall.h	/^    unsigned char force:2;		\/* 0 = queue only, 1 = force up,$/;"	m	struct:fw_unit
+force_dynamic	diald.c	/^int force_dynamic = 0;		\/* true if connect passed back an addr *\/$/;"	v
+force_dynamic	diald.h	/^int force_dynamic;		\/* 1 if the current connect passed back addrs *\/$/;"	v
+force_etime	firewall.h	/^    unsigned long force_etime;		\/* time of next forcing event *\/$/;"	m	struct:fw_unit
+forced	diald.c	/^int forced = 0;			\/* has the user requested the link forced up? *\/$/;"	v
+forced	diald.h	/^int forced;			\/* has the user requested the link forced up? *\/$/;"	v
+fork_dialer	modem.c	/^void fork_dialer(char *program, int fd)$/;"	f
+forward_buffer	buffer.c	/^void forward_buffer()$/;"	f
+free_tokens	parse.c	/^void free_tokens(void)$/;"	f
+function	timer.h	/^        void (*function)(unsigned long);	\/* func to call on timeout *\/$/;"	m	struct:timer_lst
+fuzz	firewall.h	/^    unsigned int fuzz;		\/* fuzz to apply to impulse rules *\/$/;"	m	struct:firewall_rule
+fw_arg	firewall.h	/^    } fw_arg;$/;"	m	struct:firewall_req
+fw_connection	firewall.h	/^typedef struct fw_connection {$/;"	s
+fw_filters	firewall.h	/^typedef struct fw_filters {$/;"	s
+fw_force_update	firewall.c	/^static void fw_force_update(FW_unit *unit)$/;"	f	file:
+fw_impulse_update	firewall.c	/^static void fw_impulse_update(FW_unit *unit, int force)$/;"	f	file:
+fw_reset_wait	filter.c	/^int fw_reset_wait()$/;"	f
+fw_unit	firewall.h	/^typedef struct fw_unit {$/;"	s
+fw_wait	filter.c	/^int fw_wait()$/;"	f
+fwdfd	diald.h	/^int fwdfd;			\/* control socket for packet forwarding *\/$/;"	v
+fwunit	diald.h	/^int fwunit;			\/* firewall unit for firewall control *\/$/;"	v
+get_ether_addr	proxyarp.c	/^static int get_ether_addr (unsigned int ipaddr, struct sockaddr *hwaddr)$/;"	f	file:
+get_pty	diald.c	/^void get_pty(int *mfd, int *sfd)$/;"	f
+give_way	diald.h	/^int give_way;$/;"	v
+give_way	options.c	/^int give_way = 0;$/;"	v
+grab_addr	slip.c	/^static int grab_addr(char **var)$/;"	f	file:
+graphtrio	contrib/logger/diald.monthly	/^sub graphtrio {$/;"	s
+have_local	slip.c	/^static int have_local, have_remote;$/;"	v	file:
+have_remote	slip.c	/^static int have_local, have_remote;$/;"	v	file:
+head	buffer.c	/^static int head = 0;$/;"	v	file:
+head	timer.c	/^static struct timer_lst head = {&head,&head,0,0,0,0};$/;"	v	file:
+id	firewall.h	/^    FW_ID id;				\/* identifier for this connection *\/$/;"	m	struct:fw_connection
+id	firewall.h	/^    unsigned char id[FW_ID_LEN];	\/* identifier for this connection *\/$/;"	m	struct:
+idle_filter_init	filter.c	/^void idle_filter_init()$/;"	f
+idle_filter_proxy	filter.c	/^void idle_filter_proxy()$/;"	f
+ifname	firewall.h	/^        char ifname[16];		\/* FIXME! *\/$/;"	m	union:firewall_req::<anonymous>
+impulse	firewall.h	/^    struct timer_lst impulse;		\/* impulse timer *\/$/;"	m	struct:fw_unit
+impulse_etime	firewall.h	/^    unsigned long impulse_etime;	\/* time of next impulse change event *\/$/;"	m	struct:fw_unit
+impulse_fuzz	diald.h	/^int impulse_fuzz;		\/* fuzz for current impulses *\/$/;"	v
+impulse_fuzz	firewall.c	/^int impulse_fuzz = 0;$/;"	v
+impulse_init_time	diald.h	/^int impulse_init_time;		\/* initial time for current impulses *\/$/;"	v
+impulse_init_time	firewall.c	/^int impulse_init_time = 0;$/;"	v
+impulse_mode	firewall.h	/^    unsigned char impulse_mode:1;	\/* impulse mode 0 = on, 1 = fuzz *\/$/;"	m	struct:fw_unit
+impulse_time	diald.h	/^int impulse_time;		\/* time for current impulses *\/$/;"	v
+impulse_time	firewall.c	/^int impulse_time = 0;$/;"	v
+in_alarm	timer.c	/^static int in_alarm = 0;$/;"	v	file:
+in_die	diald.c	/^static int in_die = 0;$/;"	v	file:
+in_slot	firewall.c	/^static unsigned int in_slot(FW_Timeslot *slot, time_t *clock)$/;"	f	file:
+init_filter	parse.c	/^void init_filter(FW_Filter *filter)$/;"	f
+init_prule	parse.c	/^void init_prule(FW_ProtocolRule *rule)$/;"	f
+init_timer	timer.c	/^void init_timer(struct timer_lst * timer)$/;"	f
+init_units	firewall.c	/^static void init_units(void)$/;"	f	file:
+init_vars	options.c	/^void init_vars()$/;"	f
+initialized	firewall.c	/^static int initialized = 0;$/;"	v	file:
+inittermios	modem.c	/^static struct termios inittermios;      \/* Initial TTY termios *\/$/;"	v	file:
+inspeed	diald.h	/^int inspeed;$/;"	v
+inspeed	options.c	/^int inspeed = DEFAULT_SPEED;$/;"	v
+interface_down	filter.c	/^void interface_down()$/;"	f
+interface_up	filter.c	/^void interface_up()$/;"	f
+ip_direction	firewall.c	/^static int ip_direction(struct iphdr *pkt)$/;"	f	file:
+ip_down	diald.h	/^char *ip_down;$/;"	v
+ip_down	options.c	/^char *ip_down = 0;$/;"	v
+ip_ntoa	proxyarp.c	/^char * ip_ntoa(unsigned int ipaddr)$/;"	f
+ip_swap_addrs	firewall.c	/^static void ip_swap_addrs(struct iphdr *pkt)$/;"	f	file:
+ip_up	diald.h	/^char *ip_up;$/;"	v
+ip_up	options.c	/^char *ip_up = 0;$/;"	v
+irxtotal	diald.h	/^int itxtotal, irxtotal;		\/* instantaneous transfer stats *\/$/;"	v
+irxtotal	filter.c	/^int irxtotal = 0;$/;"	v
+itxtotal	diald.h	/^int itxtotal, irxtotal;		\/* instantaneous transfer stats *\/$/;"	v
+itxtotal	filter.c	/^int itxtotal = 0;$/;"	v
+keepalive	options.c	/^int keepalive = 0;$/;"	v
+kill	fsm.c	/^	void (*kill)();$/;"	m	struct:	file:
+kill_timeout	diald.h	/^int kill_timeout;$/;"	v
+kill_timeout	options.c	/^int kill_timeout = 60;$/;"	v
+killpg	killpg.c	/^int killpg(int pgrp, int sig)$/;"	f
+last	firewall.h	/^    FW_Filters *last;			\/* last filter in the list *\/$/;"	m	struct:fw_unit
+level	diald.h	/^    int level;			\/* Information level requested *\/$/;"	m	struct:monitors
+link_iface	diald.c	/^int link_iface = -1;		\/* Interface for the link *\/$/;"	v
+link_iface	diald.h	/^int link_iface;			\/* Interface number for ppp line *\/$/;"	v
+link_pid	diald.c	/^int link_pid = 0;		\/* current protocol control command pid *\/$/;"	v
+link_pid	diald.h	/^int link_pid;			\/* current pppd command pid *\/$/;"	v
+linkup	diald.c	/^void linkup(int sig)$/;"	f
+live	firewall.h	/^    int live;				\/* number of live connections in queue *\/$/;"	m	struct:fw_unit
+local_addr	diald.h	/^unsigned long local_addr;$/;"	v
+local_addr	options.c	/^unsigned long local_addr = 0;$/;"	v
+local_ip	diald.h	/^char *local_ip;$/;"	v
+local_ip	options.c	/^char *local_ip = 0;$/;"	v
+lock	lock.c	/^int lock(char *dev)$/;"	f
+lock_dev	diald.h	/^int lock_dev;$/;"	v
+lock_dev	options.c	/^int lock_dev = 0;$/;"	v
+lock_file	lock.c	/^static char *lock_file;$/;"	v	file:
+lock_prefix	diald.h	/^char *lock_prefix;$/;"	v
+lock_prefix	options.c	/^char *lock_prefix = LOCK_PREFIX;$/;"	v
+log	firewall.h	/^    unsigned char log:1;	\/* log matches to this rule *\/$/;"	m	struct:firewall_rule
+log_packet	firewall.c	/^static void log_packet(int accept, struct iphdr *pkt, int len,  int rule)$/;"	f	file:
+main	diald.c	/^int main(int argc, char *argv[])$/;"	f
+mask	firewall.h	/^    unsigned int mask;		\/* mask value *\/$/;"	m	struct:firewall_term
+mask	parse.c	/^   unsigned int mask;$/;"	m	struct:var	file:
+mday	firewall.h	/^    unsigned int mday:31;               \/* days of the month slot applies *\/$/;"	m	struct:FW_Timeslot
+message	bin/connect	/^function message () {$/;"	f
+mode	diald.h	/^int mode;$/;"	v
+mode	options.c	/^int mode = MODE_SLIP;$/;"	v
+modem	diald.h	/^int modem;$/;"	v
+modem	options.c	/^int modem = 0;$/;"	v
+modem_fd	diald.c	/^int modem_fd = -1;		\/* modem device fp (for proxy reads) *\/$/;"	v
+modem_fd	diald.h	/^int modem_fd;			\/* modem device fp (for slip links) *\/$/;"	v
+modem_hup	diald.c	/^int modem_hup = 0;		\/* have we seen a modem HUP? *\/$/;"	v
+modem_hup	diald.h	/^int modem_hup;			\/* have we seen a modem HUP? *\/$/;"	v
+mon_write	diald.c	/^void mon_write(int level, char *message,int len)$/;"	f
+monitor_queue	filter.c	/^void monitor_queue()$/;"	f
+monitors	diald.c	/^MONITORS *monitors = 0;		\/* Monitor pipes *\/$/;"	v
+monitors	diald.h	/^MONITORS *monitors;		\/* List of monitor pipes. *\/$/;"	v
+monitors	diald.h	/^typedef struct monitors {$/;"	s
+month	firewall.h	/^    unsigned short month:12;            \/* month of the year slot applies *\/$/;"	m	struct:FW_Timeslot
+mru	diald.h	/^int mru;$/;"	v
+mru	options.c	/^int mru = DEFAULT_MTU;$/;"	v
+mtu	diald.h	/^int mtu;$/;"	v
+mtu	options.c	/^int mtu = DEFAULT_MTU;$/;"	v
+name	diald.h	/^    char *name;$/;"	m	struct:monitors
+name	fsm.c	/^    char *name;$/;"	m	struct:	file:
+name	parse.c	/^    char *name;$/;"	m	struct:prule	file:
+name	parse.c	/^   char *name;$/;"	m	struct:var	file:
+netmask	diald.h	/^char *netmask;$/;"	v
+netmask	options.c	/^char *netmask = 0;$/;"	v
+next	diald.h	/^    struct monitors *next;$/;"	m	struct:monitors
+next	firewall.h	/^    struct FW_Timeslot *next;		\/* next slot in disjunct *\/$/;"	m	struct:FW_Timeslot
+next	firewall.h	/^    struct fw_connection *next,*prev;	\/* queue chain pointers *\/$/;"	m	struct:fw_connection
+next	firewall.h	/^    struct fw_filters *next;	\/* next filter in the firewall chain *\/$/;"	m	struct:fw_filters
+next	parse.c	/^    struct token *next;$/;"	m	struct:token	file:
+next	parse.c	/^   struct var *next;$/;"	m	struct:var	file:
+next	timer.h	/^        struct timer_lst *next;$/;"	m	struct:timer_lst
+next_alarm	timer.c	/^int next_alarm()$/;"	f
+nfilters	firewall.h	/^    short nfilters;			\/* how many filters are assigned *\/$/;"	m	struct:fw_unit
+no_redial_delay	fsm.c	/^int no_redial_delay = 0;$/;"	v
+nodev_retry_timeout	diald.h	/^int nodev_retry_timeout;$/;"	v
+nodev_retry_timeout	options.c	/^int nodev_retry_timeout = 1;$/;"	v
+nprules	parse.c	/^static int nprules = 0;$/;"	v	file:
+nrules	firewall.h	/^    char nrules;			\/* how many rules are assigned *\/$/;"	m	struct:fw_unit
+offset	firewall.h	/^    unsigned char offset;	\/* offset code. Same as in protocol rules *\/$/;"	m	struct:firewall_term
+offset	parse.c	/^    int offset;$/;"	m	struct:token	file:
+offset	parse.c	/^   int offset;$/;"	m	struct:var	file:
+oldsize	buffer.c	/^static int oldsize = 0;$/;"	v	file:
+op	firewall.h	/^    unsigned char op:2;		\/* operation: =, !=, >=, <= *\/$/;"	m	struct:firewall_term
+open_fifo	diald.c	/^void open_fifo()$/;"	f
+open_modem	modem.c	/^int open_modem()$/;"	f
+orig_disc	diald.h	/^int orig_disc;			\/* original PTY line disciple *\/$/;"	v
+orig_local_ip	diald.h	/^char *orig_local_ip;$/;"	v
+orig_local_ip	options.c	/^char *orig_local_ip = 0;$/;"	v
+orig_remote_ip	diald.h	/^char *orig_remote_ip;$/;"	v
+orig_remote_ip	options.c	/^char *orig_remote_ip = 0;$/;"	v
+outfill	options.c	/^int outfill = 0;$/;"	v
+output_state	fsm.c	/^void output_state()$/;"	f
+packet	diald.h	/^char packet[4096];		\/* slip packet buffer *\/$/;"	v
+parse_accept	parse.c	/^void parse_accept(void *var, char **argv)$/;"	f
+parse_args	options.c	/^void parse_args(int argc, char *argv[])$/;"	f
+parse_bringup	parse.c	/^void parse_bringup(void *var, char **argv)$/;"	f
+parse_down	parse.c	/^void parse_down(void *var, char **argv)$/;"	f
+parse_error	parse.c	/^void parse_error(char *s)$/;"	f
+parse_ignore	parse.c	/^void parse_ignore(void *var, char **argv)$/;"	f
+parse_impulse	parse.c	/^void parse_impulse(void *var, char **argv)$/;"	f
+parse_init	parse.c	/^void parse_init()$/;"	f
+parse_keepup	parse.c	/^void parse_keepup(void *var, char **argv)$/;"	f
+parse_lvalue	parse.c	/^void parse_lvalue(FW_Term *term)$/;"	f
+parse_new_prule_name	parse.c	/^void parse_new_prule_name(void)$/;"	f
+parse_offset	parse.c	/^int parse_offset(void)$/;"	f
+parse_op	parse.c	/^int parse_op(FW_Term *term)$/;"	f
+parse_options_file	options.c	/^void parse_options_file(char *file)$/;"	f
+parse_or_restrict	parse.c	/^void parse_or_restrict(void *var, char **argv)$/;"	f
+parse_protocol_name	parse.c	/^void parse_protocol_name(FW_ProtocolRule *prule)$/;"	f
+parse_prule	parse.c	/^void parse_prule(void *var, char **argv)$/;"	f
+parse_prule_name	parse.c	/^void parse_prule_name(FW_Filter *filter)$/;"	f
+parse_prule_spec	parse.c	/^void parse_prule_spec(FW_ProtocolRule *prule)$/;"	f
+parse_restrict	parse.c	/^void parse_restrict(void *var, char **argv)$/;"	f
+parse_restrict_disjunct	parse.c	/^void parse_restrict_disjunct()$/;"	f
+parse_rvalue	parse.c	/^int parse_rvalue(void)$/;"	f
+parse_term	parse.c	/^void parse_term(FW_Filter *filter)$/;"	f
+parse_terms	parse.c	/^void parse_terms(FW_Filter *filter)$/;"	f
+parse_time	parse.c	/^static void parse_time(void (*set_func)(int))$/;"	f	file:
+parse_timeout	parse.c	/^void parse_timeout(FW_Filter *filter)$/;"	f
+parse_times	parse.c	/^static void parse_times(void (*set_func)(int))$/;"	f	file:
+parse_up	parse.c	/^void parse_up(void *var, char **argv)$/;"	f
+parse_var	parse.c	/^void parse_var(void *var, char **argv)$/;"	f
+parse_var_name	parse.c	/^void parse_var_name(struct var *variable)$/;"	f
+parse_varref	parse.c	/^void parse_varref(FW_Term *term)$/;"	f
+parse_varspec	parse.c	/^void parse_varspec(struct var *variable)$/;"	f
+parse_whitespace	parse.c	/^void parse_whitespace(void)$/;"	f
+parser	options.c	/^    void (*parser)();$/;"	m	struct:	file:
+path_bootpc	diald.h	/^char *path_bootpc;$/;"	v
+path_bootpc	options.c	/^char *path_bootpc = PATH_BOOTPC;$/;"	v
+path_ifconfig	diald.h	/^char *path_ifconfig;$/;"	v
+path_ifconfig	options.c	/^char *path_ifconfig = PATH_IFCONFIG;$/;"	v
+path_pppd	diald.h	/^char *path_pppd;$/;"	v
+path_pppd	options.c	/^char *path_pppd = PATH_PPPD;$/;"	v
+path_route	diald.h	/^char *path_route;$/;"	v
+path_route	options.c	/^char *path_route = PATH_ROUTE;$/;"	v
+pcontrol	fsm.c	/^} pcontrol[3] = {$/;"	v
+pcountdown	firewall.c	/^static void pcountdown(int level, long secs)$/;"	f	file:
+pgrpid	modem.c	/^int pgrpid;$/;"	v
+pidfile	diald.c	/^char *pidfile = 0;$/;"	v
+pidfile	diald.h	/^char *pidfile;			\/* full path filename of pid file *\/$/;"	v
+pidlog	diald.h	/^char *pidlog;$/;"	v
+pidlog	options.c	/^char *pidlog = "diald.pid";$/;"	v
+pidstring	diald.h	/^int pidstring;$/;"	v
+pidstring	options.c	/^int pidstring = 1;$/;"	v
+pipe_flush	bufio.c	/^void pipe_flush(PIPE *pipe,int count)$/;"	f
+pipe_init	bufio.c	/^void pipe_init(int fd,PIPE *pipe)$/;"	f
+pipe_read	bufio.c	/^int pipe_read(PIPE *pipe)$/;"	f
+ppp_dead	ppp.c	/^int ppp_dead()$/;"	f
+ppp_half_dead	diald.c	/^int ppp_half_dead = 0;		\/* is the ppp link half dead? *\/$/;"	v
+ppp_half_dead	diald.h	/^int ppp_half_dead;		\/* is the ppp link half dead? *\/$/;"	v
+ppp_kill	ppp.c	/^void ppp_kill()$/;"	f
+ppp_reroute	ppp.c	/^void ppp_reroute()$/;"	f
+ppp_route_exists	ppp.c	/^int ppp_route_exists()$/;"	f
+ppp_rx_count	ppp.c	/^int ppp_rx_count()$/;"	f
+ppp_set_addrs	ppp.c	/^int ppp_set_addrs()$/;"	f
+ppp_start	ppp.c	/^void ppp_start()$/;"	f
+ppp_stop	ppp.c	/^void ppp_stop()$/;"	f
+ppp_zombie	ppp.c	/^void ppp_zombie()$/;"	f
+pppd_argc	diald.h	/^int pppd_argc;$/;"	v
+pppd_argv	diald.h	/^char **pppd_argv;$/;"	v
+prev	firewall.h	/^    struct fw_connection *next,*prev;	\/* queue chain pointers *\/$/;"	m	struct:fw_connection
+prev	timer.h	/^        struct timer_lst *prev;$/;"	m	struct:timer_lst
+print_filter	firewall.c	/^void print_filter(FW_Filter *filter)$/;"	f
+print_filter_queue	filter.c	/^void print_filter_queue(int sig)$/;"	f
+protocol	firewall.h	/^    unsigned char protocol;		\/* Protocol: 255 = match all. *\/$/;"	m	struct:firewall_prule
+proxy_config	proxy.c	/^void proxy_config(char *lip, char *rip)$/;"	f
+proxy_down	proxy.c	/^void proxy_down()$/;"	f
+proxy_iface	diald.c	/^int proxy_iface = 0;		\/* Interface for the proxy *\/$/;"	v
+proxy_iface	diald.h	/^int proxy_iface;		\/* Interface number for proxy pty *\/$/;"	v
+proxy_mfd	diald.h	/^int proxy_mfd;			\/* master pty fd *\/$/;"	v
+proxy_mfp	diald.h	/^FILE *proxy_mfp;		\/* also have an fp. Hackery for recv_packet. *\/$/;"	v
+proxy_read	diald.c	/^void proxy_read()$/;"	f
+proxy_sfd	diald.h	/^int proxy_sfd;			\/* slave pty fd *\/$/;"	v
+proxy_up	proxy.c	/^void proxy_up(void)$/;"	f
+proxyarp	diald.h	/^int proxyarp;$/;"	v
+proxyarp	options.c	/^int proxyarp = 0;$/;"	v
+prule	firewall.h	/^    unsigned char prule:5;	\/* protocol rule, 0-31. *\/$/;"	m	struct:firewall_rule
+prule	parse.c	/^struct prule {$/;"	s	file:
+prules	firewall.h	/^    FW_ProtocolRule prules[FW_MAX_PRULES];	\/* prules *\/$/;"	m	struct:fw_unit
+prules	parse.c	/^} prules[FW_MAX_PRULES];$/;"	v
+queue_empty	filter.c	/^int queue_empty()$/;"	f
+read_config_file	options.c	/^void read_config_file(int *var, char **argv)$/;"	f
+realsleep	timer.c	/^int realsleep(unsigned int sec)$/;"	f
+recv_packet	proxy.c	/^int recv_packet(unsigned char *p, int len)$/;"	f
+redial_backoff	diald.h	/^int redial_backoff;$/;"	v
+redial_backoff_limit	diald.h	/^int redial_backoff_limit;$/;"	v
+redial_backoff_limit	options.c	/^int redial_backoff_limit = 600;$/;"	v
+redial_backoff_start	diald.h	/^int redial_backoff_start;$/;"	v
+redial_backoff_start	options.c	/^int redial_backoff_start = -1;$/;"	v
+redial_rtimeout	diald.c	/^int redial_rtimeout = -1;	\/* initialized value *\/$/;"	v
+redial_rtimeout	diald.h	/^int redial_rtimeout;		\/* current real redial timeout *\/$/;"	v
+redial_timeout	diald.h	/^int redial_timeout;$/;"	v
+redial_timeout	options.c	/^int redial_timeout = DEFAULT_DIAL_DELAY;$/;"	v
+remote_ip	diald.h	/^char *remote_ip;$/;"	v
+remote_ip	options.c	/^char *remote_ip = 0;$/;"	v
+reopen_modem	modem.c	/^void reopen_modem()$/;"	f
+report	contrib/logger/diald.monthly	/^sub report {$/;"	s
+report_system_result	diald.c	/^int report_system_result(int res,char *buf)$/;"	f
+req_dev	diald.h	/^char *req_dev;			\/* name of the device file requested to open *\/$/;"	v
+req_pid	diald.h	/^int req_pid;			\/* pid of process that made "request" *\/$/;"	v
+request_down	diald.c	/^int request_down = 0;		\/* has the user requested link down? *\/$/;"	v
+request_down	diald.h	/^int request_down;		\/* has the user requested link down? *\/$/;"	v
+request_up	diald.c	/^int request_up = 0;		\/* has the user requested link down? *\/$/;"	v
+request_up	diald.h	/^int request_up;			\/* has the user requested link up? *\/$/;"	v
+reroute	fsm.c	/^	void (*reroute)();$/;"	m	struct:	file:
+restore_term	modem.c	/^static int restore_term = 0;$/;"	v	file:
+retry_count	diald.h	/^int retry_count;$/;"	v
+retry_count	options.c	/^int retry_count = 0;$/;"	v
+rotate_devices	diald.h	/^int rotate_devices;$/;"	v
+rotate_devices	options.c	/^int rotate_devices = 0;$/;"	v
+rotate_offset	modem.c	/^static int rotate_offset = 0;$/;"	v	file:
+route_wait	diald.h	/^int route_wait;$/;"	v
+route_wait	options.c	/^int route_wait = 0;$/;"	v
+rule	firewall.h	/^	FW_ProtocolRule rule;$/;"	m	union:firewall_req::<anonymous>
+run_ip_down	proxy.c	/^void run_ip_down()$/;"	f
+run_ip_up	proxy.c	/^void run_ip_up()$/;"	f
+run_prefix	diald.h	/^char *run_prefix;$/;"	v
+run_prefix	options.c	/^char *run_prefix = RUN_PREFIX;$/;"	v
+running_pid	diald.c	/^int running_pid = 0;		\/* current system command pid *\/$/;"	v
+running_pid	diald.h	/^int running_pid;		\/* current system command pid *\/$/;"	v
+running_status	diald.c	/^int running_status = 0;		\/* status of last system command *\/$/;"	v
+rx_count	dev.c	/^static int rx_count = -1;$/;"	v	file:
+rx_count	ppp.c	/^static int rx_count = -1;$/;"	v	file:
+rx_count	slip.c	/^static int rx_count = -1;$/;"	v	file:
+rxtotal	diald.h	/^int txtotal,rxtotal;		\/* transfer stats for the link *\/$/;"	v
+saw_fin	firewall.h	/^    unsigned char saw_fin:2;		\/* directions we saw a FIN in *\/$/;"	m	struct:tcp_state
+set_addrs	fsm.c	/^	int (*set_addrs)();$/;"	m	struct:	file:
+set_days	parse.c	/^static void set_days(int i)$/;"	f	file:
+set_dslip_mode	options.c	/^void set_dslip_mode(char **var, char **argv)$/;"	f
+set_end	parse.c	/^static void set_end(int i)$/;"	f	file:
+set_flag	options.c	/^void set_flag(int *var, char **argv)$/;"	f
+set_int	options.c	/^void set_int(int *var, char **argv)$/;"	f
+set_mode	options.c	/^void set_mode(char **var, char **argv)$/;"	f
+set_month	parse.c	/^static void set_month(int i)$/;"	f	file:
+set_proxyarp	proxyarp.c	/^int set_proxyarp (unsigned int his_adr)$/;"	f
+set_ptp	route.c	/^void set_ptp(char *itype, int iface, char *rip, int metric)$/;"	f
+set_start	parse.c	/^static void set_start(int i)$/;"	f	file:
+set_str	options.c	/^void set_str(char **var, char **argv)$/;"	f
+set_up_tty	modem.c	/^void set_up_tty(int fd, int local, int spd)$/;"	f
+set_weekdays	parse.c	/^static void set_weekdays(int i)$/;"	f	file:
+setdtr	modem.c	/^void setdtr(int fd, int on)$/;"	f
+shift	firewall.h	/^    unsigned char shift:5;	\/* 0-31 *\/$/;"	m	struct:firewall_term
+shift	parse.c	/^   int shift;$/;"	m	struct:var	file:
+sig_chld	diald.c	/^void sig_chld(int sig)$/;"	f
+sig_hup	diald.c	/^void sig_hup(int sig)$/;"	f
+sig_intr	diald.c	/^void sig_intr(int sig)$/;"	f
+sig_mask	diald.c	/^static sigset_t sig_mask;$/;"	v	file:
+sig_term	diald.c	/^void sig_term(int sig)$/;"	f
+signal_setup	diald.c	/^void signal_setup()$/;"	f
+sleep	timer.c	/^int sleep(unsigned int secs)$/;"	f
+sleep_wakeup	timer.c	/^void sleep_wakeup(int *var)$/;"	f
+slip_dead	slip.c	/^int slip_dead()$/;"	f
+slip_encap	diald.h	/^int slip_encap;$/;"	v
+slip_encap	options.c	/^int slip_encap = 0;$/;"	v
+slip_kill	slip.c	/^void slip_kill()$/;"	f
+slip_reroute	slip.c	/^void slip_reroute()$/;"	f
+slip_rx_count	slip.c	/^int slip_rx_count()$/;"	f
+slip_set_addrs	slip.c	/^int slip_set_addrs()$/;"	f
+slip_start	slip.c	/^void slip_start(void)$/;"	f
+slip_start_fail	slip.c	/^static void slip_start_fail(unsigned long data)$/;"	f	file:
+slip_stop	slip.c	/^void slip_stop()$/;"	f
+slip_zombie	slip.c	/^void slip_zombie()$/;"	f
+slot_end_timeout	firewall.c	/^static unsigned int slot_end_timeout(FW_Timeslot *slot, time_t *clock)$/;"	f	file:
+slot_start_timeout	firewall.c	/^static unsigned int slot_start_timeout(FW_Timeslot *slot, time_t *clock)$/;"	f	file:
+snoop_dev	diald.h	/^char snoop_dev[10];		\/* The interface name we are listening on *\/$/;"	v
+snoopfd	diald.h	/^int snoopfd;			\/* snooping socket fd *\/$/;"	v
+sockfd	diald.c	/^int sockfd = -1;		\/* controling socket *\/$/;"	v
+speed	modem.c	/^struct speed {$/;"	s	file:
+speed_int	modem.c	/^    int speed_int, speed_val;$/;"	m	struct:speed	file:
+speed_val	modem.c	/^    int speed_int, speed_val;$/;"	m	struct:speed	file:
+speeds	modem.c	/^} speeds[] = {$/;"	v
+start	firewall.h	/^    unsigned int start;			\/* first minute of day in slot *\/$/;"	m	struct:FW_Timeslot
+start	fsm.c	/^	void (*start)();$/;"	m	struct:	file:
+start_bootp	slip.c	/^static void start_bootp()$/;"	f	file:
+start_disc	slip.c	/^static int start_disc;$/;"	v	file:
+start_pppd_timeout	diald.h	/^int start_pppd_timeout;$/;"	v
+start_pppd_timeout	options.c	/^int start_pppd_timeout = 60;$/;"	v
+state	diald.h	/^int state;			\/* DFA state *\/$/;"	v
+state	fsm.c	/^int state = STATE_DOWN;		\/* DFA state *\/$/;"	v
+state_timeout	diald.c	/^int state_timeout = -1;		\/* state machine timeout counter *\/$/;"	v
+state_timeout	diald.h	/^int state_timeout;		\/* state machine timeout counter *\/$/;"	v
+stop	fsm.c	/^	void (*stop)();$/;"	m	struct:	file:
+stop_dial_timeout	diald.h	/^int stop_dial_timeout;$/;"	v
+stop_dial_timeout	options.c	/^int stop_dial_timeout = 60;$/;"	v
+stop_pppd_timeout	diald.h	/^int stop_pppd_timeout;$/;"	v
+stop_pppd_timeout	options.c	/^int stop_pppd_timeout = 60;$/;"	v
+str	options.c	/^    char *str;$/;"	m	struct:	file:
+str	parse.c	/^    char *str;$/;"	m	struct:token	file:
+system	diald.c	/^int system(const char *buf)$/;"	f
+tail	buffer.c	/^static int tail = 0;$/;"	v	file:
+tcp_flags	firewall.h	/^    unsigned char tcp_flags:2;		\/* TCP liveness flags *\/$/;"	m	struct:tcp_state
+tcp_state	firewall.h	/^    TCP_STATE tcp_state;		\/* TCP state information *\/$/;"	m	struct:fw_connection
+tcp_state	firewall.h	/^typedef struct tcp_state {$/;"	s
+terminate	diald.c	/^int terminate = 0;$/;"	v
+terminate	diald.h	/^int terminate;			\/* has the user requested termination? *\/$/;"	v
+terms	firewall.h	/^    FW_Term terms[FW_MAX_TERMS];	\/* terms in the rule *\/$/;"	m	struct:firewall_rule
+test	firewall.h	/^    unsigned int test;		\/* test value *\/$/;"	m	struct:firewall_term
+timeout	firewall.h	/^    unsigned int timeout;	\/* timeout in seconds. Max approx 136 years *\/$/;"	m	struct:firewall_rule
+timeout	fsm.c	/^    int *timeout;$/;"	m	struct:	file:
+timeout2	firewall.h	/^    unsigned int timeout2;	\/* impulse timeout after first used *\/$/;"	m	struct:firewall_rule
+timeout_state	fsm.c	/^    int timeout_state;$/;"	m	struct:	file:
+timer	firewall.h	/^    struct timer_lst timer;		\/* timer for this connection *\/$/;"	m	struct:fw_connection
+timer_lst	timer.h	/^struct timer_lst {$/;"	s
+times	firewall.h	/^    FW_Timeslot *times;		\/* chain of times the filter can be applied *\/$/;"	m	struct:firewall_rule
+timestamp	timer.c	/^unsigned long timestamp()$/;"	f
+tlist	parse.c	/^Token *tlist;$/;"	v
+token	parse.c	/^Token *token;$/;"	v
+token	parse.c	/^typedef struct token {$/;"	s	file:
+tokenize	parse.c	/^void tokenize(char *cntxt, int argc, char **argv)$/;"	f
+trans	fsm.c	/^    void (*trans)(void);$/;"	m	struct:	file:
+trans	fsm.c	/^} trans[] = {$/;"	v
+trans_CLOSE	fsm.c	/^void trans_CLOSE(void)$/;"	f
+trans_CONNECT	fsm.c	/^void trans_CONNECT(void)$/;"	f
+trans_DISCONNECT	fsm.c	/^void trans_DISCONNECT(void)$/;"	f
+trans_DOWN	fsm.c	/^void trans_DOWN(void)$/;"	f
+trans_ERROR	fsm.c	/^void trans_ERROR(void) {$/;"	f
+trans_HALF_DEAD	fsm.c	/^void trans_HALF_DEAD(void)$/;"	f
+trans_KILL_DIAL	fsm.c	/^void trans_KILL_DIAL(void)$/;"	f
+trans_KILL_LINK	fsm.c	/^void trans_KILL_LINK(void)$/;"	f
+trans_RETRY	fsm.c	/^void trans_RETRY(void)$/;"	f
+trans_START_LINK	fsm.c	/^void trans_START_LINK(void)$/;"	f
+trans_STOP_DIAL	fsm.c	/^void trans_STOP_DIAL(void)$/;"	f
+trans_STOP_LINK	fsm.c	/^void trans_STOP_LINK(void)$/;"	f
+trans_UP	fsm.c	/^void trans_UP(void)$/;"	f
+trans_ZOMBIE	fsm.c	/^void trans_ZOMBIE(void) {$/;"	f
+translate_speed	modem.c	/^int translate_speed(int bps)$/;"	f
+translate_speed	modem.c	44;"	d	file:
+tslot	parse.c	/^static FW_Timeslot *cslot,*tslot;$/;"	v	file:
+two_way	diald.h	/^int two_way;$/;"	v
+two_way	options.c	/^int two_way = 0;$/;"	v
+txtotal	diald.h	/^int txtotal,rxtotal;		\/* transfer stats for the link *\/$/;"	v
+type	firewall.h	/^    unsigned char type:3;	\/* link type *\/$/;"	m	struct:firewall_rule
+type	parse.c	/^    int type;$/;"	m	struct:token	file:
+uargs	options.c	/^    char *uargs;$/;"	m	struct:	file:
+unblock_signals	diald.c	/^void unblock_signals()$/;"	f
+unblock_timer	timer.c	/^void unblock_timer()$/;"	f
+unit	firewall.h	/^    struct fw_unit *unit;		\/* Unit this connection is in *\/$/;"	m	struct:fw_connection
+unit	firewall.h	/^    unsigned char unit;			\/* firewall unit *\/$/;"	m	struct:firewall_req
+units	firewall.c	/^static FW_unit units[FW_NRUNIT];$/;"	v	file:
+unlock	lock.c	/^void unlock()$/;"	f
+unwind	parse.c	/^static jmp_buf unwind;$/;"	v	file:
+up	firewall.h	/^    unsigned char up:1;			\/* Is the line currently up or down? *\/$/;"	m	struct:fw_unit
+usage	options.c	/^void usage(void)$/;"	f
+use_req	diald.h	/^int use_req;			\/* are we actually using the FIFO link-up request device? *\/$/;"	v
+used	buffer.c	/^static int used = 0;$/;"	v	file:
+used	firewall.h	/^    char used;				\/* is this unit free *\/$/;"	m	struct:fw_unit
+value	firewall.h	/^	int value;$/;"	m	union:firewall_req::<anonymous>
+var	options.c	/^    void *var;$/;"	m	struct:	file:
+var	parse.c	/^static struct var {$/;"	s	file:
+vars	parse.c	/^} *vars = 0;$/;"	v	file:
+waiting	firewall.h	/^    unsigned char waiting:1;		\/* waiting for routing packet *\/$/;"	m	struct:fw_unit
+waiting_for_bootp	slip.c	/^static int waiting_for_bootp = 0;$/;"	v	file:
+wday	firewall.h	/^    unsigned int wday:7;                \/* days of the week slot applies *\/$/;"	m	struct:FW_Timeslot
+window	diald.h	/^int window;$/;"	v
+window	options.c	/^int window = 0;$/;"	v
+zombie	fsm.c	/^	void (*zombie)();$/;"	m	struct:	file:

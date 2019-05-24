@@ -1,0 +1,568 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/darren@hiebert.com/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.0.1	//
+APPLET	applets.c	34;"	d	file:
+APPLET	include/applets.h	13;"	d
+APPLET	include/applets.h	19;"	d
+APPLET	include/applets.h	25;"	d
+APPLET	include/applets.h	29;"	d
+APPLET	include/applets.h	34;"	d
+APPLET	include/applets.h	39;"	d
+APPLET_NOUSAGE	applets.c	35;"	d	file:
+APPLET_NOUSAGE	include/applets.h	15;"	d
+APPLET_NOUSAGE	include/applets.h	20;"	d
+APPLET_NOUSAGE	include/applets.h	26;"	d
+APPLET_NOUSAGE	include/applets.h	30;"	d
+APPLET_NOUSAGE	include/applets.h	35;"	d
+APPLET_NOUSAGE	include/applets.h	40;"	d
+APPLET_ODDNAME	include/applets.h	14;"	d
+APPLET_ODDNAME	include/applets.h	21;"	d
+APPLET_ODDNAME	include/applets.h	27;"	d
+APPLET_ODDNAME	include/applets.h	31;"	d
+APPLET_ODDNAME	include/applets.h	36;"	d
+APPLET_ODDNAME	include/applets.h	41;"	d
+AR	Makefile	/^AR = $(CROSS)ar$/;"	m
+ARFLAGS	Makefile	/^ARFLAGS = -r$/;"	m
+Ai	sha1.c	40;"	d	file:
+BB_BANNER	include/tinylogin.h	27;"	d
+BB_applet	include/tinylogin.h	/^struct BB_applet {$/;"	s
+BB_suid_config	applets.c	/^struct BB_suid_config {$/;"	s	file:
+BS	getty.c	82;"	d	file:
+BUFSIZ	getty.c	122;"	d	file:
+BUF_SIZE	include/libbb.h	64;"	d
+BUILDTIME	Makefile	/^BUILDTIME := $(shell TZ=UTC date -u "+%Y.%m.%d-%H:%M%z")$/;"	m
+Bi	sha1.c	41;"	d	file:
+Bounds	deluser.c	/^} Bounds;$/;"	t	file:
+CC	Makefile	/^CC = $(CROSS)gcc$/;"	m
+CFLAGS_EXTRA	Makefile	/^CFLAGS_EXTRA =$/;"	m
+CONFIG_ADDGROUP	Config.h	7;"	d
+CONFIG_ADDUSER	Config.h	6;"	d
+CONFIG_DELGROUP	Config.h	9;"	d
+CONFIG_DELUSER	Config.h	8;"	d
+CONFIG_FEATURE_INSTALLER	Config.h	44;"	d
+CONFIG_FEATURE_SECURETTY	Config.h	28;"	d
+CONFIG_FEATURE_SHA1_PASSWORDS	Config.h	31;"	d
+CONFIG_FEATURE_SHADOWPASSWDS	Config.h	25;"	d
+CONFIG_FEATURE_TRIVIAL_HELP	Config.h	38;"	d
+CONFIG_FILE	applets.c	60;"	d	file:
+CONFIG_FILE	path.h	10;"	d
+CONFIG_GETTY	Config.h	10;"	d
+CONFIG_HHTECH	login.c	18;"	d	file:
+CONFIG_HHTECH	passwd.c	16;"	d	file:
+CONFIG_LOGIN	Config.h	11;"	d
+CONFIG_LOGIN	Config.h	60;"	d
+CONFIG_PASSWD	Config.h	12;"	d
+CONFIG_SHA1	Config.h	52;"	d
+CONFIG_SHADOW	Config.h	56;"	d
+CONFIG_SU	Config.h	13;"	d
+CONFIG_SULOGIN	Config.h	14;"	d
+CONFIG_VLOCK	Config.h	15;"	d
+CONFIG_WHEEL_GROUP	Config.h	34;"	d
+CONSOLE_DEV	include/libbb.h	304;"	d
+CR	getty.c	80;"	d	file:
+CROSS	Makefile	/^CROSS = \/home\/hhcn\/toolchain\/gcc-3.2.2\/toolchain\/bin\/powerpc-uclibc-$/;"	m
+CTL	getty.c	79;"	d	file:
+CT_AUTO	include/libbb.h	247;"	d
+CT_DOS2UNIX	include/libbb.h	249;"	d
+CT_UNIX2DOS	include/libbb.h	248;"	d
+CURRENT_TTY	include/libbb.h	303;"	d
+CURRENT_VC	include/libbb.h	277;"	d
+CURRENT_VC	include/libbb.h	289;"	d
+Ci	sha1.c	42;"	d	file:
+DAY	libbb/pwd2spwd.c	43;"	d	file:
+DEBUGTERM	getty.c	245;"	d	file:
+DEFAULT_LOGIN_PATH	libbb/setup_environment.c	42;"	d	file:
+DEFAULT_ROOT_LOGIN_PATH	libbb/setup_environment.c	43;"	d	file:
+DEFAULT_SHELL	su.c	23;"	d	file:
+DEFAULT_USER	su.c	24;"	d	file:
+DEF_EOF	getty.c	91;"	d	file:
+DEF_EOL	getty.c	92;"	d	file:
+DEF_ERASE	getty.c	87;"	d	file:
+DEF_INTR	getty.c	88;"	d	file:
+DEF_KILL	getty.c	90;"	d	file:
+DEF_QUIT	getty.c	89;"	d	file:
+DEF_SWITCH	getty.c	93;"	d	file:
+DEL	getty.c	83;"	d	file:
+DODEBUG	Makefile	/^	DODEBUG = true$/;"	m
+DODEBUG	Makefile	/^    DODEBUG = true$/;"	m
+DODEBUG	Makefile	/^DODEBUG = false$/;"	m
+DODMALLOC	Makefile	/^DODMALLOC = false$/;"	m
+DOEFENCE	Makefile	/^DOEFENCE  = false$/;"	m
+DOSTATIC	Makefile	/^DOSTATIC = false$/;"	m
+Di	sha1.c	43;"	d	file:
+EMPTY_USERNAME_COUNT	login.c	31;"	d	file:
+EMULATE_BASENAME	libbb/get_last_path_component.c	25;"	d	file:
+EXPAND_ALLOC	include/libbb.h	65;"	d
+Ei	sha1.c	44;"	d	file:
+FAIL_DELAY	include/tinylogin.h	34;"	d
+FAIL_DELAY	login.c	30;"	d	file:
+FALSE	include/libbb.h	56;"	d
+FALSE	include/tinylogin.h	31;"	d
+FIELDS	shadow.c	48;"	d	file:
+FILEUTILS_DEREFERENCE	include/libbb.h	/^	FILEUTILS_DEREFERENCE = 2,$/;"	e
+FILEUTILS_FORCE	include/libbb.h	/^	FILEUTILS_FORCE = 8,$/;"	e
+FILEUTILS_INTERACTIVE	include/libbb.h	/^	FILEUTILS_INTERACTIVE = 16$/;"	e
+FILEUTILS_PRESERVE_STATUS	include/libbb.h	/^	FILEUTILS_PRESERVE_STATUS = 1,$/;"	e
+FILEUTILS_RECUR	include/libbb.h	/^	FILEUTILS_RECUR = 4,$/;"	e
+FIRST_SPEED	getty.c	130;"	d	file:
+F_CUSTISSUE	getty.c	153;"	d	file:
+F_INITSTRING	getty.c	151;"	d	file:
+F_ISSUE	getty.c	148;"	d	file:
+F_LOCAL	getty.c	150;"	d	file:
+F_NOPROMPT	getty.c	154;"	d	file:
+F_PARSE	getty.c	147;"	d	file:
+F_RTSCTS	getty.c	149;"	d	file:
+F_WAITCRLF	getty.c	152;"	d	file:
+GIGABYTE	include/libbb.h	/^	GIGABYTE = (MEGABYTE*1024)$/;"	e
+GROUP_FILE	addgroup.c	36;"	d	file:
+GROUP_FILE	deluser.c	32;"	d	file:
+GROUP_FILE	libbb/messages.c	101;"	d	file:
+GROUP_FILE	path.h	12;"	d
+GROUP_FILE	path.h	6;"	d
+GR_DYNAMIC_GROUP_LIST	pwd_grp/config.h	54;"	d
+GR_MAX_GROUPS	pwd_grp/config.h	61;"	d
+GR_MAX_LINE_LEN	pwd_grp/config.h	42;"	d
+GR_MAX_MEMBERS	pwd_grp/config.h	44;"	d
+GR_SCALE_DYNAMIC	pwd_grp/config.h	33;"	d
+GSHADOW_FILE	deluser.c	34;"	d	file:
+GSHADOW_FILE	libbb/messages.c	96;"	d	file:
+GSHADOW_FILE	path.h	14;"	d
+ISSUE	getty.c	70;"	d	file:
+ISSUE	path.h	15;"	d
+ISSUE_FILE	libbb/messages.c	116;"	d	file:
+Id	adduser.c	/^} Id;$/;"	t	file:
+K1	sha1.c	47;"	d	file:
+K2	sha1.c	48;"	d	file:
+K3	sha1.c	49;"	d	file:
+K4	sha1.c	50;"	d	file:
+KILOBYTE	include/libbb.h	/^	KILOBYTE = 1024,$/;"	e
+LIBBB	Makefile	/^LIBBB	  = libbb$/;"	m
+LIBBB_CSRC	Makefile	/^LIBBB_CSRC= change_identity.c libc5.c pwd2spwd.c run_shell.c \\$/;"	m
+LIBBB_LIB	Makefile	/^LIBBB_LIB = libbb.a$/;"	m
+LIBBB_MESSAGES	Makefile	/^LIBBB_MESSAGES= full_version name_too_long omitting_directory not_a_directory \\$/;"	m
+LIBBB_MOBJ	Makefile	/^LIBBB_MOBJ=$(patsubst %,$(LIBBB)\/%.o, $(LIBBB_MESSAGES))$/;"	m
+LIBBB_MSRC	Makefile	/^LIBBB_MSRC=libbb\/messages.c$/;"	m
+LIBBB_OBJS	Makefile	/^LIBBB_OBJS=$(patsubst %.c,$(LIBBB)\/%.o, $(LIBBB_CSRC))$/;"	m
+LIBRARIES	Makefile	/^LIBRARIES = -lcrypt$/;"	m
+LOGIN	getty.c	75;"	d	file:
+LOOP_FORMAT	include/libbb.h	287;"	d
+LOOP_FORMAT	include/libbb.h	299;"	d
+Location	include/tinylogin.h	/^enum Location {$/;"	g
+MAKE_USAGE	usage.c	5;"	d	file:
+MAX	include/libbb.h	76;"	d
+MAX_SPEED	getty.c	134;"	d	file:
+MAYBE	include/tinylogin.h	33;"	d
+MEGABYTE	include/libbb.h	/^	MEGABYTE = (KILOBYTE*1024),$/;"	e
+MIN	include/libbb.h	72;"	d
+MOTD_FILE	libbb/messages.c	111;"	d	file:
+MOTD_FILE	login.c	32;"	d	file:
+MOTD_FILE	path.h	16;"	d
+MTAB_GETDEVICE	include/libbb.h	62;"	d
+MTAB_GETMOUNTPT	include/libbb.h	61;"	d
+NL	getty.c	81;"	d	file:
+NOLOGIN_FILE	libbb/messages.c	81;"	d	file:
+NOLOGIN_FILE	login.c	33;"	d	file:
+NOLOGIN_FILE	path.h	17;"	d
+NO_TTY	login.c	426;"	d	file:
+NO_UTENT	login.c	424;"	d	file:
+NUM_APPLETS	applets.c	/^const size_t NUM_APPLETS = (sizeof (applets) \/ sizeof (struct BB_applet) - 1);$/;"	v
+OBJECTS	Makefile	/^OBJECTS   =  tinylogin.o applets.o usage.o$/;"	m
+OFIELDS	shadow.c	49;"	d	file:
+OPTIMIZATION	Makefile	/^OPTIMIZATION = $(shell if $(CC) -Os -S -o \/dev\/null -xc \/dev\/null >\/dev\/null 2>&1; \\$/;"	m
+PASSWD_FILE	adduser.c	37;"	d	file:
+PASSWD_FILE	deluser.c	31;"	d	file:
+PASSWD_FILE	libbb/messages.c	86;"	d	file:
+PASSWD_FILE	path.h	11;"	d
+PASSWD_FILE	path.h	8;"	d
+PASSWORD_ALG_TYPES	include/usage.h	37;"	d
+PASSWORD_ALG_TYPES	include/usage.h	39;"	d
+PREFIX	Makefile	/^    PREFIX = `pwd`\/_install$/;"	m
+PROG	Makefile	/^PROG      := tinylogin$/;"	m
+PROTOTYPES	applets.c	36;"	d	file:
+PROTOTYPES	include/tinylogin.h	66;"	d
+PROTOTYPES	include/tinylogin.h	68;"	d
+PWD_BUFFER_SIZE	pwd_grp/__getpwent.c	27;"	d	file:
+PWD_CSRC	Makefile	/^    PWD_CSRC=__getpwent.c pwent.c getpwnam.c getpwuid.c putpwent.c getpw.c \\$/;"	m
+PWD_GRP	Makefile	/^    PWD_GRP	= pwd_grp$/;"	m
+PWD_GRP_DIR	Makefile	/^    PWD_GRP_DIR = $(PWD_GRP)$/;"	m
+PWD_LIB	Makefile	/^    PWD_LIB     = libpwd.a$/;"	m
+PWD_OBJS	Makefile	/^    PWD_OBJS=$(patsubst %.c,$(PWD_GRP)\/%.o, $(PWD_CSRC))$/;"	m
+SCALE	libbb/pwd2spwd.c	45;"	d	file:
+SC_0	include/libbb.h	283;"	d
+SC_0	include/libbb.h	295;"	d
+SC_1	include/libbb.h	284;"	d
+SC_1	include/libbb.h	296;"	d
+SC_FORMAT	include/libbb.h	286;"	d
+SC_FORMAT	include/libbb.h	298;"	d
+SECURETTY_FILE	libbb/messages.c	106;"	d	file:
+SECURETTY_FILE	login.c	34;"	d	file:
+SECURETTY_FILE	path.h	18;"	d
+SHADOW_FILE	addgroup.c	37;"	d	file:
+SHADOW_FILE	adduser.c	38;"	d	file:
+SHADOW_FILE	deluser.c	33;"	d	file:
+SHADOW_FILE	libbb/messages.c	91;"	d	file:
+SHADOW_FILE	path.h	13;"	d
+SHADOW_FILE	path.h	7;"	d
+SHADOW_FILE	path.h	9;"	d
+SKIP	include/libbb.h	58;"	d
+STRIP	Makefile	/^    STRIP    = $(STRIPTOOL) --remove-section=.note --remove-section=.comment $(PROG)$/;"	m
+STRIP	Makefile	/^    STRIP    =$/;"	m
+STRIPTOOL	Makefile	/^STRIPTOOL = $(CROSS)strip$/;"	m
+SUIDRoot	include/tinylogin.h	/^enum SUIDRoot {$/;"	g
+SULOGIN_PROMPT	sulogin.c	22;"	d	file:
+SYSLOG_FAILURE	su.c	27;"	d	file:
+SYSV_STYLE	getty.c	54;"	d	file:
+Speedtab	getty.c	/^struct Speedtab {$/;"	s	file:
+TCGETA	getty.c	107;"	d	file:
+TCGETA	getty.c	111;"	d	file:
+TCSETA	getty.c	108;"	d	file:
+TCSETA	getty.c	112;"	d	file:
+TCSETAW	getty.c	109;"	d	file:
+TCSETAW	getty.c	113;"	d	file:
+TIMEOUT	include/tinylogin.h	35;"	d
+TIMEOUT	login.c	29;"	d	file:
+TOPDIR	Makefile	/^TOPDIR:=$(shell \/bin\/pwd)$/;"	m
+TRUE	include/libbb.h	57;"	d
+TRUE	include/tinylogin.h	32;"	d
+TZ	Makefile	/^BUILDTIME := $(shell TZ=UTC date -u "+%Y.%m.%d-%H:%M%z")$/;"	m
+USERNAME_SIZE	login.c	36;"	d	file:
+USE_SYSLOG	getty.c	37;"	d	file:
+USE_SYSTEM_PWD_GRP	Makefile	/^USE_SYSTEM_PWD_GRP = true$/;"	m
+USE_SYSTEM_SHADOW	Makefile	/^USE_SYSTEM_SHADOW = true$/;"	m
+VC_1	include/libbb.h	278;"	d
+VC_1	include/libbb.h	290;"	d
+VC_2	include/libbb.h	279;"	d
+VC_2	include/libbb.h	291;"	d
+VC_3	include/libbb.h	280;"	d
+VC_3	include/libbb.h	292;"	d
+VC_4	include/libbb.h	281;"	d
+VC_4	include/libbb.h	293;"	d
+VC_5	include/libbb.h	282;"	d
+VC_5	include/libbb.h	294;"	d
+VC_FORMAT	include/libbb.h	285;"	d
+VC_FORMAT	include/libbb.h	297;"	d
+VERSION	Makefile	/^VERSION   := 1.4$/;"	m
+WARNINGS	Makefile	/^WARNINGS = -Wall$/;"	m
+WEEK	libbb/pwd2spwd.c	44;"	d	file:
+_BB_DIR_BIN	include/tinylogin.h	/^	_BB_DIR_BIN,$/;"	e	enum:Location
+_BB_DIR_ROOT	include/tinylogin.h	/^	_BB_DIR_ROOT = 0,$/;"	e	enum:Location
+_BB_DIR_SBIN	include/tinylogin.h	/^	_BB_DIR_SBIN,$/;"	e	enum:Location
+_BB_DIR_USR_BIN	include/tinylogin.h	/^	_BB_DIR_USR_BIN,$/;"	e	enum:Location
+_BB_DIR_USR_SBIN	include/tinylogin.h	/^	_BB_DIR_USR_SBIN$/;"	e	enum:Location
+_BB_SUID_ALWAYS	include/tinylogin.h	/^	_BB_SUID_ALWAYS$/;"	e	enum:SUIDRoot
+_BB_SUID_MAYBE	include/tinylogin.h	/^	_BB_SUID_MAYBE,$/;"	e	enum:SUIDRoot
+_BB_SUID_NEVER	include/tinylogin.h	/^	_BB_SUID_NEVER = 0,$/;"	e	enum:SUIDRoot
+_CONFIG_GRP_H	pwd_grp/config.h	23;"	d
+_H_SHADOW	include/shadow_.h	31;"	d
+_INTERNAL_H_	include/tinylogin.h	21;"	d
+_PATH_LOGIN	getty.c	33;"	d	file:
+_PATH_LOGIN	libbb/messages.c	121;"	d	file:
+_WTMP_FILE	login.c	422;"	d	file:
+__CONFIG_GRP_H	include/group.h	2;"	d
+__CONFIG_PWD_H	include/password.h	2;"	d
+__LIBCONFIG_H__	include/libbb.h	25;"	d
+__getgrent	pwd_grp/__getgrent.c	/^struct group *__getgrent(int grp_fd)$/;"	f
+__getpwent	pwd_grp/__getpwent.c	/^struct passwd *__getpwent(int pwd_fd)$/;"	f
+__link_f	tinylogin.c	/^typedef int (*__link_f)(const char *, const char *);$/;"	t	file:
+_f	include/libbb.h	/^	char _f[20-2*sizeof(long)-sizeof(int)];	\/* Padding: libc5 uses this.. *\/$/;"	m	struct:sysinfo
+_path_login	libbb/messages.c	/^const char * const _path_login = _PATH_LOGIN;$/;"	v
+acquire_vt	vlock.c	/^static void acquire_vt(int signo)$/;"	f	file:
+addgroup	addgroup.c	/^static int addgroup(const char *filename, char *group, gid_t gid, const char *user)$/;"	f	file:
+addgroup_full_usage	include/usage.h	3;"	d
+addgroup_main	addgroup.c	/^int addgroup_main(int argc, char **argv)$/;"	f
+addgroup_trivial_usage	include/usage.h	1;"	d
+addgroup_wrapper	adduser.c	/^static void addgroup_wrapper(const char *login, gid_t gid)$/;"	f	file:
+adduser	adduser.c	/^static int adduser(const char *filename, struct passwd *p)$/;"	f	file:
+adduser_full_usage	include/usage.h	10;"	d
+adduser_main	adduser.c	/^int adduser_main(int argc, char **argv)$/;"	f
+adduser_trivial_usage	include/usage.h	8;"	d
+alarm_handler	login.c	/^static void alarm_handler ( int sig )$/;"	f	file:
+applet_name	tinylogin.c	/^const char *applet_name;$/;"	v
+applet_name_compare	applets.c	/^static int applet_name_compare(const void *x, const void *y)$/;"	f	file:
+applet_using	applets.c	/^struct BB_applet *applet_using;$/;"	v
+applets	include/applets.h	/^  const struct BB_applet applets[] = {$/;"	v
+auto_baud	getty.c	/^static void auto_baud(struct termio *tp)$/;"	f	file:
+bcode	getty.c	/^static int bcode(const char *s)$/;"	f	file:
+been_there_done_that	tinylogin.c	/^int been_there_done_that = 0; \/* Also used in applets.c *\/$/;"	v
+boundary	deluser.c	/^static inline Bounds boundary(const char *buffer, const char *login)$/;"	f	file:
+bufferram	include/libbb.h	/^	unsigned long bufferram;	\/* Memory used by buffers *\/$/;"	m	struct:sysinfo
+can_not_create_raw_socket	libbb/messages.c	/^	const char * const can_not_create_raw_socket = "can`t create raw socket";$/;"	v
+caps_lock	getty.c	/^static int caps_lock(const char *s)$/;"	f	file:
+capslock	getty.c	/^	int capslock;				\/* upper case without lower case *\/$/;"	m	struct:chardata	file:
+catchalarm	sulogin.c	/^static void catchalarm()$/;"	f	file:
+change_identity	libbb/change_identity.c	/^void change_identity ( const struct passwd *pw )$/;"	f
+chardata	getty.c	/^struct chardata {$/;"	s	file:
+check_nologin	login.c	/^static int check_nologin ( int amroot )$/;"	f	file:
+check_suid	applets.c	/^void check_suid ( struct BB_applet *applet )$/;"	f
+check_tty	login.c	/^static inline int check_tty ( const char *tty )  { return 1; }$/;"	f	file:
+check_tty	login.c	/^static int check_tty ( const char *tty )$/;"	f	file:
+checkutmp	login.c	/^static void checkutmp(int picky)$/;"	f	file:
+clearenv	libbb/libc5.c	/^int clearenv (void)$/;"	f
+code	getty.c	/^	int code;$/;"	m	struct:Speedtab	file:
+concat_path_file	libbb/concat_path_file.c	/^extern char *concat_path_file(const char *path, const char *filename)$/;"	f
+config_ok	applets.c	/^static int config_ok;$/;"	v	file:
+correct_password	libbb/correct_password.c	/^int correct_password ( const struct passwd *pw )$/;"	f
+create_backup	passwd.c	/^static int create_backup(const char *backup, FILE * fp)$/;"	f	file:
+crypt_make_salt	passwd.c	/^static char *crypt_make_salt()$/;"	f	file:
+crypt_passwd	passwd.c	/^static char crypt_passwd[128];$/;"	v	file:
+daemon	libbb/libc5.c	/^int daemon( int nochdir, int noclose )$/;"	f
+dash_dash_help	libbb/messages.c	/^	const char * const dash_dash_help = "--help";$/;"	v
+dbf	getty.c	/^FILE *dbf;$/;"	v
+debug	getty.c	244;"	d	file:
+debug	getty.c	248;"	d	file:
+default_gecos	adduser.c	/^static const char default_gecos[] = "Linux User,,,";$/;"	v	file:
+default_home_prefix	adduser.c	/^static const char default_home_prefix[] = "\/home";$/;"	v	file:
+default_passwd	addgroup.c	/^static const char default_passwd[] = "x";$/;"	v	file:
+default_passwd	adduser.c	/^static const char default_passwd[] = "x";$/;"	v	file:
+default_shell	adduser.c	/^static const char default_shell[] = "\/bin\/sh";$/;"	v	file:
+del_line_matching	deluser.c	/^static int del_line_matching(const char *login, const char *filename)$/;"	f	file:
+delgroup_full_usage	include/usage.h	19;"	d
+delgroup_main	deluser.c	/^int delgroup_main(int argc, char **argv)$/;"	f
+delgroup_trivial_usage	include/usage.h	17;"	d
+deluser_full_usage	include/usage.h	24;"	d
+deluser_main	deluser.c	/^int deluser_main(int argc, char **argv)$/;"	f
+deluser_trivial_usage	include/usage.h	22;"	d
+do_prompt	getty.c	/^static void do_prompt(struct options *op, struct termio *tp)$/;"	f	file:
+do_sha_hash	sha1.c	/^void do_sha_hash(int *hashval, int *pw)$/;"	f
+endgrent	pwd_grp/grent.c	/^void endgrent(void)$/;"	f
+endpwent	pwd_grp/pwent.c	/^void endpwent(void)$/;"	f
+endspent	shadow.c	/^void endspent(void)$/;"	f
+eol	getty.c	/^	int eol;					\/* end-of-line character *\/$/;"	m	struct:chardata	file:
+erase	getty.c	/^	int erase;					\/* erase character *\/$/;"	m	struct:chardata	file:
+error	getty.c	/^static void error(const char *fmt, ...)$/;"	f	file:
+error_msg	libbb/error_msg.c	/^extern void error_msg(const char *s, ...)$/;"	f
+error_msg_and_die	libbb/error_msg_and_die.c	/^extern void error_msg_and_die(const char *s, ...)$/;"	f
+f1	sha1.c	53;"	d	file:
+f2	sha1.c	54;"	d	file:
+f3	sha1.c	55;"	d	file:
+fakehost	getty.c	/^static char *fakehost = NULL;$/;"	v	file:
+fgetgrent	pwd_grp/fgetgrent.c	/^struct group *fgetgrent(FILE * file)$/;"	f
+fgetpwent	pwd_grp/fgetpwent.c	/^struct passwd *fgetpwent(FILE * file)$/;"	f
+fgetspent	shadow.c	/^struct spwd *fgetspent(FILE *fp)$/;"	f
+find_applet_by_name	applets.c	/^struct BB_applet *find_applet_by_name(const char *name)$/;"	f
+flags	getty.c	/^	int flags;					\/* toggle switches, see below *\/$/;"	m	struct:options	file:
+forbid	sulogin.c	/^static const char *forbid[] = {$/;"	v	file:
+freehigh	include/libbb.h	/^	unsigned long freehigh;		\/* Available high memory size *\/$/;"	m	struct:sysinfo
+freeram	include/libbb.h	/^	unsigned long freeram;		\/* Available memory size *\/$/;"	m	struct:sysinfo
+freeswap	include/libbb.h	/^	unsigned long freeswap;		\/* swap space still available *\/$/;"	m	struct:sysinfo
+full_version	libbb/messages.c	/^	const char * const full_version = BB_BANNER " multi-call binary";$/;"	v
+g	adduser.c	/^	gid_t g;$/;"	m	struct:	file:
+get_algo	passwd.c	/^int get_algo(char *a)$/;"	f
+get_last_path_component	libbb/get_last_path_component.c	/^char *get_last_path_component(char *path)$/;"	f
+get_logname	getty.c	/^static char *get_logname(struct options *op, struct chardata *cp, struct termio *tp)$/;"	f	file:
+getgrent	pwd_grp/grent.c	/^struct group *getgrent(void)$/;"	f
+getgrgid	pwd_grp/getgrgid.c	/^struct group *getgrgid(const gid_t gid)$/;"	f
+getgrnam	pwd_grp/getgrnam.c	/^struct group *getgrnam(const char *name)$/;"	f
+getline	libbb/libc5.c	/^ssize_t getline(char **linebuf, size_t *n, FILE *file)$/;"	f
+getpw	pwd_grp/getpw.c	/^int getpw(uid_t uid, char *buf)$/;"	f
+getpwent	pwd_grp/pwent.c	/^struct passwd *getpwent(void)$/;"	f
+getpwnam	pwd_grp/getpwnam.c	/^struct passwd *getpwnam(const char *name)$/;"	f
+getpwuid	pwd_grp/getpwuid.c	/^struct passwd *getpwuid(uid_t uid)$/;"	f
+getspent	shadow.c	/^struct spwd *getspent(void)$/;"	f
+getspnam	shadow.c	/^struct spwd *getspnam(const char *name)$/;"	f
+getspuid	vlock.c	/^struct spwd *getspuid(uid_t uid)$/;"	f
+getty_full_usage	include/usage.h	75;"	d
+getty_main	getty.c	/^int getty_main(int argc, char **argv)$/;"	f
+getty_trivial_usage	include/usage.h	73;"	d
+gr_gid	include/group.h	/^  gid_t gr_gid;			\/* Group ID.	*\/$/;"	m	struct:group
+gr_mem	include/group.h	/^  char **gr_mem;		\/* Member list.	*\/$/;"	m	struct:group
+gr_name	include/group.h	/^  char *gr_name;		\/* Group name.	*\/$/;"	m	struct:group
+gr_passwd	include/group.h	/^  char *gr_passwd;		\/* Password.	*\/$/;"	m	struct:group
+group	include/group.h	/^struct group$/;"	s
+group_file	libbb/messages.c	/^const char * const group_file = GROUP_FILE;$/;"	v
+group_study	addgroup.c	/^static int group_study(const char *filename, struct group *g)$/;"	f	file:
+grp_fd	pwd_grp/grent.c	/^static int grp_fd = -1;$/;"	v	file:
+gshadow_file	libbb/messages.c	/^const char * const gshadow_file = GSHADOW_FILE;$/;"	v
+i64c	passwd.c	/^static int i64c(int i)$/;"	f	file:
+i_am_not_root	adduser.c	/^static inline uid_t i_am_not_root(void)$/;"	f	file:
+ingroup	applets.c	/^static int ingroup ( uid_t u, gid_t g )$/;"	f	file:
+init_chardata	getty.c	/^struct chardata init_chardata = {$/;"	v
+initgroups	pwd_grp/initgroups.c	/^int initgroups(__const char *user, gid_t gid)$/;"	f
+initstring	getty.c	/^	char *initstring;			\/* modem init string *\/$/;"	m	struct:options	file:
+install_dir	tinylogin.c	/^static const char* const install_dir[] = {$/;"	v	file:
+install_links	tinylogin.c	/^static void install_links(const char *tinylogin, int use_symbolic_links)$/;"	f	file:
+invalid_date	libbb/messages.c	/^	const char * const invalid_date = "invalid date `%s'";$/;"	v
+invalid_option	libbb/messages.c	/^	const char * const invalid_option = "invalid option -- %c";$/;"	v
+io_error	libbb/messages.c	/^	const char * const io_error = "%s: input\/output error -- %s";$/;"	v
+is_decimal	include/libbb.h	/^static inline int is_decimal(int ch) { return ((ch >= '0') && (ch <= '9')); }$/;"	f
+is_my_tty	login.c	/^static int is_my_tty ( const char *tty )$/;"	f	file:
+is_octal	include/libbb.h	/^static inline int is_octal(int ch)   { return ((ch >= '0') && (ch <= '7')); }$/;"	f
+issue	getty.c	/^	char *issue;				\/* alternative issue file *\/$/;"	m	struct:options	file:
+issue_file	libbb/messages.c	/^const char * const issue_file = ISSUE_FILE;$/;"	v
+kill	getty.c	/^	int kill;					\/* kill character *\/$/;"	m	struct:chardata	file:
+last_char_is	libbb/last_char_is.c	/^char * last_char_is(const char *s, int c)$/;"	f
+loads	include/libbb.h	/^	unsigned long loads[3];		\/* 1, 5, and 15 minute load averages *\/$/;"	m	struct:sysinfo
+location	include/tinylogin.h	/^	enum	Location	location  : 4;$/;"	m	struct:BB_applet
+log_su	su.c	/^static void log_su ( const struct passwd *pw, int successful )$/;"	f	file:
+login	getty.c	/^	char *login;				\/* login program *\/$/;"	m	struct:options	file:
+login_full_usage	include/usage.h	29;"	d
+login_main	login.c	/^extern int login_main(int argc, char **argv)$/;"	f
+login_prompt	login.c	/^static int login_prompt ( char *buf_name )$/;"	f	file:
+login_trivial_usage	include/usage.h	27;"	d
+m_applet	applets.c	/^	struct BB_applet *m_applet;$/;"	m	struct:BB_suid_config	file:
+m_gid	applets.c	/^	gid_t  m_gid;$/;"	m	struct:BB_suid_config	file:
+m_mode	applets.c	/^	mode_t m_mode;$/;"	m	struct:BB_suid_config	file:
+m_next	applets.c	/^	struct BB_suid_config *m_next;$/;"	m	struct:BB_suid_config	file:
+m_uid	applets.c	/^	uid_t  m_uid;$/;"	m	struct:BB_suid_config	file:
+main	include/tinylogin.h	/^	int	(*main)(int argc, char** argv);$/;"	m	struct:BB_applet
+main	tinylogin.c	/^int main(int argc, char **argv)$/;"	f
+mem_unit	include/libbb.h	/^	unsigned int mem_unit;		\/* Memory unit size in bytes *\/$/;"	m	struct:sysinfo
+memory_exhausted	libbb/messages.c	/^	const char * const memory_exhausted = "memory exhausted";$/;"	v
+motd	login.c	/^static void motd ( )$/;"	f	file:
+motd_file	libbb/messages.c	/^const char * const motd_file = MOTD_FILE;$/;"	v
+mult	include/libbb.h	/^	int mult;$/;"	m	struct:suffix_mult
+name	include/tinylogin.h	/^	const	char*	name;$/;"	m	struct:BB_applet
+name_longer_than_foo	libbb/messages.c	/^	const char * const name_longer_than_foo = "Names longer than %d chars not supported.";$/;"	v
+name_too_long	libbb/messages.c	/^	const char * const name_too_long = "file name too long";$/;"	v
+need_suid	include/tinylogin.h	/^	enum 	SUIDRoot	need_suid : 4;$/;"	m	struct:BB_applet
+new_password	passwd.c	/^static int new_password(const struct passwd *pw, int amroot, int algo)$/;"	f	file:
+next_speed	getty.c	/^static void next_speed(struct termio *tp, struct options *op)$/;"	f	file:
+nologin_file	libbb/messages.c	/^const char * const nologin_file = NOLOGIN_FILE;$/;"	v
+not_a_directory	libbb/messages.c	/^	const char * const not_a_directory = "%s: not a directory";$/;"	v
+numspeed	getty.c	/^	int numspeed;				\/* number of baud rates to try *\/$/;"	m	struct:options	file:
+o_lock_all	vlock.c	/^static int o_lock_all = 0;$/;"	v	file:
+obscure	libbb/obscure.c	/^extern int obscure(const char *old, const char *newval, const struct passwd *pwdp)$/;"	f
+obscure_msg	libbb/obscure.c	/^static char *obscure_msg(const char *old, const char *newval, const struct passwd *pwdp)$/;"	f	file:
+omitting_directory	libbb/messages.c	/^	const char * const omitting_directory = "%s: omitting directory";$/;"	v
+open_tty	getty.c	/^static void open_tty(char *tty, struct termio *tp, int local)$/;"	f	file:
+options	getty.c	/^struct options {$/;"	s	file:
+oterm	vlock.c	/^static struct termios oterm;$/;"	v	file:
+ovtm	vlock.c	/^static struct vt_mode ovtm;$/;"	v	file:
+pad	include/libbb.h	/^	unsigned short pad;			\/* Padding needed for m68k *\/$/;"	m	struct:sysinfo
+palindrome	libbb/obscure.c	/^static int palindrome(const char *old, const char *newval)$/;"	f	file:
+parity	getty.c	/^	int parity;					\/* what parity did we see *\/$/;"	m	struct:chardata	file:
+parse_args	getty.c	/^static void parse_args(int argc, char **argv, struct options *op)$/;"	f	file:
+parse_config_file	applets.c	/^int parse_config_file ( void )$/;"	f
+parse_error	applets.c	248;"	d	file:
+parse_speeds	getty.c	/^static void parse_speeds(struct options *op, char *arg)$/;"	f	file:
+passwd	include/password.h	/^struct passwd$/;"	s
+passwd_file	libbb/messages.c	/^const char * const passwd_file = PASSWD_FILE;$/;"	v
+passwd_full_usage	include/usage.h	43;"	d
+passwd_main	passwd.c	/^extern int passwd_main(int argc, char **argv)$/;"	f
+passwd_study	adduser.c	/^static int passwd_study(const char *filename, struct passwd *p)$/;"	f	file:
+passwd_trivial_usage	include/usage.h	41;"	d
+passwd_wrapper	adduser.c	/^static void passwd_wrapper(const char *login)$/;"	f	file:
+password_check	libbb/obscure.c	/^static char *password_check(const char *old, const char *newval, const struct passwd *pwdp)$/;"	f	file:
+perror_msg	libbb/perror_msg.c	/^extern void perror_msg(const char *s, ...)$/;"	f
+perror_msg_and_die	libbb/perror_msg_and_die.c	/^extern void perror_msg_and_die(const char *s, ...)$/;"	f
+procs	include/libbb.h	/^	unsigned short procs;		\/* Number of current processes *\/$/;"	m	struct:sysinfo
+putpwent	pwd_grp/putpwent.c	/^int putpwent(const struct passwd *passwd, FILE * f)$/;"	f
+putspent	shadow.c	/^int putspent(const struct spwd *sp, FILE *fp)$/;"	f
+pw	vlock.c	/^static struct passwd *pw;$/;"	v	file:
+pw_dir	include/password.h	/^  char *pw_dir;			\/* Home directory.  *\/$/;"	m	struct:passwd
+pw_encrypt	libbb/pw_encrypt.c	/^extern char *pw_encrypt(const char *clear, const char *salt)$/;"	f
+pw_fd	pwd_grp/pwent.c	/^static int pw_fd = -1;$/;"	v	file:
+pw_gecos	include/password.h	/^  char *pw_gecos;		\/* Real name.  *\/$/;"	m	struct:passwd
+pw_gid	include/password.h	/^  gid_t pw_gid;			\/* Group ID.  *\/$/;"	m	struct:passwd
+pw_name	include/password.h	/^  char *pw_name;		\/* Username.  *\/$/;"	m	struct:passwd
+pw_passwd	include/password.h	/^  char *pw_passwd;		\/* Password.  *\/$/;"	m	struct:passwd
+pw_shell	include/password.h	/^  char *pw_shell;		\/* Shell program.  *\/$/;"	m	struct:passwd
+pw_uid	include/password.h	/^  uid_t pw_uid;			\/* User ID.  *\/$/;"	m	struct:passwd
+pwd_to_spwd	libbb/pwd2spwd.c	/^struct spwd *pwd_to_spwd(const struct passwd *pw)$/;"	f
+release_vt	vlock.c	/^static void release_vt(int signo)$/;"	f	file:
+restore_terminal	vlock.c	/^static void restore_terminal(void)$/;"	f	file:
+restricted_shell	libbb/restricted_shell.c	/^int restricted_shell ( const char *shell )$/;"	f
+rol1	sha1.c	58;"	d	file:
+rol30	sha1.c	60;"	d	file:
+rol5	sha1.c	59;"	d	file:
+run_applet_by_name	applets.c	/^void run_applet_by_name(const char *name, int argc, char **argv)$/;"	f
+run_shell	libbb/run_shell.c	/^void run_shell ( const char *shell, int loginshell, const char *command, const char **additional_args )$/;"	f
+safe_strncpy	libbb/safe_strncpy.c	/^extern char * safe_strncpy(char *dst, const char *src, size_t size)$/;"	f
+securetty_file	libbb/messages.c	/^const char * const securetty_file = SECURETTY_FILE;$/;"	v
+set_filesize_limit	passwd.c	/^static void set_filesize_limit(int blocks)$/;"	f	file:
+setgrent	pwd_grp/grent.c	/^void setgrent(void)$/;"	f
+setpwent	pwd_grp/pwent.c	/^void setpwent(void)$/;"	f
+setspent	shadow.c	/^void setspent(void)$/;"	f
+setup_environment	libbb/setup_environment.c	/^void setup_environment ( const char *shell, int loginshell, int changeenv, const struct passwd *pw )$/;"	f
+setutmp	login.c	/^static void setutmp(const char *name, const char *line)$/;"	f	file:
+sgetspent	shadow.c	/^struct spwd *sgetspent(const char *string)$/;"	f
+sha1_crypt	sha1.c	/^char *sha1_crypt(const char *pw)$/;"	f
+sha_hash	sha1.c	/^void sha_hash(int *data, int *hash)$/;"	f
+sha_init	sha1.c	/^void sha_init(int *hash)$/;"	f
+shadow	shadow.c	/^static FILE *shadow;$/;"	v	file:
+shadow_enabled	adduser.c	/^static int shadow_enabled = 0;$/;"	v	file:
+shadow_file	libbb/messages.c	/^const char * const shadow_file = SHADOW_FILE;$/;"	v
+sharedram	include/libbb.h	/^	unsigned long sharedram;	\/* Amount of shared memory *\/$/;"	m	struct:sysinfo
+show_usage	applets.c	/^extern void show_usage(void)$/;"	f
+similiar	libbb/obscure.c	/^static int similiar(const char *old, const char *newval)$/;"	f	file:
+simple	libbb/obscure.c	/^static int simple(const char *old, const char *newval)$/;"	f	file:
+socklen_t	include/libbb.h	/^typedef unsigned int socklen_t;$/;"	t
+sp_expire	include/shadow_.h	/^	sptime sp_expire;			\/* days since 1\/1\/70 until account expires *\/$/;"	m	struct:spwd
+sp_flag	include/shadow_.h	/^	unsigned long sp_flag;		\/* reserved for future use *\/$/;"	m	struct:spwd
+sp_inact	include/shadow_.h	/^	sptime sp_inact;			\/* number of days after password expires$/;"	m	struct:spwd
+sp_lstchg	include/shadow_.h	/^	sptime sp_lstchg;			\/* date of last change *\/$/;"	m	struct:spwd
+sp_max	include/shadow_.h	/^	sptime sp_max;				\/* maximum number of days between changes *\/$/;"	m	struct:spwd
+sp_min	include/shadow_.h	/^	sptime sp_min;				\/* minimum number of days between changes *\/$/;"	m	struct:spwd
+sp_namp	include/shadow_.h	/^	char *sp_namp;				\/* login name *\/$/;"	m	struct:spwd
+sp_pwdp	include/shadow_.h	/^	char *sp_pwdp;				\/* encrypted password *\/$/;"	m	struct:spwd
+sp_warn	include/shadow_.h	/^	sptime sp_warn;				\/* number of days of warning before password$/;"	m	struct:spwd
+speed	getty.c	/^	long speed;$/;"	m	struct:Speedtab	file:
+speeds	getty.c	/^	int speeds[MAX_SPEED];		\/* baud rates to be tried *\/$/;"	m	struct:options	file:
+speedtab	getty.c	/^static struct Speedtab speedtab[] = {$/;"	v	file:
+sprint_sha1_hash	sha1.c	/^char *sprint_sha1_hash(int *hashval)$/;"	f
+sptime	include/shadow_.h	/^typedef long sptime;$/;"	t
+spw	vlock.c	/^static struct spwd *spw;$/;"	v	file:
+spwbuf	shadow.c	/^static char spwbuf[BUFSIZ];$/;"	v	file:
+spwd	include/shadow_.h	/^struct spwd {$/;"	s
+spwd	shadow.c	/^static struct spwd spwd;$/;"	v	file:
+start	deluser.c	/^	size_t start;$/;"	m	struct:	file:
+stop	deluser.c	/^	size_t stop;$/;"	m	struct:	file:
+str2cpy	getty.c	1116;"	d	file:
+str_lower	libbb/obscure.c	/^static char *str_lower(char *string)$/;"	f	file:
+strlen	include/libbb.h	149;"	d
+strlen	libbb/xfuncs.c	89;"	d	file:
+strtok_r	libbb/libc5.c	/^char *strtok_r(char *s, const char *delim, char **save_ptr)$/;"	f
+su_full_usage	include/usage.h	57;"	d
+su_main	su.c	/^int su_main ( int argc, char **argv )$/;"	f
+su_trivial_usage	include/usage.h	55;"	d
+suffix	include/libbb.h	/^	const char *suffix;$/;"	m	struct:suffix_mult
+suffix_mult	include/libbb.h	/^struct suffix_mult {$/;"	s
+suid_config	applets.c	/^static struct BB_suid_config *suid_config;$/;"	v	file:
+sulogin_full_usage	include/usage.h	65;"	d
+sulogin_main	sulogin.c	/^extern int sulogin_main(int argc, char **argv)$/;"	f
+sulogin_trivial_usage	include/usage.h	63;"	d
+switch_endianness	sha1.c	34;"	d	file:
+sysinfo	include/libbb.h	/^struct sysinfo {$/;"	s
+syslog_msg	libbb/syslog_msg_with_name.c	/^void syslog_msg(int facility, int pri, const char *msg)$/;"	f
+syslog_msg_with_name	libbb/syslog_msg_with_name.c	/^void syslog_msg_with_name(const char *name, int facility, int pri, const char *msg)$/;"	f
+termio	getty.c	110;"	d	file:
+termio_final	getty.c	/^static void termio_final(struct options *op, struct termio *tp, struct chardata *cp)$/;"	f	file:
+termio_init	getty.c	/^static void termio_init(struct termio *tp, int speed, struct options *op)$/;"	f	file:
+timeout	getty.c	/^	int timeout;				\/* time-out period *\/$/;"	m	struct:options	file:
+tinylogin_fullpath	tinylogin.c	/^static inline char *tinylogin_fullpath(void)$/;"	f	file:
+tinylogin_main	tinylogin.c	/^int tinylogin_main(int argc, char **argv)$/;"	f
+too_few_args	libbb/messages.c	/^	const char * const too_few_args = "too few arguments";$/;"	v
+totalhigh	include/libbb.h	/^	unsigned long totalhigh;	\/* Total high memory size *\/$/;"	m	struct:sysinfo
+totalram	include/libbb.h	/^	unsigned long totalram;		\/* Total usable main memory size *\/$/;"	m	struct:sysinfo
+totalswap	include/libbb.h	/^	unsigned long totalswap;	\/* Total swap space size *\/$/;"	m	struct:sysinfo
+tty	getty.c	/^	char *tty;					\/* name of tty *\/$/;"	m	struct:options	file:
+u	adduser.c	/^	uid_t u;$/;"	m	struct:	file:
+unknown	libbb/messages.c	/^	const char * const unknown = "(unknown)";$/;"	v
+update_passwd	passwd.c	/^extern int update_passwd(const struct passwd *pw, char *crypt_pw)$/;"	f
+update_utmp	getty.c	/^static void update_utmp(char *line)$/;"	f	file:
+updwtmp	libbb/libc5.c	/^extern void updwtmp(const char *wtmp_file, const struct utmp *lutmp)$/;"	f
+uptime	include/libbb.h	/^	long uptime;			\/* Seconds since boot *\/$/;"	m	struct:sysinfo
+usage_messages	usage.c	/^const char usage_messages[] =$/;"	v
+usr_bin	tinylogin.c	/^static const char usr_bin [] ="\/usr\/bin";$/;"	v	file:
+usr_sbin	tinylogin.c	/^static const char usr_sbin[] ="\/usr\/sbin";$/;"	v	file:
+utent	login.c	/^struct utmp utent;$/;"	v
+verror_msg	libbb/verror_msg.c	/^extern void verror_msg(const char *s, va_list p)$/;"	f
+vfd	vlock.c	/^static int vfd;$/;"	v	file:
+vlock_full_usage	include/usage.h	91;"	d
+vlock_main	vlock.c	/^extern int vlock_main(int argc, char **argv)$/;"	f
+vlock_trivial_usage	include/usage.h	89;"	d
+vperror_msg	libbb/vperror_msg.c	/^extern void vperror_msg(const char *s, va_list p)$/;"	f
+wfopen	libbb/wfopen.c	/^FILE *wfopen(const char *path, const char *mode)$/;"	f
+write_error	libbb/messages.c	/^	const char * const write_error = "Write Error";$/;"	v
+xcalloc	libbb/xfuncs.c	/^extern void *xcalloc(size_t nmemb, size_t size)$/;"	f
+xfopen	libbb/xfuncs.c	/^FILE *xfopen(const char *path, const char *mode)$/;"	f
+xmalloc	libbb/xfuncs.c	/^extern void *xmalloc(size_t size)$/;"	f
+xreadlink	libbb/xreadlink.c	/^extern char *xreadlink(const char *path)$/;"	f
+xrealloc	libbb/xfuncs.c	/^extern void *xrealloc(void *ptr, size_t size)$/;"	f
+xsetenv	libbb/setup_environment.c	/^static void xsetenv ( const char *key, const char *value )$/;"	f	file:
+xstrdup	libbb/xfuncs.c	/^extern char * xstrdup (const char *s) {$/;"	f
+xstrlen	libbb/xfuncs.c	/^size_t xstrlen(const char *string)$/;"	f
+xstrndup	libbb/xfuncs.c	/^extern char * xstrndup (const char *s, int n) {$/;"	f

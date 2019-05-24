@@ -1,0 +1,38 @@
+/opt/host/armv4l/bin/armv4l-unknown-linux-gcc -g -O2 -D_GNU_SOURCE=1  -I. -I..   -c -o daemons.o daemons.c
+/opt/host/armv4l/bin/armv4l-unknown-linux-gcc -g -O2 -D_GNU_SOURCE=1  -I. -I..   -c -o ftpd.o ftpd.c
+/opt/host/armv4l/bin/armv4l-unknown-linux-gcc -g -O2 -D_GNU_SOURCE=1  -I. -I..   -c -o log_unix.o log_unix.c
+/opt/host/armv4l/bin/armv4l-unknown-linux-gcc -g -O2 -D_GNU_SOURCE=1  -I. -I..   -c -o log_mysql.o log_mysql.c
+/opt/host/armv4l/bin/armv4l-unknown-linux-gcc -g -O2 -D_GNU_SOURCE=1  -I. -I..   -c -o log_pgsql.o log_pgsql.c
+/opt/host/armv4l/bin/armv4l-unknown-linux-gcc -g -O2 -D_GNU_SOURCE=1  -I. -I..   -c -o log_pam.o log_pam.c
+/opt/host/armv4l/bin/armv4l-unknown-linux-gcc -g -O2 -D_GNU_SOURCE=1  -I. -I..   -c -o log_ldap.o log_ldap.c
+/opt/host/armv4l/bin/armv4l-unknown-linux-gcc -g -O2 -D_GNU_SOURCE=1  -I. -I..   -c -o log_puredb.o log_puredb.c
+/opt/host/armv4l/bin/armv4l-unknown-linux-gcc -g -O2 -D_GNU_SOURCE=1  -I. -I..   -c -o log_extauth.o log_extauth.c
+/opt/host/armv4l/bin/armv4l-unknown-linux-gcc -g -O2 -D_GNU_SOURCE=1  -I. -I..   -c -o ls.o ls.c
+/opt/host/armv4l/bin/armv4l-unknown-linux-gcc -g -O2 -D_GNU_SOURCE=1  -I. -I..   -c -o parser.o parser.c
+/opt/host/armv4l/bin/armv4l-unknown-linux-gcc -g -O2 -D_GNU_SOURCE=1  -I. -I..   -c -o bsd-glob.o bsd-glob.c
+/opt/host/armv4l/bin/armv4l-unknown-linux-gcc -g -O2 -D_GNU_SOURCE=1  -I. -I..   -c -o fakesnprintf.o fakesnprintf.c
+/opt/host/armv4l/bin/armv4l-unknown-linux-gcc -g -O2 -D_GNU_SOURCE=1  -I. -I..   -c -o bsd-realpath.o bsd-realpath.c
+/opt/host/armv4l/bin/armv4l-unknown-linux-gcc -g -O2 -D_GNU_SOURCE=1  -I. -I..   -c -o mysnprintf.o mysnprintf.c
+/opt/host/armv4l/bin/armv4l-unknown-linux-gcc -g -O2 -D_GNU_SOURCE=1  -I. -I..   -c -o caps.o caps.c
+/opt/host/armv4l/bin/armv4l-unknown-linux-gcc -g -O2 -D_GNU_SOURCE=1  -I. -I..   -c -o ftp_parser.o ftp_parser.c
+/opt/host/armv4l/bin/armv4l-unknown-linux-gcc -g -O2 -D_GNU_SOURCE=1  -I. -I..   -c -o dynamic.o dynamic.c
+/opt/host/armv4l/bin/armv4l-unknown-linux-gcc -g -O2 -D_GNU_SOURCE=1  -I. -I..   -c -o ftpwho-update.o ftpwho-update.c
+/opt/host/armv4l/bin/armv4l-unknown-linux-gcc -g -O2 -D_GNU_SOURCE=1  -I. -I..   -c -o bsd-getopt_long.o bsd-getopt_long.c
+/opt/host/armv4l/bin/armv4l-unknown-linux-gcc -g -O2 -D_GNU_SOURCE=1  -I. -I..   -c -o upload-pipe.o upload-pipe.c
+/opt/host/armv4l/bin/armv4l-unknown-linux-gcc -g -O2 -D_GNU_SOURCE=1  -I. -I..   -c -o ipv4stack.o ipv4stack.c
+/opt/host/armv4l/bin/armv4l-unknown-linux-gcc -g -O2 -D_GNU_SOURCE=1  -I. -I..   -c -o altlog.o altlog.c
+/opt/host/armv4l/bin/armv4l-unknown-linux-gcc -g -O2 -D_GNU_SOURCE=1  -I. -I..   -c -o crypto.o crypto.c
+/opt/host/armv4l/bin/armv4l-unknown-linux-gcc -g -O2 -D_GNU_SOURCE=1  -I. -I..   -c -o crypto-md5.o crypto-md5.c
+/opt/host/armv4l/bin/armv4l-unknown-linux-gcc -g -O2 -D_GNU_SOURCE=1  -I. -I..   -c -o crypto-sha1.o crypto-sha1.c
+/opt/host/armv4l/bin/armv4l-unknown-linux-gcc -g -O2 -D_GNU_SOURCE=1  -I. -I..   -c -o quotas.o quotas.c
+/opt/host/armv4l/bin/armv4l-unknown-linux-gcc -g -O2 -D_GNU_SOURCE=1  -I. -I..   -c -o fakechroot.o fakechroot.c
+/opt/host/armv4l/bin/armv4l-unknown-linux-gcc -g -O2 -D_GNU_SOURCE=1  -I. -I..   -c -o diraliases.o diraliases.c
+/opt/host/armv4l/bin/armv4l-unknown-linux-gcc -g -O2 -D_GNU_SOURCE=1  -I. -I..   -c -o ftpwho-read.o ftpwho-read.c
+/opt/host/armv4l/bin/armv4l-unknown-linux-gcc -g -O2 -D_GNU_SOURCE=1  -I. -I..   -c -o getloadavg.o getloadavg.c
+/opt/host/armv4l/bin/armv4l-unknown-linux-gcc -g -O2 -D_GNU_SOURCE=1  -I. -I..   -c -o privsep.o privsep.c
+/opt/host/armv4l/bin/armv4l-unknown-linux-gcc -g -O2 -D_GNU_SOURCE=1  -I. -I..   -c -o tls.o tls.c
+/opt/host/armv4l/bin/armv4l-unknown-linux-gcc -g -O2 -D_GNU_SOURCE=1  -I. -I..   -c -o osx-extensions.o osx-extensions.c
+/opt/host/armv4l/bin/armv4l-unknown-linux-gcc -g -O2  -o pure-ftpd daemons.o ftpd.o log_unix.o log_mysql.o log_pgsql.o log_pam.o log_ldap.o log_puredb.o log_extauth.o ls.o parser.o bsd-glob.o fakesnprintf.o bsd-realpath.o mysnprintf.o caps.o ftp_parser.o dynamic.o ftpwho-update.o bsd-getopt_long.o upload-pipe.o ipv4stack.o altlog.o crypto.o crypto-md5.o crypto-sha1.o quotas.o fakechroot.o diraliases.o ftpwho-read.o getloadavg.o privsep.o tls.o osx-extensions.o -lcrypt 
+
+
+

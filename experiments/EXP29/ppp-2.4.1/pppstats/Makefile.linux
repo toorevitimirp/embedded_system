@@ -1,0 +1,38 @@
+#
+# pppstats makefile
+# $Id: Makefile.linux,v 1.3 1998/03/25 02:21:20 paulus Exp $
+#
+
+CROSS = /home/hhcn/toolchain/gcc-3.2.2/toolchain/bin/powerpc-uclibc-
+CC = $(CROSS)gcc
+AR = $(CROSS)ar
+STRIP = $(CROSS)strip
+
+
+PPPSTATSRCS = pppstats.c
+PPPSTATOBJS = pppstats.o
+
+#CC = gcc
+COPTS = -O
+COMPILE_FLAGS = -D_linux_ -I../include
+LIBS =
+
+INSTALL= install -o root -g daemon
+
+CFLAGS = $(COPTS) $(COMPILE_FLAGS)
+
+all: pppstats
+
+install: pppstats
+	$(INSTALL) -s -c pppstats $(BINDIR)/pppstats
+	$(INSTALL) -c -m 444 pppstats.8 $(MANDIR)/man8/pppstats.8
+
+pppstats: $(PPPSTATSRCS)
+	$(CC) $(CFLAGS) -o pppstats pppstats.c $(LIBS)
+
+clean:
+	rm -f pppstats *~ #* core
+
+depend:
+	cpp -M $(CFLAGS) $(PPPSTATSRCS) >.depend
+#	makedepend $(CFLAGS) $(PPPSTATSRCS)

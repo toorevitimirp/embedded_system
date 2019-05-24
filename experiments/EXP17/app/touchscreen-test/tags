@@ -1,0 +1,42 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.4	//
+CFLAGS	Makefile	/^CFLAGS = -I. -I$(INCLUDE) -I\/HHARMMXL-INTEG\/linux-2.4.18-rmk4\/include$/;"	m
+DrawLine	asp_test.c	/^DrawLine(S16 x1, S16 y1, S16 x2, S16 y2, U16 color)$/;"	f
+DrawPoint	asp_test.c	/^DrawPoint(int x,int y,U16 color)$/;"	f
+INCLUDE	Makefile	/^INCLUDE = ..\/..\/source$/;"	m
+LCDADDR	asp_test.c	29;"	d	file:
+OUTPUT	Makefile	/^OUTPUT = .$/;"	m
+PEN_CONFIG	asp_test.c	/^}PEN_CONFIG, *P_PEN_CONFIG;$/;"	t	file:
+P_PEN_CONFIG	asp_test.c	/^}PEN_CONFIG, *P_PEN_CONFIG;$/;"	t	file:
+P_RECT	asp_test.c	/^}RECT,*P_RECT;$/;"	t	file:
+P_U16	asp_test.c	/^typedef unsigned short * P_U16;$/;"	t	file:
+RECT	asp_test.c	/^}RECT,*P_RECT;$/;"	t	file:
+S16	asp_test.c	/^typedef short S16;$/;"	t	file:
+S32	asp_test.c	/^typedef int S32;$/;"	t	file:
+STATUS	asp_test.c	/^typedef U16	STATUS;$/;"	t	file:
+SYS_ERR	asp_test.c	30;"	d	file:
+SYS_OK	asp_test.c	31;"	d	file:
+U16	asp_test.c	/^typedef unsigned short U16;$/;"	t	file:
+U8	asp_test.c	/^typedef unsigned char U8;$/;"	t	file:
+_PenCalibratePoint	asp_test.c	/^STATUS  _PenCalibratePoint(P_RECT pScreen, P_RECT pPan)$/;"	f
+_PenConvertLCD	asp_test.c	/^S16 _PenConvertLCD( U16 value, U32 factor, U32 offset)$/;"	f
+_PenMapX	asp_test.c	/^S16 _PenMapX(U16 x)$/;"	f
+_PenMapY	asp_test.c	/^S16 _PenMapY(U16 y)$/;"	f
+_gPenConfig	asp_test.c	/^PEN_CONFIG _gPenConfig;$/;"	v
+_tag_RECT	asp_test.c	/^typedef struct _tag_RECT$/;"	s	file:
+bottom	asp_test.c	/^	S32 bottom;$/;"	m	struct:_tag_RECT	file:
+fbp	asp_test.c	/^char *fbp = 0;$/;"	v
+left	asp_test.c	/^	S32 left;$/;"	m	struct:_tag_RECT	file:
+main	asp_test.c	/^int main()$/;"	f
+pan	asp_test.c	/^	RECT pan;$/;"	m	struct:	file:
+right	asp_test.c	/^	S32 right;$/;"	m	struct:_tag_RECT	file:
+scale	asp_test.c	/^	U8  scale;$/;"	m	struct:	file:
+top	asp_test.c	/^	S32 top;$/;"	m	struct:_tag_RECT	file:
+xFactor	asp_test.c	/^	U32 xFactor;$/;"	m	struct:	file:
+xOffset	asp_test.c	/^	U32 xOffset;$/;"	m	struct:	file:
+yFactor	asp_test.c	/^	U32 yFactor;$/;"	m	struct:	file:
+yOffset	asp_test.c	/^	U32 yOffset;$/;"	m	struct:	file:

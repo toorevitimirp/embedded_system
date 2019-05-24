@@ -1,0 +1,110 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.4	//
+AREA	khead.h	/^} AREA, *P_AREA;$/;"	t
+BIT_IIC	2410iic.c	22;"	d	file:
+BOOL	khead.h	/^typedef U8 BOOL;		\/* Boolean, TRUE\/FALSE *\/$/;"	t
+BOOLEAN	khead.h	/^typedef signed char BOOLEAN;$/;"	t
+CC	Makefile	/^CC = \/opt\/host\/armv4l\/bin\/armv4l-unknown-linux-gcc $/;"	m
+CFLAGS	Makefile	/^CFLAGS = -D__KERNEL__ -I\/HHARM9-EDU\/kernel\/include\/linux -I\/HHARM9-EDU\/kernel\/include -Wall -Wstrict-prototypes -Wno-trigraphs -Os -mapcs -fno-strict-aliasing -fno-common -fno-common -pipe -mapcs-32 -march=armv4 -mtune=arm9tdmi -mshort-load-bytes -msoft-float -DKBUILD_BASENAME=s3c2410_testirq -I\/opt\/host\/armv4l\/src\/linux\/include -DMODULE$/;"	m
+DEVICE_NAME	RTC_Driver.c	23;"	d	file:
+Delay	2410iic.c	/^void Delay(int times)$/;"	f
+FALSE	khead.h	28;"	d
+FUNC_END	khead.h	92;"	d
+FUNC_END	khead.h	97;"	d
+FUNC_START	khead.h	91;"	d
+FUNC_START	khead.h	96;"	d
+Fops	RTC_Driver.c	/^struct  file_operations Fops = {$/;"	v
+IICBUFSIZE	2410iic.c	21;"	d	file:
+IicPoll	2410iic.c	/^void IicPoll(void)$/;"	f
+Init_Iic	2410iic.c	/^void Init_Iic()$/;"	f
+LD	Makefile	/^LD = \/opt\/host\/armv4l\/bin\/armv4l-unknown-linux-ld$/;"	m
+PDEBUG	khead.h	89;"	d
+PDEBUG	khead.h	94;"	d
+PLINE	khead.h	90;"	d
+PLINE	khead.h	95;"	d
+POINT	khead.h	/^} POINT, *P_POINT;$/;"	t
+POLLACK	2410iic.c	35;"	d	file:
+P_AREA	khead.h	/^} AREA, *P_AREA;$/;"	t
+P_POINT	khead.h	/^} POINT, *P_POINT;$/;"	t
+P_S16	khead.h	/^typedef S16 *P_S16;		\/* signed 16 bit data *\/$/;"	t
+P_S32	khead.h	/^typedef S32 *P_S32;		\/* signed 32 bit data *\/$/;"	t
+P_S8	khead.h	/^typedef S8 *P_S8;		\/* signed 8 bit data  *\/$/;"	t
+P_TEXT	khead.h	/^typedef P_U16 P_TEXT;		\/* 16-bit text data *\/$/;"	t
+P_U16	khead.h	/^typedef U16 *P_U16;		\/* unsigned 16 bit data *\/$/;"	t
+P_U32	khead.h	/^typedef U32 *P_U32;		\/* unsigned 32 bit data *\/$/;"	t
+P_U8	khead.h	/^typedef U8 *P_U8;		\/* unsigned 8 bit data  *\/$/;"	t
+P_VOID	khead.h	/^typedef void *P_VOID;		\/* pointer to void *\/$/;"	t
+RDDATA	2410iic.c	36;"	d	file:
+RTC1227_exit	RTC_Driver.c	/^RTC1227_exit(void)$/;"	f
+RTC1227_exit	RTC_Driver.c	/^module_exit(RTC1227_exit);$/;"	v
+RTC1227_init	RTC_Driver.c	/^RTC1227_init (void)$/;"	f	file:
+RTC1227_init	RTC_Driver.c	/^module_init(RTC1227_init);$/;"	v
+Run_IicPoll	2410iic.c	/^void Run_IicPoll(void)$/;"	f
+S16	khead.h	/^typedef short S16;		\/* signed 16 bit data *\/$/;"	t
+S32	khead.h	/^typedef long S32;		\/* signed 32 bit data *\/$/;"	t
+S8	khead.h	/^typedef signed char S8;		\/* signed 8 bit data  *\/$/;"	t
+SETRDADDR	2410iic.c	37;"	d	file:
+SINT16	khead.h	/^typedef signed short SINT16;$/;"	t
+SINT32	khead.h	/^typedef signed long SINT32;$/;"	t
+SINT8	khead.h	/^typedef signed char SINT8;$/;"	t
+STATUS	khead.h	/^typedef U16 STATUS;$/;"	t
+TEXT	khead.h	/^typedef U16 TEXT;		\/* 16-bit text data *\/$/;"	t
+TRUE	khead.h	27;"	d
+Test_Iic	2410iic.c	/^int Test_Iic(void)$/;"	f
+U16	khead.h	/^typedef unsigned short U16;	\/* unsigned 16 bit data *\/$/;"	t
+U32	2410iic.c	42;"	d	file:
+U32	RTC_Driver.c	26;"	d	file:
+U32	khead.h	/^typedef unsigned int U32;	\/* unsigned 32 bit data *\/$/;"	t
+U8	2410iic.c	41;"	d	file:
+U8	RTC_Driver.c	25;"	d	file:
+U8	khead.h	/^typedef unsigned char U8;	\/* unsigned 8 bit data  *\/$/;"	t
+UINT16	khead.h	/^typedef unsigned short UINT16;$/;"	t
+UINT32	khead.h	/^typedef unsigned long UINT32;$/;"	t
+UINT8	khead.h	/^typedef unsigned char UINT8;$/;"	t
+Uart_Printf	2410iic.c	39;"	d	file:
+VBOOLEAN	khead.h	/^typedef volatile BOOLEAN VBOOLEAN;$/;"	t
+VOID	khead.h	/^typedef void VOID;		\/* void *\/$/;"	t
+VSINT16	khead.h	/^typedef volatile SINT16 VSINT16;$/;"	t
+VSINT32	khead.h	/^typedef volatile SINT32 VSINT32;$/;"	t
+VSINT8	khead.h	/^typedef volatile SINT8 VSINT8;$/;"	t
+VUINT16	khead.h	/^typedef volatile UINT16 VUINT16;$/;"	t
+VUINT32	khead.h	/^typedef volatile UINT32 VUINT32;$/;"	t
+VUINT8	khead.h	/^typedef volatile UINT8 VUINT8;$/;"	t
+WRDATA	2410iic.c	34;"	d	file:
+X1227_devfs_dir	RTC_Driver.c	/^devfs_handle_t X1227_devfs_dir;$/;"	v
+_MYHEAD_H_	khead.h	2;"	d
+_Rd2410Iic	2410iic.c	/^void _Rd2410Iic(U32 slvAddr,U32 addr,U8 *rdata)$/;"	f
+_Wr2410Iic	2410iic.c	/^void _Wr2410Iic(U32 slvAddr,U32 addr,U8 wdata)$/;"	f
+_iicData	2410iic.c	/^static unsigned char _iicData[IICBUFSIZE];$/;"	v	file:
+_iicDataCount	2410iic.c	/^static volatile int _iicDataCount;$/;"	v	file:
+_iicMode	2410iic.c	/^static volatile int _iicMode;$/;"	v	file:
+_iicPt	2410iic.c	/^static int _iicPt;$/;"	v	file:
+_iicStatus	2410iic.c	/^static volatile int _iicStatus;$/;"	v	file:
+address_map	2410iic.c	/^int address_map(void)$/;"	f
+bottom	khead.h	/^	POINT bottom;		\/*  Bottom right corner  *\/$/;"	m	struct:
+dbuf	RTC_Driver.c	/^static unsigned char *dbuf;$/;"	v	file:
+dprinti2cwr	khead.h	102;"	d
+dprinti2cwr	khead.h	104;"	d
+rGPECON	2410iic.c	25;"	d	file:
+rGPEUP	2410iic.c	26;"	d	file:
+rIICADD	2410iic.c	30;"	d	file:
+rIICCON	2410iic.c	28;"	d	file:
+rIICDS	2410iic.c	31;"	d	file:
+rIICSTAT	2410iic.c	29;"	d	file:
+r_GPECON	2410iic.c	/^unsigned long r_GPECON,r_GPEUP;$/;"	v
+r_GPEUP	2410iic.c	/^unsigned long r_GPECON,r_GPEUP;$/;"	v
+r_IICADD	2410iic.c	/^unsigned long r_IICCON,r_IICSTAT,r_IICADD,r_IICDS;$/;"	v
+r_IICCON	2410iic.c	/^unsigned long r_IICCON,r_IICSTAT,r_IICADD,r_IICDS;$/;"	v
+r_IICDS	2410iic.c	/^unsigned long r_IICCON,r_IICSTAT,r_IICADD,r_IICDS;$/;"	v
+r_IICSTAT	2410iic.c	/^unsigned long r_IICCON,r_IICSTAT,r_IICADD,r_IICDS;$/;"	v
+rtc_ioctl	RTC_Driver.c	/^rtc_ioctl (struct inode *inode,struct file *file,unsigned int cmd,unsigned long arg)$/;"	f	file:
+rtc_rd	RTC_Driver.c	/^rtc_rd(struct file *filep,char * buffer,size_t length,loff_t * off)$/;"	f	file:
+rtc_release	RTC_Driver.c	/^rtc_release (struct inode *inode,struct file *file)$/;"	f	file:
+rtc_wr	RTC_Driver.c	/^rtc_wr(struct file *filep,char * buffer,size_t length,loff_t * off)$/;"	f	file:
+top	khead.h	/^	POINT top;		\/*  Top left corner  *\/$/;"	m	struct:
+x	khead.h	/^	U16 x;			\/*  x point  *\/$/;"	m	struct:
+y	khead.h	/^	U16 y;			\/*  y point  *\/$/;"	m	struct:

@@ -1,0 +1,102 @@
+# Created by Jason Geng, 2004-03-06
+# Make file for easy test on PC and easy reuse between different program
+
+include make.cfg
+
+#########	PC Configs	#########
+ifeq ($(PLATFORM),PC)
+ARCH=
+LDFLAGS+=
+endif
+
+#########	5249 Configs	###########
+ifeq ($(PLATFORM),5249)
+ARCH=m68k-elf-
+
+ifeq ($(LIBC), uC-libc)
+CFLAGS		+=-DCONFIG_COLDFIRE -fomit-frame-pointer -m5307 -fno-builtin -msep-data
+CFLAGS		+=-I$(LIBDIR)/lib/libc/include -I$(LIBDIR)/lib/libm -I$(LIBDIR)/lib/libcrypt_old -I$(LIBDIR)  -I$(LIBDIR)/linux-2.4.x/include  
+CFLAGS 		+=-DCONFIG_COLDFIRE  -Dlinux -D__linux__ -Dunix -D__uClinux__ -DEMBED  
+LDFLAGS 	+=-m5307 -fomit-frame-pointer -fno-builtin -msep-data  -Wl,-elf2flt -Wl,-move-rodata 
+LDFLAGS		+=-L$(LIBDIR)/lib/libc/. -L$(LIBDIR)/lib/libc/lib -L$(LIBDIR)/lib/libm 
+#LDFLAGS		+=-L$(LIBDIR)/lib/libnet -L$(LIBDIR)/lib/libdes -L$(LIBDIR)/lib/libaes -L$(LIBDIR)/lib/libpcap -L$(LIBDIR)/lib/libssl -L$(LIBDIR)/lib/libcrypt_old -L$(LIBDIR)/lib/libsnapgear++ -L$(LIBDIR)/lib/libsnapgear -L$(LIBDIR)/lib/zlib
+ASFLAGS += -Wa,--register-prefix-optional
+endif
+
+#uClibc
+ifeq ($(LIBC), uClibc)
+CFLAGS= -m5307 -DCONFIG_COLDFIRE -g -fomit-frame-pointer -m5307 -DCONFIG_COLDFIRE  -Dlinux -D__linux__ -Dunix -D__uClinux__ -DEMBED -I/HHCF5249-R3/uClinux-dist/lib/uClibc/include -I/HHCF5249-R3/uClinux-dist/lib/libm -I/HHCF5249-R3/uClinux-dist/lib/libcrypt_old -I/HHCF5249-R3/uClinux-dist -fno-builtin -msep-data -I/HHCF5249-R3/uClinux-dist/linux-2.4.x/include  
+LDFLAGS=-m5307 -DCONFIG_COLDFIRE -g -fomit-frame-pointer -m5307 -DCONFIG_COLDFIRE  -Dlinux -D__linux__ -Dunix -D__uClinux__ -DEMBED -I/HHCF5249-R3/uClinux-dist/lib/uClibc/include -I/HHCF5249-R3/uClinux-dist/lib/libm -I/HHCF5249-R3/uClinux-dist/lib/libcrypt_old -I/HHCF5249-R3/uClinux-dist -fno-builtin -msep-data -I/HHCF5249-R3/uClinux-dist/linux-2.4.x/include -Wl,-elf2flt -Wl,-move-rodata -nostartfiles /HHCF5249-R3/uClinux-dist/lib/uClibc/lib/crt0.o -L/HHCF5249-R3/uClinux-dist/lib/uClibc/. -L/HHCF5249-R3/uClinux-dist/lib/uClibc/lib -L/HHCF5249-R3/uClinux-dist/lib/libm -L/HHCF5249-R3/uClinux-dist/lib/libnet -L/HHCF5249-R3/uClinux-dist/lib/libdes -L/HHCF5249-R3/uClinux-dist/lib/libaes -L/HHCF5249-R3/uClinux-dist/lib/libpcap -L/HHCF5249-R3/uClinux-dist/lib/libssl -L/HHCF5249-R3/uClinux-dist/lib/libcrypt_old -L/HHCF5249-R3/uClinux-dist/lib/libsnapgear++ -L/HHCF5249-R3/uClinux-dist/lib/libsnapgear -L/HHCF5249-R3/uClinux-dist/lib/zlib -L.
+endif
+
+ifeq ($(LIBC), uClibc2)
+CFLAGS=-m5200 -Wa,-m5200 
+LDFLAGS=-Wl,-elf2flt -m5200 -Wa,-m5200 
+
+endif
+
+endif#5249
+#########	MXL Configs	###########
+ifeq ($(PLATFORM),MXL)
+#ARCH=/usr/bin/
+ARCH=/opt/host/armv4l/bin/armv4l-unknown-linux-
+#CFLAGS=  
+CFLAGS+= -march=armv4 
+LDFLAGS=
+endif
+#########	PROJECT SPECIFIC CONTENTS	#########
+include make.spec.cfg
+#########	PLATFORM & PROJECT INDEPENDENT CONTENTS	#########
+
+
+PROGS=$(PROG1) $(PROG2) 
+PROG_OBJS=$(PROG1).o $(PROG2).o
+
+DEPLIB=$(DEPLIB1) $(DEPLIB2) $(DEPLIB3) $(DEPLIB4)
+DEPLIB_DIRS=$(DEPLIB_DIR1) $(DEPLIB_DIR2) $(DEPLIB_DIR3) $(DEPLIB_DIR4)
+
+CC=$(ARCH)gcc
+LD=$(ARCH)ld
+AR=$(ARCH)ar rc
+RANLIB=$(ARCH)ranlib
+TAR=tar
+SHELL=/bin/sh
+
+all: lib $(PROGS) $(DISTLIB) 
+ifdef INSTALLDIR
+	chmod 777 $(PROGS) $(DISTLIB) 
+	for dir in $(INSTALLDIR);do	cp -f $(PROGS) $(DISTLIB) $$dir;done
+	@echo
+	@date
+endif
+
+lib:
+	echo $(DEPLIB_DIR1) $(DEPLIB_DIR2)
+	for dir in $(DEPLIB_DIRS);do make -C $$dir;done
+
+$(PROG1): $(PROG1).o $(OBJS) $(DEPLIB)
+	$(CC) $(LDFLAGS) -o $@ $^ $(POST_LDFLAGS)
+
+$(PROG2): $(PROG2).o $(OBJS) $(DEPLIB)
+	$(CC) $(LDFLAGS) -o $@ $^ $(POST_LDFLAGS)
+
+$(DISTLIB): $(OBJS)
+	$(AR) $@ $(OBJS) 
+#	-@ ($(RANLIB) $@ || true) >/dev/null 2>&1
+
+%.o:%.c
+	$(CC) $(CFLAGS) -c $< 
+
+%.o:%.S
+	$(CC) $(CFLAGS) $(ASFLAGS) -c $< 
+
+progclean:
+	rm -f $(PROGS) $(DISTLIB) 
+	rm -f *.o
+	rm -f $(CLEAN_FILES) out
+
+clean:
+	for dir in $(DEPLIB_DIRS);do make -C $$dir clean;done
+	rm -f $(PROGS) $(DISTLIB) 
+	rm -f *.o *.a
+	rm -f $(CLEAN_FILES) out

@@ -1,0 +1,3 @@
+ifeq (-D__KERNEL__ -I/HHARM2410-R3/kernel/include -Wall -Wstrict-prototypes -Wno-trigraphs -Os -mapcs -fno-strict-aliasing -fno-common -fno-common -pipe -mapcs-32 -march=armv4 -mtune=arm9tdmi -mshort-load-bytes -msoft-float,$(strip $(subst $(comma),:,$(CFLAGS) $(EXTRA_CFLAGS) $(CFLAGS_symlink) $(CFLAGS_symlink.o))))
+FILES_FLAGS_UP_TO_DATE += symlink.o
+endif

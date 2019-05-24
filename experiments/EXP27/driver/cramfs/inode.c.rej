@@ -1,0 +1,76 @@
+***************
+*** 54,59 ****
+                  inode->i_blksize = PAGE_CACHE_SIZE; 
+                  inode->i_gid = cramfs_inode->gid; 
+                  inode->i_ino = CRAMINO(cramfs_inode); 
+                  /* inode->i_nlink is left 1 - arguably wrong for directories, 
+                     but it's the best we can do without reading the directory 
+                     contents. 1 yields the right result in GNU find, even 
+--- 57,64 ----
+                  inode->i_blksize = PAGE_CACHE_SIZE; 
+                  inode->i_gid = cramfs_inode->gid; 
+                  inode->i_ino = CRAMINO(cramfs_inode); 
++  inode->i_mtime = sb->CRAMFS_SB_FSTIME; 
++  inode->i_ctime = sb->CRAMFS_SB_FSTIME; 
+                  /* inode->i_nlink is left 1 - arguably wrong for directories, 
+                     but it's the best we can do without reading the directory 
+                     contents. 1 yields the right result in GNU find, even 
+***************
+*** 109,115 ****
+   * Returns a pointer to a buffer containing at least LEN bytes of 
+   * filesystem starting at byte offset OFFSET into the filesystem. 
+   */ 
+  static void *cramfs_read(struct super_block *sb, unsigned int offset, unsigned int len) 
+  { 
+          struct buffer_head * bh_array[BLKS_PER_BUF]; 
+          struct buffer_head * read_array[BLKS_PER_BUF]; 
+--- 114,145 ----
+   * Returns a pointer to a buffer containing at least LEN bytes of 
+   * filesystem starting at byte offset OFFSET into the filesystem. 
+   */ 
++  
++ #ifdef CRAMFS_AS_IMAGE 
++  
++ /* Normally, cramfs_read reads from offset and len bytes on a block device. 
++  * But if we have an attached image piggybacked on the end of the kernel 
++  * (a la krom/romfs) we can use this trivial routine. 
++  */ 
++  
++ extern unsigned char *romfs_start; /* set in head.S during boot */ 
++ extern unsigned int romfs_length; /* dito */ 
++ void *(*cramfs_read)(struct super_block *, unsigned int, unsigned int); 
++  
++ /* 
++  * Returns a pointer to a buffer containing at least LEN bytes of 
++  * filesystem starting at byte offset OFFSET into the filesystem. 
++  */ 
++ inline void *mem_cramfs_read(struct super_block *sb, unsigned int offset, unsigned int len) 
++ { 
++  //printk("cramfs_read start 0x%x, offset %d, len %d\n", romfs_start, offset, len); 
++  return romfs_start + offset; 
++ } 
++  
++ void *blk_cramfs_read(struct super_block *sb, unsigned int offset, unsigned int len) 
++ #else /* CRAMFS_AS_IMAGE */ 
+  static void *cramfs_read(struct super_block *sb, unsigned int offset, unsigned int len) 
++ #endif 
+  { 
+          struct buffer_head * bh_array[BLKS_PER_BUF]; 
+          struct buffer_head * read_array[BLKS_PER_BUF]; 
+***************
+*** 144,150 ****
+          minor = MINOR(sb->s_dev); 
+  
+  
+          if (blk_size[major]) 
+-  devsize = blk_size[major][minor] >> 2; 
+  
+  
+--- 174,180 ----
+          minor = MINOR(sb->s_dev); 
+  
+  
+          if (blk_size[major]) 
++  devsize = blk_size[major][minor] / (PAGE_CACHE_SIZE / 1024); 
+  
+  

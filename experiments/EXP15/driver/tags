@@ -1,0 +1,189 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.4	//
+BFPCTRL	mcp2510.h	39;"	d
+CANCTRL	mcp2510.h	37;"	d
+CANINTE	mcp2510.h	49;"	d
+CANINTF	mcp2510.h	51;"	d
+CANSTAT	mcp2510.h	35;"	d
+CC	Makefile	/^CC = \/opt\/host\/armv4l\/bin\/armv4l-unknown-linux-gcc $/;"	m
+CFLAGS	Makefile	/^CFLAGS = -D__KERNEL__ -I\/HHARM9-EDU\/kernel\/include\/linux -I\/HHARM9-EDU\/kernel\/include -Wall -Wstrict-prototypes -Wno-trigraphs -Os -mapcs -fno-strict-aliasing -fno-common -fno-common -pipe -mapcs-32 -march=armv4 -mtune=arm9tdmi -mshort-load-bytes -msoft-float -DKBUILD_BASENAME=s3c2410_testirq -I\/opt\/host\/armv4l\/src\/linux\/include -DMODULE$/;"	m
+CMD_MODIFY	mcp2510.h	17;"	d
+CMD_READ	mcp2510.h	11;"	d
+CMD_RESET	mcp2510.h	13;"	d
+CMD_RTS0	mcp2510.h	19;"	d
+CMD_RTS1	mcp2510.h	21;"	d
+CMD_RTS2	mcp2510.h	23;"	d
+CMD_STATUS	mcp2510.h	15;"	d
+CMD_WRITE	mcp2510.h	9;"	d
+CNF1	mcp2510.h	43;"	d
+CNF2	mcp2510.h	45;"	d
+CNF3	mcp2510.h	47;"	d
+DEBUG_SPI	mcp2510.c	36;"	d	file:
+DEBUG_SPI	mcp2510.c	42;"	d	file:
+DEVICE_NAME	mcp2510.c	41;"	d	file:
+EFLG	mcp2510.h	53;"	d
+Init_MCP2510	mcp2510.c	/^void Init_MCP2510(void)$/;"	f
+Init_SPI	mcp2510.c	/^void Init_SPI(void)$/;"	f
+LD	Makefile	/^LD = \/opt\/host\/armv4l\/bin\/armv4l-unknown-linux-ld$/;"	m
+Modify_2510	mcp2510.c	/^void Modify_2510(U8 M_ADD, U8 M_MASK, U8 M_DATA)$/;"	f
+REC	mcp2510.h	57;"	d
+RXB0CTRL	mcp2510.h	65;"	d
+RXB0D0	mcp2510.h	257;"	d
+RXB0D1	mcp2510.h	259;"	d
+RXB0D2	mcp2510.h	261;"	d
+RXB0D3	mcp2510.h	263;"	d
+RXB0D4	mcp2510.h	265;"	d
+RXB0D5	mcp2510.h	267;"	d
+RXB0D6	mcp2510.h	269;"	d
+RXB0D7	mcp2510.h	271;"	d
+RXB0DLC	mcp2510.h	255;"	d
+RXB0EID0	mcp2510.h	253;"	d
+RXB0EID8	mcp2510.h	251;"	d
+RXB0SIDH	mcp2510.h	247;"	d
+RXB0SIDL	mcp2510.h	249;"	d
+RXB1CTRL	mcp2510.h	67;"	d
+RXB1D0	mcp2510.h	287;"	d
+RXB1D1	mcp2510.h	289;"	d
+RXB1D2	mcp2510.h	291;"	d
+RXB1D3	mcp2510.h	293;"	d
+RXB1D4	mcp2510.h	295;"	d
+RXB1D5	mcp2510.h	297;"	d
+RXB1D6	mcp2510.h	299;"	d
+RXB1D7	mcp2510.h	301;"	d
+RXB1DLC	mcp2510.h	285;"	d
+RXB1EID0	mcp2510.h	283;"	d
+RXB1EID8	mcp2510.h	281;"	d
+RXB1SIDH	mcp2510.h	277;"	d
+RXB1SIDL	mcp2510.h	279;"	d
+RXF0EID0	mcp2510.h	99;"	d
+RXF0EID8	mcp2510.h	97;"	d
+RXF0SIDH	mcp2510.h	93;"	d
+RXF0SIDL	mcp2510.h	95;"	d
+RXF1EID0	mcp2510.h	107;"	d
+RXF1EID8	mcp2510.h	105;"	d
+RXF1SIDH	mcp2510.h	101;"	d
+RXF1SIDL	mcp2510.h	103;"	d
+RXF2EID0	mcp2510.h	115;"	d
+RXF2EID8	mcp2510.h	113;"	d
+RXF2SIDH	mcp2510.h	109;"	d
+RXF2SIDL	mcp2510.h	111;"	d
+RXF3EID0	mcp2510.h	123;"	d
+RXF3EID8	mcp2510.h	121;"	d
+RXF3SIDH	mcp2510.h	117;"	d
+RXF3SIDL	mcp2510.h	119;"	d
+RXF4EID0	mcp2510.h	131;"	d
+RXF4EID8	mcp2510.h	129;"	d
+RXF4SIDH	mcp2510.h	125;"	d
+RXF4SIDL	mcp2510.h	127;"	d
+RXF5EID0	mcp2510.h	139;"	d
+RXF5EID8	mcp2510.h	137;"	d
+RXF5SIDH	mcp2510.h	133;"	d
+RXF5SIDL	mcp2510.h	135;"	d
+RXM0EID0	mcp2510.h	83;"	d
+RXM0EID8	mcp2510.h	81;"	d
+RXM0SIDH	mcp2510.h	77;"	d
+RXM0SIDL	mcp2510.h	79;"	d
+RXM1EID0	mcp2510.h	91;"	d
+RXM1EID8	mcp2510.h	89;"	d
+RXM1SIDH	mcp2510.h	85;"	d
+RXM1SIDL	mcp2510.h	87;"	d
+RXdata	mcp2510.c	/^unsigned char  RXdata[11];	 \/*Receive  buffer*\/$/;"	v
+Read_2510	mcp2510.c	/^unsigned char Read_2510(U8 R_ADD)$/;"	f
+Reset_2510	mcp2510.c	/^void Reset_2510(void)$/;"	f
+SEND_TXB0	mcp2510.c	/^void SEND_TXB0(void)$/;"	f
+TEC	mcp2510.h	55;"	d
+TXB0CTRL	mcp2510.h	59;"	d
+TXB0D0	mcp2510.h	161;"	d
+TXB0D1	mcp2510.h	163;"	d
+TXB0D2	mcp2510.h	165;"	d
+TXB0D3	mcp2510.h	167;"	d
+TXB0D4	mcp2510.h	169;"	d
+TXB0D5	mcp2510.h	171;"	d
+TXB0D6	mcp2510.h	173;"	d
+TXB0D7	mcp2510.h	175;"	d
+TXB0DLC	mcp2510.h	159;"	d
+TXB0EID0	mcp2510.h	157;"	d
+TXB0EID8	mcp2510.h	155;"	d
+TXB0SIDH	mcp2510.h	151;"	d
+TXB0SIDL	mcp2510.h	153;"	d
+TXB1CTRL	mcp2510.h	61;"	d
+TXB1D0	mcp2510.h	191;"	d
+TXB1D1	mcp2510.h	193;"	d
+TXB1D2	mcp2510.h	195;"	d
+TXB1D3	mcp2510.h	197;"	d
+TXB1D4	mcp2510.h	199;"	d
+TXB1D5	mcp2510.h	201;"	d
+TXB1D6	mcp2510.h	203;"	d
+TXB1D7	mcp2510.h	205;"	d
+TXB1DLC	mcp2510.h	189;"	d
+TXB1EID0	mcp2510.h	187;"	d
+TXB1EID8	mcp2510.h	185;"	d
+TXB1SIDH	mcp2510.h	181;"	d
+TXB1SIDL	mcp2510.h	183;"	d
+TXB2CTRL	mcp2510.h	63;"	d
+TXB2D0	mcp2510.h	221;"	d
+TXB2D1	mcp2510.h	223;"	d
+TXB2D2	mcp2510.h	225;"	d
+TXB2D3	mcp2510.h	227;"	d
+TXB2D4	mcp2510.h	229;"	d
+TXB2D5	mcp2510.h	231;"	d
+TXB2D6	mcp2510.h	233;"	d
+TXB2D7	mcp2510.h	235;"	d
+TXB2DLC	mcp2510.h	219;"	d
+TXB2EID0	mcp2510.h	217;"	d
+TXB2EID8	mcp2510.h	215;"	d
+TXB2SIDH	mcp2510.h	211;"	d
+TXB2SIDL	mcp2510.h	213;"	d
+TXRTSCTRL	mcp2510.h	41;"	d
+TXdata	mcp2510.c	/^unsigned char  TXdata[11];	 \/*Transmit buffer*\/$/;"	v
+Test	mcp2510.c	/^void Test(void)$/;"	f
+Test_can_bus	mcp2510.c	/^void Test_can_bus()$/;"	f
+U32	mcp2510.c	45;"	d	file:
+U8	mcp2510.c	44;"	d	file:
+Write_2510	mcp2510.c	/^void Write_2510(U8 W_ADD, U8 W_DATA)$/;"	f
+address_map	mcp2510.c	/^int address_map(void)$/;"	f
+can_data_receive	mcp2510.c	/^void can_data_receive()$/;"	f
+can_data_send	mcp2510.c	/^void can_data_send()$/;"	f
+can_interrupt	mcp2510.c	/^void can_interrupt(int irq,void *d,struct pt_regs *regs)$/;"	f
+dbuf	mcp2510.c	/^unsigned char * dbuf;$/;"	v
+flag	mcp2510.c	/^unsigned char  flag;$/;"	v
+mcp2510_close	mcp2510.c	/^static int mcp2510_close(struct inode *inode, struct file *file)$/;"	f	file:
+mcp2510_devfs_dir	mcp2510.c	/^devfs_handle_t mcp2510_devfs_dir;$/;"	v
+mcp2510_exit	mcp2510.c	/^module_exit(mcp2510_exit);$/;"	v
+mcp2510_exit	mcp2510.c	/^static void mcp2510_exit(void)$/;"	f	file:
+mcp2510_fops	mcp2510.c	/^static struct file_operations mcp2510_fops = {$/;"	v	file:
+mcp2510_init	mcp2510.c	/^module_init(mcp2510_init);$/;"	v
+mcp2510_init	mcp2510.c	/^static int __init mcp2510_init(void)$/;"	f	file:
+mcp2510_ioctl	mcp2510.c	/^int mcp2510_ioctl(struct inode *inode, struct file *file, unsigned int cmd, unsigned long arg)$/;"	f
+mcp2510_open	mcp2510.c	/^int mcp2510_open(struct inode *inode, struct file *file)$/;"	f
+mcp2510_rd	mcp2510.c	/^static ssize_t mcp2510_rd(struct file *file, char *buf, size_t count, loff_t *offset)$/;"	f	file:
+mcp2510_wr	mcp2510.c	/^static ssize_t mcp2510_wr(struct file *file, char *buf, size_t count, loff_t *offset)$/;"	f	file:
+rGPECON	mcp2510.c	57;"	d	file:
+rGPEUP	mcp2510.c	58;"	d	file:
+rGPGCON	mcp2510.c	59;"	d	file:
+rGPGDAT	mcp2510.c	61;"	d	file:
+rGPGUP	mcp2510.c	60;"	d	file:
+rSPCON0	mcp2510.c	48;"	d	file:
+rSPPIN0	mcp2510.c	50;"	d	file:
+rSPPRE0	mcp2510.c	52;"	d	file:
+rSPRDAT0	mcp2510.c	54;"	d	file:
+rSPSTA0	mcp2510.c	49;"	d	file:
+rSPTDAT0	mcp2510.c	53;"	d	file:
+r_GPECON	mcp2510.c	/^unsigned long r_GPECON,r_GPEUP;$/;"	v
+r_GPEUP	mcp2510.c	/^unsigned long r_GPECON,r_GPEUP;$/;"	v
+r_GPGCON	mcp2510.c	/^unsigned long r_GPGCON,r_GPGUP,r_GPGDAT;$/;"	v
+r_GPGDAT	mcp2510.c	/^unsigned long r_GPGCON,r_GPGUP,r_GPGDAT;$/;"	v
+r_GPGUP	mcp2510.c	/^unsigned long r_GPGCON,r_GPGUP,r_GPGDAT;$/;"	v
+r_SPCON0	mcp2510.c	/^unsigned long r_SPCON0,r_SPSTA0,r_SPPIN0,r_SPPRE0,r_SPTDAT0,r_SPRDAT0;$/;"	v
+r_SPPIN0	mcp2510.c	/^unsigned long r_SPCON0,r_SPSTA0,r_SPPIN0,r_SPPRE0,r_SPTDAT0,r_SPRDAT0;$/;"	v
+r_SPPRE0	mcp2510.c	/^unsigned long r_SPCON0,r_SPSTA0,r_SPPIN0,r_SPPRE0,r_SPTDAT0,r_SPRDAT0;$/;"	v
+r_SPRDAT0	mcp2510.c	/^unsigned long r_SPCON0,r_SPSTA0,r_SPPIN0,r_SPPRE0,r_SPTDAT0,r_SPRDAT0;$/;"	v
+r_SPSTA0	mcp2510.c	/^unsigned long r_SPCON0,r_SPSTA0,r_SPPIN0,r_SPPRE0,r_SPTDAT0,r_SPRDAT0;$/;"	v
+r_SPTDAT0	mcp2510.c	/^unsigned long r_SPCON0,r_SPSTA0,r_SPPIN0,r_SPPRE0,r_SPTDAT0,r_SPRDAT0;$/;"	v
+send_test_frame	mcp2510.c	/^void send_test_frame()$/;"	f
+spi_poll_done	mcp2510.c	/^static void spi_poll_done(void)$/;"	f	file:
+spi_tx_data	mcp2510.c	/^void spi_tx_data(U8 data)$/;"	f

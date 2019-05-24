@@ -1,0 +1,27 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.4	//
+AR	Makefile	/^AR = $(CROSS)ar$/;"	m
+CC	Makefile	/^CC = $(CROSS)gcc$/;"	m
+CROSS	Makefile	/^CROSS =\/opt\/host\/armv4l\/bin\/armv4l-unknown-linux-$/;"	m
+CloseCom	rs232.c	/^int CloseCom(int portNo)$/;"	f
+ComRd	rs232.c	/^int ComRd(int portNo, char buf[], int maxCnt,int Timeout)$/;"	f
+ComWrt	rs232.c	/^int ComWrt(int portNo, const char *buf, int maxCnt)$/;"	f
+DEBUG	rs232.c	17;"	d	file:
+EXEC	Makefile	/^EXEC = ttytest$/;"	m
+GetBaudRate	rs232.c	/^long GetBaudRate(long baudRate)$/;"	f
+MAX_PORTS	rs232.h	5;"	d
+OBJS	Makefile	/^OBJS = ttytest.o rs232.o$/;"	m
+OpenCom	rs232.c	/^int OpenCom(int portNo, const char deviceName[],long baudRate)$/;"	f
+OpenComConfig	rs232.c	/^int OpenComConfig(int port,$/;"	f
+PortInfo	rs232.h	/^struct PortInfo{$/;"	s
+STRIP	Makefile	/^STRIP = $(CROSS)strip$/;"	m
+_RS232_H_	rs232.h	2;"	d
+busy	rs232.h	/^	int busy;$/;"	m	struct:PortInfo
+handle	rs232.h	/^	int handle;$/;"	m	struct:PortInfo
+main	ttytest.c	/^int main(int argc, char *argv[])$/;"	f
+name	rs232.h	/^	char name[32];$/;"	m	struct:PortInfo
+ports	rs232.c	/^struct PortInfo ports[MAX_PORTS];$/;"	v

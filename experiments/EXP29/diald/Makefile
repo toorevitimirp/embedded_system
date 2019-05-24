@@ -1,0 +1,26 @@
+#CROSS = /home/hhcn/toolchain/gcc-3.2.2/toolchain/bin/powerpc-uclibc-
+CROSS = /opt/host/armv4l/bin/armv4l-unknown-linux-
+CC = $(CROSS)gcc
+AR = $(CROSS)ar
+STRIP = $(CROSS)strip
+LDFLAGS += --static 
+
+EXEC = diald
+OBJS = diald.o options.o modem.o filter.o slip.o lock.o \
+	ppp.o dev.o proxyarp.o fsm.o timer.o firewall.o \
+	parse.o buffer.o proxy.o route.o bufio.o killpg.o util.o
+FLTFLAGS += -s 8192
+
+all: $(EXEC)
+
+$(EXEC): $(OBJS)
+	$(CC) $(LDFLAGS) -o $@ $(OBJS) $(LDLIBS)
+
+romfs:
+	$(ROMFSINST) /bin/$(EXEC)
+
+clean:
+	-rm -f $(EXEC) *.elf *.gdb *.o
+
+$(OBJS): config.h diald.h firewall.h fsm.h version.h timer.h bufio.h
+

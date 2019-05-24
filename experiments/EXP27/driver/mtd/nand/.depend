@@ -1,0 +1,72 @@
+autcpu12.o: autcpu12.c \
+   /HHARM2410-R3/kernel/include/linux/slab.h \
+   /HHARM2410-R3/kernel/include/linux/module.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/mtd.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/nand.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/partitions.h \
+   /HHARM2410-R3/kernel/include/asm/io.h \
+   /HHARM2410-R3/kernel/include/asm/arch/hardware.h \
+   /HHARM2410-R3/kernel/include/asm/sizes.h
+bon.o: bon.c \
+   /HHARM2410-R3/kernel/include/linux/types.h \
+   /HHARM2410-R3/kernel/include/linux/kernel.h \
+   /HHARM2410-R3/kernel/include/linux/module.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/mtd.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/partitions.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/nand_ecc.h \
+   /HHARM2410-R3/kernel/include/asm/errno.h \
+   /HHARM2410-R3/kernel/include/linux/blk.h \
+   /HHARM2410-R3/kernel/include/linux/devfs_fs_kernel.h \
+   $(wildcard /HHARM2410-R3/kernel/include/config/proc/fs.h) \
+   /HHARM2410-R3/kernel/include/linux/proc_fs.h
+nand.o: nand.c \
+   /HHARM2410-R3/kernel/include/linux/delay.h \
+   /HHARM2410-R3/kernel/include/linux/errno.h \
+   /HHARM2410-R3/kernel/include/linux/sched.h \
+   /HHARM2410-R3/kernel/include/linux/types.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/mtd.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/nand.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/nand_ids.h \
+   /HHARM2410-R3/kernel/include/linux/interrupt.h \
+   /HHARM2410-R3/kernel/include/asm/io.h \
+   $(wildcard /HHARM2410-R3/kernel/include/config/mtd/nand/ecc.h) \
+   /HHARM2410-R3/kernel/include/linux/mtd/nand_ecc.h \
+   $(wildcard /HHARM2410-R3/kernel/include/config/mtd/nand/verify/write.h) \
+   $(wildcard /HHARM2410-R3/kernel/include/config/mtd/nand/ecc/jffs2.h)
+nand_ecc.o: nand_ecc.c \
+   /HHARM2410-R3/kernel/include/linux/types.h \
+   /HHARM2410-R3/kernel/include/linux/kernel.h \
+   /HHARM2410-R3/kernel/include/linux/module.h
+smc.o: smc.c \
+   /HHARM2410-R3/kernel/include/linux/module.h \
+   /HHARM2410-R3/kernel/include/linux/kernel.h \
+   /HHARM2410-R3/kernel/include/linux/delay.h \
+   /HHARM2410-R3/kernel/include/linux/errno.h \
+   /HHARM2410-R3/kernel/include/linux/sched.h \
+   /HHARM2410-R3/kernel/include/linux/types.h \
+   /HHARM2410-R3/kernel/include/linux/interrupt.h \
+   /HHARM2410-R3/kernel/include/asm/io.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/mtd.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/nand.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/nand_ids.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/nand_ecc.h \
+   $(wildcard /HHARM2410-R3/kernel/include/config/mtd/nand/verify/write.h)
+smc_s3c2410.o: smc_s3c2410.c \
+   /HHARM2410-R3/kernel/include/linux/slab.h \
+   /HHARM2410-R3/kernel/include/linux/module.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/mtd.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/nand.h \
+   /HHARM2410-R3/kernel/include/linux/irq.h \
+   /HHARM2410-R3/kernel/include/asm/io.h \
+   /HHARM2410-R3/kernel/include/linux/delay.h \
+   $(wildcard /HHARM2410-R3/kernel/include/config/pm.h) \
+   /HHARM2410-R3/kernel/include/linux/pm.h \
+   $(wildcard /HHARM2410-R3/kernel/include/config/mtd/smc/s3c2410/smdk/partition.h) \
+   /HHARM2410-R3/kernel/include/linux/mtd/partitions.h
+spia.o: spia.c \
+   /HHARM2410-R3/kernel/include/linux/slab.h \
+   /HHARM2410-R3/kernel/include/linux/module.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/mtd.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/nand.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/partitions.h \
+   /HHARM2410-R3/kernel/include/asm/io.h

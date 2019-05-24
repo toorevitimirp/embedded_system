@@ -1,0 +1,11 @@
+#!/bin/sh
+#
+# Default fetchmail ip-up script (/etc/ppp/ip-up.d/fetchmail)
+#
+# Change "try-restart" below to "start" if you only want to run fetchmail when
+# the PPP link is up.
+#
+
+if [ -x /etc/init.d/fetchmail -a ! -x /sbin/resolvconf ]; then
+	/etc/init.d/fetchmail try-restart
+fi

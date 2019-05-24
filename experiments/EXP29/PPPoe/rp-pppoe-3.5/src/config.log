@@ -1,0 +1,107 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+configure:540: checking for gcc
+configure:653: checking whether the C compiler (gcc -D__Linux__ -DDEBUG -g -I../../ppp-2.4.2/include -I/backup/products-cd/HHARM/arm9-edu/HHARM9-EDU/kernel/include --static) works
+configure:669: gcc -o conftest -D__Linux__ -DDEBUG -g -I../../ppp-2.4.2/include -I/backup/products-cd/HHARM/arm9-edu/HHARM9-EDU/kernel/include  --static conftest.c  1>&5
+configure:695: checking whether the C compiler (gcc -D__Linux__ -DDEBUG -g -I../../ppp-2.4.2/include -I/backup/products-cd/HHARM/arm9-edu/HHARM9-EDU/kernel/include --static) is a cross-compiler
+configure:700: checking whether we are using GNU C
+configure:728: checking whether gcc accepts -g
+configure:762: checking for ranlib
+configure:792: checking how to run the C preprocessor
+configure:872: checking for ANSI C header files
+configure:976: checking for sys/wait.h that is POSIX.1 compatible
+configure:1021: checking for fcntl.h
+configure:1021: checking for sys/dlpi.h
+configure:1021: checking for sys/ioctl.h
+configure:1021: checking for sys/time.h
+configure:1021: checking for syslog.h
+configure:1021: checking for unistd.h
+configure:1021: checking for net/if_arp.h
+configure:1021: checking for netinet/if_ether.h
+configure:1021: checking for getopt.h
+configure:1021: checking for sys/uio.h
+configure:1021: checking for sys/param.h
+configure:1021: checking for fcntl.h
+configure:1021: checking for net/bpf.h
+configure:1021: checking for netpacket/packet.h
+configure:1021: checking for net/ethernet.h
+configure:1021: checking for asm/types.h
+configure:1021: checking for linux/if_packet.h
+configure:1021: checking for linux/if_ether.h
+configure:1021: checking for linux/if_pppox.h
+configure:1021: checking for sys/socket.h
+configure:1021: checking for sys/cdefs.h
+configure:1021: checking for linux/if.h
+configure:1021: checking for net/if.h
+configure:1021: checking for net/if_dl.h
+configure:1021: checking for net/if_ether.h
+configure:1021: checking for net/if_types.h
+configure:1021: checking for netinet/if_ether.h
+configure:1021: checking for net/if_types.h
+configure:1021: checking for net/if_dl.h
+configure:1059: checking for working const
+configure:1134: checking for pid_t
+configure:1167: checking whether time.h and sys/time.h may both be included
+configure:1202: checking whether struct tm is in sys/time.h or time.h
+configure:1239: checking for echo
+configure:1274: checking for struct sockaddr_ll
+configure:1286: gcc -c -D__Linux__ -DDEBUG -g -I../../ppp-2.4.2/include -I/backup/products-cd/HHARM/arm9-edu/HHARM9-EDU/kernel/include  conftest.c 1>&5
+configure:1305: checking for N_HDLC line discipline
+configure:1314: gcc -c -D__Linux__ -DDEBUG -g -I../../ppp-2.4.2/include -I/backup/products-cd/HHARM/arm9-edu/HHARM9-EDU/kernel/include  conftest.c 1>&5
+configure:1438: checking for 8-bit clean memcmp
+configure:1474: checking whether setvbuf arguments are reversed
+configure:1520: checking return type of signal handlers
+configure:1563: checking for select
+configure:1563: checking for socket
+configure:1563: checking for strerror
+configure:1563: checking for strtol
+configure:1646: checking for a BSD compatible install
+configure:1700: checking size of unsigned short
+configure:1739: checking size of unsigned int
+configure:1778: checking size of unsigned long
+configure:1820: checking for pppd
+configure:1857: checking for setsid
+configure:1894: checking for id
+configure:1929: checking for Linux 2.4.X kernel-mode PPPoE support
+configure:1952: gcc -o conftest -D__Linux__ -DDEBUG -g -I../../ppp-2.4.2/include -I/backup/products-cd/HHARM/arm9-edu/HHARM9-EDU/kernel/include  --static conftest.c  1>&5
+configure: failed program was:
+#line 1940 "configure"
+#include "confdefs.h"
+#include <sys/socket.h>
+#include <net/ethernet.h>
+#include <linux/if.h>
+#include <linux/if_pppox.h>
+int main()
+{
+	if (socket(AF_PPPOX, SOCK_DGRAM, PX_PROTO_OE) >= 0) return 0; else return 1;
+}
+
+configure:2021: checking packing order of bit fields
+configure:2052: gcc -o conftest -D__Linux__ -DDEBUG -g -I../../ppp-2.4.2/include -I/backup/products-cd/HHARM/arm9-edu/HHARM9-EDU/kernel/include -Wall -Wstrict-prototypes -ansi -pedantic  --static conftest.c  1>&5
+configure: failed program was:
+#line 2026 "configure"
+#include "confdefs.h"
+
+union foo {
+    struct bar {
+	unsigned int ver:4;
+	unsigned int type:4;
+    } bb;
+    unsigned char baz;
+};
+
+int
+main(void)
+{
+    union foo x;
+    x.bb.ver = 1;
+    x.bb.type = 2;
+    if (x.baz == 0x21) {
+	return 1;
+    } else if (x.baz == 0x12) {
+	return 0;
+    } else {
+	return 2;
+    }
+}

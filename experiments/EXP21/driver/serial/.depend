@@ -1,0 +1,363 @@
+belkin_sa.o: belkin_sa.c \
+   /HHARM2410-R3/kernel/include/linux/kernel.h \
+   /HHARM2410-R3/kernel/include/linux/sched.h \
+   /HHARM2410-R3/kernel/include/linux/signal.h \
+   /HHARM2410-R3/kernel/include/linux/errno.h \
+   /HHARM2410-R3/kernel/include/linux/poll.h \
+   /HHARM2410-R3/kernel/include/linux/init.h \
+   /HHARM2410-R3/kernel/include/linux/slab.h \
+   /HHARM2410-R3/kernel/include/linux/fcntl.h \
+   /HHARM2410-R3/kernel/include/linux/tty.h \
+   /HHARM2410-R3/kernel/include/linux/tty_driver.h \
+   /HHARM2410-R3/kernel/include/linux/tty_flip.h \
+   /HHARM2410-R3/kernel/include/linux/module.h \
+   /HHARM2410-R3/kernel/include/linux/spinlock.h \
+   /HHARM2410-R3/kernel/include/linux/usb.h \
+   $(wildcard /HHARM2410-R3/kernel/include/config/usb/serial/debug.h) \
+   usb-serial.h \
+   belkin_sa.h
+cyberjack.o: cyberjack.c \
+   /HHARM2410-R3/kernel/include/linux/kernel.h \
+   /HHARM2410-R3/kernel/include/linux/sched.h \
+   /HHARM2410-R3/kernel/include/linux/signal.h \
+   /HHARM2410-R3/kernel/include/linux/errno.h \
+   /HHARM2410-R3/kernel/include/linux/poll.h \
+   /HHARM2410-R3/kernel/include/linux/init.h \
+   /HHARM2410-R3/kernel/include/linux/slab.h \
+   /HHARM2410-R3/kernel/include/linux/fcntl.h \
+   /HHARM2410-R3/kernel/include/linux/tty.h \
+   /HHARM2410-R3/kernel/include/linux/tty_driver.h \
+   /HHARM2410-R3/kernel/include/linux/tty_flip.h \
+   /HHARM2410-R3/kernel/include/linux/module.h \
+   /HHARM2410-R3/kernel/include/linux/spinlock.h \
+   /HHARM2410-R3/kernel/include/linux/usb.h \
+   $(wildcard /HHARM2410-R3/kernel/include/config/usb/serial/debug.h) \
+   usb-serial.h
+digi_acceleport.o: digi_acceleport.c \
+   /HHARM2410-R3/kernel/include/linux/kernel.h \
+   /HHARM2410-R3/kernel/include/linux/sched.h \
+   /HHARM2410-R3/kernel/include/linux/signal.h \
+   /HHARM2410-R3/kernel/include/linux/errno.h \
+   /HHARM2410-R3/kernel/include/linux/poll.h \
+   /HHARM2410-R3/kernel/include/linux/init.h \
+   /HHARM2410-R3/kernel/include/linux/slab.h \
+   /HHARM2410-R3/kernel/include/linux/fcntl.h \
+   /HHARM2410-R3/kernel/include/linux/tty.h \
+   /HHARM2410-R3/kernel/include/linux/tty_driver.h \
+   /HHARM2410-R3/kernel/include/linux/tty_flip.h \
+   /HHARM2410-R3/kernel/include/linux/module.h \
+   /HHARM2410-R3/kernel/include/linux/spinlock.h \
+   /HHARM2410-R3/kernel/include/linux/tqueue.h \
+   /HHARM2410-R3/kernel/include/linux/usb.h \
+   $(wildcard /HHARM2410-R3/kernel/include/config/usb/serial/debug.h) \
+   usb-serial.h
+empeg.o: empeg.c \
+   /HHARM2410-R3/kernel/include/linux/kernel.h \
+   /HHARM2410-R3/kernel/include/linux/sched.h \
+   /HHARM2410-R3/kernel/include/linux/signal.h \
+   /HHARM2410-R3/kernel/include/linux/errno.h \
+   /HHARM2410-R3/kernel/include/linux/poll.h \
+   /HHARM2410-R3/kernel/include/linux/init.h \
+   /HHARM2410-R3/kernel/include/linux/slab.h \
+   /HHARM2410-R3/kernel/include/linux/fcntl.h \
+   /HHARM2410-R3/kernel/include/linux/tty.h \
+   /HHARM2410-R3/kernel/include/linux/tty_driver.h \
+   /HHARM2410-R3/kernel/include/linux/tty_flip.h \
+   /HHARM2410-R3/kernel/include/linux/module.h \
+   /HHARM2410-R3/kernel/include/linux/spinlock.h \
+   /HHARM2410-R3/kernel/include/linux/usb.h \
+   $(wildcard /HHARM2410-R3/kernel/include/config/usb/serial/debug.h) \
+   usb-serial.h
+ftdi_sio.o: ftdi_sio.c \
+   /HHARM2410-R3/kernel/include/linux/kernel.h \
+   /HHARM2410-R3/kernel/include/linux/sched.h \
+   /HHARM2410-R3/kernel/include/linux/signal.h \
+   /HHARM2410-R3/kernel/include/linux/errno.h \
+   /HHARM2410-R3/kernel/include/linux/poll.h \
+   /HHARM2410-R3/kernel/include/linux/init.h \
+   /HHARM2410-R3/kernel/include/linux/slab.h \
+   /HHARM2410-R3/kernel/include/linux/fcntl.h \
+   /HHARM2410-R3/kernel/include/linux/tty.h \
+   /HHARM2410-R3/kernel/include/linux/tty_driver.h \
+   /HHARM2410-R3/kernel/include/linux/tty_flip.h \
+   /HHARM2410-R3/kernel/include/linux/module.h \
+   /HHARM2410-R3/kernel/include/linux/spinlock.h \
+   /HHARM2410-R3/kernel/include/linux/usb.h \
+   $(wildcard /HHARM2410-R3/kernel/include/config/usb/serial/debug.h) \
+   usb-serial.h \
+   ftdi_sio.h
+io_edgeport.o: io_edgeport.c \
+   /HHARM2410-R3/kernel/include/linux/kernel.h \
+   /HHARM2410-R3/kernel/include/linux/sched.h \
+   /HHARM2410-R3/kernel/include/linux/signal.h \
+   /HHARM2410-R3/kernel/include/linux/errno.h \
+   /HHARM2410-R3/kernel/include/linux/poll.h \
+   /HHARM2410-R3/kernel/include/linux/init.h \
+   /HHARM2410-R3/kernel/include/linux/slab.h \
+   /HHARM2410-R3/kernel/include/linux/fcntl.h \
+   /HHARM2410-R3/kernel/include/linux/tty.h \
+   /HHARM2410-R3/kernel/include/linux/tty_driver.h \
+   /HHARM2410-R3/kernel/include/linux/tty_flip.h \
+   /HHARM2410-R3/kernel/include/linux/module.h \
+   /HHARM2410-R3/kernel/include/linux/spinlock.h \
+   /HHARM2410-R3/kernel/include/linux/serial.h \
+   /HHARM2410-R3/kernel/include/linux/ioctl.h \
+   /HHARM2410-R3/kernel/include/linux/proc_fs.h \
+   /HHARM2410-R3/kernel/include/linux/usb.h \
+   $(wildcard /HHARM2410-R3/kernel/include/config/usb/serial/debug.h) \
+   usb-serial.h \
+   io_edgeport.h \
+   io_ionsp.h \
+   io_16654.h \
+   io_fw_boot.h \
+   io_fw_boot2.h \
+   io_fw_down.h \
+   io_fw_down2.h \
+   io_tables.h
+io_edgeport.h: \
+   io_usbvend.h
+	@touch io_edgeport.h
+ipaq.o: ipaq.c \
+   /HHARM2410-R3/kernel/include/linux/kernel.h \
+   /HHARM2410-R3/kernel/include/linux/sched.h \
+   /HHARM2410-R3/kernel/include/linux/signal.h \
+   /HHARM2410-R3/kernel/include/linux/errno.h \
+   /HHARM2410-R3/kernel/include/linux/poll.h \
+   /HHARM2410-R3/kernel/include/linux/init.h \
+   /HHARM2410-R3/kernel/include/linux/slab.h \
+   /HHARM2410-R3/kernel/include/linux/fcntl.h \
+   /HHARM2410-R3/kernel/include/linux/tty.h \
+   /HHARM2410-R3/kernel/include/linux/tty_driver.h \
+   /HHARM2410-R3/kernel/include/linux/tty_flip.h \
+   /HHARM2410-R3/kernel/include/linux/module.h \
+   /HHARM2410-R3/kernel/include/linux/spinlock.h \
+   /HHARM2410-R3/kernel/include/linux/usb.h \
+   $(wildcard /HHARM2410-R3/kernel/include/config/usb/serial/debug.h) \
+   usb-serial.h \
+   ipaq.h
+ir-usb.o: ir-usb.c \
+   /HHARM2410-R3/kernel/include/linux/kernel.h \
+   /HHARM2410-R3/kernel/include/linux/sched.h \
+   /HHARM2410-R3/kernel/include/linux/signal.h \
+   /HHARM2410-R3/kernel/include/linux/errno.h \
+   /HHARM2410-R3/kernel/include/linux/poll.h \
+   /HHARM2410-R3/kernel/include/linux/init.h \
+   /HHARM2410-R3/kernel/include/linux/slab.h \
+   /HHARM2410-R3/kernel/include/linux/fcntl.h \
+   /HHARM2410-R3/kernel/include/linux/tty.h \
+   /HHARM2410-R3/kernel/include/linux/tty_driver.h \
+   /HHARM2410-R3/kernel/include/linux/tty_flip.h \
+   /HHARM2410-R3/kernel/include/linux/module.h \
+   /HHARM2410-R3/kernel/include/linux/spinlock.h \
+   /HHARM2410-R3/kernel/include/linux/usb.h \
+   /HHARM2410-R3/kernel/include/net/irda/irda-usb.h \
+   $(wildcard /HHARM2410-R3/kernel/include/config/usb/serial/debug.h) \
+   usb-serial.h
+keyspan.o: keyspan.c \
+   /HHARM2410-R3/kernel/include/linux/kernel.h \
+   /HHARM2410-R3/kernel/include/linux/sched.h \
+   /HHARM2410-R3/kernel/include/linux/signal.h \
+   /HHARM2410-R3/kernel/include/linux/errno.h \
+   /HHARM2410-R3/kernel/include/linux/poll.h \
+   /HHARM2410-R3/kernel/include/linux/init.h \
+   /HHARM2410-R3/kernel/include/linux/slab.h \
+   /HHARM2410-R3/kernel/include/linux/fcntl.h \
+   /HHARM2410-R3/kernel/include/linux/tty.h \
+   /HHARM2410-R3/kernel/include/linux/tty_driver.h \
+   /HHARM2410-R3/kernel/include/linux/tty_flip.h \
+   /HHARM2410-R3/kernel/include/linux/module.h \
+   /HHARM2410-R3/kernel/include/linux/spinlock.h \
+   /HHARM2410-R3/kernel/include/linux/usb.h \
+   $(wildcard /HHARM2410-R3/kernel/include/config/usb/serial/debug.h) \
+   /HHARM2410-R3/kernel/include/linux/usb.h \
+   usb-serial.h \
+   keyspan.h \
+   keyspan_usa26msg.h \
+   keyspan_usa28msg.h \
+   keyspan_usa49msg.h
+keyspan.h: \
+   $(wildcard /HHARM2410-R3/kernel/include/config/usb/serial/keyspan/usa28.h) \
+   keyspan_usa28_fw.h \
+   $(wildcard /HHARM2410-R3/kernel/include/config/usb/serial/keyspan/usa28x.h) \
+   keyspan_usa28x_fw.h \
+   $(wildcard /HHARM2410-R3/kernel/include/config/usb/serial/keyspan/usa28xa.h) \
+   keyspan_usa28xa_fw.h \
+   $(wildcard /HHARM2410-R3/kernel/include/config/usb/serial/keyspan/usa28xb.h) \
+   keyspan_usa28xb_fw.h \
+   $(wildcard /HHARM2410-R3/kernel/include/config/usb/serial/keyspan/usa19.h) \
+   keyspan_usa19_fw.h \
+   $(wildcard /HHARM2410-R3/kernel/include/config/usb/serial/keyspan/usa18x.h) \
+   keyspan_usa18x_fw.h \
+   $(wildcard /HHARM2410-R3/kernel/include/config/usb/serial/keyspan/usa19w.h) \
+   keyspan_usa19w_fw.h \
+   $(wildcard /HHARM2410-R3/kernel/include/config/usb/serial/keyspan/usa49w.h) \
+   keyspan_usa49w_fw.h
+	@touch keyspan.h
+keyspan_pda.o: keyspan_pda.c \
+   /HHARM2410-R3/kernel/include/linux/kernel.h \
+   /HHARM2410-R3/kernel/include/linux/sched.h \
+   /HHARM2410-R3/kernel/include/linux/signal.h \
+   /HHARM2410-R3/kernel/include/linux/errno.h \
+   /HHARM2410-R3/kernel/include/linux/poll.h \
+   /HHARM2410-R3/kernel/include/linux/init.h \
+   /HHARM2410-R3/kernel/include/linux/slab.h \
+   /HHARM2410-R3/kernel/include/linux/fcntl.h \
+   /HHARM2410-R3/kernel/include/linux/tty.h \
+   /HHARM2410-R3/kernel/include/linux/tty_driver.h \
+   /HHARM2410-R3/kernel/include/linux/tty_flip.h \
+   /HHARM2410-R3/kernel/include/linux/module.h \
+   /HHARM2410-R3/kernel/include/linux/spinlock.h \
+   /HHARM2410-R3/kernel/include/linux/tqueue.h \
+   /HHARM2410-R3/kernel/include/linux/usb.h \
+   $(wildcard /HHARM2410-R3/kernel/include/config/usb/serial/debug.h) \
+   $(wildcard /HHARM2410-R3/kernel/include/config/usb/serial/keyspan/pda.h) \
+   $(wildcard /HHARM2410-R3/kernel/include/config/usb/serial/keyspan/pda/module.h) \
+   $(wildcard /HHARM2410-R3/kernel/include/config/usb/serial/xircom.h) \
+   $(wildcard /HHARM2410-R3/kernel/include/config/usb/serial/xircom/module.h) \
+   keyspan_pda_fw.h \
+   xircom_pgs_fw.h \
+   usb-serial.h
+kl5kusb105.o: kl5kusb105.c \
+   /HHARM2410-R3/kernel/include/linux/kernel.h \
+   /HHARM2410-R3/kernel/include/linux/sched.h \
+   /HHARM2410-R3/kernel/include/linux/signal.h \
+   /HHARM2410-R3/kernel/include/linux/errno.h \
+   /HHARM2410-R3/kernel/include/linux/poll.h \
+   /HHARM2410-R3/kernel/include/linux/init.h \
+   /HHARM2410-R3/kernel/include/linux/slab.h \
+   /HHARM2410-R3/kernel/include/linux/tty.h \
+   /HHARM2410-R3/kernel/include/linux/tty_driver.h \
+   /HHARM2410-R3/kernel/include/linux/tty_flip.h \
+   /HHARM2410-R3/kernel/include/linux/module.h \
+   /HHARM2410-R3/kernel/include/linux/usb.h \
+   $(wildcard /HHARM2410-R3/kernel/include/config/usb/serial/debug.h) \
+   usb-serial.h \
+   kl5kusb105.h
+mct_u232.o: mct_u232.c \
+   /HHARM2410-R3/kernel/include/linux/kernel.h \
+   /HHARM2410-R3/kernel/include/linux/sched.h \
+   /HHARM2410-R3/kernel/include/linux/signal.h \
+   /HHARM2410-R3/kernel/include/linux/errno.h \
+   /HHARM2410-R3/kernel/include/linux/poll.h \
+   /HHARM2410-R3/kernel/include/linux/init.h \
+   /HHARM2410-R3/kernel/include/linux/slab.h \
+   /HHARM2410-R3/kernel/include/linux/fcntl.h \
+   /HHARM2410-R3/kernel/include/linux/tty.h \
+   /HHARM2410-R3/kernel/include/linux/tty_driver.h \
+   /HHARM2410-R3/kernel/include/linux/tty_flip.h \
+   /HHARM2410-R3/kernel/include/linux/module.h \
+   /HHARM2410-R3/kernel/include/linux/spinlock.h \
+   /HHARM2410-R3/kernel/include/linux/usb.h \
+   $(wildcard /HHARM2410-R3/kernel/include/config/usb/serial/debug.h) \
+   usb-serial.h \
+   mct_u232.h
+omninet.o: omninet.c \
+   /HHARM2410-R3/kernel/include/linux/kernel.h \
+   /HHARM2410-R3/kernel/include/linux/sched.h \
+   /HHARM2410-R3/kernel/include/linux/signal.h \
+   /HHARM2410-R3/kernel/include/linux/errno.h \
+   /HHARM2410-R3/kernel/include/linux/poll.h \
+   /HHARM2410-R3/kernel/include/linux/init.h \
+   /HHARM2410-R3/kernel/include/linux/slab.h \
+   /HHARM2410-R3/kernel/include/linux/fcntl.h \
+   /HHARM2410-R3/kernel/include/linux/tty.h \
+   /HHARM2410-R3/kernel/include/linux/tty_driver.h \
+   /HHARM2410-R3/kernel/include/linux/tty_flip.h \
+   /HHARM2410-R3/kernel/include/linux/module.h \
+   /HHARM2410-R3/kernel/include/linux/spinlock.h \
+   /HHARM2410-R3/kernel/include/linux/usb.h \
+   $(wildcard /HHARM2410-R3/kernel/include/config/usb/serial/debug.h) \
+   usb-serial.h
+pl2303.o: pl2303.c \
+   /HHARM2410-R3/kernel/include/linux/kernel.h \
+   /HHARM2410-R3/kernel/include/linux/sched.h \
+   /HHARM2410-R3/kernel/include/linux/signal.h \
+   /HHARM2410-R3/kernel/include/linux/errno.h \
+   /HHARM2410-R3/kernel/include/linux/poll.h \
+   /HHARM2410-R3/kernel/include/linux/init.h \
+   /HHARM2410-R3/kernel/include/linux/slab.h \
+   /HHARM2410-R3/kernel/include/linux/fcntl.h \
+   /HHARM2410-R3/kernel/include/linux/tty.h \
+   /HHARM2410-R3/kernel/include/linux/tty_driver.h \
+   /HHARM2410-R3/kernel/include/linux/tty_flip.h \
+   /HHARM2410-R3/kernel/include/linux/serial.h \
+   /HHARM2410-R3/kernel/include/linux/module.h \
+   /HHARM2410-R3/kernel/include/linux/spinlock.h \
+   /HHARM2410-R3/kernel/include/linux/usb.h \
+   $(wildcard /HHARM2410-R3/kernel/include/config/usb/serial/debug.h) \
+   usb-serial.h \
+   pl2303.h
+usbserial.o: usbserial.c \
+   /HHARM2410-R3/kernel/include/linux/kernel.h \
+   /HHARM2410-R3/kernel/include/linux/sched.h \
+   /HHARM2410-R3/kernel/include/linux/signal.h \
+   /HHARM2410-R3/kernel/include/linux/errno.h \
+   /HHARM2410-R3/kernel/include/linux/poll.h \
+   /HHARM2410-R3/kernel/include/linux/init.h \
+   /HHARM2410-R3/kernel/include/linux/slab.h \
+   /HHARM2410-R3/kernel/include/linux/fcntl.h \
+   /HHARM2410-R3/kernel/include/linux/tty.h \
+   /HHARM2410-R3/kernel/include/linux/tty_driver.h \
+   /HHARM2410-R3/kernel/include/linux/tty_flip.h \
+   /HHARM2410-R3/kernel/include/linux/module.h \
+   /HHARM2410-R3/kernel/include/linux/spinlock.h \
+   /HHARM2410-R3/kernel/include/linux/list.h \
+   /HHARM2410-R3/kernel/include/linux/smp_lock.h \
+   /HHARM2410-R3/kernel/include/linux/usb.h \
+   $(wildcard /HHARM2410-R3/kernel/include/config/usb/serial/debug.h) \
+   usb-serial.h \
+   pl2303.h \
+   $(wildcard /HHARM2410-R3/kernel/include/config/usb/serial/generic.h) \
+   $(wildcard /HHARM2410-R3/kernel/include/config/usb/serial/pl2303.h) \
+   $(wildcard /HHARM2410-R3/kernel/include/config/usb/serial/pl2303/module.h)
+usb-serial.h: \
+   $(wildcard /HHARM2410-R3/kernel/include/config/usb/serial/keyspan/pda.h) \
+   $(wildcard /HHARM2410-R3/kernel/include/config/usb/serial/keyspan/pda/module.h) \
+   $(wildcard /HHARM2410-R3/kernel/include/config/usb/serial/xircom.h) \
+   $(wildcard /HHARM2410-R3/kernel/include/config/usb/serial/xircom/module.h) \
+   $(wildcard /HHARM2410-R3/kernel/include/config/usb/serial/keyspan.h) \
+   $(wildcard /HHARM2410-R3/kernel/include/config/usb/serial/keyspan/module.h) \
+   $(wildcard /HHARM2410-R3/kernel/include/config/usb/serial/whiteheat.h) \
+   $(wildcard /HHARM2410-R3/kernel/include/config/usb/serial/whiteheat/module.h)
+	@touch usb-serial.h
+visor.o: visor.c \
+   /HHARM2410-R3/kernel/include/linux/kernel.h \
+   /HHARM2410-R3/kernel/include/linux/sched.h \
+   /HHARM2410-R3/kernel/include/linux/signal.h \
+   /HHARM2410-R3/kernel/include/linux/errno.h \
+   /HHARM2410-R3/kernel/include/linux/poll.h \
+   /HHARM2410-R3/kernel/include/linux/init.h \
+   /HHARM2410-R3/kernel/include/linux/slab.h \
+   /HHARM2410-R3/kernel/include/linux/fcntl.h \
+   /HHARM2410-R3/kernel/include/linux/tty.h \
+   /HHARM2410-R3/kernel/include/linux/tty_driver.h \
+   /HHARM2410-R3/kernel/include/linux/tty_flip.h \
+   /HHARM2410-R3/kernel/include/linux/module.h \
+   /HHARM2410-R3/kernel/include/linux/spinlock.h \
+   /HHARM2410-R3/kernel/include/linux/usb.h \
+   $(wildcard /HHARM2410-R3/kernel/include/config/usb/serial/debug.h) \
+   usb-serial.h \
+   visor.h
+whiteheat.o: whiteheat.c \
+   /HHARM2410-R3/kernel/include/linux/kernel.h \
+   /HHARM2410-R3/kernel/include/linux/sched.h \
+   /HHARM2410-R3/kernel/include/linux/signal.h \
+   /HHARM2410-R3/kernel/include/linux/errno.h \
+   /HHARM2410-R3/kernel/include/linux/poll.h \
+   /HHARM2410-R3/kernel/include/linux/init.h \
+   /HHARM2410-R3/kernel/include/linux/slab.h \
+   /HHARM2410-R3/kernel/include/linux/fcntl.h \
+   /HHARM2410-R3/kernel/include/linux/tty.h \
+   /HHARM2410-R3/kernel/include/linux/tty_driver.h \
+   /HHARM2410-R3/kernel/include/linux/tty_flip.h \
+   /HHARM2410-R3/kernel/include/linux/module.h \
+   /HHARM2410-R3/kernel/include/linux/spinlock.h \
+   /HHARM2410-R3/kernel/include/linux/usb.h \
+   $(wildcard /HHARM2410-R3/kernel/include/config/usb/serial/debug.h) \
+   usb-serial.h \
+   whiteheat_fw.h \
+   whiteheat.h
+.PRECIOUS:	io_edgeport.h \
+	keyspan.h \
+	usb-serial.h \
+

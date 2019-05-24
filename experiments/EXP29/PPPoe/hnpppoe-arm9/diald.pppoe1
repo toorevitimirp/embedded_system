@@ -1,0 +1,18 @@
+mode ppp
+device /dev/null
+speed 115200
+connect '/bin/sh -c exit'
+defaultroute
+-pidstring
+retry-count 4
+redial-timeout 10
+dynamic
+mru 1454
+mtu 1454
+local
+pidfile diald.pppoe1.pid
+pppd-options file /etc/config/pppoe1
+local 10.255.254.250
+remote 10.255.254.251
+fifo /var/log/pppoe1.ctl
+

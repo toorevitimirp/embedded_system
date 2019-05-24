@@ -1,0 +1,5 @@
+#!/bin/sh
+
+cd /jffs2/guidemo/
+
+./tp_gui

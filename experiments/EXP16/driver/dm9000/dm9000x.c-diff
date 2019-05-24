@@ -1,0 +1,546 @@
+--- dm9000x.c	2004-09-01 11:35:31.000000000 +0800
++++ dm9000x-new.c	2004-09-01 11:35:17.000000000 +0800
+@@ -58,8 +58,10 @@
+ #include <linux/skbuff.h>
+ #include <linux/version.h>
+ #include <asm/dma.h>
++#include <asm/io.h>
+ #include <linux/spinlock.h>
+-#include <linux/crc32.h>
++#include <linux/delay.h>
++//#include <linux/crc32.h>
+ 
+ /* Board/System/Debug information/definition ---------------- */
+ 
+@@ -83,6 +85,12 @@
+ #define DM9000_INT_MII		0x00
+ #define DM9000_EXT_MII		0x80
+ 
++#define DM9000_BASE_ADDR_ETH0   0x08000000  //nGCS1
++#define DM9000_BASE_ADDR_ETH1   0x10000000  //nGCS2
++#define DM9000_MIN_IO_ETH0      (DM9000_BASE_ADDR_ETH0 + 0x300)
++#define DM9000_MIN_IO_ETH1      (DM9000_BASE_ADDR_ETH1 + 0x300)
++
++
+ #define DM9000_VID_L		0x28
+ #define DM9000_VID_H		0x29
+ #define DM9000_PID_L		0x2A
+@@ -151,15 +159,19 @@
+ 
+ /* Structure/enum declaration ------------------------------- */
+ typedef struct board_info {
+-
++	
++	//struct net_device *next_dev;   /* Link to next device */
++	
+ 	u32 runt_length_counter;	/* counter: RX length < 64byte */ 
+ 	u32 long_length_counter;	/* counter: RX length > 1514byte */ 
+ 	u32 reset_counter;		/* counter: RESET */ 
+ 	u32 reset_tx_timeout;		/* RESET caused by TX Timeout */ 
+ 	u32 reset_rx_status;		/* RESET caused by RX Statsus wrong */
+ 
+-	u16 ioaddr;			/* Register I/O base address */
+-	u16 io_data;			/* Data I/O address */
++	//u16 ioaddr;			/* Register I/O base address */
++	//u16 io_data;			/* Data I/O address */
++	u32 ioaddr;			/* Register I/O base address */
++	u32 io_data;			/* Data I/O address */
+ 	u16 irq;			/* IRQ */
+ 
+ 	u16 tx_pkt_cnt;
+@@ -192,7 +204,9 @@
+ 
+ /* Global variable declaration ----------------------------- */
+ static int dmfe_debug = 0;
+-static struct net_device * dmfe_dev = NULL;
++//static struct net_device * dmfe_dev = NULL;
++static struct net_device * dmfe_eth0_dev = NULL;
++static struct net_device * dmfe_eth1_dev = NULL;
+ 
+ /* For module input parameter */
+ static int debug      = 0;
+@@ -203,16 +217,17 @@
+ static u8 reg9 	      = DM9000_REG09;
+ static u8 rega 	      = DM9000_REG0A;
+ static u8 nfloor      = 0;
+-static u8 irqline     = 3;
++//static u8 irqline     = 3;
+ static u32 tintrflag  = 0;
+ static u32 rxintrflag = 0;
++static char * eth0_mac_string = " 00 11 22 33 44 55";
++static char * eth1_mac_string = " 00 11 22 33 44 56";
+ 
+ /* function declaration ------------------------------------- */
+-int dmfe_probe(struct net_device *);
++static int dmfe_probe(struct net_device *);
+ static int dmfe_open(struct net_device *);
+ static int dmfe_start_xmit(struct sk_buff *, struct net_device *);
+-static void dmfe_tx_done(unsigned long);
+-static void dmfe_packet_receive(unsigned long);
++static void dmfe_tx_done(struct net_device *);
+ #if 0
+ #if defined(EMU32) || (HDX32)
+ static int dmfe_start_xmit32(struct sk_buff *, struct net_device *);
+@@ -233,32 +248,57 @@
+ static u16 phy_read(board_info_t *, int);
+ static void phy_write(board_info_t *, int, u16);
+ static u16 read_srom_word(board_info_t *, int);
+-//static void dmfe_packet_receive(unsigned long);
++static void dmfe_packet_receive(unsigned long);
+ static void dm9000_hash_table(struct net_device *);
+ #if defined(AUTOMDIX)
+ static void dmfe_mdix_timer(unsigned long);
+ #endif
+ 
+-DECLARE_TASKLET(dmfe_rx_tasklet,dmfe_packet_receive,0);
+-DECLARE_TASKLET(dmfe_tx_tasklet,dmfe_tx_done,0);
++static void dmfe_eth0_packet_receive(unsigned long unused)
++{
++	dmfe_packet_receive(0);
++}
+ 
+-/* DM9000 network baord routine ---------------------------- */
++static void dmfe_eth1_packet_receive(unsigned long unused)
++{
++	dmfe_packet_receive(1);
++}
++
++DECLARE_TASKLET( dmfe_rx_eth0_tasklet , dmfe_eth0_packet_receive , 0);
++DECLARE_TASKLET( dmfe_rx_eth1_tasklet , dmfe_eth1_packet_receive , 0);
++
++static unsigned char eth0_mac_addr[6] = { 0, 11, 22, 33 ,44 ,55 };
++static unsigned char eth1_mac_addr[6] = { 0, 11, 22, 33 ,44 ,56 };
++
++/* DM9000 network board routine ---------------------------- */
+ 
+ /*
+   Search DM9000 board, allocate space and register it
+ */
+-int dmfe_probe(struct net_device *dev)
++static int dmfe_probe(struct net_device *dev)
+ {
+ 	struct board_info *db;    /* Point a board information structure */
+-	u32 id_val;
+-	u16 iobase = DM9000_MIN_IO;
+-	u16 i, dm9000_found = FALSE;
++	u32 id_val , iobase = 0 ;
++	u16 i, dm9000_eth0_found = FALSE, dm9000_eth1_found=FALSE, probe_cnt;
+ 
+ 	DMFE_DBUG(0, "dmfe_probe()",0);
+ 
++	/* add by HuangBo begin */
++	BWSCON|=0xdc0; 
++	GPFCON |= 0xa; //EINT0/1 from PORT F control register 
++	EXTINT0 |= 0x44; //EINT0/1 Rising edge triggered
++	INTMSK &= 0xfffc; //EINT0/1 Enable
++	/* add by HuangBo end */
++
+ 
+ 	/* Search All DM9000 NIC */
+-	do {
++	/* only search 2 dm9000 chip */
++	for (probe_cnt = 0 ; probe_cnt < 2 ; probe_cnt++ )
++	{
++		if ( probe_cnt == 0 )
++			iobase = (u32)ioremap(DM9000_MIN_IO_ETH0,0x400);
++		else if ( probe_cnt == 1 )
++			iobase = (u32)ioremap(DM9000_MIN_IO_ETH1,0x400);
+ 		outb(DM9000_VID_L, iobase);
+ 		id_val = inb(iobase + 4);
+ 		outb(DM9000_VID_H, iobase);
+@@ -267,62 +307,84 @@
+ 		id_val |= inb(iobase + 4) << 16;
+ 		outb(DM9000_PID_H, iobase);
+ 		id_val |= inb(iobase + 4) << 24;
+-
++		
+ 		if (id_val == DM9000_ID) {
+ 			
+ 			printk("<DM9000> I/O: %x, VID: %x \n",iobase, id_val);
+-			dm9000_found = TRUE;
++			if ( probe_cnt == 0 )
++				dm9000_eth0_found = TRUE;
++			else if ( probe_cnt == 1 )
++				dm9000_eth1_found = TRUE;
+ 
+ 			/* Init network device */
+-			dev = init_etherdev(dev, 0);
++			dev = init_etherdev(NULL, 0);  // oh ,I think the driver must be compiled with module
+ 			
+ 			/* Allocated board information structure */
+ 			db = (void *)(kmalloc(sizeof(*db), GFP_KERNEL));
+ 			memset(db, 0, sizeof(*db));
+ 			dev->priv   = db;   /* link device and board info */
+-			dmfe_dev    = dev;
++			//dmfe_dev  = dev;
++			if ( probe_cnt == 0 ) 
++			{
++				dmfe_eth0_dev = dev;
++			} else if ( probe_cnt == 1 )
++			{
++				dmfe_eth1_dev = dev;
++			}
+ 			db->ioaddr  = iobase;
+ 			db->io_data = iobase + 4;
+ 
+ 			/* driver system function */
+ 			ether_setup(dev);
+ 				
+-			dev->base_addr 		= iobase;
+-			dev->irq 		= irqline;
+-			dev->open 		= &dmfe_open;
+-			dev->hard_start_xmit 	= &dmfe_start_xmit;
++			dev->base_addr = iobase;
++			if ( probe_cnt == 0 )
++				dev->irq = 0;   //eth0 irq
++			else if ( probe_cnt == 1 )
++				dev->irq = 1; // eth1 irq
++			dev->open = &dmfe_open;
++			dev->hard_start_xmit = &dmfe_start_xmit;
+ #if defined(EMU32) || (HDX32)
+-			dev->hard_start_xmit	= &dmfe_start_xmit32;
++			dev->hard_start_xmit = &dmfe_start_xmit32;
+ #endif
+-			dev->stop 		= &dmfe_stop;
+-			dev->get_stats 		= &dmfe_get_stats;
++			dev->stop = &dmfe_stop;
++			dev->get_stats = &dmfe_get_stats;
+ 			dev->set_multicast_list = &dm9000_hash_table;
+-			dev->do_ioctl 		= &dmfe_do_ioctl;
++			dev->do_ioctl = &dmfe_do_ioctl;
+ 
+ 			SET_MODULE_OWNER(dev);
+ 
++#if 0
+ 			/* Read SROM content */
+ 			for (i=0; i<64; i++)
+-				((u16 *)db->srom)[i] = read_srom_word(db, i);
+-
++ 				((u16 *)db->srom)[i] = read_srom_word(db, i);
++#endif
+ 			/* Set Node Address */
+-			for (i=0; i<6; i++)
+-				dev->dev_addr[i] = db->srom[i];
++			for (i=0; i<6; i++) 
++			{
++				if ( probe_cnt == 0 )
++					dev->dev_addr[i] = eth0_mac_addr[i];
++				if ( probe_cnt == 1 )
++					dev->dev_addr[i] = eth1_mac_addr[i];
++			}
+ 
+ 			/* Request IO from system */
+ 			request_region(iobase, 2, dev->name);
+ 
+ 		}
+-		iobase += 0x10;
+-	}while(!dm9000_found && iobase <= DM9000_MAX_IO);
+-
+-#if 0
+-	if (dm9000_found)
+-		printk("dm9000 found\n");
++	} 
++#if 1
++	if (dm9000_eth0_found)
++		printk("dm9000 eth0 found\n");
+ 	else
+-		printk("<dm9000 not found\n");
++		printk("dm9000 eth0 not found\n");
++	if (dm9000_eth1_found)
++		printk("dm9000 eth1 found\n");
++	else
++		printk("dm9000 eth1 not found\n");
+ #endif 
+-	return dm9000_found ? 0:-ENODEV;
++	return (dm9000_eth0_found && dm9000_eth1_found) ? 0:-ENODEV;
++	//return (dm9000_eth0_found) ? 0:-ENODEV;
+ }
+ 
+ /*
+@@ -336,7 +398,10 @@
+ 	MOD_INC_USE_COUNT;
+ 
+ 	if (request_irq(dev->irq,&dmfe_interrupt,SA_SHIRQ,dev->name,dev)) 
++	{
++		printk("requet_irq error \n");
+ 		return -EAGAIN;
++	}
+ 
+ 	/* Initilize DM910X board */
+ 	dmfe_init_dm9000(dev);
+@@ -774,9 +839,9 @@
+ 	return 0;
+ }
+ 
+-static void dmfe_tx_done(unsigned long unused)
++static void dmfe_tx_done(struct net_device *dev_id)
+ {
+-	struct net_device *dev = dmfe_dev;
++	struct net_device *dev = dev_id;
+ 	board_info_t *db = (board_info_t *)dev->priv;
+ 	//int TxStatus;	//For Collision detect
+ 	int tx_status = ior(db, 0x01);	/* Got TX status */
+@@ -840,8 +905,6 @@
+ 	int_status = ior(db, 0xfe);		/* Got ISR */
+ 	iow(db, 0xfe, int_status);		/* Clear ISR status */ 
+ 
+-
+-
+ 	/* Trnasmit Interrupt check */
+ //*Spenser
+ //	if (int_status & DM9000_TX_INTR)
+@@ -868,7 +931,6 @@
+ 				iow(db, 0x2, 0x1);    /* Cleared after TX complete */
+ 				dev->trans_start = jiffies; /* saved the time stamp */
+ 			}
+-			
+ 			netif_wake_queue(dev);
+ 		}
+ 		
+@@ -878,7 +940,14 @@
+ 	if (int_status & DM9000_RX_INTR)
+ 	{ 
+ 		rxintrflag++;
+-		tasklet_schedule(&dmfe_rx_tasklet);
++		if ( dev == dmfe_eth0_dev ) 
++		{
++			//printk("ready to &dmfe_rx_eth0_tasklet\n");
++			tasklet_schedule(&dmfe_rx_eth0_tasklet);
++		} else	if ( dev == dmfe_eth1_dev ) {
++			//printk("ready to &dmfe_rx_eth1_tasklet\n");
++			tasklet_schedule(&dmfe_rx_eth1_tasklet);
++		}
+ 	}
+ 	else {
+ 		/* Re-enable interrupt mask */ 
+@@ -1021,10 +1090,10 @@
+ /*
+   Received a packet and pass to upper layer
+ */
+-static void dmfe_packet_receive(unsigned long unused)
++static void dmfe_packet_receive(unsigned long dev_num)
+ {
+-	struct net_device *dev = dmfe_dev;
+-	board_info_t *db = (board_info_t *)dev->priv;
++	struct net_device *dev = NULL;
++	board_info_t *db = NULL ;
+ 	struct sk_buff *skb;
+ 	u8 rxbyte, *rdptr;
+ 	u16 i, RxStatus, RxLen, GoodPacket, tmplen;
+@@ -1033,6 +1102,16 @@
+ //#endif
+  
+ 	DMFE_DBUG(0, "dmfe_packet_receive()", 0);
++	
++	if ( dev_num == 0 )
++		dev = dmfe_eth0_dev ;
++	else if ( dev_num == 1 )
++		dev = dmfe_eth1_dev ;
++	     else 
++		return ;			
++	
++	db = (board_info_t *)dev->priv;
++	
+ 	/* Check packet ready or not */
+ 	do {
+ 		ior(db, 0xf0);			/* Dummy read */
+@@ -1181,7 +1260,7 @@
+ 
+ 	if (!db->device_wait_reset)
+ 	{
+-		dmfe_tx_done(0);
++		dmfe_tx_done(dev);
+ 		iow(db, 0xff, 0x83);
+ 	}
+ 
+@@ -1236,6 +1315,27 @@
+ 	}
+ }
+ 
++/* The little-endian AUTODIN II ethernet CRC calculation.
++   N.B. Do not use for bulk data, use a table-based routine instead.
++   This is common code and should be moved to net/core/crc.c */
++static unsigned const ethernet_polynomial_le = 0xedb88320U;
++static inline unsigned ether_crc_le(int length, unsigned char *data)
++{
++	unsigned int crc = 0xffffffff;	/* Initial value. */
++	while(--length >= 0) {
++		unsigned char current_octet = *data++;
++		int bit;
++		for (bit = 8; --bit >= 0; current_octet >>= 1) {
++			if ((crc ^ current_octet) & 1) {
++				crc >>= 1;
++				crc ^= ethernet_polynomial_le;
++			} else
++				crc >>= 1;
++		}
++	}
++	return crc;
++}
++
+ /*
+   Calculate the CRC valude of the Rx packet
+   flag = 1 : return the reverse CRC (for the received packet CRC)
+@@ -1308,20 +1408,72 @@
+ MODULE_LICENSE("GPL");
+ MODULE_AUTHOR("Sten Wang, sten_wang@davicom.com.tw");
+ MODULE_DESCRIPTION("Davicom DM9000 ISA/uP Fast Ethernet Driver");
+-MODULE_PARM(debug, "i");
+-MODULE_PARM(mode, "i");
+-MODULE_PARM(reg5, "i");
+-MODULE_PARM(reg9, "i");
+-MODULE_PARM(rega, "i");
+-MODULE_PARM(nfloor, "i");
++MODULE_PARM(debug,"i");
++MODULE_PARM(mode,"i");
++MODULE_PARM(reg5,"i");
++MODULE_PARM(reg9,"i");
++MODULE_PARM(rega,"i");
++MODULE_PARM(nfloor,"i");
++MODULE_PARM(eth0_mac_string,"s");
++MODULE_PARM(eth1_mac_string,"s");
+ //MODULE_PARM(SF_mode, "i");
+ 
++
++/*
++ *  convert an ascii hex char digit to a number.
++ *  param is hex digit.
++ *  returns a decimal digit.
++ */
++static int hex_char2digit (char digit)
++{
++	if (digit == 0)
++		return 0;
++
++	if (digit >= '0' && digit <= '9')
++		return digit - '0';
++	if (digit >= 'a' && digit <= 'f')
++		return digit - 'a' + 10;
++	if (digit >= 'A' && digit <= 'F')
++		return digit - 'A' + 10;
++
++	/* shouldn't ever get this far */
++	return -1;
++}
++
++static int hex_string2int (char *hex_ptr)
++{
++	int hexValue;
++	int ret = 0;
++
++	while (*hex_ptr)
++	{
++		hexValue = hex_char2digit(*hex_ptr);
++		if (hexValue < 0)
++			return -1;
++		ret = (ret << 4) | hexValue;
++		hex_ptr++;
++	}
++	return ret;
++}
++
++static char *strdup(char *str)
++{ 
++	int n = strlen(str)+1; 
++	char *s = kmalloc(n, GFP_KERNEL); 
++	if (!s) return NULL; 
++	return strcpy(s, str);
++}
++
++
+ /* Description: 
+    when user used insmod to add module, system invoked init_module()
+    to initilize and register.
+ */
+ int init_module(void)
+ {
++	int cnt;
++	char *ptr;
++	
+ 	DMFE_DBUG(0, "init_module() ", debug);
+ 
+ 	if (debug) 
+@@ -1354,6 +1506,50 @@
+ #endif 
+ 	nfloor = (nfloor > 15) ? 0:nfloor;
+ 
++	ptr = strdup(eth0_mac_string);
++	cnt = 0 ;
++	while (cnt < 6 )
++	{
++		char *tail;
++		
++		if ( *ptr == '\0' )
++			break;
++		if ( *ptr != ' ' )
++		{
++			tail = ptr;
++			while ( *tail != ' ' && *tail != '\0' )
++				tail++;
++			*tail = '\0' ;
++			eth0_mac_addr[cnt] = hex_string2int(ptr);
++			cnt++;
++			ptr = tail+1;
++		} else 
++			ptr++;
++	}
++	kfree(ptr);
++	
++	ptr = strdup(eth1_mac_string);
++	cnt = 0 ;
++	while (cnt < 6 )
++	{
++		char *tail;
++		
++		if ( *ptr == '\0')
++			break;
++		if ( *ptr != ' ')
++		{
++			tail = ptr;
++			while ( *tail != ' ' && *tail != '\0' )
++				tail++;
++			*tail = '\0' ;
++			eth1_mac_addr[cnt] = hex_string2int(ptr);
++			cnt++;
++			ptr = tail+1;
++		} else 
++			ptr++;
++	}
++	kfree(ptr);
++
+ 	return dmfe_probe(0);              /* search board and register */
+ }
+ 
+@@ -1366,13 +1562,26 @@
+ 	board_info_t * db;
+ 	DMFE_DBUG(0, "clean_module()", 0);
+ 
+-	unregister_netdev(dmfe_dev);
+-	db = (board_info_t *)dmfe_dev->priv;
+-	release_region(dmfe_dev->base_addr, 2);
+-	kfree(db);		/* free board information */
+-	kfree(dmfe_dev);	/* free device structure */
+-	
++	if ( dmfe_eth0_dev ) 
++	{
++		db = (board_info_t *)dmfe_eth0_dev->priv;
++		iounmap((void*)db->ioaddr);
++		release_region(dmfe_eth0_dev->base_addr, 2);
++		kfree(db);		/* free board information */
++		kfree(dmfe_eth0_dev);	/* free device structure */
++		unregister_netdev(dmfe_eth0_dev);
++	}
++	if ( dmfe_eth1_dev )
++	{
++		db = (board_info_t *)dmfe_eth1_dev->priv;
++		iounmap((void*)db->ioaddr);
++		release_region(dmfe_eth1_dev->base_addr, 2);
++		kfree(db);		/* free board information */
++		kfree(dmfe_eth1_dev);	/* free device structure */
++		unregister_netdev(dmfe_eth1_dev);
++	}
+ 	DMFE_DBUG(0, "clean_module() exit", 0);
+ }
+ 
+ #endif  /* MODULE */
++

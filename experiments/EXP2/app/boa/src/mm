@@ -1,0 +1,28 @@
+bison -y  -d boa_grammar.y
+/LinuxPPC/CDK/bin/powerpc-linux-gcc -DHHTECH_PPC -g -O2 -Wall -I/LinuxPPC/CDK/include   -c -o y.tab.o y.tab.c
+flex  boa_lexer.l
+/LinuxPPC/CDK/bin/powerpc-linux-gcc -DHHTECH_PPC -g -O2 -Wall -I/LinuxPPC/CDK/include   -c -o lex.yy.o lex.yy.c
+/LinuxPPC/CDK/bin/powerpc-linux-gcc -DHHTECH_PPC -g -O2 -Wall -I/LinuxPPC/CDK/include   -c -o alias.o alias.c
+/LinuxPPC/CDK/bin/powerpc-linux-gcc -DHHTECH_PPC -g -O2 -Wall -I/LinuxPPC/CDK/include   -c -o boa.o boa.c
+/LinuxPPC/CDK/bin/powerpc-linux-gcc -DHHTECH_PPC -g -O2 -Wall -I/LinuxPPC/CDK/include   -c -o buffer.o buffer.c
+/LinuxPPC/CDK/bin/powerpc-linux-gcc -DHHTECH_PPC -g -O2 -Wall -I/LinuxPPC/CDK/include   -c -o cgi.o cgi.c
+/LinuxPPC/CDK/bin/powerpc-linux-gcc -DHHTECH_PPC -g -O2 -Wall -I/LinuxPPC/CDK/include   -c -o cgi_header.o cgi_header.c
+/LinuxPPC/CDK/bin/powerpc-linux-gcc -DHHTECH_PPC -g -O2 -Wall -I/LinuxPPC/CDK/include   -c -o config.o config.c
+/LinuxPPC/CDK/bin/powerpc-linux-gcc -DHHTECH_PPC -g -O2 -Wall -I/LinuxPPC/CDK/include   -c -o escape.o escape.c
+/LinuxPPC/CDK/bin/powerpc-linux-gcc -DHHTECH_PPC -g -O2 -Wall -I/LinuxPPC/CDK/include   -c -o get.o get.c
+/LinuxPPC/CDK/bin/powerpc-linux-gcc -DHHTECH_PPC -g -O2 -Wall -I/LinuxPPC/CDK/include   -c -o hash.o hash.c
+/LinuxPPC/CDK/bin/powerpc-linux-gcc -DHHTECH_PPC -g -O2 -Wall -I/LinuxPPC/CDK/include   -c -o ip.o ip.c
+/LinuxPPC/CDK/bin/powerpc-linux-gcc -DHHTECH_PPC -g -O2 -Wall -I/LinuxPPC/CDK/include   -c -o log.o log.c
+/LinuxPPC/CDK/bin/powerpc-linux-gcc -DHHTECH_PPC -g -O2 -Wall -I/LinuxPPC/CDK/include   -c -o mmap_cache.o mmap_cache.c
+/LinuxPPC/CDK/bin/powerpc-linux-gcc -DHHTECH_PPC -g -O2 -Wall -I/LinuxPPC/CDK/include   -c -o pipe.o pipe.c
+/LinuxPPC/CDK/bin/powerpc-linux-gcc -DHHTECH_PPC -g -O2 -Wall -I/LinuxPPC/CDK/include   -c -o queue.o queue.c
+/LinuxPPC/CDK/bin/powerpc-linux-gcc -DHHTECH_PPC -g -O2 -Wall -I/LinuxPPC/CDK/include   -c -o read.o read.c
+/LinuxPPC/CDK/bin/powerpc-linux-gcc -DHHTECH_PPC -g -O2 -Wall -I/LinuxPPC/CDK/include   -c -o request.o request.c
+/LinuxPPC/CDK/bin/powerpc-linux-gcc -DHHTECH_PPC -g -O2 -Wall -I/LinuxPPC/CDK/include   -c -o response.o response.c
+/LinuxPPC/CDK/bin/powerpc-linux-gcc -DHHTECH_PPC -g -O2 -Wall -I/LinuxPPC/CDK/include   -c -o signals.o signals.c
+/LinuxPPC/CDK/bin/powerpc-linux-gcc -DHHTECH_PPC -g -O2 -Wall -I/LinuxPPC/CDK/include   -c -o util.o util.c
+/LinuxPPC/CDK/bin/powerpc-linux-gcc -DHHTECH_PPC -g -O2 -Wall -I/LinuxPPC/CDK/include   -c -o sublog.o sublog.c
+/LinuxPPC/CDK/bin/powerpc-linux-gcc -DHHTECH_PPC -g -O2 -Wall -I/LinuxPPC/CDK/include   -c -o timestamp.o timestamp.c
+/LinuxPPC/CDK/bin/powerpc-linux-gcc -DHHTECH_PPC -o boa y.tab.o lex.yy.o alias.o boa.o buffer.o cgi.o cgi_header.o config.o escape.o get.o hash.o ip.o log.o mmap_cache.o pipe.o queue.o read.o request.o response.o signals.o util.o sublog.o  timestamp.o  
+/LinuxPPC/CDK/bin/powerpc-linux-gcc -DHHTECH_PPC -g -O2 -Wall -I/LinuxPPC/CDK/include   -c -o index_dir.o index_dir.c
+/LinuxPPC/CDK/bin/powerpc-linux-gcc -DHHTECH_PPC -o boa_indexer index_dir.o escape.o  

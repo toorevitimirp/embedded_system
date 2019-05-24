@@ -1,0 +1,157 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.4	//
+AR	Makefile	/^AR = $(CROSS)ar$/;"	m
+BMPHEAD	gui.h	/^}BMPHEAD;$/;"	t
+BlackPattern	gui.h	/^  BlackPattern = 0,$/;"	e
+CC	Makefile	/^CC = $(CROSS)gcc$/;"	m
+CHINESE_FONT_FILE	graphic.c	38;"	d	file:
+CROSS	Makefile	/^CROSS = \/opt\/host\/armv4l\/bin\/armv4l-unknown-linux-$/;"	m
+C_Font	graphic.c	/^FILE *C_Font;$/;"	v
+Color	graphic.c	/^static unsigned short X,Y,Color,P_Index,Mode=MODE_SRC;$/;"	v	file:
+CopyMode	gui.h	/^} CopyMode;$/;"	t
+DarkGreyPattern	gui.h	/^  DarkGreyPattern,$/;"	e
+EXEC	Makefile	/^EXEC = gui$/;"	m
+E_Font	graphic.c	/^unsigned char * screen_ptr=(unsigned char*)(0x0400),*E_Font=(unsigned char*)(0x8500);$/;"	v
+FONTDATAMAX	font_8x16.h	8;"	d
+H_scroll_screen	graphic.c	/^void H_scroll_screen(short width) \/\/Left Scroll$/;"	f
+InvalidMode	gui.h	/^  InvalidMode$/;"	e
+InvalidPattern	gui.h	/^  InvalidPattern$/;"	e
+LightGreyPattern	gui.h	/^  LightGreyPattern,$/;"	e
+MODE_NOT_SRC	gui.h	/^  MODE_NOT_SRC,$/;"	e
+MODE_NOT_SRC_AND_DST	gui.h	/^  MODE_NOT_SRC_AND_DST,$/;"	e
+MODE_NOT_SRC_AND_NOT_DST	gui.h	/^  MODE_NOT_SRC_AND_NOT_DST,$/;"	e
+MODE_NOT_SRC_OR_DST	gui.h	/^  MODE_NOT_SRC_OR_DST,$/;"	e
+MODE_NOT_SRC_OR_NOT_DST	gui.h	/^  MODE_NOT_SRC_OR_NOT_DST,$/;"	e
+MODE_NOT_SRC_XOR_DST	gui.h	/^  MODE_NOT_SRC_XOR_DST,$/;"	e
+MODE_NOT_SRC_XOR_NOT_DST	gui.h	/^  MODE_NOT_SRC_XOR_NOT_DST,$/;"	e
+MODE_SRC	gui.h	/^  MODE_SRC,$/;"	e
+MODE_SRC_AND_DST	gui.h	/^  MODE_SRC_AND_DST,$/;"	e
+MODE_SRC_AND_NOT_DST	gui.h	/^  MODE_SRC_AND_NOT_DST,$/;"	e
+MODE_SRC_OR_DST	gui.h	/^  MODE_SRC_OR_DST,$/;"	e
+MODE_SRC_OR_NOT_DST	gui.h	/^  MODE_SRC_OR_NOT_DST,$/;"	e
+MODE_SRC_XOR_DST	gui.h	/^  MODE_SRC_XOR_DST,$/;"	e
+MODE_SRC_XOR_NOT_DST	gui.h	/^  MODE_SRC_XOR_NOT_DST,$/;"	e
+M_1_PI	mathf.h	31;"	d
+M_1_PIf	mathf.h	46;"	d
+M_2_PI	mathf.h	32;"	d
+M_2_PIf	mathf.h	47;"	d
+M_2_SQRTPI	mathf.h	33;"	d
+M_2_SQRTPIf	mathf.h	48;"	d
+M_E	mathf.h	23;"	d
+M_Ef	mathf.h	38;"	d
+M_LN10	mathf.h	27;"	d
+M_LN10f	mathf.h	42;"	d
+M_LN2	mathf.h	26;"	d
+M_LN2f	mathf.h	41;"	d
+M_LOG10E	mathf.h	25;"	d
+M_LOG10Ef	mathf.h	40;"	d
+M_LOG2E	mathf.h	24;"	d
+M_LOG2Ef	mathf.h	39;"	d
+M_PI	mathf.h	28;"	d
+M_PI_2	mathf.h	29;"	d
+M_PI_2f	mathf.h	44;"	d
+M_PI_4	mathf.h	30;"	d
+M_PI_4f	mathf.h	45;"	d
+M_PIf	mathf.h	43;"	d
+M_SQRT1_2	mathf.h	35;"	d
+M_SQRT1_2f	mathf.h	50;"	d
+M_SQRT2	mathf.h	34;"	d
+M_SQRT2f	mathf.h	49;"	d
+MicroPengPattern	gui.h	/^  MicroPengPattern,$/;"	e
+Mode	graphic.c	/^static unsigned short X,Y,Color,P_Index,Mode=MODE_SRC;$/;"	v	file:
+OBJS	Makefile	/^OBJS = graphic.o gui.o$/;"	m
+P_Index	graphic.c	/^static unsigned short X,Y,Color,P_Index,Mode=MODE_SRC;$/;"	v	file:
+Pattern	graphic.c	/^} Pattern;$/;"	t	file:
+PatternIndex	gui.h	/^} PatternIndex;$/;"	t
+STRIP	Makefile	/^STRIP = $(CROSS)strip$/;"	m
+ScreenHeight	graphic.c	40;"	d	file:
+ScreenWidth	graphic.c	41;"	d	file:
+ShowBMP	graphic.c	/^void ShowBMP(char *filename,short x,short y)$/;"	f
+ShowBuf	graphic.c	/^void ShowBuf(char *Buf,short x,short y)$/;"	f
+UINT	gui.h	/^typedef unsigned int UINT;$/;"	t
+V_scroll_screen	graphic.c	/^void V_scroll_screen(short height) \/\/Up\/Down Scroll$/;"	f
+WhitePattern	gui.h	/^  WhitePattern,$/;"	e
+WinEX	graphic.c	/^static short WinSX,WinSY,WinEX,WinEY;$/;"	v	file:
+WinEY	graphic.c	/^static short WinSX,WinSY,WinEX,WinEY;$/;"	v	file:
+WinSX	graphic.c	/^static short WinSX,WinSY,WinEX,WinEY;$/;"	v	file:
+WinSY	graphic.c	/^static short WinSX,WinSY,WinEX,WinEY;$/;"	v	file:
+X	graphic.c	/^static unsigned short X,Y,Color,P_Index,Mode=MODE_SRC;$/;"	v	file:
+XY_clearscreen	graphic.c	/^void XY_clearscreen(unsigned short x1,unsigned short y1,unsigned short x2,unsigned short y2)$/;"	f
+Y	graphic.c	/^static unsigned short X,Y,Color,P_Index,Mode=MODE_SRC;$/;"	v	file:
+_BlackPattern	graphic.c	/^const Pattern _BlackPattern =$/;"	v
+_DarkGreyPattern	graphic.c	/^const Pattern _DarkGreyPattern =$/;"	v
+_LightGreyPattern	graphic.c	/^const Pattern _LightGreyPattern =$/;"	v
+_MATH_H	mathf.h	2;"	d
+_MicroPengPattern	graphic.c	/^const Pattern _MicroPengPattern =$/;"	v
+_WhitePattern	graphic.c	/^const Pattern _WhitePattern =$/;"	v
+bar	graphic.c	/^void bar(short x1,short y1,short x2,short y2)$/;"	f
+bfOffBits	gui.h	/^     long bfOffBits;$/;"	m	struct:
+bfReserved1	gui.h	/^     short bfReserved1;$/;"	m	struct:
+bfReserved2	gui.h	/^     short bfReserved2;$/;"	m	struct:
+bfSize	gui.h	/^     long  bfSize; \/\/__attribute__((packed));$/;"	m	struct:
+bfType	gui.h	/^     short bfType; \/\/__attribute__((packed));$/;"	m	struct:
+biBitCount	gui.h	/^     short biBitCount;$/;"	m	struct:
+biClrImportant	gui.h	/^     long biClrImportant;$/;"	m	struct:
+biClrUsed	gui.h	/^     long biClrUsed;$/;"	m	struct:
+biCompression	gui.h	/^     long biCompression;$/;"	m	struct:
+biHeight	gui.h	/^     long biHeight;$/;"	m	struct:
+biPlanes	gui.h	/^     short biPlanes;$/;"	m	struct:
+biSize	gui.h	/^     long biSize;$/;"	m	struct:
+biSizeImage	gui.h	/^     long biSizeImage;$/;"	m	struct:
+biWidth	gui.h	/^     long biWidth;$/;"	m	struct:
+biXpp	gui.h	/^     long biXpp;$/;"	m	struct:
+biYpp	gui.h	/^     long biYpp;$/;"	m	struct:
+bitblt	graphic.c	/^void bitblt($/;"	f
+clearscreen	graphic.c	/^void clearscreen()$/;"	f
+clearscreen_white	graphic.c	/^void clearscreen_white()$/;"	f
+clip_screen	graphic.c	/^inline void clip_screen(short in_x, short in_y, short in_w, short in_h, short *out_x, short *out_y, short *out_w, short *out_h) {$/;"	f
+closegraph	graphic.c	/^void closegraph()$/;"	f
+cmplx	mathf.h	/^} cmplx;$/;"	t
+cmplxf	mathf.h	/^} cmplxf;$/;"	t
+color_555_draw_bmp	graphic.c	/^void color_555_draw_bmp(short x,short y,unsigned short width,unsigned short height,char *buf)$/;"	f
+color_565_draw_bmp	graphic.c	/^void color_565_draw_bmp(short x,short y,unsigned short width,unsigned short height,char *buf)$/;"	f
+color_dot_bmp	graphic.c	/^inline void color_dot_bmp(short x,short y,char *buf)$/;"	f
+data	graphic.c	/^    unsigned char data[0];$/;"	m	struct:	file:
+delay	gui.c	/^void delay()		\/*ÑÓÊ±º¯Êý*\/$/;"	f
+draw_bmp	graphic.c	/^void draw_bmp(short sx, short sy, short rwidth, short height, char* pixel,unsigned short color,unsigned short groundcolor)$/;"	f
+draw_xbm	graphic.c	/^void draw_xbm(short sx, short sy, short width, short height, char* pixel)$/;"	f
+draw_xish_line	graphic.c	/^static inline void draw_xish_line(short x, short y, short dx, short dy, short xdir)$/;"	f	file:
+draw_yish_line	graphic.c	/^static inline void draw_yish_line(short x, short y, short dx, short dy,short xdir)$/;"	f	file:
+ellipse	graphic.c	/^void ellipse(short x, short y, short a, short b)$/;"	f
+fillrect	graphic.c	/^void  fillrect(short x1, short y1, short x2, short y2)$/;"	f
+fillrectangle	graphic.c	/^void  fillrectangle(short x1, short y1, short x2, short y2)$/;"	f
+fontdata_8x16	font_8x16.h	/^static unsigned char fontdata_8x16[FONTDATAMAX] = {$/;"	v
+getcolor	graphic.c	/^UINT getcolor(void)$/;"	f
+getfillpattern	graphic.c	/^PatternIndex getfillpattern(void)$/;"	f
+getmode	graphic.c	/^CopyMode getmode(void)	$/;"	f
+h_line	graphic.c	/^inline void h_line(int x1,int x2,int y)$/;"	f
+height	graphic.c	/^    unsigned short height;$/;"	m	struct:	file:
+i	mathf.h	/^ double i;$/;"	m	struct:
+i	mathf.h	/^ float i;$/;"	m	struct:
+initgraph	graphic.c	/^short initgraph(void)$/;"	f
+line	graphic.c	/^void line(short x1, short y1, short x2, short y2)$/;"	f
+lineto	graphic.c	/^void lineto(short x,short y)$/;"	f
+main	gui.c	/^main(int argc,char*argv[])$/;"	f
+masktab	graphic.c	/^static short masktab[]={0x80,0x40,0x20,0x10,0x08,0x04,0x02,0x01};$/;"	v	file:
+moveto	graphic.c	/^void moveto(short x,short y)$/;"	f
+my_draw_bmp	graphic.c	/^void my_draw_bmp(short x,short y,unsigned short width,unsigned short height,char *pixel)$/;"	f
+patternfill	graphic.c	/^void patternfill( short dest_x,$/;"	f
+patterns	graphic.c	/^static const Pattern *patterns[] = {$/;"	v	file:
+r	mathf.h	/^ double r;$/;"	m	struct:
+r	mathf.h	/^ float r;$/;"	m	struct:
+rectangle	graphic.c	/^void rectangle(short x1, short y1, short x2, short y2)$/;"	f
+rint	mathf.h	373;"	d
+screen_fd	graphic.c	/^static int screen_fd=-1;$/;"	v	file:
+screen_height	graphic.c	/^static short screen_width=240,screen_height=320;$/;"	v	file:
+screen_ptr	graphic.c	/^unsigned char * screen_ptr=(unsigned char*)(0x0400),*E_Font=(unsigned char*)(0x8500);$/;"	v
+screen_width	graphic.c	/^static short screen_width=240,screen_height=320;$/;"	v	file:
+setcolor	graphic.c	/^void setcolor(short color)$/;"	f
+setfillpattern	graphic.c	/^void setfillpattern(PatternIndex index)$/;"	f
+setmode	graphic.c	/^void setmode(CopyMode mode)$/;"	f
+setpixel	graphic.c	/^inline void setpixel(short x, short y, short color)$/;"	f
+testbmp	graphic.c	/^void testbmp()$/;"	f
+textout	graphic.c	/^void textout(short x,short y,unsigned char *buf,unsigned short color,unsigned short groundcolor)$/;"	f

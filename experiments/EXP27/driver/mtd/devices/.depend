@@ -1,0 +1,167 @@
+blkmtd.o: blkmtd.c \
+   /HHARM2410-R3/kernel/include/linux/module.h \
+   /HHARM2410-R3/kernel/include/linux/fs.h \
+   /HHARM2410-R3/kernel/include/linux/blkdev.h \
+   /HHARM2410-R3/kernel/include/linux/iobuf.h \
+   /HHARM2410-R3/kernel/include/linux/slab.h \
+   /HHARM2410-R3/kernel/include/linux/pagemap.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/compatmac.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/mtd.h \
+   $(wildcard /HHARM2410-R3/kernel/include/config/mtd/debug.h) \
+   $(wildcard /HHARM2410-R3/kernel/include/config/proc/fs.h) \
+   /HHARM2410-R3/kernel/include/linux/proc_fs.h \
+   $(wildcard /HHARM2410-R3/kernel/include/config/mtd/blkdev/erasesize.h)
+doc1000.o: doc1000.c \
+   /HHARM2410-R3/kernel/include/linux/module.h \
+   /HHARM2410-R3/kernel/include/asm/uaccess.h \
+   /HHARM2410-R3/kernel/include/linux/types.h \
+   /HHARM2410-R3/kernel/include/linux/kernel.h \
+   /HHARM2410-R3/kernel/include/linux/sched.h \
+   /HHARM2410-R3/kernel/include/linux/ptrace.h \
+   /HHARM2410-R3/kernel/include/linux/slab.h \
+   /HHARM2410-R3/kernel/include/linux/string.h \
+   /HHARM2410-R3/kernel/include/linux/timer.h \
+   /HHARM2410-R3/kernel/include/linux/major.h \
+   /HHARM2410-R3/kernel/include/linux/fs.h \
+   /HHARM2410-R3/kernel/include/linux/ioctl.h \
+   /HHARM2410-R3/kernel/include/asm/io.h \
+   /HHARM2410-R3/kernel/include/asm/system.h \
+   /HHARM2410-R3/kernel/include/asm/segment.h \
+   /HHARM2410-R3/kernel/include/linux/delay.h \
+   /HHARM2410-R3/kernel/include/linux/init.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/mtd.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/iflash.h \
+   $(wildcard /HHARM2410-R3/kernel/include/config/smp.h)
+doc2000.o: doc2000.c \
+   /HHARM2410-R3/kernel/include/linux/kernel.h \
+   /HHARM2410-R3/kernel/include/linux/module.h \
+   /HHARM2410-R3/kernel/include/asm/errno.h \
+   /HHARM2410-R3/kernel/include/asm/io.h \
+   /HHARM2410-R3/kernel/include/asm/uaccess.h \
+   /HHARM2410-R3/kernel/include/linux/miscdevice.h \
+   /HHARM2410-R3/kernel/include/linux/pci.h \
+   /HHARM2410-R3/kernel/include/linux/delay.h \
+   /HHARM2410-R3/kernel/include/linux/slab.h \
+   /HHARM2410-R3/kernel/include/linux/sched.h \
+   /HHARM2410-R3/kernel/include/linux/init.h \
+   /HHARM2410-R3/kernel/include/linux/types.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/mtd.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/nand.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/nand_ids.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/doc2000.h
+doc2001.o: doc2001.c \
+   /HHARM2410-R3/kernel/include/linux/kernel.h \
+   /HHARM2410-R3/kernel/include/linux/module.h \
+   /HHARM2410-R3/kernel/include/asm/errno.h \
+   /HHARM2410-R3/kernel/include/asm/io.h \
+   /HHARM2410-R3/kernel/include/asm/uaccess.h \
+   /HHARM2410-R3/kernel/include/linux/miscdevice.h \
+   /HHARM2410-R3/kernel/include/linux/pci.h \
+   /HHARM2410-R3/kernel/include/linux/delay.h \
+   /HHARM2410-R3/kernel/include/linux/slab.h \
+   /HHARM2410-R3/kernel/include/linux/sched.h \
+   /HHARM2410-R3/kernel/include/linux/init.h \
+   /HHARM2410-R3/kernel/include/linux/types.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/mtd.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/nand.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/nand_ids.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/doc2000.h
+docecc.o: docecc.c \
+   /HHARM2410-R3/kernel/include/linux/kernel.h \
+   /HHARM2410-R3/kernel/include/linux/module.h \
+   /HHARM2410-R3/kernel/include/asm/errno.h \
+   /HHARM2410-R3/kernel/include/asm/io.h \
+   /HHARM2410-R3/kernel/include/asm/uaccess.h \
+   /HHARM2410-R3/kernel/include/linux/miscdevice.h \
+   /HHARM2410-R3/kernel/include/linux/pci.h \
+   /HHARM2410-R3/kernel/include/linux/delay.h \
+   /HHARM2410-R3/kernel/include/linux/slab.h \
+   /HHARM2410-R3/kernel/include/linux/sched.h \
+   /HHARM2410-R3/kernel/include/linux/init.h \
+   /HHARM2410-R3/kernel/include/linux/types.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/compatmac.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/mtd.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/doc2000.h
+docprobe.o: docprobe.c \
+   /HHARM2410-R3/kernel/include/linux/kernel.h \
+   /HHARM2410-R3/kernel/include/linux/module.h \
+   /HHARM2410-R3/kernel/include/asm/errno.h \
+   /HHARM2410-R3/kernel/include/asm/io.h \
+   /HHARM2410-R3/kernel/include/asm/uaccess.h \
+   /HHARM2410-R3/kernel/include/linux/miscdevice.h \
+   /HHARM2410-R3/kernel/include/linux/pci.h \
+   /HHARM2410-R3/kernel/include/linux/delay.h \
+   /HHARM2410-R3/kernel/include/linux/slab.h \
+   /HHARM2410-R3/kernel/include/linux/sched.h \
+   /HHARM2410-R3/kernel/include/linux/init.h \
+   /HHARM2410-R3/kernel/include/linux/types.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/mtd.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/nand.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/doc2000.h \
+   $(wildcard /HHARM2410-R3/kernel/include/config/mtd/docprobe/address.h) \
+   $(wildcard /HHARM2410-R3/kernel/include/config/mtd/docprobe/high.h) \
+   $(wildcard /HHARM2410-R3/kernel/include/config/momenco/ocelot.h) \
+   $(wildcard /HHARM2410-R3/kernel/include/config/mtd/docprobe/55aa.h)
+lart.o: lart.c \
+   /HHARM2410-R3/kernel/include/linux/kernel.h \
+   /HHARM2410-R3/kernel/include/linux/module.h \
+   /HHARM2410-R3/kernel/include/linux/types.h \
+   /HHARM2410-R3/kernel/include/linux/version.h \
+   /HHARM2410-R3/kernel/include/linux/errno.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/mtd.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/partitions.h \
+   $(wildcard /HHARM2410-R3/kernel/include/config/sa1100/lart.h)
+mtdram.o: mtdram.c \
+   /HHARM2410-R3/kernel/include/linux/module.h \
+   /HHARM2410-R3/kernel/include/linux/slab.h \
+   /HHARM2410-R3/kernel/include/linux/ioport.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/compatmac.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/mtd.h \
+   $(wildcard /HHARM2410-R3/kernel/include/config/mtdram/abs/pos.h) \
+   /HHARM2410-R3/kernel/include/asm/io.h \
+   $(wildcard /HHARM2410-R3/kernel/include/config/mtdram/total/size.h) \
+   $(wildcard /HHARM2410-R3/kernel/include/config/mtdram/erase/size.h) \
+   $(wildcard /HHARM2410-R3/kernel/include/config/mizi.h)
+pmc551.o: pmc551.c \
+   /HHARM2410-R3/kernel/include/linux/kernel.h \
+   /HHARM2410-R3/kernel/include/linux/module.h \
+   /HHARM2410-R3/kernel/include/asm/uaccess.h \
+   /HHARM2410-R3/kernel/include/linux/types.h \
+   /HHARM2410-R3/kernel/include/linux/sched.h \
+   /HHARM2410-R3/kernel/include/linux/init.h \
+   /HHARM2410-R3/kernel/include/linux/ptrace.h \
+   /HHARM2410-R3/kernel/include/linux/slab.h \
+   /HHARM2410-R3/kernel/include/linux/string.h \
+   /HHARM2410-R3/kernel/include/linux/timer.h \
+   /HHARM2410-R3/kernel/include/linux/major.h \
+   /HHARM2410-R3/kernel/include/linux/fs.h \
+   /HHARM2410-R3/kernel/include/linux/ioctl.h \
+   /HHARM2410-R3/kernel/include/asm/io.h \
+   /HHARM2410-R3/kernel/include/asm/system.h \
+   /HHARM2410-R3/kernel/include/asm/segment.h \
+   /HHARM2410-R3/kernel/include/linux/pci.h \
+   $(wildcard /HHARM2410-R3/kernel/include/config/pci.h) \
+   /HHARM2410-R3/kernel/include/linux/mtd/mtd.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/pmc551.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/compatmac.h \
+   $(wildcard /HHARM2410-R3/kernel/include/config/mtd/pmc551/debug.h) \
+   $(wildcard /HHARM2410-R3/kernel/include/config/mtd/pmc551/bugfix.h) \
+   $(wildcard /HHARM2410-R3/kernel/include/config/mtd/pmc551/aperture/size.h)
+slram.o: slram.c \
+   /HHARM2410-R3/kernel/include/linux/module.h \
+   /HHARM2410-R3/kernel/include/asm/uaccess.h \
+   /HHARM2410-R3/kernel/include/linux/types.h \
+   /HHARM2410-R3/kernel/include/linux/kernel.h \
+   /HHARM2410-R3/kernel/include/linux/sched.h \
+   /HHARM2410-R3/kernel/include/linux/ptrace.h \
+   /HHARM2410-R3/kernel/include/linux/slab.h \
+   /HHARM2410-R3/kernel/include/linux/string.h \
+   /HHARM2410-R3/kernel/include/linux/timer.h \
+   /HHARM2410-R3/kernel/include/linux/major.h \
+   /HHARM2410-R3/kernel/include/linux/fs.h \
+   /HHARM2410-R3/kernel/include/linux/ioctl.h \
+   /HHARM2410-R3/kernel/include/linux/init.h \
+   /HHARM2410-R3/kernel/include/asm/io.h \
+   /HHARM2410-R3/kernel/include/asm/system.h \
+   /HHARM2410-R3/kernel/include/asm/segment.h \
+   /HHARM2410-R3/kernel/include/linux/mtd/mtd.h

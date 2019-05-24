@@ -1,0 +1,685 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.4	//
+ADCCON	2410audio.h	35;"	d
+AGCCON	2410audio.h	36;"	d
+ANAMIX	2410audio.h	26;"	d
+AREA	khead.h	/^} AREA, *P_AREA;$/;"	t
+AUDIO_CHANNELS_DEFAULT	2410audio.c	76;"	d	file:
+AUDIO_CHANNELS_DEFAULT	2410audio_play.c	76;"	d	file:
+AUDIO_CHANNELS_DEFAULT	2410audio_play_rec.c	76;"	d	file:
+AUDIO_CHANNELS_DEFAULT	2410audio_rec.c	76;"	d	file:
+AUDIO_FMT_DEFAULT	2410audio.c	74;"	d	file:
+AUDIO_FMT_DEFAULT	2410audio_play.c	74;"	d	file:
+AUDIO_FMT_DEFAULT	2410audio_play_rec.c	74;"	d	file:
+AUDIO_FMT_DEFAULT	2410audio_rec.c	74;"	d	file:
+AUDIO_FMT_MASK	2410audio.c	73;"	d	file:
+AUDIO_FMT_MASK	2410audio_play.c	73;"	d	file:
+AUDIO_FMT_MASK	2410audio_play_rec.c	73;"	d	file:
+AUDIO_FMT_MASK	2410audio_rec.c	73;"	d	file:
+AUDIO_FRAGSIZE_DEFAULT	2410audio.c	80;"	d	file:
+AUDIO_FRAGSIZE_DEFAULT	2410audio_play.c	80;"	d	file:
+AUDIO_FRAGSIZE_DEFAULT	2410audio_play_rec.c	80;"	d	file:
+AUDIO_FRAGSIZE_DEFAULT	2410audio_rec.c	80;"	d	file:
+AUDIO_NAME	2410audio.c	70;"	d	file:
+AUDIO_NAME	2410audio_play.c	70;"	d	file:
+AUDIO_NAME	2410audio_play_rec.c	70;"	d	file:
+AUDIO_NAME	2410audio_rec.c	70;"	d	file:
+AUDIO_NAME_VERBOSE	2410audio.c	71;"	d	file:
+AUDIO_NAME_VERBOSE	2410audio_play.c	71;"	d	file:
+AUDIO_NAME_VERBOSE	2410audio_play_rec.c	71;"	d	file:
+AUDIO_NAME_VERBOSE	2410audio_rec.c	71;"	d	file:
+AUDIO_NBFRAGS_DEFAULT	2410audio.c	79;"	d	file:
+AUDIO_NBFRAGS_DEFAULT	2410audio_play.c	79;"	d	file:
+AUDIO_NBFRAGS_DEFAULT	2410audio_play_rec.c	79;"	d	file:
+AUDIO_NBFRAGS_DEFAULT	2410audio_rec.c	79;"	d	file:
+AUDIO_RATE_DEFAULT	2410audio.c	77;"	d	file:
+AUDIO_RATE_DEFAULT	2410audio_play.c	77;"	d	file:
+AUDIO_RATE_DEFAULT	2410audio_play_rec.c	77;"	d	file:
+AUDIO_RATE_DEFAULT	2410audio_rec.c	77;"	d	file:
+AVOL	2410audio.h	104;"	d
+BIT_IIC	2410iic.c	26;"	d	file:
+BOOL	khead.h	/^typedef U8 BOOL;		\/* Boolean, TRUE\/FALSE *\/$/;"	t
+BOOLEAN	khead.h	/^typedef signed char BOOLEAN;$/;"	t
+BUF_ON_APB	dma.h	87;"	d
+BUF_ON_MEM	dma.h	86;"	d
+CC	Makefile	/^CC = \/opt\/host\/armv4l\/bin\/armv4l-unknown-linux-gcc $/;"	m
+CFLAGS	Makefile	/^CFLAGS = -D__KERNEL__ -I\/HHARM9-EDU\/kernel\/include\/linux -I\/HHARM9-EDU\/kernel\/include -Wall -Wstrict-prototypes -Wno-trigraphs -Os -mapcs -fno-strict-aliasing -fno-common -fno-common -pipe -mapcs-32 -march=armv4 -mtune=arm9tdmi -mshort-load-bytes -msoft-float -DKBUILD_BASENAME=s3c2410_testirq -I\/opt\/host\/armv4l\/src\/linux\/include -DMODULE$/;"	m
+CSCR	2410audio.h	60;"	d
+DAC_OFF	2410audio.h	5;"	d
+DCDST	dma.h	/^	volatile u_long DCDST;$/;"	m	struct:
+DCON	dma.h	/^	volatile u_long DCON;$/;"	m	struct:
+DCSRC	dma.h	/^	volatile u_long DCSRC;$/;"	m	struct:
+DDIR	2410audio.h	65;"	d
+DEBUG	2410audio.c	34;"	d	file:
+DEBUG	2410audio_play.c	34;"	d	file:
+DEBUG	2410audio_play_rec.c	34;"	d	file:
+DEBUG	2410audio_rec.c	34;"	d	file:
+DECSTA	2410audio.h	38;"	d
+DECVOLCON	2410audio.h	33;"	d
+DE_EMPHASIS_32	2410audio.c	62;"	d	file:
+DE_EMPHASIS_32	2410audio_play.c	62;"	d	file:
+DE_EMPHASIS_32	2410audio_play_rec.c	62;"	d	file:
+DE_EMPHASIS_32	2410audio_rec.c	62;"	d	file:
+DE_EMPHASIS_441	2410audio.c	63;"	d	file:
+DE_EMPHASIS_441	2410audio_play.c	63;"	d	file:
+DE_EMPHASIS_441	2410audio_play_rec.c	63;"	d	file:
+DE_EMPHASIS_441	2410audio_rec.c	63;"	d	file:
+DE_EMPHASIS_48	2410audio.c	64;"	d	file:
+DE_EMPHASIS_48	2410audio_play.c	64;"	d	file:
+DE_EMPHASIS_48	2410audio_play_rec.c	64;"	d	file:
+DE_EMPHASIS_48	2410audio_rec.c	64;"	d	file:
+DIDST	dma.h	/^	volatile u_long DIDST;$/;"	m	struct:
+DIDSTC	dma.h	/^	volatile u_long DIDSTC;$/;"	m	struct:
+DISRC	dma.h	/^	volatile u_long DISRC;$/;"	m	struct:
+DISRCC	dma.h	/^	volatile u_long DISRCC;$/;"	m	struct:
+DMASKTRIG	dma.h	/^	volatile u_long DMASKTRIG;$/;"	m	struct:
+DMA_UNDEF	dma.h	85;"	d
+DPRINTK	2410audio.c	37;"	d	file:
+DPRINTK	2410audio.c	39;"	d	file:
+DPRINTK	2410audio_play.c	37;"	d	file:
+DPRINTK	2410audio_play.c	39;"	d	file:
+DPRINTK	2410audio_play_rec.c	37;"	d	file:
+DPRINTK	2410audio_play_rec.c	39;"	d	file:
+DPRINTK	2410audio_rec.c	37;"	d	file:
+DPRINTK	2410audio_rec.c	39;"	d	file:
+DR	2410audio.h	68;"	d
+DSTAT	dma.h	/^	volatile u_long DSTAT;$/;"	m	struct:
+Delay	2410iic.c	/^void Delay(int times)$/;"	f
+EVMODE	2410audio.h	23;"	d
+FALSE	khead.h	28;"	d
+FMCR	2410audio.h	62;"	d
+FUNC_END	khead.h	92;"	d
+FUNC_END	khead.h	97;"	d
+FUNC_START	khead.h	91;"	d
+FUNC_START	khead.h	96;"	d
+GCFG	2410audio.h	105;"	d
+GIUS	2410audio.h	69;"	d
+GPIO_L3CLOCK	2410audio.c	66;"	d	file:
+GPIO_L3CLOCK	2410audio_play.c	66;"	d	file:
+GPIO_L3CLOCK	2410audio_play_rec.c	66;"	d	file:
+GPIO_L3CLOCK	2410audio_rec.c	66;"	d	file:
+GPIO_L3DATA	2410audio.c	67;"	d	file:
+GPIO_L3DATA	2410audio_play.c	67;"	d	file:
+GPIO_L3DATA	2410audio_play_rec.c	67;"	d	file:
+GPIO_L3DATA	2410audio_rec.c	67;"	d	file:
+GPIO_L3MODE	2410audio.c	68;"	d	file:
+GPIO_L3MODE	2410audio_play.c	68;"	d	file:
+GPIO_L3MODE	2410audio_play_rec.c	68;"	d	file:
+GPIO_L3MODE	2410audio_rec.c	68;"	d	file:
+GPR	2410audio.h	70;"	d
+HOOK_LOST_INT	dma.h	333;"	d
+HPAM	2410audio.h	27;"	d
+I2SIO	2410audio.h	24;"	d
+I2SSDI_CTL	dma.h	144;"	d
+I2SSDI_CTL	dma.h	148;"	d
+I2SSDI_RD_CTL	dma.h	158;"	d
+I2SSDI_RD_DST	dma.h	157;"	d
+I2SSDI_RD_DST_CTL	dma.h	162;"	d
+I2SSDI_RD_SRC	dma.h	156;"	d
+I2SSDI_RD_SRC_CTL	dma.h	161;"	d
+I2SSDI_WR_CTL	dma.h	155;"	d
+I2SSDI_WR_DST	dma.h	154;"	d
+I2SSDI_WR_DST_CTL	dma.h	160;"	d
+I2SSDI_WR_SRC	dma.h	153;"	d
+I2SSDI_WR_SRC_CTL	dma.h	159;"	d
+I2SSDO_CTL	dma.h	126;"	d
+I2SSDO_RD_CTL	dma.h	135;"	d
+I2SSDO_RD_DST	dma.h	134;"	d
+I2SSDO_RD_DST_CTL	dma.h	139;"	d
+I2SSDO_RD_SRC	dma.h	133;"	d
+I2SSDO_RD_SRC_CTL	dma.h	138;"	d
+I2SSDO_WR_CTL	dma.h	132;"	d
+I2SSDO_WR_DST	dma.h	131;"	d
+I2SSDO_WR_DST_CTL	dma.h	137;"	d
+I2SSDO_WR_SRC	dma.h	130;"	d
+I2SSDO_WR_SRC_CTL	dma.h	136;"	d
+IF_IIS	2410audio.c	53;"	d	file:
+IF_IIS	2410audio_play.c	53;"	d	file:
+IF_IIS	2410audio_play_rec.c	53;"	d	file:
+IF_IIS	2410audio_rec.c	53;"	d	file:
+IF_LSB_16	2410audio.c	54;"	d	file:
+IF_LSB_16	2410audio_play.c	54;"	d	file:
+IF_LSB_16	2410audio_play_rec.c	54;"	d	file:
+IF_LSB_16	2410audio_rec.c	54;"	d	file:
+IF_LSB_18	2410audio.c	55;"	d	file:
+IF_LSB_18	2410audio_play.c	55;"	d	file:
+IF_LSB_18	2410audio_play_rec.c	55;"	d	file:
+IF_LSB_18	2410audio_rec.c	55;"	d	file:
+IF_LSB_20	2410audio.c	56;"	d	file:
+IF_LSB_20	2410audio_play.c	56;"	d	file:
+IF_LSB_20	2410audio_play_rec.c	56;"	d	file:
+IF_LSB_20	2410audio_rec.c	56;"	d	file:
+IF_MSB	2410audio.c	57;"	d	file:
+IF_MSB	2410audio_play.c	57;"	d	file:
+IF_MSB	2410audio_play_rec.c	57;"	d	file:
+IF_MSB	2410audio_rec.c	57;"	d	file:
+IICBUFSIZE	2410iic.c	25;"	d	file:
+INPUT_DMA_CH2	dma.h	142;"	d
+INTFILSTA	2410audio.h	39;"	d
+IO_BASE	2410audio.h	42;"	d
+IicPoll	2410iic.c	/^void IicPoll(void)$/;"	f
+LD	Makefile	/^LD = \/opt\/host\/armv4l\/bin\/armv4l-unknown-linux-ld$/;"	m
+LEFT_FULL	2410audio.h	11;"	d
+LEFT_LOW	2410audio.h	12;"	d
+LEFT_MUTE	2410audio.h	9;"	d
+LINEIN	2410audio.h	15;"	d
+LR_MUTE	2410audio.h	8;"	d
+MASMUT	2410audio.h	31;"	d
+MASVOLCON	2410audio.h	28;"	d
+MIC	2410audio.h	16;"	d
+MIXSD	2410audio.h	32;"	d
+MIXVOLCON	2410audio.h	29;"	d
+MMC_RD_CTL	dma.h	180;"	d
+MMC_RD_DST	dma.h	179;"	d
+MMC_RD_DST_CTL	dma.h	184;"	d
+MMC_RD_SRC	dma.h	178;"	d
+MMC_RD_SRC_CTL	dma.h	183;"	d
+MMC_WR_CTL	dma.h	177;"	d
+MMC_WR_DST	dma.h	176;"	d
+MMC_WR_DST_CTL	dma.h	182;"	d
+MMC_WR_SRC	dma.h	175;"	d
+MMC_WR_SRC_CTL	dma.h	181;"	d
+MODSEL	2410audio.h	30;"	d
+MONO	2410audio.h	6;"	d
+MUTE	2410audio.c	59;"	d	file:
+MUTE	2410audio_play.c	59;"	d	file:
+MUTE	2410audio_play_rec.c	59;"	d	file:
+MUTE	2410audio_rec.c	59;"	d	file:
+NEXT_BUF	2410audio.c	105;"	d	file:
+NEXT_BUF	2410audio_play.c	105;"	d	file:
+NEXT_BUF	2410audio_play_rec.c	105;"	d	file:
+NEXT_BUF	2410audio_rec.c	105;"	d	file:
+NO_DE_EMPHASIS	2410audio.c	61;"	d	file:
+NO_DE_EMPHASIS	2410audio_play.c	61;"	d	file:
+NO_DE_EMPHASIS	2410audio_play_rec.c	61;"	d	file:
+NO_DE_EMPHASIS	2410audio_rec.c	61;"	d	file:
+OCR1	2410audio.h	66;"	d
+OCR2	2410audio.h	67;"	d
+PCDR	2410audio.h	59;"	d
+PCLKDIV3	2410audio.h	56;"	d
+PCM_ABS	2410audio.c	83;"	d	file:
+PCM_ABS	2410audio_play.c	83;"	d	file:
+PCM_ABS	2410audio_play_rec.c	83;"	d	file:
+PCM_ABS	2410audio_rec.c	83;"	d	file:
+PDEBUG	khead.h	89;"	d
+PDEBUG	khead.h	94;"	d
+PGAMUT	2410audio.h	34;"	d
+PLINE	khead.h	90;"	d
+PLINE	khead.h	95;"	d
+POINT	khead.h	/^} POINT, *P_POINT;$/;"	t
+POLLACK	2410iic.c	35;"	d	file:
+POWCON	2410audio.h	25;"	d
+PT	2410audio.h	64;"	d
+PUEN	2410audio.h	71;"	d
+P_AREA	khead.h	/^} AREA, *P_AREA;$/;"	t
+P_POINT	khead.h	/^} POINT, *P_POINT;$/;"	t
+P_S16	khead.h	/^typedef S16 *P_S16;		\/* signed 16 bit data *\/$/;"	t
+P_S32	khead.h	/^typedef S32 *P_S32;		\/* signed 32 bit data *\/$/;"	t
+P_S8	khead.h	/^typedef S8 *P_S8;		\/* signed 8 bit data  *\/$/;"	t
+P_TEXT	khead.h	/^typedef P_U16 P_TEXT;		\/* 16-bit text data *\/$/;"	t
+P_U16	khead.h	/^typedef U16 *P_U16;		\/* unsigned 16 bit data *\/$/;"	t
+P_U32	khead.h	/^typedef U32 *P_U32;		\/* unsigned 32 bit data *\/$/;"	t
+P_U8	khead.h	/^typedef U8 *P_U8;		\/* unsigned 8 bit data  *\/$/;"	t
+P_VOID	khead.h	/^typedef void *P_VOID;		\/* pointer to void *\/$/;"	t
+RDDATA	2410iic.c	36;"	d	file:
+RESL3	2410audio.h	37;"	d
+RIGHT_FULL	2410audio.h	13;"	d
+RIGHT_LOW	2410audio.h	14;"	d
+RIGHT_MUTE	2410audio.h	10;"	d
+Run_IicPoll	2410iic.c	/^void Run_IicPoll(void)$/;"	f
+S16	khead.h	/^typedef short S16;		\/* signed 16 bit data *\/$/;"	t
+S32	khead.h	/^typedef long S32;		\/* signed 32 bit data *\/$/;"	t
+S8	khead.h	/^typedef signed char S8;		\/* signed 8 bit data  *\/$/;"	t
+SC_256fs	2410audio.c	51;"	d	file:
+SC_256fs	2410audio_play.c	51;"	d	file:
+SC_256fs	2410audio_play_rec.c	51;"	d	file:
+SC_256fs	2410audio_rec.c	51;"	d	file:
+SC_384fs	2410audio.c	50;"	d	file:
+SC_384fs	2410audio_play.c	50;"	d	file:
+SC_384fs	2410audio_play_rec.c	50;"	d	file:
+SC_384fs	2410audio_rec.c	50;"	d	file:
+SC_512fs	2410audio.c	49;"	d	file:
+SC_512fs	2410audio_play.c	49;"	d	file:
+SC_512fs	2410audio_play_rec.c	49;"	d	file:
+SC_512fs	2410audio_rec.c	49;"	d	file:
+SETRDADDR	2410iic.c	37;"	d	file:
+SINT16	khead.h	/^typedef signed short SINT16;$/;"	t
+SINT32	khead.h	/^typedef signed long SINT32;$/;"	t
+SINT8	khead.h	/^typedef signed char SINT8;$/;"	t
+SPI_RD_CTL	dma.h	191;"	d
+SPI_RD_DST	dma.h	190;"	d
+SPI_RD_DST_CTL	dma.h	195;"	d
+SPI_RD_SRC	dma.h	189;"	d
+SPI_RD_SRC_CTL	dma.h	194;"	d
+SPI_WR_CTL	dma.h	188;"	d
+SPI_WR_DST	dma.h	187;"	d
+SPI_WR_DST_CTL	dma.h	193;"	d
+SPI_WR_SRC	dma.h	186;"	d
+SPI_WR_SRC_CTL	dma.h	192;"	d
+SR_REG	2410audio.h	103;"	d
+SSI_SCSR	2410audio.h	47;"	d
+SSI_SFCSR	2410audio.h	53;"	d
+SSI_SOR	2410audio.h	55;"	d
+SSI_SRCCR	2410audio.h	51;"	d
+SSI_SRCR	2410audio.h	49;"	d
+SSI_SRX	2410audio.h	46;"	d
+SSI_STCCR	2410audio.h	50;"	d
+SSI_STCR	2410audio.h	48;"	d
+SSI_STR	2410audio.h	54;"	d
+SSI_STSR	2410audio.h	52;"	d
+SSI_STX	2410audio.h	45;"	d
+STATUS	khead.h	/^typedef U16 STATUS;$/;"	t
+STERO	2410audio.h	7;"	d
+S_CLOCK_FREQ	2410audio.c	82;"	d	file:
+S_CLOCK_FREQ	2410audio_play.c	82;"	d	file:
+S_CLOCK_FREQ	2410audio_play_rec.c	82;"	d	file:
+S_CLOCK_FREQ	2410audio_rec.c	82;"	d	file:
+TEXT	khead.h	/^typedef U16 TEXT;		\/* 16-bit text data *\/$/;"	t
+TIMER_RD_CTL	dma.h	202;"	d
+TIMER_RD_DST	dma.h	201;"	d
+TIMER_RD_DST_CTL	dma.h	206;"	d
+TIMER_RD_SRC	dma.h	200;"	d
+TIMER_RD_SRC_CTL	dma.h	205;"	d
+TIMER_WR_CTL	dma.h	199;"	d
+TIMER_WR_DST	dma.h	198;"	d
+TIMER_WR_DST_CTL	dma.h	204;"	d
+TIMER_WR_SRC	dma.h	197;"	d
+TIMER_WR_SRC_CTL	dma.h	203;"	d
+TRUE	khead.h	27;"	d
+Test_Iic2	2410iic.c	/^int Test_Iic2(void)$/;"	f
+U16	khead.h	/^typedef unsigned short U16;	\/* unsigned 16 bit data *\/$/;"	t
+U32	2410iic.c	42;"	d	file:
+U32	khead.h	/^typedef unsigned int U32;	\/* unsigned 32 bit data *\/$/;"	t
+U8	2410iic.c	41;"	d	file:
+U8	khead.h	/^typedef unsigned char U8;	\/* unsigned 8 bit data  *\/$/;"	t
+UART0_CTL	dma.h	90;"	d
+UART0_MEM	dma.h	89;"	d
+UART0_RD_CTL	dma.h	98;"	d
+UART0_RD_DST	dma.h	97;"	d
+UART0_RD_DST_CTL	dma.h	102;"	d
+UART0_RD_SRC	dma.h	96;"	d
+UART0_RD_SRC_CTL	dma.h	101;"	d
+UART0_WR_CTL	dma.h	95;"	d
+UART0_WR_DST	dma.h	94;"	d
+UART0_WR_DST_CTL	dma.h	100;"	d
+UART0_WR_SRC	dma.h	93;"	d
+UART0_WR_SRC_CTL	dma.h	99;"	d
+UART1_RD_CTL	dma.h	109;"	d
+UART1_RD_DST	dma.h	108;"	d
+UART1_RD_DST_CTL	dma.h	113;"	d
+UART1_RD_SRC	dma.h	107;"	d
+UART1_RD_SRC_CTL	dma.h	112;"	d
+UART1_WR_CTL	dma.h	106;"	d
+UART1_WR_DST	dma.h	105;"	d
+UART1_WR_DST_CTL	dma.h	111;"	d
+UART1_WR_SRC	dma.h	104;"	d
+UART1_WR_SRC_CTL	dma.h	110;"	d
+UART2_RD_CTL	dma.h	120;"	d
+UART2_RD_DST	dma.h	119;"	d
+UART2_RD_DST_CTL	dma.h	124;"	d
+UART2_RD_SRC	dma.h	118;"	d
+UART2_RD_SRC_CTL	dma.h	123;"	d
+UART2_WR_CTL	dma.h	117;"	d
+UART2_WR_DST	dma.h	116;"	d
+UART2_WR_DST_CTL	dma.h	122;"	d
+UART2_WR_SRC	dma.h	115;"	d
+UART2_WR_SRC_CTL	dma.h	121;"	d
+UDA1380	2410audio.c	32;"	d	file:
+UDA1380	2410audio_play.c	32;"	d	file:
+UDA1380	2410audio_play_rec.c	32;"	d	file:
+UDA1380	2410audio_rec.c	32;"	d	file:
+UDA1380_ADDR	2410audio.c	44;"	d	file:
+UDA1380_ADDR	2410audio_play.c	44;"	d	file:
+UDA1380_ADDR	2410audio_play_rec.c	44;"	d	file:
+UDA1380_ADDR	2410audio_rec.c	44;"	d	file:
+UDA1380_REG_DATA	2410audio.c	46;"	d	file:
+UDA1380_REG_DATA	2410audio_play.c	46;"	d	file:
+UDA1380_REG_DATA	2410audio_play_rec.c	46;"	d	file:
+UDA1380_REG_DATA	2410audio_rec.c	46;"	d	file:
+UDA1380_REG_STATUS	2410audio.c	47;"	d	file:
+UDA1380_REG_STATUS	2410audio_play.c	47;"	d	file:
+UDA1380_REG_STATUS	2410audio_play_rec.c	47;"	d	file:
+UDA1380_REG_STATUS	2410audio_rec.c	47;"	d	file:
+UINT16	khead.h	/^typedef unsigned short UINT16;$/;"	t
+UINT32	khead.h	/^typedef unsigned long UINT32;$/;"	t
+UINT8	khead.h	/^typedef unsigned char UINT8;$/;"	t
+UPCTL0	2410audio.h	57;"	d
+UPCTL1	2410audio.h	58;"	d
+USB_RD_CTL	dma.h	169;"	d
+USB_RD_DST	dma.h	168;"	d
+USB_RD_DST_CTL	dma.h	173;"	d
+USB_RD_SRC	dma.h	167;"	d
+USB_RD_SRC_CTL	dma.h	172;"	d
+USB_WR_CTL	dma.h	166;"	d
+USB_WR_DST	dma.h	165;"	d
+USB_WR_DST_CTL	dma.h	171;"	d
+USB_WR_SRC	dma.h	164;"	d
+USB_WR_SRC_CTL	dma.h	170;"	d
+Uart_Printf	2410iic.c	39;"	d	file:
+VBOOLEAN	khead.h	/^typedef volatile BOOLEAN VBOOLEAN;$/;"	t
+VOID	khead.h	/^typedef void VOID;		\/* void *\/$/;"	t
+VSINT16	khead.h	/^typedef volatile SINT16 VSINT16;$/;"	t
+VSINT32	khead.h	/^typedef volatile SINT32 VSINT32;$/;"	t
+VSINT8	khead.h	/^typedef volatile SINT8 VSINT8;$/;"	t
+VUINT16	khead.h	/^typedef volatile UINT16 VUINT16;$/;"	t
+VUINT32	khead.h	/^typedef volatile UINT32 VUINT32;$/;"	t
+VUINT8	khead.h	/^typedef volatile UINT8 VUINT8;$/;"	t
+WRDATA	2410iic.c	34;"	d	file:
+XDREQ0_RD_CTL	dma.h	213;"	d
+XDREQ0_RD_DST	dma.h	212;"	d
+XDREQ0_RD_DST_CTL	dma.h	217;"	d
+XDREQ0_RD_SRC	dma.h	211;"	d
+XDREQ0_RD_SRC_CTL	dma.h	216;"	d
+XDREQ0_WR_CTL	dma.h	210;"	d
+XDREQ0_WR_DST	dma.h	209;"	d
+XDREQ0_WR_DST_CTL	dma.h	215;"	d
+XDREQ0_WR_SRC	dma.h	208;"	d
+XDREQ0_WR_SRC_CTL	dma.h	214;"	d
+XDREQ1_RD_CTL	dma.h	224;"	d
+XDREQ1_RD_DST	dma.h	223;"	d
+XDREQ1_RD_DST_CTL	dma.h	228;"	d
+XDREQ1_RD_SRC	dma.h	222;"	d
+XDREQ1_RD_SRC_CTL	dma.h	227;"	d
+XDREQ1_WR_CTL	dma.h	221;"	d
+XDREQ1_WR_DST	dma.h	220;"	d
+XDREQ1_WR_DST_CTL	dma.h	226;"	d
+XDREQ1_WR_SRC	dma.h	219;"	d
+XDREQ1_WR_SRC_CTL	dma.h	225;"	d
+_MXLSOUND_H_	2410audio.h	2;"	d
+_MYHEAD_H_	khead.h	2;"	d
+_Rd24C080	2410iic.c	/^void _Rd24C080(U32 slvAddr,U32 addr,U32 *rdata)$/;"	f
+_Wr24C080	2410iic.c	/^void _Wr24C080(U32 slvAddr,U32 addr,U32 wdata)$/;"	f
+_iicData	2410iic.c	/^static unsigned char _iicData[IICBUFSIZE];$/;"	v	file:
+_iicDataCount	2410iic.c	/^static volatile int _iicDataCount;$/;"	v	file:
+_iicMode	2410iic.c	/^static volatile int _iicMode;$/;"	v	file:
+_iicPt	2410iic.c	/^static int _iicPt;$/;"	v	file:
+_iicStatus	2410iic.c	/^static volatile int _iicStatus;$/;"	v	file:
+_reg_DMA_BLR	2410audio.h	87;"	d
+_reg_DMA_BUCR	2410audio.h	91;"	d
+_reg_DMA_CCR	2410audio.h	83;"	d
+_reg_DMA_CNTR	2410audio.h	79;"	d
+_reg_DMA_DAR	2410audio.h	76;"	d
+_reg_DMA_RSSR	2410audio.h	85;"	d
+_reg_DMA_RTOR	2410audio.h	89;"	d
+_reg_DMA_SAR	2410audio.h	74;"	d
+active	dma.h	/^	int active;		\/* 1 if DMA is actually processing data *\/$/;"	m	struct:
+address_map	2410iic.c	/^int address_map(void)$/;"	f
+audio_active	2410audio.c	120;"	d	file:
+audio_active	2410audio_play.c	120;"	d	file:
+audio_active	2410audio_play_rec.c	120;"	d	file:
+audio_active	2410audio_rec.c	120;"	d	file:
+audio_buf_t	2410audio.c	/^} audio_buf_t;$/;"	t	file:
+audio_buf_t	2410audio_play.c	/^} audio_buf_t;$/;"	t	file:
+audio_buf_t	2410audio_play_rec.c	/^} audio_buf_t;$/;"	t	file:
+audio_buf_t	2410audio_rec.c	/^} audio_buf_t;$/;"	t	file:
+audio_channels	2410audio.c	/^static int audio_channels;$/;"	v	file:
+audio_channels	2410audio_play.c	/^static int audio_channels;$/;"	v	file:
+audio_channels	2410audio_play_rec.c	/^static int audio_channels;$/;"	v	file:
+audio_channels	2410audio_rec.c	/^static int audio_channels;$/;"	v	file:
+audio_clear_buf	2410audio.c	/^static void audio_clear_buf(audio_stream_t * s)$/;"	f	file:
+audio_clear_buf	2410audio_play.c	/^static void audio_clear_buf(audio_stream_t * s)$/;"	f	file:
+audio_clear_buf	2410audio_play_rec.c	/^static void audio_clear_buf(audio_stream_t * s)$/;"	f	file:
+audio_clear_buf	2410audio_rec.c	/^static void audio_clear_buf(audio_stream_t * s)$/;"	f	file:
+audio_clear_dma	2410audio.c	/^static int audio_clear_dma(audio_stream_t * s)$/;"	f	file:
+audio_clear_dma	2410audio_play.c	/^static int audio_clear_dma(audio_stream_t * s)$/;"	f	file:
+audio_clear_dma	2410audio_play_rec.c	/^static int audio_clear_dma(audio_stream_t * s)$/;"	f	file:
+audio_clear_dma	2410audio_rec.c	/^static int audio_clear_dma(audio_stream_t * s)$/;"	f	file:
+audio_dev_dsp	2410audio.c	/^static int audio_dev_dsp;$/;"	v	file:
+audio_dev_dsp	2410audio_play.c	/^static int audio_dev_dsp;$/;"	v	file:
+audio_dev_dsp	2410audio_play_rec.c	/^static int audio_dev_dsp;$/;"	v	file:
+audio_dev_dsp	2410audio_rec.c	/^static int audio_dev_dsp;$/;"	v	file:
+audio_dev_mixer	2410audio.c	/^static int audio_dev_mixer;$/;"	v	file:
+audio_dev_mixer	2410audio_play_rec.c	/^static int audio_dev_mixer;$/;"	v	file:
+audio_dev_mixer	2410audio_rec.c	/^static int audio_dev_mixer;$/;"	v	file:
+audio_dmain_done_callback	2410audio.c	/^static void audio_dmain_done_callback(void *buf_id, int size)$/;"	f	file:
+audio_dmain_done_callback	2410audio_play.c	/^static void audio_dmain_done_callback(void *buf_id, int size)$/;"	f	file:
+audio_dmain_done_callback	2410audio_play_rec.c	/^static void audio_dmain_done_callback(void *buf_id, int size)$/;"	f	file:
+audio_dmain_done_callback	2410audio_rec.c	/^static void audio_dmain_done_callback(void *buf_id, int size)$/;"	f	file:
+audio_dmaout_done_callback	2410audio.c	/^static void audio_dmaout_done_callback(void *buf_id, int size)$/;"	f	file:
+audio_dmaout_done_callback	2410audio_play.c	/^static void audio_dmaout_done_callback(void *buf_id, int size)$/;"	f	file:
+audio_dmaout_done_callback	2410audio_play_rec.c	/^static void audio_dmaout_done_callback(void *buf_id, int size)$/;"	f	file:
+audio_dmaout_done_callback	2410audio_rec.c	/^static void audio_dmaout_done_callback(void *buf_id, int size)$/;"	f	file:
+audio_fmt	2410audio.c	/^static int audio_fmt;$/;"	v	file:
+audio_fmt	2410audio_play.c	/^static int audio_fmt;$/;"	v	file:
+audio_fmt	2410audio_play_rec.c	/^static int audio_fmt;$/;"	v	file:
+audio_fmt	2410audio_rec.c	/^static int audio_fmt;$/;"	v	file:
+audio_fragsize	2410audio.c	/^static u_int audio_fragsize;$/;"	v	file:
+audio_fragsize	2410audio_play.c	/^static u_int audio_fragsize;$/;"	v	file:
+audio_fragsize	2410audio_play_rec.c	/^static u_int audio_fragsize;$/;"	v	file:
+audio_fragsize	2410audio_rec.c	/^static u_int audio_fragsize;$/;"	v	file:
+audio_init_dma	2410audio.c	/^static int __init audio_init_dma(audio_stream_t * s, char *desc)$/;"	f	file:
+audio_init_dma	2410audio_play.c	/^static int __init audio_init_dma(audio_stream_t * s, char *desc)$/;"	f	file:
+audio_init_dma	2410audio_play_rec.c	/^static int __init audio_init_dma(audio_stream_t * s, char *desc)$/;"	f	file:
+audio_init_dma	2410audio_rec.c	/^static int __init audio_init_dma(audio_stream_t * s, char *desc)$/;"	f	file:
+audio_mix_modcnt	2410audio.c	/^static int audio_mix_modcnt;$/;"	v	file:
+audio_mix_modcnt	2410audio_play.c	/^static int audio_mix_modcnt;$/;"	v	file:
+audio_mix_modcnt	2410audio_play_rec.c	/^static int audio_mix_modcnt;$/;"	v	file:
+audio_mix_modcnt	2410audio_rec.c	/^static int audio_mix_modcnt;$/;"	v	file:
+audio_nbfrags	2410audio.c	/^static u_int audio_nbfrags;$/;"	v	file:
+audio_nbfrags	2410audio_play.c	/^static u_int audio_nbfrags;$/;"	v	file:
+audio_nbfrags	2410audio_play_rec.c	/^static u_int audio_nbfrags;$/;"	v	file:
+audio_nbfrags	2410audio_rec.c	/^static u_int audio_nbfrags;$/;"	v	file:
+audio_rate	2410audio.c	/^static u_int audio_rate;$/;"	v	file:
+audio_rate	2410audio_play.c	/^static u_int audio_rate;$/;"	v	file:
+audio_rate	2410audio_play_rec.c	/^static u_int audio_rate;$/;"	v	file:
+audio_rate	2410audio_rec.c	/^static u_int audio_rate;$/;"	v	file:
+audio_rd_refcount	2410audio.c	/^static int audio_rd_refcount;$/;"	v	file:
+audio_rd_refcount	2410audio_play.c	/^static int audio_rd_refcount;$/;"	v	file:
+audio_rd_refcount	2410audio_play_rec.c	/^static int audio_rd_refcount;$/;"	v	file:
+audio_rd_refcount	2410audio_rec.c	/^static int audio_rd_refcount;$/;"	v	file:
+audio_set_dsp_speed	2410audio.c	/^static long audio_set_dsp_speed(long val)$/;"	f	file:
+audio_set_dsp_speed	2410audio_play.c	/^static long audio_set_dsp_speed(long val)$/;"	f	file:
+audio_set_dsp_speed	2410audio_play_rec.c	/^static long audio_set_dsp_speed(long val)$/;"	f	file:
+audio_set_dsp_speed	2410audio_rec.c	/^static long audio_set_dsp_speed(long val)$/;"	f	file:
+audio_setup_buf	2410audio.c	/^static int audio_setup_buf(audio_stream_t * s)$/;"	f	file:
+audio_setup_buf	2410audio_play.c	/^static int audio_setup_buf(audio_stream_t * s)$/;"	f	file:
+audio_setup_buf	2410audio_play_rec.c	/^static int audio_setup_buf(audio_stream_t * s)$/;"	f	file:
+audio_setup_buf	2410audio_rec.c	/^static int audio_setup_buf(audio_stream_t * s)$/;"	f	file:
+audio_stream_t	2410audio.c	/^} audio_stream_t;$/;"	t	file:
+audio_stream_t	2410audio_play.c	/^} audio_stream_t;$/;"	t	file:
+audio_stream_t	2410audio_play_rec.c	/^} audio_stream_t;$/;"	t	file:
+audio_stream_t	2410audio_rec.c	/^} audio_stream_t;$/;"	t	file:
+audio_sync	2410audio.c	/^static int audio_sync(struct file *file)$/;"	f	file:
+audio_sync	2410audio_play.c	/^static int audio_sync(struct file *file)$/;"	f	file:
+audio_sync	2410audio_play_rec.c	/^static int audio_sync(struct file *file)$/;"	f	file:
+audio_sync	2410audio_rec.c	/^static int audio_sync(struct file *file)$/;"	f	file:
+audio_wr_refcount	2410audio.c	/^static int audio_wr_refcount;$/;"	v	file:
+audio_wr_refcount	2410audio_play.c	/^static int audio_wr_refcount;$/;"	v	file:
+audio_wr_refcount	2410audio_play_rec.c	/^static int audio_wr_refcount;$/;"	v	file:
+audio_wr_refcount	2410audio_rec.c	/^static int audio_wr_refcount;$/;"	v	file:
+bottom	khead.h	/^	POINT bottom;		\/*  Bottom right corner  *\/$/;"	m	struct:
+buf	2410audio.c	/^	audio_buf_t *buf;	\/* current buffer used by read\/write *\/$/;"	m	struct:	file:
+buf	2410audio_play.c	/^	audio_buf_t *buf;	\/* current buffer used by read\/write *\/$/;"	m	struct:	file:
+buf	2410audio_play_rec.c	/^	audio_buf_t *buf;	\/* current buffer used by read\/write *\/$/;"	m	struct:	file:
+buf	2410audio_rec.c	/^	audio_buf_t *buf;	\/* current buffer used by read\/write *\/$/;"	m	struct:	file:
+buf_idx	2410audio.c	/^	u_int buf_idx;		\/* index for the pointer above *\/$/;"	m	struct:	file:
+buf_idx	2410audio_play.c	/^	u_int buf_idx;		\/* index for the pointer above *\/$/;"	m	struct:	file:
+buf_idx	2410audio_play_rec.c	/^	u_int buf_idx;		\/* index for the pointer above *\/$/;"	m	struct:	file:
+buf_idx	2410audio_rec.c	/^	u_int buf_idx;		\/* index for the pointer above *\/$/;"	m	struct:	file:
+buffers	2410audio.c	/^	audio_buf_t *buffers;	\/* pointer to audio buffer structures *\/$/;"	m	struct:	file:
+buffers	2410audio_play.c	/^	audio_buf_t *buffers;	\/* pointer to audio buffer structures *\/$/;"	m	struct:	file:
+buffers	2410audio_play_rec.c	/^	audio_buf_t *buffers;	\/* pointer to audio buffer structures *\/$/;"	m	struct:	file:
+buffers	2410audio_rec.c	/^	audio_buf_t *buffers;	\/* pointer to audio buffer structures *\/$/;"	m	struct:	file:
+callback	dma.h	/^	dma_callback_t callback;$/;"	m	struct:
+channel	dma.h	/^	dmach_t channel;$/;"	m	struct:
+cleanup_module	2410audio.c	/^void cleanup_module(void)$/;"	f
+cleanup_module	2410audio_play.c	/^void cleanup_module(void)$/;"	f
+cleanup_module	2410audio_play_rec.c	/^void cleanup_module(void)$/;"	f
+cleanup_module	2410audio_rec.c	/^void cleanup_module(void)$/;"	f
+command	2410iic.c	/^unsigned char command[] = {$/;"	v
+copy_from_user_mono_stereo	2410audio.c	/^static inline int copy_from_user_mono_stereo(char *to, const char *from, int count)$/;"	f	file:
+copy_from_user_mono_stereo	2410audio_play.c	/^static inline int copy_from_user_mono_stereo(char *to, const char *from, int count)$/;"	f	file:
+copy_from_user_mono_stereo	2410audio_play_rec.c	/^static inline int copy_from_user_mono_stereo(char *to, const char *from, int count)$/;"	f	file:
+copy_from_user_mono_stereo	2410audio_rec.c	/^static inline int copy_from_user_mono_stereo(char *to, const char *from, int count)$/;"	f	file:
+ctl	dma.h	/^	u_long ctl;$/;"	m	struct:
+curr	dma.h	/^	dma_buf_t *curr;	\/* buffer currently DMA'ed *\/$/;"	m	struct:
+device_id	dma.h	/^	const char *device_id;	\/* Device name *\/$/;"	m	struct:
+dma_addr	2410audio.c	/^	dma_addr_t dma_addr;	\/* physical buffer address *\/$/;"	m	struct:	file:
+dma_addr	2410audio_play.c	/^	dma_addr_t dma_addr;	\/* physical buffer address *\/$/;"	m	struct:	file:
+dma_addr	2410audio_play_rec.c	/^	dma_addr_t dma_addr;	\/* physical buffer address *\/$/;"	m	struct:	file:
+dma_addr	2410audio_rec.c	/^	dma_addr_t dma_addr;	\/* physical buffer address *\/$/;"	m	struct:	file:
+dma_buf_s	dma.h	/^typedef struct dma_buf_s {$/;"	s
+dma_buf_t	dma.h	/^} dma_buf_t;$/;"	t
+dma_ch	2410audio.c	/^	dmach_t dma_ch;		\/* DMA channel (channel2 for audio) *\/$/;"	m	struct:	file:
+dma_ch	2410audio_play.c	/^	dmach_t dma_ch;		\/* DMA channel (channel2 for audio) *\/$/;"	m	struct:	file:
+dma_ch	2410audio_play_rec.c	/^	dmach_t dma_ch;		\/* DMA channel (channel2 for audio) *\/$/;"	m	struct:	file:
+dma_ch	2410audio_rec.c	/^	dmach_t dma_ch;		\/* DMA channel (channel2 for audio) *\/$/;"	m	struct:	file:
+dma_chan	dma.h	/^s3c2410_dma_t dma_chan[MAX_S3C2410_DMA_CHANNELS];$/;"	v
+dma_device_t	dma.h	/^} dma_device_t;$/;"	t
+dma_regs_t	dma.h	/^} dma_regs_t;$/;"	t
+dma_start	dma.h	/^	dma_addr_t dma_start;	\/* starting DMA address *\/$/;"	m	struct:dma_buf_s
+dma_type_t	dma.h	/^} dma_type_t;$/;"	t
+dma_types	dma.h	/^static dma_type_t dma_types[4][5] = {$/;"	v
+dprinti2cwr	khead.h	102;"	d
+dprinti2cwr	khead.h	104;"	d
+dst	dma.h	/^	u_long dst;$/;"	m	struct:
+dst_ctl	dma.h	/^	u_long dst_ctl;$/;"	m	struct:
+fragsize	2410audio.c	/^	u_int fragsize;		\/* fragment i.e. buffer size *\/$/;"	m	struct:	file:
+fragsize	2410audio_play.c	/^	u_int fragsize;		\/* fragment i.e. buffer size *\/$/;"	m	struct:	file:
+fragsize	2410audio_play_rec.c	/^	u_int fragsize;		\/* fragment i.e. buffer size *\/$/;"	m	struct:	file:
+fragsize	2410audio_rec.c	/^	u_int fragsize;		\/* fragment i.e. buffer size *\/$/;"	m	struct:	file:
+head	dma.h	/^	dma_buf_t *head;	\/* where to insert buffers *\/$/;"	m	struct:
+id	dma.h	/^	void *id;		\/* to identify buffer from outside *\/$/;"	m	struct:dma_buf_s
+iispsr_value	2410audio.c	/^static int iispsr_value(int s_bit_clock, int sample_rate)$/;"	f	file:
+iispsr_value	2410audio_play.c	/^static int iispsr_value(int s_bit_clock, int sample_rate)$/;"	f	file:
+iispsr_value	2410audio_play_rec.c	/^static int iispsr_value(int s_bit_clock, int sample_rate)$/;"	f	file:
+iispsr_value	2410audio_rec.c	/^static int iispsr_value(int s_bit_clock, int sample_rate)$/;"	f	file:
+in_use	dma.h	/^	unsigned int in_use;	\/* Device is allocated *\/$/;"	m	struct:
+init_module	2410audio.c	/^int init_module(void)$/;"	f
+init_module	2410audio_play.c	/^int init_module(void)$/;"	f
+init_module	2410audio_play_rec.c	/^int init_module(void)$/;"	f
+init_module	2410audio_rec.c	/^int init_module(void)$/;"	f
+init_s3c2410_iis_bus	2410audio.c	/^static void init_s3c2410_iis_bus(void)$/;"	f	file:
+init_s3c2410_iis_bus	2410audio_play.c	/^static void init_s3c2410_iis_bus(void)$/;"	f	file:
+init_s3c2410_iis_bus	2410audio_play_rec.c	/^static void init_s3c2410_iis_bus(void)$/;"	f	file:
+init_s3c2410_iis_bus	2410audio_rec.c	/^static void init_s3c2410_iis_bus(void)$/;"	f	file:
+input_stream	2410audio.c	/^static audio_stream_t input_stream;$/;"	v	file:
+input_stream	2410audio_play.c	/^static audio_stream_t input_stream;$/;"	v	file:
+input_stream	2410audio_play_rec.c	/^static audio_stream_t input_stream;$/;"	v	file:
+input_stream	2410audio_rec.c	/^static audio_stream_t input_stream;$/;"	v	file:
+irq	dma.h	/^	int irq;		\/* IRQ used by the channel *\/$/;"	m	struct:
+k11025	2410audio.h	96;"	d
+k16	2410audio.h	97;"	d
+k2205	2410audio.h	98;"	d
+k32	2410audio.h	99;"	d
+k441	2410audio.h	100;"	d
+k48	2410audio.h	101;"	d
+k8	2410audio.h	95;"	d
+master	2410audio.c	/^	int master;		\/* owner for buffer allocation, contain size when true *\/$/;"	m	struct:	file:
+master	2410audio_play.c	/^	int master;		\/* owner for buffer allocation, contain size when true *\/$/;"	m	struct:	file:
+master	2410audio_play_rec.c	/^	int master;		\/* owner for buffer allocation, contain size when true *\/$/;"	m	struct:	file:
+master	2410audio_rec.c	/^	int master;		\/* owner for buffer allocation, contain size when true *\/$/;"	m	struct:	file:
+name	dma.h	/^	const char *name;$/;"	m	struct:
+nbfrags	2410audio.c	/^	u_int nbfrags;		\/* nbr of fragments *\/$/;"	m	struct:	file:
+nbfrags	2410audio_play.c	/^	u_int nbfrags;		\/* nbr of fragments *\/$/;"	m	struct:	file:
+nbfrags	2410audio_play_rec.c	/^	u_int nbfrags;		\/* nbr of fragments *\/$/;"	m	struct:	file:
+nbfrags	2410audio_rec.c	/^	u_int nbfrags;		\/* nbr of fragments *\/$/;"	m	struct:	file:
+next	dma.h	/^	struct dma_buf_s *next;	\/* next buf to process *\/$/;"	m	struct:dma_buf_s
+output_stream	2410audio.c	/^static audio_stream_t output_stream;$/;"	v	file:
+output_stream	2410audio_play.c	/^static audio_stream_t output_stream;$/;"	v	file:
+output_stream	2410audio_play_rec.c	/^static audio_stream_t output_stream;$/;"	v	file:
+output_stream	2410audio_rec.c	/^static audio_stream_t output_stream;$/;"	v	file:
+queue_count	dma.h	/^	unsigned long queue_count;	\/* number of buffers in the queue *\/$/;"	m	struct:
+rGPECON	2410iic.c	27;"	d	file:
+rGPEUP	2410iic.c	28;"	d	file:
+rIICADD	2410iic.c	31;"	d	file:
+rIICCON	2410iic.c	29;"	d	file:
+rIICDS	2410iic.c	32;"	d	file:
+rIICSTAT	2410iic.c	30;"	d	file:
+r_GPECON	2410iic.c	/^unsigned long r_GPECON,r_GPEUP;$/;"	v
+r_GPEUP	2410iic.c	/^unsigned long r_GPECON,r_GPEUP;$/;"	v
+r_IICADD	2410iic.c	/^unsigned long r_IICCON,r_IICSTAT,r_IICADD,r_IICDS;$/;"	v
+r_IICCON	2410iic.c	/^unsigned long r_IICCON,r_IICSTAT,r_IICADD,r_IICDS;$/;"	v
+r_IICDS	2410iic.c	/^unsigned long r_IICCON,r_IICSTAT,r_IICADD,r_IICDS;$/;"	v
+r_IICSTAT	2410iic.c	/^unsigned long r_IICCON,r_IICSTAT,r_IICADD,r_IICDS;$/;"	v
+read	dma.h	/^	dma_device_t read;	\/* to read *\/$/;"	m	struct:
+read_ctl	dma.h	/^	u_long read_ctl;$/;"	m	struct:
+read_dst	dma.h	/^	u_long read_dst;$/;"	m	struct:
+read_dst_ctl	dma.h	/^	u_long read_dst_ctl;$/;"	m	struct:
+read_src	dma.h	/^	u_long read_src;$/;"	m	struct:
+read_src_ctl	dma.h	/^	u_long read_src_ctl;$/;"	m	struct:
+ref	dma.h	/^	int ref;		\/* number of DMA references *\/$/;"	m	struct:dma_buf_s
+reg16p	2410audio.h	108;"	d
+reg32p	2410audio.h	107;"	d
+reg8p	2410audio.h	109;"	d
+regs	dma.h	/^	dma_regs_t *regs;	\/* points to appropriate DMA registers *\/$/;"	m	struct:
+s3c2410_dma_t	dma.h	/^} s3c2410_dma_t;$/;"	t
+sem	2410audio.c	/^	struct semaphore sem;	\/* down before touching the buffer *\/$/;"	m	struct:	file:
+sem	2410audio_play.c	/^	struct semaphore sem;	\/* down before touching the buffer *\/$/;"	m	struct:	file:
+sem	2410audio_play_rec.c	/^	struct semaphore sem;	\/* down before touching the buffer *\/$/;"	m	struct:	file:
+sem	2410audio_rec.c	/^	struct semaphore sem;	\/* down before touching the buffer *\/$/;"	m	struct:	file:
+size	2410audio.c	/^	int size;		\/* buffer size *\/$/;"	m	struct:	file:
+size	2410audio_play.c	/^	int size;		\/* buffer size *\/$/;"	m	struct:	file:
+size	2410audio_play_rec.c	/^	int size;		\/* buffer size *\/$/;"	m	struct:	file:
+size	2410audio_rec.c	/^	int size;		\/* buffer size *\/$/;"	m	struct:	file:
+size	dma.h	/^	int size;		\/* buffer size *\/$/;"	m	struct:dma_buf_s
+smdk2410_audio_fops	2410audio.c	/^static struct file_operations smdk2410_audio_fops = {$/;"	v	file:
+smdk2410_audio_fops	2410audio_play.c	/^static struct file_operations smdk2410_audio_fops = {$/;"	v	file:
+smdk2410_audio_fops	2410audio_play_rec.c	/^static struct file_operations smdk2410_audio_fops = {$/;"	v	file:
+smdk2410_audio_ioctl	2410audio.c	/^static int smdk2410_audio_ioctl(struct inode *inode, struct file *file, $/;"	f	file:
+smdk2410_audio_ioctl	2410audio_play.c	/^static int smdk2410_audio_ioctl(struct inode *inode, struct file *file, $/;"	f	file:
+smdk2410_audio_ioctl	2410audio_play_rec.c	/^static int smdk2410_audio_ioctl(struct inode *inode, struct file *file, $/;"	f	file:
+smdk2410_audio_ioctl	2410audio_rec.c	/^static int smdk2410_audio_ioctl(struct inode *inode, struct file *file, $/;"	f	file:
+smdk2410_audio_llseek	2410audio.c	/^static loff_t smdk2410_audio_llseek(struct file *file, loff_t offset, $/;"	f	file:
+smdk2410_audio_llseek	2410audio_play.c	/^static loff_t smdk2410_audio_llseek(struct file *file, loff_t offset, $/;"	f	file:
+smdk2410_audio_llseek	2410audio_play_rec.c	/^static loff_t smdk2410_audio_llseek(struct file *file, loff_t offset, $/;"	f	file:
+smdk2410_audio_open	2410audio.c	/^static int smdk2410_audio_open(struct inode *inode, struct file *file)$/;"	f	file:
+smdk2410_audio_open	2410audio_play.c	/^static int smdk2410_audio_open(struct inode *inode, struct file *file)$/;"	f	file:
+smdk2410_audio_open	2410audio_play_rec.c	/^static int smdk2410_audio_open(struct inode *inode, struct file *file)$/;"	f	file:
+smdk2410_audio_poll	2410audio.c	/^static unsigned int smdk2410_audio_poll(struct file *file, $/;"	f	file:
+smdk2410_audio_poll	2410audio_play.c	/^static unsigned int smdk2410_audio_poll(struct file *file, $/;"	f	file:
+smdk2410_audio_poll	2410audio_play_rec.c	/^static unsigned int smdk2410_audio_poll(struct file *file, $/;"	f	file:
+smdk2410_audio_release	2410audio.c	/^static int smdk2410_audio_release(struct inode *inode, struct file *file)$/;"	f	file:
+smdk2410_audio_release	2410audio_play.c	/^static int smdk2410_audio_release(struct inode *inode, struct file *file)$/;"	f	file:
+smdk2410_audio_release	2410audio_play_rec.c	/^static int smdk2410_audio_release(struct inode *inode, struct file *file)$/;"	f	file:
+smdk2410_audio_write	2410audio.c	/^static ssize_t smdk2410_audio_write(struct file *file, const char *buffer, $/;"	f	file:
+smdk2410_audio_write	2410audio_play.c	/^static ssize_t smdk2410_audio_write(struct file *file, const char *buffer, $/;"	f	file:
+smdk2410_audio_write	2410audio_play_rec.c	/^static ssize_t smdk2410_audio_write(struct file *file, const char *buffer, $/;"	f	file:
+smdk2410_mixer_fops	2410audio.c	/^static struct file_operations smdk2410_mixer_fops = {$/;"	v	file:
+smdk2410_mixer_fops	2410audio_play_rec.c	/^static struct file_operations smdk2410_mixer_fops = {$/;"	v	file:
+smdk2410_mixer_fops	2410audio_rec.c	/^static struct file_operations smdk2410_mixer_fops = {$/;"	v	file:
+smdk2410_mixer_ioctl	2410audio.c	/^static int smdk2410_mixer_ioctl(struct inode *inode, struct file *file, $/;"	f	file:
+smdk2410_mixer_ioctl	2410audio_play.c	/^static int smdk2410_mixer_ioctl(struct inode *inode, struct file *file, $/;"	f	file:
+smdk2410_mixer_ioctl	2410audio_play_rec.c	/^static int smdk2410_mixer_ioctl(struct inode *inode, struct file *file, $/;"	f	file:
+smdk2410_mixer_ioctl	2410audio_rec.c	/^static int smdk2410_mixer_ioctl(struct inode *inode, struct file *file, $/;"	f	file:
+smdk2410_mixer_open	2410audio.c	/^static int smdk2410_mixer_open(struct inode *inode, struct file *file)$/;"	f	file:
+smdk2410_mixer_open	2410audio_play_rec.c	/^static int smdk2410_mixer_open(struct inode *inode, struct file *file)$/;"	f	file:
+smdk2410_mixer_open	2410audio_rec.c	/^static int smdk2410_mixer_open(struct inode *inode, struct file *file)$/;"	f	file:
+smdk2410_mixer_read	2410audio.c	/^static ssize_t smdk2410_mixer_read(struct file *file, char *buffer, $/;"	f	file:
+smdk2410_mixer_read	2410audio_play_rec.c	/^static ssize_t smdk2410_mixer_read(struct file *file, char *buffer, $/;"	f	file:
+smdk2410_mixer_read	2410audio_rec.c	/^static ssize_t smdk2410_mixer_read(struct file *file, char *buffer, $/;"	f	file:
+smdk2410_mixer_release	2410audio.c	/^static int smdk2410_mixer_release(struct inode *inode, struct file *file)$/;"	f	file:
+smdk2410_mixer_release	2410audio_play_rec.c	/^static int smdk2410_mixer_release(struct inode *inode, struct file *file)$/;"	f	file:
+smdk2410_mixer_release	2410audio_rec.c	/^static int smdk2410_mixer_release(struct inode *inode, struct file *file)$/;"	f	file:
+src	dma.h	/^	u_long src;$/;"	m	struct:
+src_ctl	dma.h	/^	u_long src_ctl;$/;"	m	struct:
+start	2410audio.c	/^	char *start;		\/* point to actual buffer *\/$/;"	m	struct:	file:
+start	2410audio_play.c	/^	char *start;		\/* point to actual buffer *\/$/;"	m	struct:	file:
+start	2410audio_play_rec.c	/^	char *start;		\/* point to actual buffer *\/$/;"	m	struct:	file:
+start	2410audio_rec.c	/^	char *start;		\/* point to actual buffer *\/$/;"	m	struct:	file:
+start_dma_timer	dma.h	336;"	d
+stop_dma_timer	dma.h	335;"	d
+tail	dma.h	/^	dma_buf_t *tail;	\/* where to remove buffers *\/$/;"	m	struct:
+top	khead.h	/^	POINT top;		\/*  Top left corner  *\/$/;"	m	struct:
+uda1380_init	2410iic.c	/^int uda1380_init(void)$/;"	f
+uda1380_volume	2410audio.c	/^static int uda1380_volume;$/;"	v	file:
+uda1380_volume	2410audio_play.c	/^static int uda1380_volume;$/;"	v	file:
+uda1380_volume	2410audio_play_rec.c	/^static int uda1380_volume;$/;"	v	file:
+uda1380_volume	2410audio_rec.c	/^static int uda1380_volume;$/;"	v	file:
+uda_sampling	2410audio.c	/^static u8 uda_sampling;$/;"	v	file:
+uda_sampling	2410audio_play.c	/^static u8 uda_sampling;$/;"	v	file:
+uda_sampling	2410audio_play_rec.c	/^static u8 uda_sampling;$/;"	v	file:
+uda_sampling	2410audio_rec.c	/^static u8 uda_sampling;$/;"	v	file:
+write	dma.h	/^	dma_device_t write;	\/* to write *\/$/;"	m	struct:
+write	dma.h	/^	int write;		\/* 1: buf to write , 0: but to read  *\/$/;"	m	struct:dma_buf_s
+write_ctl	dma.h	/^	u_long write_ctl;$/;"	m	struct:
+write_dst	dma.h	/^	u_long write_dst;$/;"	m	struct:
+write_dst_ctl	dma.h	/^	u_long write_dst_ctl;$/;"	m	struct:
+write_src	dma.h	/^	u_long write_src;$/;"	m	struct:
+write_src_ctl	dma.h	/^	u_long write_src_ctl;$/;"	m	struct:
+x	khead.h	/^	U16 x;			\/*  x point  *\/$/;"	m	struct:
+y	khead.h	/^	U16 y;			\/*  y point  *\/$/;"	m	struct:
